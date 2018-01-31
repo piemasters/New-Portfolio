@@ -1,0 +1,138 @@
+@import 'variables';
+@import 'fonts';
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Quicksand, Arial;
+  font-size: 10px;
+  min-width: $xs;
+  padding: 2em;
+}
+
+.content {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+  margin: 0.53em 0;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0.4em 0;
+}
+
+h3 {
+  border-bottom: 1px solid $accent;
+  color: $accent;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0.4em 0;
+  padding-bottom: 0.2em;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.67em 0;
+}
+
+h5 {
+  font-size: 1.8rem;
+  margin: 0.94em 0;
+}
+
+h6 {
+  font-size: 1.6rem;
+  margin: 1em 0;
+}
+
+@media screen and (min-width: $md) {
+  .content {
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  h3 {
+    font-size: 2.93rem;
+  }
+  h4 {
+    font-size: 2.67rem;
+  }
+  h5 {
+    font-size: 2.4rem;
+  }
+  h6 {
+    font-size: 2.13rem;
+  }
+}
+
+@media screen and (min-width: $lg) {
+  .content {
+    font-size: 1.8rem;
+    line-height: 2.25;
+  }
+  h1 {
+    font-size: 4.8rem;
+  }
+  h2 {
+    font-size: 3.84rem;
+  }
+  h3 {
+    font-size: 3.52rem;
+  }
+  h4 {
+    font-size: 3.2rem;
+  }
+  h5 {
+    font-size: 2.88rem;
+  }
+  h6 {
+    font-size: 2.56rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+article {
+  background-color: $content;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+aside {
+  background-color: $aside;
+  padding: 2em;
+}
+
