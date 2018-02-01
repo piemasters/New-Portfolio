@@ -2,14 +2,20 @@
   <h1>David Norton</h1>
   <nav>
     <ul>
-      <li class="nav-link active"><a href="#portfolio">Portfolio</a></li>
-      <li class="nav-link"><a href="#process">Process</a></li>
-      <li class="nav-link"><a href="#me">Me</a></li>
-      <li class="nav-image">
-        <a href="#"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+      <li>
+        <a class="nav-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Portfolio</a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink="process" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Process</a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink="me" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Me</a>
       </li>
       <li class="nav-image">
-        <a href="#"><img src="assets/images/github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/in/davidnorton91/"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+      </li>
+      <li class="nav-image">
+        <a href="https://github.com/piemasters"><img src="assets/images/github.png" alt="Github"></a>
       </li>
     </ul>
   </nav>
