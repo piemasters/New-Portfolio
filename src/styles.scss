@@ -8,13 +8,10 @@ html {
 body {
   font-family: Quicksand, sans-serif;
   font-size: 10px;
+  margin: 0;
   min-width: $xs;
-  padding: 2em;
-}
-
-.content {
-  font-size: 1.6rem;
-  line-height: 2;
+  min-height: 100vh;
+  position: relative;
 }
 
 h1,

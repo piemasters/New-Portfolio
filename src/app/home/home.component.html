@@ -1,60 +1,12 @@
 <article id="portfolio">
   <header>
     <h1>UX/UI Designer &amp; Developer</h1>
-    <h2>Recent Work</h2>
+    <h2><a [routerLink]="['/projects']">Recent Work</a></h2>
   </header>
-  <section class="project-container">
-    <div class="project">
-      <a href="#">
-        <h3>F-TEP</h3>
-        <img src="assets/images/ftep/Capture.JPG" alt="">
-      </a>
-    </div>
-  </section>
-  <section class="project-container">
-    <div class="project">
-      <a href="#">
-        <h3>A.</h3>
-        <img src="assets/images/ftep/Capture.JPG" alt="">
-      </a>
-    </div>
-  </section>
-  <section class="project-container">
-    <div class="project">
-      <a href="#">
-        <h3>Passports</h3>
-        <img src="assets/images/ftep/Capture.JPG" alt="">
-      </a>
-    </div>
-  </section>
-  <section class="project-container">
-    <div class="project">
-      <a href="#">
-        <h3>R.</h3>
-        <img src="assets/images/ftep/Capture.JPG" alt="">
-      </a>
-    </div>
-  </section>
-  <section class="project-container">
-    <div class="project">
-      <a href="#">
-        <h3>SmartLock</h3>
-        <img src="assets/images/ftep/Capture.JPG" alt="">
-      </a>
-    </div>
-  </section>
-  <section class="project-container">
-    <div class="project">
-      <a href="#">
-        <h3>IBM OMNIbus</h3>
-        <img src="assets/images/ftep/Capture.JPG" alt="">
-      </a>
-    </div>
-  </section>
+  <router-outlet name='projects'></router-outlet>
 </article>
 
 <article id="about">
-
   <section>
     <header>
       <h2 class="top">About Me</h2>

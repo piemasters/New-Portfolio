@@ -1,6 +1,12 @@
 @import 'variables';
 #footer {
   background-color: $footer;
+  bottom: 0;
   color: $text-light;
-  padding: 0.25em 2em;
+  clear: both;
+  position: absolute;
+  width: 100%;
+  .content {
+    padding: 1em 2em;
+  }
 }

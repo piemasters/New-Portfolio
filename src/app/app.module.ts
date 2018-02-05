@@ -6,6 +6,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeModule } from './home/home.module';
 import { AppComponent } from './app.component';
+import { ProjectsModule } from './entities/projects/projects.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    ProjectsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
