@@ -1,29 +1,26 @@
-
-
 language: node_js
 node_js:
 - '8'
 
 cache:
   directories:
-     - ./node_modules
+  - "./node_modules"
 
 before_install:
-  - npm install -g --silent @angular/cli
+- npm install -g --silent @angular/cli
 
 install:
-  - npm install
+- npm install
 
 script:
-  # Use Chromium instead of Chrome.
-  - export CHROME_BIN=chromium-browser
-  - xvfb-run -a npm run test -- --single-run --no-progress --browser=ChromeNoSandbox
-  - xvfb-run -a npm run e2e -- --no-progress --config=protractor-ci.conf.js
+- export CHROME_BIN=chromium-browser
+- xvfb-run -a npm run test -- --single-run --no-progress --browser=ChromeNoSandbox
+- xvfb-run -a npm run e2e -- --no-progress --config=protractor-ci.conf.js
 
 deploy:
   provider: heroku
   api_key:
-    secure: aOTAaKqAUnTVFmAzBJvieODYnYbe2KF3dmvGudFPac0XOeBAtxKakuSyBzu0DG1+xzCLncIHvzWsl6fyicI7jbpGofnQcchd7YvwqmZ5bzPKwqJi/+ynJCWX8raR0uk14mpUagsk3m7d99+e8lyeTm8qcwpAiEbBFc6Fx0uI+OHnhbVeJ+kq27+UPzJ2iyYe8GTcq3I0XR01molyn411OpDw29KLcgF+AwP34/yWheN3PCIXyDtssTLuMWDF7/aDdhDNraKVqToUMmMZ0hC5aXviHmYNXU9CyjCpIaLdeaHtMecG+7Xvr63aLH0SnFfG4WH40Tu3gjXsXAskPZM8B7i0ZOmYwZDbSXgemnmIg/ZgrjjwjiadC2JEEZ71zWVj92P0gszGOz9c+f7/IYky24RLQsgz0rv9CQLYtmj5Tg/OjxXojO7Yf+bz3i3DL7ZDqb++qgvEGkgMyBYIO9q2nGqCNaB7dQKNJmqauB2544k+reiu077WarLT2fnMToKfZVaZOhx+YKa6pm5VsQpys02zUUWNRwz/ORsGDpmDkK2CU/U0CQZb1a+6PYScuIgnLKsolrSbimwfNZIRTk4zUDY2loP3Af2juLcocd/BEgOalG1MbG3/zpsHSO3r8zniq2sDQZjhLPLv+mNsBZL02zkInArb6UkeFimaoY5N/Vg=
+    secure: EzqawSxKAq/jMOEjpEunB3x5rVYIljRAiIOYMLlP1oYHksVvDNdGa2K/Pf2qwoPCKHY1xpV7aIC9lAnZqWc/aq9m2Gesf5m3pkxWa98S5Z354s8ChrAk0yftLpsU8s7CBlKfyBC9/Tg2Yauiq23emecVrYx0WMy0gVz+V9MbbCRMaicOG9vFpnenuzAEvCbq4AdgvXo+iBHxp5jivD7f8wSuxz2CeuSpFHeQnBkNKvR88rkU4J+odWURpYE/zgF1lkriC7JCTxn9+g7QAWQWY40AVLdoc0XZEJOJrhIZ7fBk1K2G0tHl4UK76CxxS5YXJUbtTuqxJl370T6DgbXCEsQnjwoKsMbBW+5L7/EsiJORDaQzPBjsCaVaNTqxxdx4OBTRc9x+X0Tiitfr8p88F91yLWVp2wNf3MKZQgmRYS69MOU0X1BoCTSPziR1sn3Gl+KklDRA8LP9HS7SwA533Ir04iM+8nw/1rUEN1+6aXPaEECHbknLdAjH8mzPBZrsGAgCKwUgXprplUVgHko6zKKGZJySKzeRWPMZpIcxvEWumZuDBWQRPb/JDYCpM1W4LAgsMa846E/OKlxjMUXb+Xph3Lr25zz0yeaTKXPRk91Ija3AnA8zWSl8G0l6d3LGdGkHS7e4RKqktVSRJQ5izwUVUqiCyl0ZcYpPFqdVojk=
   app: New-Portfolio
   on:
     repo: piemasters/New-Portfolio
