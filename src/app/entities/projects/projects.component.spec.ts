@@ -1,14 +1,28 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ProjectsComponent } from './projects.component';
+import { ProjectComponent } from './project/project.component';
+import { CommonModule } from '@angular/common';
+import { ProjectsService } from './projects.service';
+import { RouterTestingModule } from '@angular/router/testing';
 
-describe('ProjectComponent', () => {
+describe('ProjectsComponent', () => {
   let component: ProjectsComponent;
   let fixture: ComponentFixture<ProjectsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ProjectsComponent ]
+      declarations: [
+        ProjectsComponent,
+        ProjectComponent
+      ],
+      imports: [
+        CommonModule,
+        RouterTestingModule
+      ],
+      providers: [
+        ProjectsService
+      ]
     })
     .compileComponents();
   }));
