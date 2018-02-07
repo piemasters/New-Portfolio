@@ -1,8 +1,10 @@
-<section class="project-container" *ngFor="let project of projects">
-  <div class="project">
-    <a [routerLink]="['/projects', project.id]">
-      <h3>{{project.title}}</h3>
-      <img src="{{project.img}}" alt="">
-    </a>
-  </div>
+<section id="projects">
+  <article class="project-container" *ngFor="let project of projects">
+    <div class="project">
+      <a [routerLink]="['/projects', project.id]">
+        <h3>{{project.title}}</h3>
+        <img src="{{project.img}}" alt="">
+      </a>
+    </div>
+  </article>
 </section>

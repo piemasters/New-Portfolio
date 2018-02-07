@@ -1,4 +1,10 @@
 @import 'variables';
+
+#projects {
+  clear: both;
+  display: inline-block;
+}
+
 .project-container {
   display: inline-block;
   float: left;
@@ -25,3 +31,4 @@
     width: 33.33%;
   }
 }
+
