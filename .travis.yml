@@ -1,9 +1,12 @@
+dist: trusty
+sudo: required
 language: node_js
 node_js:
 - '8'
 cache:
   directories:
-  - "./node_modules"
+  - './node_modules'
+  - '$HOME/.sonar/cache'
 before_install:
 - npm install -g --silent @angular/cli
 install:
@@ -13,6 +16,8 @@ addons:
     organization: "piemasters-github"
     token:
       secure: uJWikiOX/5X0XTjFwHqop1m1Wla8R/aJzRYlO/h4aD1cRIdYWR5esx0uzhGzKSsINMBbFTxwP2qtT6z39yUW0U6cBgFsfcOI8NlrZ0hIBEk3U61RDveehQkylXNTpdiVCs48kwCMCheWGHnHv5oQCq6s2ehng+/nnNIAqz78ZgGuXkowmFswW89PGyJE67iN3XLcyOrQ5/SulPXyUOs/uWCSo4sGJoum4v+7GEoz5lRWc6t4gwZixC6G1P4ELyTtz1fxRtLAmz3nNPYX6eZ9h51RbfzSdas9HueRxOzLrgTQ5Mo1yfnBMmAzAifCCaXIxR+eSStARMyYgB2QPoVtdz7Ykl+XQMRlLCtEIZBzd0vRQU3R2sCGhw6bh04CXfT4AjpYW+dFZJCxh1TwDB4QmaJixp4wMm44ibpV9c2KiAutehHGIlO4e+6GEdbqN/1bemCJ3kp+YBhiHmZR6iQ5b8hpqgf300xp6WYz0+S3chfvdR9wpHa1hZhhw28F7L1bGmJa2t31h9GzmuTOOvH87Qzc+MYw9V6e5NIjebdoYhq22c7srcKnDRH3tojbmK/MrqJ2rZ5Hy7n/szCs0FVmDTI6aoWkf/9cNS8BgNGz02jGPnq7+DhAe2NSjgzaGZTUWIk4PjJE0RAhz8FZJV93EtbJO40oBGZRdur1KEUjyhk=
+jdk:
+  - oraclejdk8
 script:
 - export CHROME_BIN=chromium-browser
 - xvfb-run -a npm run test -- --single-run --no-progress --browser=ChromeNoSandbox
@@ -25,3 +30,9 @@ deploy:
   app: davidnorton-portfolio
   on:
     repo: piemasters/New-Portfolio
+addons:
+  sonarcloud:
+    organization: "piemasters-github"
+    token:
+      secure: uJWikiOX/5X0XTjFwHqop1m1Wla8R/aJzRYlO/h4aD1cRIdYWR5esx0uzhGzKSsINMBbFTxwP2qtT6z39yUW0U6cBgFsfcOI8NlrZ0hIBEk3U61RDveehQkylXNTpdiVCs48kwCMCheWGHnHv5oQCq6s2ehng+/nnNIAqz78ZgGuXkowmFswW89PGyJE67iN3XLcyOrQ5/SulPXyUOs/uWCSo4sGJoum4v+7GEoz5lRWc6t4gwZixC6G1P4ELyTtz1fxRtLAmz3nNPYX6eZ9h51RbfzSdas9HueRxOzLrgTQ5Mo1yfnBMmAzAifCCaXIxR+eSStARMyYgB2QPoVtdz7Ykl+XQMRlLCtEIZBzd0vRQU3R2sCGhw6bh04CXfT4AjpYW+dFZJCxh1TwDB4QmaJixp4wMm44ibpV9c2KiAutehHGIlO4e+6GEdbqN/1bemCJ3kp+YBhiHmZR6iQ5b8hpqgf300xp6WYz0+S3chfvdR9wpHa1hZhhw28F7L1bGmJa2t31h9GzmuTOOvH87Qzc+MYw9V6e5NIjebdoYhq22c7srcKnDRH3tojbmK/MrqJ2rZ5Hy7n/szCs0FVmDTI6aoWkf/9cNS8BgNGz02jGPnq7+DhAe2NSjgzaGZTUWIk4PjJE0RAhz8FZJV93EtbJO40oBGZRdur1KEUjyhk=
+
