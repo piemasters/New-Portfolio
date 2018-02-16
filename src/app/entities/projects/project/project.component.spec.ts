@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { ProjectsService } from '../projects.service';
 import { RouterTestingModule } from '@angular/router/testing';
 import { ActivatedRoute, Data } from '@angular/router';
+import { CustomPipesModule } from '../../../pipes/custom-pipes.module';
 
 describe('ProjectComponent', () => {
   let component: ProjectComponent;
@@ -19,7 +20,8 @@ describe('ProjectComponent', () => {
       ],
       imports: [
         CommonModule,
-        RouterTestingModule
+        RouterTestingModule,
+        CustomPipesModule
       ],
       providers: [
         ProjectsService,

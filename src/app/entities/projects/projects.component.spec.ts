@@ -5,6 +5,7 @@ import { ProjectComponent } from './project/project.component';
 import { CommonModule } from '@angular/common';
 import { ProjectsService } from './projects.service';
 import { RouterTestingModule } from '@angular/router/testing';
+import { CustomPipesModule } from '../../pipes/custom-pipes.module';
 
 describe('ProjectsComponent', () => {
   let component: ProjectsComponent;
@@ -18,7 +19,8 @@ describe('ProjectsComponent', () => {
       ],
       imports: [
         CommonModule,
-        RouterTestingModule
+        RouterTestingModule,
+        CustomPipesModule
       ],
       providers: [
         ProjectsService

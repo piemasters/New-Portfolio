@@ -29,7 +29,7 @@ describe('HomeComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should render title in a h1 tag', async(() => {
+  it('should render \'UX/UI Developer\' in a h1 tag ', async(() => {
     fixture = TestBed.createComponent(HomeComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
