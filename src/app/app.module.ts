@@ -7,18 +7,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeModule } from './home/home.module';
 import { AppComponent } from './app.component';
 import { ProjectsModule } from './entities/projects/projects.module';
+import { CustomPipesModule } from './pipes/custom-pipes.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    ProjectsModule
+    ProjectsModule,
+    CustomPipesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

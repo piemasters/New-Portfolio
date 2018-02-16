@@ -1,5 +1,5 @@
 <section id="projects" class="subsection">
-  <article class="project-container" *ngFor="let project of projects">
+  <article class="project-container" *ngFor="let project of projects | reverse">
     <div class="project">
       <a [routerLink]="['/projects', project.id]">
         <h3>{{project.title}}</h3>
