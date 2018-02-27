@@ -21,7 +21,6 @@ export class ProjectComponent implements OnInit {
     this.route.params.subscribe(
       (params: Params) => {
         this.project = this.projectsService.getProject(+params['id']);
-        console.log(this.project);
       }
     );
 
