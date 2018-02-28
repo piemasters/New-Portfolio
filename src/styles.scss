@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'fonts';
+@import 'mixins';
 
 html {
   font-size: 10px;
@@ -40,6 +41,7 @@ h2 {
   font-size: 2.4rem;
   font-weight: 700;
   margin: 1.5rem 0;
+  @include link-colors($brand-dark, $brand-light, $brand);
 }
 
 h3 {
