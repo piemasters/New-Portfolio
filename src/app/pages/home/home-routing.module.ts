@@ -5,8 +5,9 @@ import { ProjectsComponent } from '../../entities/projects/projects.component';
 
 const homeRoutes: Routes = [
   { path: '', component: HomeComponent, children: [
-      {path: '', component: ProjectsComponent, outlet: 'projects'}
-    ] }
+      { path: '', component: ProjectsComponent, outlet: 'projects' }
+    ]
+  }
 ];
 
 @NgModule({
