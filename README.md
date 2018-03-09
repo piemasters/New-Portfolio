@@ -1,5 +1,14 @@
 # Portfolio
 
+[![Build Status](https://travis-ci.org/piemasters/New-Portfolio.svg?branch=master)](https://travis-ci.org/piemasters/New-Portfolio)
+
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=davidnorton-portfolio&metric=alert_status)](https://sonarcloud.io/dashboard?id=davidnorton-portfolio)
+[![SonarCloud Coverage](https://sonarcloud.io/api/project_badges/measure?project=davidnorton-portfolio&metric=alert_coverage)](https://sonarcloud.io/dashboard?id=davidnorton-portfolio)
+[![SonarCloud Bugs](https://sonarcloud.io/api/project_badges/measure?project=davidnorton-portfolio&metric=bugs)](https://sonarcloud.io/dashboard?id=davidnorton-portfolio)
+[![SonarCloud Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=davidnorton-portfolio&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=davidnorton-portfolio)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
 ## Development server
