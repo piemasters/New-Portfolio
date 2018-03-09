@@ -31,6 +31,7 @@ deploy:
   on:
     repo: piemasters/New-Portfolio
 addons:
+  chrome: stable
   sonarcloud:
     organization: "piemasters-github"
     token:
