@@ -4,14 +4,16 @@ import { NavbarComponent } from './layouts/navbar/navbar.component';
 
 const appRoutes: Routes = [
   { path: '', component: NavbarComponent,  outlet: 'navbar' },
+  { path: '', loadChildren: 'app/pages/home/home.module#HomeModule' },
   { path: 'about', loadChildren: 'app/pages/about/about.module#AboutModule' },
   { path: 'process', loadChildren: 'app/pages/process/process.module#ProcessModule' },
-  { path: '', redirectTo: 'home', pathMatch: 'full' }
+  { path: 'page-not-found', loadChildren: 'app/pages/page-not-found/page-not-found.module#PageNotFoundModule' },
+  { path: '**', redirectTo: 'page-not-found'} // Ensure this is the last path
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(appRoutes, { useHash: false })
+    RouterModule.forRoot(appRoutes)
   ],
   exports: [
     RouterModule
