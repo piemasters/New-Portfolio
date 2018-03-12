@@ -2,17 +2,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { ProcessComponent } from './process.component';
 
-const processRoutes: Routes = [
-  { path: 'process', component: ProcessComponent, children: [
-
+const routes: Routes = [
+  {
+    path: '',
+    component: ProcessComponent,
+    children: [
     ]
   }
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forChild(processRoutes)
-  ],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
 export class ProcessRoutingModule {}
