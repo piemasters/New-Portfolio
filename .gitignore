@@ -3,6 +3,8 @@
 # compiled output
 /dist
 /dist-server
+/dist-style
+/styleguide
 /tmp
 /out-tsc
 

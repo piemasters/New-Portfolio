@@ -2,15 +2,15 @@ dist: trusty
 sudo: required
 language: node_js
 node_js:
-- '8'
+  - '8'
 cache:
   directories:
   - './node_modules'
   - '$HOME/.sonar/cache'
 before_install:
-- npm install -g --silent @angular/cli
+  - npm install -g --silent @angular/cli
 install:
-- npm install
+  - npm install
 addons:
   sonarcloud:
     organization: "piemasters-github"
@@ -19,10 +19,12 @@ addons:
 jdk:
   - oraclejdk8
 script:
-- export CHROME_BIN=chromium-browser
-- xvfb-run -a npm run test -- --single-run --no-progress --browser=ChromeNoSandbox --cc
-- xvfb-run -a npm run e2e -- --no-progress --config=protractor-ci.conf.js
-- sonar-scanner
+  - export CHROME_BIN=chromium-browser
+  - xvfb-run -a npm run test -- --single-run --no-progress --browser=ChromeNoSandbox --cc
+  - xvfb-run -a npm run e2e -- --no-progress --config=protractor-ci.conf.js
+  - sonar-scanner
+before_deploy:
+  - npm run styleguide
 deploy:
   provider: heroku
   api_key:
