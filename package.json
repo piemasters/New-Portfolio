@@ -11,7 +11,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "prestyleguide": "ng build --extract-css true --output-path dist-style",
-    "styleguide": "rimraf styleguide/ && kss --config kss/config.json",
+    "styleguide": "rimraf styleguide/ && kss --config kss-config.json",
     "poststyleguide": "cp dist-style/styles.bundle.css styleguide/",
     "postinstall": "ng build --aot -prod"
   },
@@ -48,6 +48,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "kss": "^3.0.0-beta.18",
+    "michelangelo": "^0.7.0",
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
