@@ -2,18 +2,17 @@
   "title": "Portfolio Style Guide",
 
   "//": "relative to this file.",
-  "builder": "node_modules/michelangelo/kss_styleguide/custom-template/",
-  "source": "src/",
+  "builder": "../node_modules/michelangelo/kss_styleguide/custom-template/",
+  "source": "../src/",
   "destination": "styleguide",
 
   "//": "relative to source.",
-  "homepage": "../kss-homepage.md",
+  "homepage": "../kss/kss-homepage.md",
 
   "//": "relative to the generated style guide.",
   "css": [
     "styles.bundle.css",
-    "../kss-fonts.css"
+    "../kss-styles.css"
   ],
   "//": "styles.bundle.css"
-
 }
