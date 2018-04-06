@@ -2,7 +2,13 @@
 
 // Link colors mixin
 //
-// This mixin is used to apply the correct styling to hyperlinks throughout the application
+// This mixin is used to apply the correct styling to hyperlinks throughout the application.
+// To use the mixin add the following to the CSS class with whatever colors desired:
+// <pre>
+// p {
+//   @include link-colors($brand-dark, $brand-light, $brand);
+// }
+// </pre>
 //
 // Markup:
 // <p>
@@ -10,9 +16,6 @@
 //   <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
 //   This is some more plain text.
 // <p>
-// p {
-//   @include link-colors($brand-dark, $brand-light, $brand);
-// }
 //
 // Styleguide Mixins.text.hyperlinks
 @mixin link-colors ($visit, $hover, $active) {
