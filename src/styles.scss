@@ -1,91 +1,38 @@
 @import 'variables';
+@import 'colors';
 @import 'fonts';
 @import 'mixins';
-
-html {
-  font-size: 10px;
-}
+@import 'text';
 
 body {
-  font-family: Quicksand, sans-serif;
-  font-size: 10px;
   margin: 0;
   min-height: 100vh;
   position: relative;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 600;
-  line-height: 1.2;
-  margin: 0;
-}
-
-
-// Paragraph
-//
-// The default style for paragraphs.
-//
-// Markup: <p>This is an example paragraph.</p>
-//
-// Styleguide Global.text.p
-p {
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-// H1
-//
-// The default style for H1 headings.
-//
-// Markup: <h1>An Example Title</h1>
-//
-// Styleguide Global.text.headings.h1
-h1 {
-  font-size: 3rem;
-  font-weight: 400;
-  letter-spacing: 0.075rem;
-  margin: 3rem 0;
-}
-
-h2 {
-  font-size: 2.4rem;
-  font-weight: 700;
-  margin: 1.5rem 0;
-  @include link-colors($brand-dark, $brand-light, $brand);
-}
-
-h3 {
-  border-bottom: 1px solid $accent;
-  color: $accent;
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin: 1rem 0;
-  padding-bottom: 0.2rem;
-}
-
-h4 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 0.67rem 0;
-}
-
-h5 {
-  font-size: 1.8rem;
-  margin: 0.94rem 0;
-}
-
-h6 {
+.content {
+  clear: both;
   font-size: 1.6rem;
-  margin: 1rem 0;
+  height: 100%;
+  line-height: 2;
+  padding: 2rem 2rem 8rem 2rem;
 }
 
+@media screen and (min-width: $md) {
+  .content {
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+}
 
-// Section
+@media screen and (min-width: $lg) {
+  .content {
+    font-size: 1.8rem;
+    line-height: 2.25;
+  }
+}
+
+// Sections
 //
 // The default style for sections.
 //
@@ -102,7 +49,7 @@ h6 {
 //   </article>
 // </section>
 //
-// Styleguide Global.layout.section
+// Styleguide Layout.components.section
 section {
   background-color: $content;
   padding: 2rem;
@@ -112,45 +59,7 @@ section {
   }
 }
 
-// Aside
-//
-// The default style for asides.
-//
-// Markup:
-// <aside>
-//   <h2>Header</h2>
-//   <p>Content</p>
-// </aside>
-//
-// Styleguide Global.layout.aside
-aside {
-  background-color: $aside;
-  padding: 2em;
-}
-
 @media screen and (min-width: $md) {
-  .content {
-    font-size: 1.6rem;
-    line-height: 2;
-  }
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 3.2rem;
-  }
-  h3 {
-    font-size: 2.93rem;
-  }
-  h4 {
-    font-size: 2.67rem;
-  }
-  h5 {
-    font-size: 2.4rem;
-  }
-  h6 {
-    font-size: 2.13rem;
-  }
   section {
     padding: 2rem;
     margin-bottom: 2rem;
@@ -161,28 +70,6 @@ aside {
 }
 
 @media screen and (min-width: $lg) {
-  .content {
-    font-size: 1.8rem;
-    line-height: 2.25;
-  }
-  h1 {
-    font-size: 4.8rem;
-  }
-  h2 {
-    font-size: 3.84rem;
-  }
-  h3 {
-    font-size: 3.52rem;
-  }
-  h4 {
-    font-size: 3.2rem;
-  }
-  h5 {
-    font-size: 2.88rem;
-  }
-  h6 {
-    font-size: 2.56rem;
-  }
   section {
     padding: 2rem 4rem;
     margin-bottom: 2rem;
@@ -192,8 +79,20 @@ aside {
   }
 }
 
-a {
-  text-decoration: none;
+// Asides
+//
+// The default style for asides.
+//
+// Markup:
+// <aside>
+//   <h2>Header</h2>
+//   <p>Content</p>
+// </aside>
+//
+// Styleguide Layout.components.aside
+aside {
+  background-color: $aside;
+  padding: 2em;
 }
 
 

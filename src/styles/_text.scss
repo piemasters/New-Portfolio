@@ -1,0 +1,132 @@
+@import 'variables';
+@import 'colors';
+@import 'fonts';
+@import 'mixins';
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Quicksand, sans-serif;
+  font-size: 10px;
+}
+
+// Standard Headings
+//
+// The default style for H1 headings.
+//
+// Markup:
+// <h1>An Example H1 Title</h1>
+// <h2>An Example H2 Title</h2>
+// <h3>An Example H3 Title</h3>
+// <h4>An Example H4 Title</h4>
+// <h5>An Example H5 Title</h5>
+// <h6>An Example H6 Title</h6>
+//
+// Styleguide Text.headings.standard
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+  @include link-colors($brand-dark, $brand-light, $brand);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.075rem;
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+
+h3 {
+
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  padding-bottom: 0.2rem;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.67rem 0;
+}
+
+h5 {
+  font-size: 1.8rem;
+  margin: 0.94rem 0;
+}
+
+h6 {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: $md) {
+  h1 { font-size: 4.00rem; }
+  h2 { font-size: 3.20rem; }
+  h3 { font-size: 2.93rem; }
+  h4 { font-size: 2.67rem; }
+  h5 { font-size: 2.4rem;  }
+  h6 { font-size: 2.13rem; }
+}
+
+@media screen and (min-width: $lg) {
+  h1 { font-size: 4.80rem; }
+  h2 { font-size: 3.84rem; }
+  h3 { font-size: 3.52rem; }
+  h4 { font-size: 3.2rem;  }
+  h5 { font-size: 2.88rem; }
+  h6 { font-size: 2.56rem; }
+}
+
+// Styled Headings
+//
+// A class that can be applied to any heading to give it more style.
+//
+// Markup:
+// <h3 class="header-styled">An Example H3 Title with Style!</h3>
+//
+// Styleguide Text.headings.styled
+.header-styled {
+  border-bottom: 1px solid $accent;
+  color: $accent;
+}
+
+// Standard Paragraph
+//
+// The default style for paragraphs.
+//
+// Markup:
+// <p>This is an example paragraph.</p>
+//
+// Styleguide Text.paragraph.standard
+p {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  @include link-colors($brand-dark, $brand-light, $brand);
+}
+
+// Standard Hyperlinks
+//
+// Global styling for hyperlinks.
+//
+// Markup:
+// <a href="#"><p>This is an example hyperlink.</p></a>
+//
+// Styleguide Text.hyperlinks.standard
+a {
+  text-decoration: none;
+}

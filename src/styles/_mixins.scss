@@ -1,3 +1,20 @@
+@import 'colors';
+
+// Link colors mixin
+//
+// This mixin is used to apply the correct styling to hyperlinks throughout the application
+//
+// Markup:
+// <p>
+//   This is some plain text.
+//   <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
+//   This is some more plain text.
+// <p>
+// p {
+//   @include link-colors($brand-dark, $brand-light, $brand);
+// }
+//
+// Styleguide Mixins.text.hyperlinks
 @mixin link-colors ($visit, $hover, $active) {
   a {
     &:link, &:visited {

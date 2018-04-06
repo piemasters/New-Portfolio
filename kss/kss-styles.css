@@ -73,3 +73,14 @@ html {
 .kss-section__item {
   font-size: 3rem;
 }
+
+.kss-section__item,
+.kss-navigation__title,
+.kss-nav__item a.kss-state-active,
+.kss-nav__item a:hover {
+  color: #E57373;
+}
+
+.kss-section__item--depth-3 {
+  border-bottom: 0;
+}
