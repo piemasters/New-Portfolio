@@ -7,12 +7,12 @@
   "destination": "styleguide",
 
   "//": "relative to source.",
-  "homepage": "../kss/kss-homepage.md",
+  "homepage": "../kss/kss-homepage.html",
 
   "//": "relative to the generated style guide.",
   "css": [
     "styles.bundle.css",
-    "../kss-styles.css"
+    "kss-styles.css"
   ],
   "//": "styles.bundle.css"
 }

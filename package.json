@@ -12,7 +12,7 @@
     "e2e": "ng e2e",
     "prestyleguide": "ng build --extract-css true --output-path kss/dist-style",
     "styleguide": "rimraf kss/styleguide/ && kss --config kss/kss-config.json",
-    "poststyleguide": "cp kss/dist-style/styles.bundle.css kss/styleguide/ && cp -r src/assets/ kss/styleguide/",
+    "poststyleguide": "cp -r src/assets/ kss/dist-style/styles.bundle.css  kss/kss-styles.css kss/index.php kss/styleguide/",
     "postinstall": "ng build --aot -prod"
   },
   "private": true,
