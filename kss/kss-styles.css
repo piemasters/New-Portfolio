@@ -76,11 +76,29 @@ html {
 
 .kss-section__item,
 .kss-navigation__title,
+.kss-header__title,
+.kss-title,
+.kss-header,
+.kss-header__hamburger,
+.kss-header__hamburger::before,
+.kss-header__hamburger::after,
 .kss-nav__item a.kss-state-active,
 .kss-nav__item a:hover {
   color: #E57373;
 }
 
+.kss-header__hamburger,
+.kss-header__hamburger::before,
+.kss-header__hamburger::after {
+  background: #E57373;
+}
+
 .kss-section__item--depth-3 {
   border-bottom: 0;
+}
+
+.kss-header__inner {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
 }
