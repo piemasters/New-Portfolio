@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { defineSupportCode, setDefaultTimeout } from 'cucumber';
-import { AppPage } from './app.po';
+import { AppPage } from './navigation.po';
 
 setDefaultTimeout(60 * 1000);
 
