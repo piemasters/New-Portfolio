@@ -11,8 +11,7 @@
 
   "//": "relative to the generated style guide.",
   "css": [
-    "styles.bundle.css",
+    "styles.css",
     "kss-styles.css"
-  ],
-  "//": "styles.bundle.css"
+  ]
 }

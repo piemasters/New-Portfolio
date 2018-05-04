@@ -74,6 +74,8 @@ html {
   font-size: 3rem;
 }
 
+.kss-markdown h1,
+.kss-markdown h2,
 .kss-section__item,
 .kss-navigation__title,
 .kss-header__title,
