@@ -15,7 +15,7 @@ describe('AuthGuardService', () => {
     TestBed.configureTestingModule({
       imports: [
         RouterTestingModule.withRoutes([
-          { path: 'about', component: AboutComponent, canActivate: [ AuthGuard ] },
+          { path: 'abouttest', component: AboutComponent, canActivate: [ AuthGuard ] },
           {
             path: 'error', component: ErrorPageComponent,
             data: { message: 'You are not authenticated to view this page!' }
@@ -24,18 +24,18 @@ describe('AuthGuardService', () => {
       ],
       declarations: [AboutComponent, ErrorPageComponent],
       providers: [
-        AuthService,
-        AuthGuard, {
+        {
           provide: RouterStateSnapshot,
           useValue: mockSnapshot
-      }]
+        }
+      ]
     }).compileComponents();
   });
 
   it('checks if a user is valid', () => {
 
     inject([AuthGuard, AuthService, Router], (guard: AuthGuard, auth: AuthService, router: Router) => {
-      mockSnapshot.url = '/about';
+      mockSnapshot.url = '/abouttest';
       spyOn(router, 'navigate');
       expect(guard.canActivate(null, mockSnapshot)).toBeFalsy();
       expect(guard.canActivate(null, mockSnapshot)).toBeTruthy();

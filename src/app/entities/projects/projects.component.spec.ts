@@ -3,7 +3,6 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { ProjectsComponent } from './projects.component';
 import { ProjectComponent } from './project/project.component';
 import { CommonModule } from '@angular/common';
-import { ProjectsService } from './projects.service';
 import { RouterTestingModule } from '@angular/router/testing';
 import { CustomPipesModule } from '../../pipes/custom-pipes.module';
 
@@ -21,9 +20,6 @@ describe('ProjectsComponent', () => {
         CommonModule,
         RouterTestingModule,
         CustomPipesModule
-      ],
-      providers: [
-        ProjectsService
       ]
     })
     .compileComponents();

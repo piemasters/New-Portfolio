@@ -3,7 +3,6 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { ProjectComponent } from './project.component';
 import { ProjectsComponent } from '../projects.component';
 import { CommonModule } from '@angular/common';
-import { ProjectsService } from '../projects.service';
 import { RouterTestingModule } from '@angular/router/testing';
 import { ActivatedRoute, Data } from '@angular/router';
 import { CustomPipesModule } from '../../../pipes/custom-pipes.module';
@@ -24,7 +23,6 @@ describe('ProjectComponent', () => {
         CustomPipesModule
       ],
       providers: [
-        ProjectsService,
         {
           provide: ActivatedRoute,
           useValue: {
