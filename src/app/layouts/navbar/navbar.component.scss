@@ -19,7 +19,9 @@ $md: 768px !default;
     padding: 0 1em;
     a {
       color: $text;
+      display: inline;
       outline: 0;
+      padding: 0;
     }
   }
   nav {
@@ -53,7 +55,6 @@ $md: 768px !default;
       }
       .nav-image {
         a {
-          padding-top: 2px;
           &:hover {
             @include filter-accent;
           }
