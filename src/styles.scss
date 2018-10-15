@@ -115,13 +115,13 @@ aside {
     li a, .current {
       padding: 0 2rem;
     }
-    .pagination-previous {
-      padding: 0 1rem;
-    }
-    .pagination-next {
+    .pagination-next, .pagination-previous {
       padding: 0;
       a {
-        padding: 0 1rem !important;
+        padding: 0 1rem;
+      }
+      &.disabled {
+        padding: 0 1rem;
       }
     }
   }
