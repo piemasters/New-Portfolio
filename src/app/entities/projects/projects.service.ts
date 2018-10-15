@@ -42,7 +42,30 @@ export class ProjectsService {
       img: 'assets/images/ftep/Capture.JPG',
       body: 'offline'
     },
-
+    {
+      id: 7,
+      title: 'Kanban Board',
+      img: 'assets/images/kanban/cover.png',
+      body: 'test'
+    },
+    {
+      id: 8,
+      title: 'Crypto Dashboard',
+      img: 'assets/images/crypto/cover.png',
+      body: 'test'
+    },
+    {
+      id: 9,
+      title: 'Cookbook',
+      img: 'assets/images/cookbook/cover.png',
+      body: 'test'
+    },
+    {
+      id: 10,
+      title: 'Forestry TEP v2',
+      img: 'assets/images/ftepv2/cover.png',
+      body: 'test'
+    }
   ];
 
   getProjects() {

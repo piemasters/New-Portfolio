@@ -13,6 +13,7 @@ $xxl: 1800px !default;
 .project-container {
   display: inline-block;
   float: left;
+  overflow: hidden;
   width: 50%;
   .project {
     padding: 1rem;
