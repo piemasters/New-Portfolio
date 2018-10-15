@@ -5,6 +5,7 @@ import { ProjectComponent } from './project/project.component';
 import { CommonModule } from '@angular/common';
 import { RouterTestingModule } from '@angular/router/testing';
 import { CustomPipesModule } from '../../pipes/custom-pipes.module';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 describe('ProjectsComponent', () => {
   let component: ProjectsComponent;
@@ -19,7 +20,8 @@ describe('ProjectsComponent', () => {
       imports: [
         CommonModule,
         RouterTestingModule,
-        CustomPipesModule
+        CustomPipesModule,
+        NgxPaginationModule
       ]
     })
     .compileComponents();

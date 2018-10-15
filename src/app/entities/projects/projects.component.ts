@@ -9,6 +9,8 @@ import { ProjectsService } from './projects.service';
 })
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [];
+  itemsPerPage = 6;
+  page = 1;
 
   constructor(
     private projectsService: ProjectsService

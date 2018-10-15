@@ -4,6 +4,7 @@ import { ProjectsRoutingModule } from './projects-routing.module';
 import { ProjectComponent } from './project/project.component';
 import { CommonModule } from '@angular/common';
 import { CustomPipesModule } from '../../pipes/custom-pipes.module';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CustomPipesModule } from '../../pipes/custom-pipes.module';
   imports: [
     ProjectsRoutingModule,
     CommonModule,
-    CustomPipesModule
+    CustomPipesModule,
+    NgxPaginationModule
   ],
   bootstrap: [ProjectsComponent]
 })

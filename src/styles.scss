@@ -97,4 +97,33 @@ aside {
 }
 
 
+// Pagination
+//
+// The default style for pagination.
+//
+// Markup:
+// <div class="pagination-container">
+//     <pagination-controls></pagination-controls>
+// </div>
+//
+// Styleguide Layout.components.pagination
+.pagination-container {
+  clear: both;
+  padding: 1rem;
+  text-align: center;
+  .ngx-pagination {
+    li a, .current {
+      padding: 0 2rem;
+    }
+    .pagination-previous {
+      padding: 0 1rem;
+    }
+    .pagination-next {
+      padding: 0;
+      a {
+        padding: 0 1rem !important;
+      }
+    }
+  }
+}
 
