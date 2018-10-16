@@ -109,9 +109,11 @@ aside {
 // Styleguide Layout.components.pagination
 .pagination-container {
   clear: both;
-  padding: 1rem;
+
+  padding: 1rem 0;
   text-align: center;
   .ngx-pagination {
+    padding: 0;
     li a, .current {
       padding: 0 2rem;
     }
@@ -124,6 +126,12 @@ aside {
         padding: 0 1rem;
       }
     }
+  }
+}
+
+@media screen and (max-width: $md) {
+  .pagination-container {
+    font-size: 1.2rem;
   }
 }
 
