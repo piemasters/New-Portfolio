@@ -3,7 +3,9 @@
   paginate: { itemsPerPage: itemsPerPage, currentPage: page }">
     <div class="project">
       <a [routerLink]="['/projects', project.id]">
-        <h3 class="header-styled">{{project.title}}</h3>
+        <h3 class="header-styled">
+          <a href="#">{{project.title}}</a>
+        </h3>
         <img src="{{project.img}}" alt="">
       </a>
     </div>

@@ -34,7 +34,7 @@ h6 {
   font-weight: 600;
   line-height: 1.2;
   margin: 0;
-  @include link-colors($brand-dark, $brand-light, $brand);
+  @include link-colors($brand, $brand-dark, $brand-light);
 }
 
 h1 {
@@ -103,6 +103,7 @@ h6 {
 .header-styled {
   border-bottom: 1px solid $accent;
   color: $accent;
+  @include link-colors($accent, $accent-dark, $accent-light);
 }
 
 // Standard Paragraph
@@ -116,7 +117,7 @@ h6 {
 p {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
-  @include link-colors($brand-dark, $brand-light, $brand);
+  @include link-colors($brand, $brand-dark, $brand-light);
 }
 
 // Standard Hyperlinks
@@ -129,4 +130,7 @@ p {
 // Styleguide Text.hyperlinks.standard
 a {
   text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
