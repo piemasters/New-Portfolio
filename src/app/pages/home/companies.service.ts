@@ -10,7 +10,7 @@ export class CompaniesService {
     {
       id: 1,
       name: 'CGI',
-      img: 'test',
+      img: 'assets/images/companies/cgi_logo.png',
       from: Date.now(),
       to: Date.now(),
       roles: [
