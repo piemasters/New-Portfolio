@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { RouterTestingModule } from '@angular/router/testing';
 import { ActivatedRoute, Data } from '@angular/router';
 import { CustomPipesModule } from '../../../pipes/custom-pipes.module';
+import {NgxPaginationModule} from "ngx-pagination";
 
 describe('ProjectComponent', () => {
   let component: ProjectComponent;
@@ -20,7 +21,8 @@ describe('ProjectComponent', () => {
       imports: [
         CommonModule,
         RouterTestingModule,
-        CustomPipesModule
+        CustomPipesModule,
+        NgxPaginationModule
       ],
       providers: [
         {
