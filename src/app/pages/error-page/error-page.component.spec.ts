@@ -6,8 +6,8 @@ import { ErrorPageComponent } from './error-page.component';
 import { NgModuleFactoryLoader } from '@angular/core';
 import { AboutModule } from '../about/about.module';
 import { ErrorPageModule } from './error-page.module';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/of';
+import { of } from 'rxjs';
+
 
 describe('ErrorPageComponent', () => {
   let component;
@@ -29,7 +29,7 @@ describe('ErrorPageComponent', () => {
         {
           provide: ActivatedRoute,
           useValue: {
-            data: Observable.of({ message: 'You are not authenticated to view this page!' })
+            data: of({ message: 'You are not authenticated to view this page!' })
           }
         },
         ErrorPageComponent

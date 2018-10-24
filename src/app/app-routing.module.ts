@@ -4,12 +4,12 @@ import { NavbarComponent } from './layouts/navbar/navbar.component';
 
 const appRoutes: Routes = [
   { path: '', component: NavbarComponent,  outlet: 'navbar' },
-  { path: '', loadChildren: 'app/pages/home/home.module#HomeModule' },
-  { path: 'about', loadChildren: 'app/pages/about/about.module#AboutModule' },
-  { path: 'process', loadChildren: 'app/pages/process/process.module#ProcessModule' },
-  { path: 'page-not-found', loadChildren: 'app/pages/page-not-found/page-not-found.module#PageNotFoundModule' },
+  { path: '', loadChildren: './pages/home/home.module#HomeModule' },
+  { path: 'about', loadChildren: './pages/about/about.module#AboutModule' },
+  { path: 'process', loadChildren: './pages/process/process.module#ProcessModule' },
+  { path: 'page-not-found', loadChildren: './pages/page-not-found/page-not-found.module#PageNotFoundModule' },
   {
-    path: 'error', loadChildren: 'app/pages/error-page/error-page.module#ErrorPageModule',
+    path: 'error', loadChildren: './pages/error-page/error-page.module#ErrorPageModule',
     data: { message: 'You are not authenticated to view this page!' }
   },
   { path: '**', redirectTo: 'page-not-found'} // Ensure this is the last path
