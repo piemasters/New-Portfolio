@@ -22,7 +22,7 @@ jdk:
 script:
   - ng build --prod --aot
   - ng test --browsers=ChromeHeadless --watch=false
-  - npm run e2e --no-progress --config=e2e/protractor-ci.conf.js
+  - ng e2e --protractor-config=e2e/protractor-ci.conf.js
   - sonar-scanner
 before_deploy:
   - npm run styleguide
