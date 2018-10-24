@@ -6,6 +6,8 @@
     "target": "es5",
     "types": [
       "cucumber",
+      "jasmine",
+      "jasminewd2",
       "node",
       "selenium-webdriver"
     ]
