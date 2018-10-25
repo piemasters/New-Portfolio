@@ -9,9 +9,10 @@ cache:
   - '$HOME/.sonar/cache'
 before_install:
   - npm install -g --silent @angular/cli
-  - npm install @angular/cli @angular/compiler-cli
+  - npm install @angular/cli @angular/compiler-cli @angular-devkit/build-angular @types/node --save
 install:
   - npm install
+  - npm install @angular/cli @angular/compiler-cli @angular-devkit/build-angular @types/node --save
 addons:
   chrome: stable
   sonarcloud:
@@ -21,13 +22,13 @@ addons:
 jdk:
   - oraclejdk8
 script:
-  - npm install @angular/cli @angular/compiler-cli
   - ng build --prod --aot
   - ng test --browsers=ChromeHeadless --watch=false
   - ng e2e --protractor-config=e2e/protractor-ci.conf.js
   - sonar-scanner
 before_deploy:
   - npm run styleguide
+  - npm install @angular/cli @angular/compiler-cli @angular-devkit/build-angular @types/node --save
 deploy:
   provider: heroku
   api_key:
@@ -35,3 +36,6 @@ deploy:
   app: davidnorton-portfolio
   on:
     repo: piemasters/New-Portfolio
+  run: "npm install @angular/cli @angular/compiler-cli @angular-devkit/build-angular @types/node --save"
+after_deploy:
+  - npm install @angular/cli @angular/compiler-cli @angular-devkit/build-angular @types/node --save
