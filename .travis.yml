@@ -9,6 +9,7 @@ cache:
   - '$HOME/.sonar/cache'
 before_install:
   - npm install -g --silent @angular/cli
+  - npm install @angular/cli @angular/compiler-cli
 install:
   - npm install
 addons:
