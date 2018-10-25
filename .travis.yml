@@ -9,10 +9,8 @@ cache:
   - '$HOME/.sonar/cache'
 before_install:
   - npm install -g --silent @angular/cli
-  - npm install @angular/cli @angular/compiler-cli @angular-devkit/build-angular @types/node --save
 install:
   - npm install
-  - npm install @angular/cli @angular/compiler-cli @angular-devkit/build-angular @types/node --save
 addons:
   chrome: stable
   sonarcloud:
@@ -26,16 +24,12 @@ script:
   - ng test --browsers=ChromeHeadless --watch=false
   - ng e2e --protractor-config=e2e/protractor-ci.conf.js
   - sonar-scanner
-before_deploy:
-  - npm run styleguide
-  - npm install @angular/cli @angular/compiler-cli @angular-devkit/build-angular @types/node --save
 deploy:
+  run:
+    - "cp -f /app/package.backup.json /app/package.json" # This doesn't currently work
   provider: heroku
   api_key:
     secure: HUmbjFhib5e/bnvpAc96f2iBB8+RXWOkdImfWxF0WPS4YAxQsOGwoc4cVPgDfQZUmeCdRqOlVxOG3hercKHMVyxf6zTsa/UtGYVTf09VEn4ZXdNoNXYMGBUm0Wjr2Ph9RXXOk3E6TsQBIWuZO+3bixiE6OZAaC6QUBnsXIMD4KEHC9C1zpkA6oGvo8B4YxsLZFZh7wHiGiYKlR7WA61hpcKwIh1j2m+1vgizcYni/WEmI6vquvhcQx9gjrr+zqqGMe+qKB2nX7mCb0Bl8hzFRzVEjjW6LSnceWkx0X0U1/MhgVbCJWMJ7EVBbWOtVLpxXqH83KZ4bg/GBv63docojeIhaCvdJcWWp/KtOelUB+H9NclmMCieMELelGcH+D8EYKGJl6kj7RReg1Q1QYvzaZX6NTuc5o/+psy51VOv13mXw94gIVu9UH2KO/OrJ3/2+sVdJElFnVAAnBDp2TWu7TLUKCBH9/uPoXAbQmPDbRT3api7+pFMl/MVmpwW7TKR4m3hD816FnoJ6tpc+ZBOp6ZvOHFxNdcA2ARLWwhdQKN2oe+DMQsAn/64ZVms1ZTSn3O2JiIRLomtadS5AQc/cPFp+yJBN6xYJ69pdJfC/m1Ta6MeUtRX8trp/RDO+yGBkMOSCZYePdBtWdf5IRbppBEqHssPC0pySTCKr3Q7QgU=
   app: davidnorton-portfolio
   on:
     repo: piemasters/New-Portfolio
-  run: "npm install @angular/cli @angular/compiler-cli @angular-devkit/build-angular @types/node --save"
-after_deploy:
-  - npm install @angular/cli @angular/compiler-cli @angular-devkit/build-angular @types/node --save
