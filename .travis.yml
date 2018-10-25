@@ -20,6 +20,7 @@ addons:
 jdk:
   - oraclejdk8
 script:
+  - npm install @angular/cli @angular/compiler-cli
   - ng build --prod --aot
   - ng test --browsers=ChromeHeadless --watch=false
   - ng e2e --protractor-config=e2e/protractor-ci.conf.js
