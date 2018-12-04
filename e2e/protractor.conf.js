@@ -1,12 +1,15 @@
 // Protractor configuration file, see link for more information
 // https://github.com/angular/protractor/blob/master/lib/config.ts
+const puppeteer = require('puppeteer');
+
 exports.config = {
   allScriptsTimeout: 11000,
   baseUrl: 'http://localhost:4200/',
   capabilities: {
     'browserName': 'chrome',
     chromeOptions: {
-      args: ['--no-sandbox']
+      args: ['--no-sandbox'],
+      binary: puppeteer.executablePath()
     }
   },
   directConnect: true,

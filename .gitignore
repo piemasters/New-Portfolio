@@ -3,6 +3,7 @@
 # compiled output
 /dist
 /dist-server
+/e2e/reports
 /kss/dist-style
 /kss/styleguide
 /tmp

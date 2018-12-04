@@ -1,0 +1,24 @@
+{
+  "heroku": {
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "@angular-devkit/build-angular": "^0.10.0",
+      "@angular/cli": "7.0.2",
+      "@angular/compiler-cli": "7.0.0",
+      "@types/node": "10.0.3"
+    }
+  },
+  "local": {
+    "scripts": {
+      "start": "ng serve"
+    },
+    "devDependencies": {
+      "@angular-devkit/build-angular": "^0.10.0",
+      "@angular/cli": "7.0.2",
+      "@angular/compiler-cli": "7.0.0",
+      "@types/node": "10.0.3"
+    }
+  }
+}
