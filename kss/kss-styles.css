@@ -82,6 +82,7 @@ html {
 .kss-title,
 .kss-header,
 .kss-header__hamburger,
+.kss-modifiers__heading,
 .kss-header__hamburger::before,
 .kss-header__hamburger::after,
 .kss-nav__item a.kss-state-active,

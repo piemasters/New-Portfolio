@@ -4,7 +4,7 @@
   "//": "relative to this file.",
   "builder": "../node_modules/michelangelo/kss_styleguide/custom-template/",
   "source": "../src/",
-  "destination": "styleguide",
+  "destination": "../styleguide",
 
   "//": "relative to source.",
   "homepage": "../kss/kss-homepage.html",
