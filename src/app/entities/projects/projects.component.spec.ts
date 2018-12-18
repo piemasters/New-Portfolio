@@ -4,8 +4,9 @@ import { ProjectsComponent } from './projects.component';
 import { ProjectComponent } from './project/project.component';
 import { CommonModule } from '@angular/common';
 import { RouterTestingModule } from '@angular/router/testing';
-import { CustomPipesModule } from '../../pipes/custom-pipes.module';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { CustomPipesModule } from '../../shared/pipes/custom-pipes.module';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('ProjectsComponent', () => {
   let component: ProjectsComponent;
@@ -21,7 +22,8 @@ describe('ProjectsComponent', () => {
         CommonModule,
         RouterTestingModule,
         CustomPipesModule,
-        NgxPaginationModule
+        NgxPaginationModule,
+        HttpClientModule
       ]
     })
     .compileComponents();

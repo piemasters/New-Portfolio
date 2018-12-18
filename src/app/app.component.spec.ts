@@ -1,8 +1,8 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './layouts/footer/footer.component';
-import { NavbarComponent } from './layouts/navbar/navbar.component';
 import { RouterTestingModule } from '@angular/router/testing';
+import { NavbarComponent } from './core/layouts/navbar/navbar.component';
+import { FooterComponent } from './core/layouts/footer/footer.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -22,10 +22,10 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it('should have the title \'David Norton Portfolio\'', async(() => {
+  it('should have the title \'Portfolio\'', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('David Norton Portfolio');
+    expect(app.title).toEqual('Portfolio');
   }));
 
 });

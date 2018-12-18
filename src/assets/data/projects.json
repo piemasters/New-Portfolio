@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "title": "IBM OMNIbus",
+    "img": "assets/images/ftep/Capture.JPG",
+    "body": "online"
+  },
+  {
+    "id": 2,
+    "title": "Smartlock",
+    "img": "assets/images/ftep/Capture.JPG",
+    "body": "online"
+  },
+  {
+    "id": 3,
+    "title": "Passport Smartforms",
+    "img": "assets/images/ftep/Capture.JPG",
+    "body": "offline"
+  },
+  {
+    "id": 4,
+    "title": "Dashboard",
+    "img": "assets/images/ftep/Capture.JPG",
+    "body": "online"
+  },
+  {
+    "id": 5,
+    "title": "Forestry TEP",
+    "img": "assets/images/ftep/Capture.JPG",
+    "body": "online"
+  },
+  {
+    "id": 6,
+    "title": "Electron",
+    "img": "assets/images/ftep/Capture.JPG",
+    "body": "offline"
+  },
+  {
+    "id": 7,
+    "title": "Kanban Board",
+    "img": "assets/images/kanban/cover.png",
+    "body": "test"
+  },
+  {
+    "id": 8,
+    "title": "Crypto Dashboard",
+    "img": "assets/images/crypto/cover.png",
+    "body": "test"
+  },
+  {
+    "id": 9,
+    "title": "Cookbook",
+    "img": "assets/images/cookbook/cover.png",
+    "body": "test"
+  },
+  {
+    "id": 10,
+    "title": "Forestry TEP v2",
+    "img": "assets/images/ftepv2/cover.png",
+    "body": "test"
+  },
+  {
+    "id": 11,
+    "title": "Forefront",
+    "img": "assets/images/ftepv2/cover.png",
+    "introduction": "Forefront is a template Angular 7 project",
+    "technologies": [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+    ],
+    "setup": [
+      {
+        "id": 1,
+        "instruction": "Install nvm",
+        "code": null
+      },
+      {
+        "id": 2,
+        "instruction": "Install NodeJS v10.12.0",
+        "code": null
+      },
+      {
+        "id": 3,
+        "instruction": "To enable NodeJS, from a terminal run",
+        "code": "nvm use 10.12.0.7"
+      }
+    ]
+  }
+]

@@ -3,9 +3,9 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AuthGuard } from './auth-guard.service';
 import { ActivatedRouteSnapshot, Router, RouterStateSnapshot } from '@angular/router';
 import { AuthService } from './auth.service';
-import { AboutComponent } from '../pages/about/about.component';
-import { ErrorPageComponent } from '../pages/error-page/error-page.component';
 import createSpyObj = jasmine.createSpyObj;
+import { AboutComponent } from '../../pages/about/about.component';
+import { ErrorPageComponent } from '../../pages/error-page/error-page.component';
 
 const mockSnapshot: any = createSpyObj<RouterStateSnapshot>('RouterStateSnapshot', ['toString']);
 

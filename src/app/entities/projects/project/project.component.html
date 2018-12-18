@@ -1,9 +1,22 @@
 <h1>{{project.title}}</h1>
 
-<img src="{{project.img}}" alt="" width="100%">
+<img class="project-headline" src="{{project.img}}" alt="" width="100%">
 
+<h2>Introduction</h2>
 <p>
-  {{project.body}}
+  {{project.introduction}}
 </p>
 
+<h2>Technologies</h2>
+<ul>
+  <li *ngFor="let tech of technologies">
+        <a href="{{ tech.link }}">{{ tech.name }}</a> - {{ tech.description }}
+  </li>
+</ul>
 
+<h2>Project Setup</h2>
+<ol>
+  <li *ngFor="let step of project.setup">
+   {{ step.instruction }} <pre *ngIf="step.code"><code>{{ step.code }}</code></pre>
+  </li>
+</ol>

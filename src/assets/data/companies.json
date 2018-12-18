@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "CGI",
+    "img": "assets/images/companies/cgi_logo.png",
+    "from": "Dec 18, 2018",
+    "to": "Dec 18, 2018",
+    "roles": [
+      {
+        "id": 1,
+        "headline": "Senior Software Engineer",
+        "description": "test",
+        "from": "Dec 18, 2018",
+        "to": "Dec 18, 2018",
+        "location": "Leatherhead"
+      },
+      {
+        "id": 2,
+        "headline": "Lead UI/UX Designer & Developer",
+        "description": "test",
+        "from": "Dec 18, 2018",
+        "to": "Dec 18, 2018",
+        "location": "Leatherhead"
+      }
+    ]
+  }
+]

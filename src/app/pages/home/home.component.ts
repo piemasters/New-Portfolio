@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Company } from '../../models/company.model';
-import { CompaniesService } from './companies.service';
+
+import { Company } from '../../shared/models/company.model';
+import { CompaniesService } from '../../shared/services/companies.service';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +19,8 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.companies = this.companiesService.getCompanies();
+    this.companiesService.getCompanies().subscribe((data) => {
+      this.companies = data;
+    });
   }
 }
