@@ -14,7 +14,7 @@ import { Technology } from '../../../shared/models/technology.model';
 export class ProjectComponent implements OnInit {
   id: number;
   project: Project;
-  technologies: Technology[];
+  technologies: Technology[] = [];
 
   constructor(
     private route: ActivatedRoute,
@@ -25,21 +25,20 @@ export class ProjectComponent implements OnInit {
   ngOnInit() {
     this.route.params.subscribe(
       (params: Params) => {
-        this.projectsService.getProject(+params['id']).subscribe((data) => {
-          this.project = data;
+        this.projectsService.getProject(+params['id']).subscribe((project) => {
+          this.project = project;
+          this.techService.getTechnologies().subscribe((tech) => {
+            this.getTechList(tech, project.technologies);
+          });
         });
       }
     );
 
-    this.techService.getTechnologies().subscribe((data) => {
-      this.getTechList(data);
-    });
-
   }
-  getTechList(data) {
-    for (const item of this.project.technologies) {
+  getTechList(techList, projectList) {
+    for (const item of projectList) {
       this.technologies.push(
-        data.find( (p) => {
+        techList.find( (p) => {
           return p.id === item;
         }
       ));
