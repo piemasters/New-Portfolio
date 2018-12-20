@@ -16,7 +16,7 @@ Before(async () => {
   pup_page = await browser.newPage();
   await pup_page.setViewport({ width: 1280, height: 800 });
   await pup_page.goto(root, { waitUntil: 'networkidle2' });
-  await pup_page.screenshot({ path: 'e2e/reports/example.png' });
+  await pup_page.screenshot({ path: 'e2e/reports/screenshots/example.png' });
 });
 
 Given('I am on the portfolio homepage',
@@ -31,7 +31,7 @@ Then('I should see the {string} title', async (title: string) => {
   app.getPageHeader().then(page_header =>
     expect(page_header).to.equal(title)
   );
-  await pup_page.screenshot({ path: 'e2e/reports/page_header.png' });
+  await pup_page.screenshot({ path: 'e2e/reports/screenshots/page_header.png' });
 });
 
 After(async () => {
