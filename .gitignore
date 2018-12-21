@@ -2,10 +2,14 @@
 
 # compiled output
 /dist
+/documentation
 /dist-server
 /styleguide
 /tmp
 /out-tsc
+/reports/lighthouse-report.html
+/reports/e2e
+/reports/unit
 
 # dependencies
 /node_modules
@@ -36,11 +40,14 @@ npm-debug.log
 testem.log
 /typings
 
+
 # e2e
 /e2e/*.map
 debug.log
 /e2e/report.json
 /e2e/reports/screenshots/*.png
+/cypress/screenshots
+/cypress/videos
 
 # System Files
 .DS_Store
