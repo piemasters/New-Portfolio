@@ -17,10 +17,10 @@ const webpackOptions = {
       }
     ]
   }
-}
+};
 
 const options = {
   webpackOptions
-}
+};
 
-module.exports = wp(options)
+module.exports = wp(options);

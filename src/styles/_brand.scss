@@ -6,6 +6,8 @@
 // $brand - #3F51B5; core brand color
 // $$brand-dark - #303F9F; darker brand alternative
 //
+// Weight: -10
+//
 // Styleguide Colors.brand
 $brand-light: #7986CB;
 $brand: #3F51B5;
@@ -19,24 +21,12 @@ $brand-dark: #303F9F;
 // $accent - #EF9A9A; core accent color
 // $accent-dark - #E57373; darker accent alternative
 //
+// Weight: -9
+//
 // Styleguide Colors.accent
 $accent-light: #FFCDD2;
 $accent: #EF9A9A;
 $accent-dark: #E57373;
-
-// Text Colors
-//
-// Colors used for standard text.
-//
-// $text-light - #FFFFFF; lighter text alternative
-// $text - #9F9F9F; core text color
-// $text-dark - #222222; darker text alternative
-//
-// Styleguide Colors.text
-$text-light: #FFFFFF;
-$text-secondary: #9F9F9F;
-$text: #222222;
-
 
 // Background Colors
 //
@@ -46,7 +36,24 @@ $text: #222222;
 // $aside - #F7F3EA; core text color
 // $footer - #464F5D; darker text alternative
 //
+// Weight: -8
+//
 // Styleguide Colors.background
 $content: #F4F4F4;
 $aside: #F7F3EA;
 $footer: #464F5D;
+
+// Text Colors
+//
+// Colors used for standard text.
+//
+// $text-light - #FFFFFF; lighter text alternative
+// $text - #9F9F9F; core text color
+// $text-dark - #222222; darker text alternative
+//
+// Weight: -7
+//
+// Styleguide Colors.text
+$text-light: #FFFFFF;
+$text-secondary: #9F9F9F;
+$text: #222222;
