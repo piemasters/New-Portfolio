@@ -4,32 +4,33 @@ language: node_js
 node_js:
   - '10'
 cache:
+  npm: true
   directories:
-  - './node_modules'
+  - ~/.cache
   - '$HOME/.sonar/cache'
 before_install:
   - npm install -g --silent @angular/cli
 install:
-  - npm install
+  - npm ci
 addons:
   chrome: stable
   sonarcloud:
     organization: "piemasters-github"
     token:
-      secure: uJWikiOX/5X0XTjFwHqop1m1Wla8R/aJzRYlO/h4aD1cRIdYWR5esx0uzhGzKSsINMBbFTxwP2qtT6z39yUW0U6cBgFsfcOI8NlrZ0hIBEk3U61RDveehQkylXNTpdiVCs48kwCMCheWGHnHv5oQCq6s2ehng+/nnNIAqz78ZgGuXkowmFswW89PGyJE67iN3XLcyOrQ5/SulPXyUOs/uWCSo4sGJoum4v+7GEoz5lRWc6t4gwZixC6G1P4ELyTtz1fxRtLAmz3nNPYX6eZ9h51RbfzSdas9HueRxOzLrgTQ5Mo1yfnBMmAzAifCCaXIxR+eSStARMyYgB2QPoVtdz7Ykl+XQMRlLCtEIZBzd0vRQU3R2sCGhw6bh04CXfT4AjpYW+dFZJCxh1TwDB4QmaJixp4wMm44ibpV9c2KiAutehHGIlO4e+6GEdbqN/1bemCJ3kp+YBhiHmZR6iQ5b8hpqgf300xp6WYz0+S3chfvdR9wpHa1hZhhw28F7L1bGmJa2t31h9GzmuTOOvH87Qzc+MYw9V6e5NIjebdoYhq22c7srcKnDRH3tojbmK/MrqJ2rZ5Hy7n/szCs0FVmDTI6aoWkf/9cNS8BgNGz02jGPnq7+DhAe2NSjgzaGZTUWIk4PjJE0RAhz8FZJV93EtbJO40oBGZRdur1KEUjyhk=
+      secure: $SONARCLOUD_TOKEN
 jdk:
   - oraclejdk8
 script:
   - ng build --prod --aot
   - ng test --browsers=ChromeHeadless --watch=false
-  - ng e2e --protractor-config=e2e/protractor-ci.conf.js
+  - $(npm bin)/cypress run --record --key $CYPRESS_RECORD_KEY
   - sonar-scanner
 deploy:
   run:
     - "cp -f /app/package.backup.json /app/package.json" # This doesn't currently work
   provider: heroku
   api_key:
-    secure: HUmbjFhib5e/bnvpAc96f2iBB8+RXWOkdImfWxF0WPS4YAxQsOGwoc4cVPgDfQZUmeCdRqOlVxOG3hercKHMVyxf6zTsa/UtGYVTf09VEn4ZXdNoNXYMGBUm0Wjr2Ph9RXXOk3E6TsQBIWuZO+3bixiE6OZAaC6QUBnsXIMD4KEHC9C1zpkA6oGvo8B4YxsLZFZh7wHiGiYKlR7WA61hpcKwIh1j2m+1vgizcYni/WEmI6vquvhcQx9gjrr+zqqGMe+qKB2nX7mCb0Bl8hzFRzVEjjW6LSnceWkx0X0U1/MhgVbCJWMJ7EVBbWOtVLpxXqH83KZ4bg/GBv63docojeIhaCvdJcWWp/KtOelUB+H9NclmMCieMELelGcH+D8EYKGJl6kj7RReg1Q1QYvzaZX6NTuc5o/+psy51VOv13mXw94gIVu9UH2KO/OrJ3/2+sVdJElFnVAAnBDp2TWu7TLUKCBH9/uPoXAbQmPDbRT3api7+pFMl/MVmpwW7TKR4m3hD816FnoJ6tpc+ZBOp6ZvOHFxNdcA2ARLWwhdQKN2oe+DMQsAn/64ZVms1ZTSn3O2JiIRLomtadS5AQc/cPFp+yJBN6xYJ69pdJfC/m1Ta6MeUtRX8trp/RDO+yGBkMOSCZYePdBtWdf5IRbppBEqHssPC0pySTCKr3Q7QgU=
+    secure: $HEROKU_API_KEY
   app: davidnorton-portfolio
   on:
     repo: piemasters/New-Portfolio
