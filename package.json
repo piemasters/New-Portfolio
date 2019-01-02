@@ -12,11 +12,13 @@
     "serve": "ng serve --aot",
     "test": "ng test",
     "lint": "ng lint",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run --spec cypress/integration/features/**/* --reporter mocha-multi-reporters --reporter-options configFile=cypress/config.json > reports/e2e/cypress-report.log",
-    "e2e": "start-server-and-test serve http-get://localhost:4200 cypress:open",
-    "e2e:run": "start-server-and-test serve http-get://localhost:4200 cypress:run",
     "compodoc": "./node_modules/.bin/compodoc -p src/tsconfig.app.json",
+    "e2e": "start-server-and-test serve http-get://localhost:4200 cy:open",
+    "e2e:run": "start-server-and-test serve http-get://localhost:4200 cy:run",
+    "e2e:ci": "start-server-and-test serve http-get://localhost:4200 cy:ci",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --spec cypress/integration/features/**/* --reporter mocha-multi-reporters --reporter-options configFile=cypress/config.json > reports/e2e/cypress-report.log",
+    "cy:ci": "cypress run --spec cypress/integration/features/**/*",
     "build:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
     "serve:ssr": "node dist/server.js",
     "build:client-and-server-bundles": "ng build --prod && ng run portfolio:server",
@@ -26,8 +28,8 @@
     "poststyleguide": "cp -r src/assets/ kss/dist-style/styles.css  kss/kss-styles.css kss/index.php styleguide/ && rimraf kss/dist-style",
     "lighthouse": "lighthouse http://localhost:4200 --view --output-path ./reports/lighthouse-report.html",
     "lighthouse:open": "start-server-and-test serve http-get://localhost:4200 lighthouse ",
-    "start": "node server.js",
-    "postinstall": "ng build --aot --prod"
+    "postinstall": "ng build --aot --prod",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
