@@ -23,7 +23,7 @@ jdk:
 script:
   - ng build --prod --aot
   - ng test --browsers=ChromeHeadless --watch=false
-  - $(npm bin)/cypress run --record --key $CYPRESS_RECORD_KEY
+  - start-server-and-test serve http-get://localhost:4200 \"$(npm bin)/cypress run --spec cypress/integration/features/**/* --record --key $CYPRESS_RECORD_KEY\"
   - sonar-scanner
 deploy:
   run:
