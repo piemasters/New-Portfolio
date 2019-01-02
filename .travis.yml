@@ -26,11 +26,9 @@ script:
   - npm run e2e:ci
   - sonar-scanner
 deploy:
-  run:
-    - "cp -f /app/package.backup.json /app/package.json" # This doesn't currently work
   provider: heroku
   api_key:
     secure: $HEROKU_API_KEY
   app: davidnorton-portfolio
   on:
-    repo: piemasters/New-Portfolio
+    repo: piemasters/Portfolio
