@@ -17,18 +17,18 @@ addons:
   sonarcloud:
     organization: "piemasters-github"
     token:
-      secure: $SONARCLOUD_TOKEN
+      secure: ${SONARCLOUD_TOKEN}
 jdk:
   - oraclejdk8
 script:
   - ng build --prod --aot
   - ng test --browsers=ChromeHeadless --watch=false
-  - npm run e2e:ci
+  - npm run e2e:ci --key ${CYPRESS_RECORD_KEY}
   - sonar-scanner
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU_API_KEY
+    secure: ${HEROKU_API_KEY}
   app: davidnorton-portfolio
   on:
     repo: piemasters/Portfolio
