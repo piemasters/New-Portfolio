@@ -18,7 +18,7 @@
     "e2e:ci": "start-server-and-test serve http-get://localhost:4200 cy:ci",
     "cy:open": "cypress open",
     "cy:run": "cypress run --spec cypress/integration/features/**/* --reporter mocha-multi-reporters --reporter-options configFile=cypress/config.json > reports/e2e/cypress-report.log",
-    "cy:ci": "cypress run --spec cypress/integration/features/**/*",
+    "cy:ci": "cypress run --spec cypress/integration/features/**/* --record",
     "build:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
     "serve:ssr": "node dist/server.js",
     "build:client-and-server-bundles": "ng build --prod && ng run portfolio:server",
