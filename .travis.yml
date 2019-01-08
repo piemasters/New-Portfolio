@@ -21,11 +21,10 @@ addons:
 jdk:
   - oraclejdk8
 script:
-  - echo $SONARCLOUD_TOKEN
+  - sonar-scanner
   - ng build --prod --aot
   - ng test --browsers=ChromeHeadless --watch=false
   - npm run e2e:ci --key $CYPRESS_RECORD_KEY
-  - sonar-scanner
 deploy:
   provider: heroku
   api_key:
