@@ -19,7 +19,7 @@ import { projectsReducer } from '../../store/projects/projects.reducers';
     CommonModule,
     CustomPipesModule,
     NgxPaginationModule,
-    StoreModule.forFeature('projects', projectsReducer),
+    StoreModule.forFeature('projects', projectsReducer)
   ],
   bootstrap: [ProjectsComponent]
 })

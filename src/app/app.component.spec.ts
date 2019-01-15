@@ -1,8 +1,12 @@
 import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from './app.component';
 import { RouterTestingModule } from '@angular/router/testing';
+import { StoreModule } from '@ngrx/store';
+import { StoreRouterConnectingModule } from '@ngrx/router-store';
+
+import { AppComponent } from './app.component';
 import { NavbarComponent } from './core/layouts/navbar/navbar.component';
 import { FooterComponent } from './core/layouts/footer/footer.component';
+import { metaReducers, reducers } from './store/app.reducers';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -13,7 +17,9 @@ describe('AppComponent', () => {
         FooterComponent
       ],
       imports: [
-        RouterTestingModule
+        RouterTestingModule,
+        StoreModule.forRoot(reducers, { metaReducers }),
+        StoreRouterConnectingModule
       ]
     }).compileComponents();
   }));
