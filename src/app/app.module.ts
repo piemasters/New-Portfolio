@@ -16,6 +16,7 @@ import { EffectsModule } from '@ngrx/effects';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { metaReducers, reducers } from './store/app.reducers';
+import { ProjectsEffects } from './store/projects/projects.effects';
 
 
 @NgModule({
@@ -34,7 +35,7 @@ import { metaReducers, reducers } from './store/app.reducers';
     StoreModule.forRoot(reducers, { metaReducers }),
     !environment.production ? StoreDevtoolsModule.instrument()  : [],
     StoreRouterConnectingModule.forRoot({stateKey: 'router'}),
-    EffectsModule.forRoot([]),
+    EffectsModule.forRoot([ProjectsEffects]),
     StoreRouterConnectingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
