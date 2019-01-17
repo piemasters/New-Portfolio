@@ -17,11 +17,12 @@ export class ProjectsComponent implements OnInit  {
   page = 1;
 
   constructor(
-    private store: Store<fromProjects.State>
+    private store: Store<fromProjects.State>,
   ) { }
 
   ngOnInit() {
     this.store.dispatch(new ProjectsActions.FetchProjects());
+    this.store.dispatch(new ProjectsActions.FetchTechnologies());
     this.projects$ = this.store.pipe(select('projects'));
   }
 }

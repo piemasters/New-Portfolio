@@ -5,6 +5,10 @@ import { ProjectsService } from '../../../shared/services/projects.service';
 import { TechnologiesService } from '../../../shared/services/technologies.service';
 import { Project } from '../../../shared/models/project.model';
 import { Technology } from '../../../shared/models/technology.model';
+import { select, Store } from '@ngrx/store';
+import * as fromProjects from '../../../store/projects/projects.reducers';
+import * as ProjectsActions from '../../../store/projects/projects.actions';
+import { Observable } from 'rxjs/internal/Observable';
 
 @Component({
   selector: 'app-project',
@@ -15,24 +19,34 @@ export class ProjectComponent implements OnInit {
   id: number;
   project: Project;
   technologies: Technology[] = [];
+  projects$: Observable<Project[]>;
 
   constructor(
     private route: ActivatedRoute,
     private projectsService: ProjectsService,
-    private techService: TechnologiesService
+    private techService: TechnologiesService,
+    private store: Store<fromProjects.State>,
   ) { }
 
   ngOnInit() {
     this.route.params.subscribe(
       (params: Params) => {
+
         this.projectsService.getProject(+params['id']).subscribe((project) => {
           this.project = project;
           this.techService.getTechnologies().subscribe((tech) => {
             this.getTechList(tech, project.technologies);
           });
         });
+
+        this.store.dispatch(new ProjectsActions.SetSelectedProject(params['id']));
+        this.projects$ = this.store.pipe(select('projects'));
       }
     );
+
+
+    // this.store.dispatch(new ProjectsActions.SetSelectedProject(project));
+
 
   }
   getTechList(techList, projectList) {

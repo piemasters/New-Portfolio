@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Company } from '../../shared/models/company.model';
-import { CompaniesService } from '../../shared/services/companies.service';
+import { Observable } from 'rxjs/internal/Observable';
+import { select, Store } from '@ngrx/store';
+import * as fromCompanies from '../../store/companies/companies.reducers';
+import * as CompaniesActions from '../../store/companies/companies.actions';
 
 @Component({
   selector: 'app-home',
@@ -9,18 +12,18 @@ import { CompaniesService } from '../../shared/services/companies.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  companies: Company[] = [];
+  companies$: Observable<Company[]>;
   itemsPerPage = 6;
   page = 1;
 
   constructor(
-    private companiesService: CompaniesService
+    private store: Store<fromCompanies.State>,
   ) {
   }
 
   ngOnInit() {
-    this.companiesService.getCompanies().subscribe((data) => {
-      this.companies = data;
-    });
+    this.store.dispatch(new CompaniesActions.FetchCompanies());
+    this.companies$ = this.store.pipe(select('companies'));
   }
+
 }
