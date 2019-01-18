@@ -9,6 +9,7 @@ import { select, Store } from '@ngrx/store';
 import * as fromProjects from '../../../store/projects/projects.reducers';
 import * as ProjectsActions from '../../../store/projects/projects.actions';
 import { Observable } from 'rxjs/internal/Observable';
+import { filter, mergeMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-project',
@@ -39,7 +40,13 @@ export class ProjectComponent implements OnInit {
           });
         });
 
+        // return this.http.get<Project[]>(this.filePath).pipe(
+        //   mergeMap(res => res),
+        //   filter(item => item.id === id)
+        // );
+        this.store.dispatch(new ProjectsActions.FetchTechnologies());
         this.store.dispatch(new ProjectsActions.SetSelectedProject(params['id']));
+        this.store.dispatch(new ProjectsActions.FetchSelectedProject());
         this.projects$ = this.store.pipe(select('projects'));
       }
     );

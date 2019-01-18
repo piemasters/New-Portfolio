@@ -38,7 +38,6 @@ export class SetSelectedProject implements Action {
   readonly type = SET_SELECTED_PROJECT;
 
   constructor(public payload: Project) {
-    console.log(payload);
   }
 }
 
