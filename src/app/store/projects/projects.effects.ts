@@ -1,21 +1,20 @@
 import { Injectable } from '@angular/core';
 import { Actions, Effect, ofType } from '@ngrx/effects';
-import { HttpClient } from '@angular/common/http';
 import { Store } from '@ngrx/store';
 import { map, switchMap, withLatestFrom } from 'rxjs/operators';
 
 import * as fromProjects from './projects.reducers';
 import * as ProjectsActions from './projects.actions';
-import { Technology } from '../../shared/models/technology.model';
 import { ProjectsService } from '../../shared/services/projects.service';
+import { TechnologiesService } from '../../shared/services/technologies.service';
 
 @Injectable()
 export class ProjectsEffects {
   constructor(
     private actions$: Actions,
-    private httpClient: HttpClient,
     private store: Store<fromProjects.State>,
-    private projectsService: ProjectsService) {
+    private projectsService: ProjectsService,
+    private technologiesService: TechnologiesService) {
   }
 
   @Effect()
@@ -54,12 +53,7 @@ export class ProjectsEffects {
     .pipe(
       ofType(ProjectsActions.FETCH_TECHNOLOGIES),
       withLatestFrom(this.store.select('technologies')),
-      switchMap(([ action, state ]) => {
-        return this.httpClient.get<Technology[]>('./assets/data/technologies.json', {
-          observe: 'body',
-          responseType: 'json'
-        });
-      }),
+      switchMap(() => this.technologiesService.getTechnologies()),
       map(
         (technologiesResponse) => {
           return {

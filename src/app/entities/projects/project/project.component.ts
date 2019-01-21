@@ -1,15 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
+import { Store } from '@ngrx/store';
 
-import { ProjectsService } from '../../../shared/services/projects.service';
-import { TechnologiesService } from '../../../shared/services/technologies.service';
 import { Project } from '../../../shared/models/project.model';
 import { Technology } from '../../../shared/models/technology.model';
-import { select, Store } from '@ngrx/store';
 import * as fromProjects from '../../../store/projects/projects.reducers';
 import * as ProjectsActions from '../../../store/projects/projects.actions';
-import { Observable } from 'rxjs/internal/Observable';
-import { filter, mergeMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-project',
@@ -32,7 +28,7 @@ export class ProjectComponent implements OnInit {
         this.store.dispatch(new ProjectsActions.SetSelectedProjectId(Number(params[ 'id' ])));
         this.store.dispatch(new ProjectsActions.FetchSelectedProject());
         this.store.select('projects').subscribe(projects => {
-          if (projects.selectedProject.technologies) {
+          if (projects.selectedProject && projects.selectedProject.technologies) {
             this.getTechList(projects.technologyList, projects.selectedProject.technologies);
           }
           return this.project = projects.selectedProject;

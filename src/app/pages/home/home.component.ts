@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-
-import { Company } from '../../shared/models/company.model';
 import { Observable } from 'rxjs/internal/Observable';
 import { select, Store } from '@ngrx/store';
+
+import { Company } from '../../shared/models/company.model';
 import * as fromCompanies from '../../store/companies/companies.reducers';
 import * as CompaniesActions from '../../store/companies/companies.actions';
 

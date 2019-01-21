@@ -44,6 +44,9 @@ export class SetSelectedProjectId implements Action {
 
 export class SetSelectedProject implements Action {
   readonly type = SET_SELECTED_PROJECT;
+
+  constructor(public payload: Project) {
+  }
 }
 
 export type ProjectsActions = FetchProjects | SetProjects | FetchTechnologies |

@@ -4,7 +4,6 @@ import { Observable } from 'rxjs/internal/Observable';
 
 import { Project } from '../../shared/models/project.model';
 import * as fromProjects from '../../store/projects/projects.reducers';
-import * as ProjectsActions from '../../store/projects/projects.actions';
 
 @Component({
   selector: 'app-project',
@@ -21,7 +20,6 @@ export class ProjectsComponent implements OnInit  {
   ) { }
 
   ngOnInit() {
-    // this.store.dispatch(new ProjectsActions.FetchProjects());
     this.projects$ = this.store.pipe(select('projects'));
   }
 }
