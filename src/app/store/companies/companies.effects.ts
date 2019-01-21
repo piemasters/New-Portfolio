@@ -5,13 +5,13 @@ import { map, switchMap, withLatestFrom } from 'rxjs/operators';
 
 import * as fromCompanies from './companies.reducers';
 import * as CompaniesActions from './companies.actions';
-import { TechnologiesService } from '../../shared/services/technologies.service';
+import { CompaniesService } from '../../shared/services/companies.service';
 
 @Injectable()
 export class CompaniesEffects {
   constructor(
     private actions$: Actions,
-    private technologiesService: TechnologiesService,
+    private companiesService: CompaniesService,
     private store: Store<fromCompanies.State>) {
   }
 
@@ -20,7 +20,7 @@ export class CompaniesEffects {
     .pipe(
       ofType(CompaniesActions.FETCH_COMPANIES),
       withLatestFrom(this.store.select('companies')),
-      switchMap(() => this.technologiesService.getTechnologies()),
+      switchMap(() => this.companiesService.getCompanies()),
       map(
         (companiesResponse) => {
           return {
