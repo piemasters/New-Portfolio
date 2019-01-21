@@ -7,7 +7,8 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { ActivatedRoute, Data } from '@angular/router';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { CustomPipesModule } from '../../../shared/pipes/custom-pipes.module';
-import { HttpClientModule } from '@angular/common/http';
+import { StoreModule } from '@ngrx/store';
+import { reducers } from '../../../store/app.reducers';
 
 describe('ProjectComponent', () => {
   let component: ProjectComponent;
@@ -24,7 +25,7 @@ describe('ProjectComponent', () => {
         RouterTestingModule,
         CustomPipesModule,
         NgxPaginationModule,
-        HttpClientModule,
+        StoreModule.forRoot(reducers)
       ],
       providers: [
         {
@@ -49,6 +50,6 @@ describe('ProjectComponent', () => {
   });
 
   it('should create', () => {
-    // expect(component).toBeTruthy();
+    expect(component).toBeTruthy();
   });
 });

@@ -7,6 +7,7 @@ export const FETCH_PROJECTS = 'FETCH_PROJECTS';
 export const SET_PROJECTS = 'SET_PROJECTS';
 export const FETCH_SELECTED_PROJECT = 'FETCH_SELECTED_PROJECT';
 export const SET_SELECTED_PROJECT = 'SET_SELECTED_PROJECT';
+export const SET_SELECTED_PROJECT_ID = 'SET_SELECTED_PROJECT_ID';
 export const FETCH_TECHNOLOGIES = 'FETCH_TECHNOLOGIES';
 export const SET_TECHNOLOGIES = 'SET_TECHNOLOGIES';
 
@@ -34,12 +35,19 @@ export class FetchSelectedProject implements Action {
   readonly type = FETCH_SELECTED_PROJECT;
 }
 
+export class SetSelectedProjectId implements Action {
+  readonly type = SET_SELECTED_PROJECT_ID;
+
+  constructor(public payload: number) {
+  }
+}
+
 export class SetSelectedProject implements Action {
   readonly type = SET_SELECTED_PROJECT;
 
   constructor(public payload: Project) {
-    console.log(payload);
   }
 }
 
-export type ProjectsActions = FetchProjects | SetProjects | FetchTechnologies | SetTechnologies | FetchSelectedProject | SetSelectedProject;
+export type ProjectsActions = FetchProjects | SetProjects | FetchTechnologies |
+  SetTechnologies | FetchSelectedProject |  SetSelectedProject | SetSelectedProjectId;

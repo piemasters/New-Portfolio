@@ -24,7 +24,7 @@ describe('ProjectsComponent', () => {
         CommonModule,
         CustomPipesModule,
         NgxPaginationModule,
-        StoreModule.forRoot(reducers),
+        StoreModule.forRoot(reducers)
       ]
     })
     .compileComponents();
