@@ -24,3 +24,11 @@ export class ProjectsService {
   }
 
 }
+
+// How to call in a controller
+// this.projectsService.getProject(+params['id']).subscribe((project) => {
+//   this.project = project;
+//   this.techService.getTechnologies().subscribe((tech) => {
+//     this.getTechList(tech, project.technologies);
+//   });
+// });

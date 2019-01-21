@@ -2,11 +2,10 @@ import { Injectable } from '@angular/core';
 import { Actions, Effect, ofType } from '@ngrx/effects';
 import { HttpClient } from '@angular/common/http';
 import { Store } from '@ngrx/store';
-import { filter, map, mergeMap, switchMap, tap, withLatestFrom } from 'rxjs/operators';
+import { map, switchMap, withLatestFrom } from 'rxjs/operators';
 
 import * as fromProjects from './projects.reducers';
 import * as ProjectsActions from './projects.actions';
-import { Project } from '../../shared/models/project.model';
 import { Technology } from '../../shared/models/technology.model';
 import { ProjectsService } from '../../shared/services/projects.service';
 
@@ -24,12 +23,7 @@ export class ProjectsEffects {
     .pipe(
       ofType(ProjectsActions.FETCH_PROJECTS),
       withLatestFrom(this.store.select('projects')),
-      switchMap(([ action, state ]) => {
-        return this.httpClient.get<Project[]>('./assets/data/projects.json', {
-          observe: 'body',
-          responseType: 'json'
-        });
-      }),
+      switchMap(() => this.projectsService.getProjects()),
       map(
         (projectsResponse) => {
           return {
@@ -44,26 +38,16 @@ export class ProjectsEffects {
   projectFetch = this.actions$.pipe(
     ofType(ProjectsActions.FETCH_SELECTED_PROJECT),
     withLatestFrom(this.store.select('projects')),
-    switchMap(([ action, state ]) => {
-      return this.projectsService.getProjects().pipe(
-        mergeMap(val => val),
-        filter(item => {
-          if (state.selectedProject) {
-            return item.id === state.selectedProject;
-          }
-        }),
-        map( (projectResponse) => {
-            console.log(projectResponse);
-            return {
-              type: ProjectsActions.SET_SELECTED_PROJECT,
-              payload: projectResponse
-            };
-          }
-        )
-      );
+    map(
+      ([action, state]) => state.projectList.filter(project => project.id === state.selectedProjectId)
+    ),
+    map( (projectResponse) => {
+      return {
+        type: ProjectsActions.SET_SELECTED_PROJECT,
+        payload: projectResponse[0]
+      };
     })
   );
-
 
   @Effect()
   technologiesFetch = this.actions$

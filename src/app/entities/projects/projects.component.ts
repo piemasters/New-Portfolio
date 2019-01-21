@@ -21,7 +21,7 @@ export class ProjectsComponent implements OnInit  {
   ) { }
 
   ngOnInit() {
-    this.store.dispatch(new ProjectsActions.FetchProjects());
+    // this.store.dispatch(new ProjectsActions.FetchProjects());
     this.projects$ = this.store.pipe(select('projects'));
   }
 }

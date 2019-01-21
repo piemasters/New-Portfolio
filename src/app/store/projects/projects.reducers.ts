@@ -4,12 +4,14 @@ import { Technology } from '../../shared/models/technology.model';
 
 export interface State {
   projectList: Project[];
+  selectedProjectId: number;
   selectedProject: Project;
   technologyList: Technology[];
 }
 
 const initialState: State = {
   projectList: [],
+  selectedProjectId: null,
   selectedProject: null,
   technologyList: []
 };
@@ -20,6 +22,11 @@ export function projectsReducer(state = initialState, action: ProjectsActions.Pr
       return {
         ...state,
         projectList: action.payload
+      };
+    case ProjectsActions.SET_SELECTED_PROJECT_ID:
+      return {
+        ...state,
+        selectedProjectId: action.payload
       };
     case ProjectsActions.SET_SELECTED_PROJECT:
       return {

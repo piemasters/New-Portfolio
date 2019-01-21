@@ -13,8 +13,6 @@ import * as CompaniesActions from '../../store/companies/companies.actions';
 })
 export class HomeComponent implements OnInit {
   companies$: Observable<Company[]>;
-  itemsPerPage = 6;
-  page = 1;
 
   constructor(
     private store: Store<fromCompanies.State>,
