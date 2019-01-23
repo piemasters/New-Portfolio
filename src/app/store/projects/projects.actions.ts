@@ -10,8 +10,6 @@ export const SET_SELECTED_PROJECT = 'SET_SELECTED_PROJECT';
 export const SET_SELECTED_PROJECT_ID = 'SET_SELECTED_PROJECT_ID';
 export const FETCH_TECHNOLOGIES = 'FETCH_TECHNOLOGIES';
 export const SET_TECHNOLOGIES = 'SET_TECHNOLOGIES';
-export const FETCH_PROJECT_TECHNOLOGIES = 'FETCH_PROJECT_TECHNOLOGIES';
-export const SET_PROJECT_TECHNOLOGIES = 'SET_PROJECT_TECHNOLOGIES';
 
 export class FetchProjects implements Action {
   readonly type = FETCH_PROJECTS;
@@ -51,18 +49,6 @@ export class SetSelectedProject implements Action {
   }
 }
 
-export class FetchProjectTechnologies implements Action {
-  readonly type = FETCH_PROJECT_TECHNOLOGIES;
-}
-
-export class SetProjectTechnologies implements Action {
-  readonly type = SET_PROJECT_TECHNOLOGIES;
-
-  constructor(public payload: Technology[]) {
-  }
-}
-
 export type ProjectsActions =
   FetchProjects | SetProjects | FetchTechnologies | SetTechnologies |
-  FetchSelectedProject |  SetSelectedProject | SetSelectedProjectId |
-  FetchProjectTechnologies | SetProjectTechnologies;
+  FetchSelectedProject |  SetSelectedProject | SetSelectedProjectId;

@@ -10,7 +10,7 @@
 
   <h2>Technologies</h2>
   <ul>
-    <li *ngFor="let tech of (projects$ | async).selectedProjectTech">
+    <li *ngFor="let tech of project.technologies">
       <a href="{{ tech.link }}">{{ tech.name }}</a> - {{ tech.description }}
     </li>
   </ul>

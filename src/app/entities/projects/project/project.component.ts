@@ -28,7 +28,6 @@ export class ProjectComponent implements OnInit {
     this.route.params.subscribe((params: Params) => {
         this.store.dispatch(new ProjectsActions.SetSelectedProjectId(Number(params[ 'id' ])));
         this.store.dispatch(new ProjectsActions.FetchSelectedProject());
-        this.store.dispatch(new ProjectsActions.FetchProjectTechnologies());
         this.projects$ = this.store.pipe(select('projects'));
       }
     );
