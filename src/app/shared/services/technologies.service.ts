@@ -17,7 +17,19 @@ export class TechnologiesService {
     return this.http.get<Technology[]>(this.filePath);
   }
 
-  getTechnology(id: number) {
+  getProjectTechList(techList, projectList) {
+    const technologies = [];
+    for (const item of projectList) {
+      technologies.push(
+        techList.find((p) => {
+            return p.id === item;
+          }
+        ));
+    }
+    return technologies;
+  }
+
+  getTechnology(id: string) {
     return this.http.get<Technology[]>(this.filePath).pipe(
       mergeMap(res => res),
       filter(item => item.id === id)

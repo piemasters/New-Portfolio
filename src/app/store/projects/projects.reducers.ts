@@ -7,13 +7,15 @@ export interface State {
   selectedProjectId: number;
   selectedProject: Project;
   technologyList: Technology[];
+  selectedProjectTech: Technology[];
 }
 
 const initialState: State = {
   projectList: [],
   selectedProjectId: null,
   selectedProject: null,
-  technologyList: []
+  technologyList: [],
+  selectedProjectTech: []
 };
 
 export function projectsReducer(state = initialState, action: ProjectsActions.ProjectsActions) {
@@ -37,6 +39,11 @@ export function projectsReducer(state = initialState, action: ProjectsActions.Pr
       return {
         ...state,
         technologyList: action.payload
+      };
+    case ProjectsActions.SET_PROJECT_TECHNOLOGIES:
+      return {
+        ...state,
+        selectedProjectTech: action.payload
       };
   }
   return state;

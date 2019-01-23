@@ -1,72 +1,72 @@
 [
   {
-    "id": 1,
+    "id": "universal",
     "name": "Angular Universal",
     "link": "https://angular.io/guide/universal",
     "description": "Run Application Server-side"
   },
   {
-    "id": 2,
+    "id": "compodoc",
     "name": "Compodoc",
     "link": "https://compodoc.app/",
     "description": "Documentation generator"
   },
   {
-    "id": 3,
+    "id": "cucumber",
     "name": "Cucumber",
     "link": "https://cucumber.io/",
     "description": "Automation Testing"
   },
   {
-    "id": 4,
+    "id": "cypress",
     "name": "Cypress",
     "link": "https://www.cypress.io/",
     "description": "Automation Testing"
   },
   {
-    "id": 5,
+    "id": "express",
     "name": "Express",
     "link": "https://expressjs.com/",
     "description": "Node.js Web Framework"
   },
   {
-    "id": 6,
+    "id": "kss",
     "name": "KSS",
     "link": "https://warpspire.com/kss/styleguides/",
     "description": "Styleguide generator"
   },
   {
-    "id": 7,
+    "id": "lighthouse",
     "name": "Lighthouse",
     "link": "https://developers.google.com/web/tools/lighthouse/",
     "description": "Quality Auditing"
   },
   {
-    "id": 8,
+    "id": "material",
     "name": "Material",
     "link": "https://material.angular.io/",
     "description": "Components & Styling"
   },
   {
-    "id": 9,
+    "id": "ngrx",
     "name": "ngrx",
     "link": "https://github.com/ngrx",
     "description": "Reactive Extensions for Angular"
   },
   {
-    "id": 10,
+    "id": "penv",
     "name": "Penv",
     "link": "https://github.com/julianduque/penv",
     "description": "Package Environment Customizer"
   },
   {
-    "id": 11,
+    "id": "pwa",
     "name": "PWA (Service Workers)",
     "link": "https://angular.io/guide/service-worker-getting-started",
     "description": "Progressive Web App Support"
   },
   {
-    "id": 12,
+    "id": "rxjs",
     "name": "RxJS",
     "link": "https://rxjs-dev.firebaseapp.com/",
     "description": "Reactive Extensions for JavaScript"

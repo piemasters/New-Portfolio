@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Actions, Effect, ofType } from '@ngrx/effects';
 import { Store } from '@ngrx/store';
-import { map, switchMap, withLatestFrom } from 'rxjs/operators';
+import { map, mergeMap, switchMap, withLatestFrom } from 'rxjs/operators';
 
 import * as fromProjects from './projects.reducers';
 import * as ProjectsActions from './projects.actions';
@@ -59,6 +59,21 @@ export class ProjectsEffects {
           return {
             type: ProjectsActions.SET_TECHNOLOGIES,
             payload: technologiesResponse
+          };
+        }
+      )
+    );
+
+  @Effect()
+  projectTechFetch = this.actions$.pipe(
+      ofType(ProjectsActions.FETCH_PROJECT_TECHNOLOGIES),
+      withLatestFrom(this.store.select('projects')),
+      map(([action, state]) => this.technologiesService.getProjectTechList(state.technologyList, state.selectedProject.technologies)),
+      map(
+        (projectTechResponse) => {
+          return {
+            type: ProjectsActions.SET_PROJECT_TECHNOLOGIES,
+            payload: projectTechResponse
           };
         }
       )

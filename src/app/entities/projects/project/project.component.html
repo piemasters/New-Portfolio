@@ -1,4 +1,4 @@
-<div *ngIf="project">
+<div *ngIf="(projects$ | async).selectedProject as project">
   <h1>{{project.title}}</h1>
 
   <img class="project-headline" src="{{project.img}}" alt="" width="100%">
@@ -10,7 +10,7 @@
 
   <h2>Technologies</h2>
   <ul>
-    <li *ngFor="let tech of technologies">
+    <li *ngFor="let tech of (projects$ | async).selectedProjectTech">
       <a href="{{ tech.link }}">{{ tech.name }}</a> - {{ tech.description }}
     </li>
   </ul>

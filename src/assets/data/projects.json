@@ -65,7 +65,18 @@
     "img": "assets/images/ftepv2/cover.png",
     "introduction": "Forefront is a template Angular 7 project",
     "technologies": [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+      "universal",
+      "compodoc",
+      "cucumber",
+      "cypress",
+      "express",
+      "kss",
+      "lighthouse",
+      "material",
+      "ngrx",
+      "penv",
+      "pwa",
+      "rxjs"
     ],
     "setup": [
       {
