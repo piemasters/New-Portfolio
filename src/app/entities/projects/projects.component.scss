@@ -38,3 +38,15 @@ $xxl: 1800px !default;
   }
 }
 
+.project {
+  cursor: pointer;
+  position: relative;
+}
+.text-block {
+  background-color: rgba(0,0,0,0.75);
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+
+}

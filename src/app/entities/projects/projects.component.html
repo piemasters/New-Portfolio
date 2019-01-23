@@ -1,14 +1,12 @@
 <section id="projects" class="subsection" *ngIf="projects$ | async as projects">
   <article class="project-container" *ngFor="let project of projects.projectList | reverse |
   paginate: { itemsPerPage: itemsPerPage, currentPage: page }">
-    <div class="project">
-      <a [routerLink]="['/projects', project.id]">
-        <h3 class="header-styled">
-          <a href="#">{{project.title}}</a>
-        </h3>
-        <img src="{{project.img}}" alt="">
-      </a>
-    </div>
+    <div class="project" [routerLink]="['/projects', project.id]">
+      <img src="{{project.img}}" alt="">
+      <div class="text-block">
+        <h3 class="header-styled"> {{project.title}}</h3>
+      </div>
+  </div>
   </article>
   <div class="pagination-container">
     <pagination-controls (pageChange)="page = $event"></pagination-controls>
