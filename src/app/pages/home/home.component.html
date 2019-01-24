@@ -1,9 +1,20 @@
 <section id="portfolio">
   <header>
-    <h1>UX/UI Developer</h1>
-    <h2><a [routerLink]="['/projects']">Recent Projects</a></h2>
+    <h1>Senior Software Engineer</h1>
+    <h2>- Lead UX Designer & UI Developer</h2>
+    <h2>- Scrum Master</h2>
+
   </header>
-  <router-outlet name='projects'></router-outlet>
+</section>
+
+<section id="projects">
+  <header>
+    <h2 class="top">Recent Projects</h2>
+  </header>
+  <article>
+    <router-outlet name='projects'></router-outlet>
+
+  </article>
 </section>
 
 <section id="about">
