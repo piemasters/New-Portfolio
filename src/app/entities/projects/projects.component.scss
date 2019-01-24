@@ -16,13 +16,33 @@ $xxl: 1800px !default;
   overflow: hidden;
   width: 50%;
   .project {
-    padding: 1rem;
-  }
-  img {
-    width: 100%;
-    &:hover {
-      filter: drop-shadow(2px 2px 12px $accent);
+    cursor: pointer;
+    margin : 1rem;
+    position: relative;
+    img {
+      width: 100%;
+      &:hover {
+        filter: drop-shadow(2px 2px 12px $accent);
+      }
     }
+    .text-block {
+      background-color: rgba(0,0,0,0.75);
+      bottom: 0;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      h3 {
+        transition: all 0.5s ease;
+      }
+    }
+    &:hover {
+      .text-block {
+        h3 {
+          font-size: 4rem;
+        }
+      }
+    }
+
   }
 }
 
@@ -36,17 +56,4 @@ $xxl: 1800px !default;
   .project-container {
     width: 33.33%;
   }
-}
-
-.project {
-  cursor: pointer;
-  position: relative;
-}
-.text-block {
-  background-color: rgba(0,0,0,0.75);
-  bottom: 0;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-
 }
