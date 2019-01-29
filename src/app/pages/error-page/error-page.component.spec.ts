@@ -4,7 +4,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { ActivatedRoute, Router, Routes } from '@angular/router';
 import { ErrorPageComponent } from './error-page.component';
 import { NgModuleFactoryLoader } from '@angular/core';
-import { AboutModule } from '../about/about.module';
+import { ResumeModule } from '../resume/resume.module';
 import { ErrorPageModule } from './error-page.module';
 import { of } from 'rxjs';
 
@@ -21,7 +21,7 @@ describe('ErrorPageComponent', () => {
       declarations: [
       ],
       imports: [
-        AboutModule,
+        ResumeModule,
         ErrorPageModule,
         RouterTestingModule.withRoutes(routes)
       ],
@@ -47,13 +47,13 @@ describe('ErrorPageComponent', () => {
     // Configure lazy loaded components
     const loader = TestBed.get(NgModuleFactoryLoader);
     loader.stubbedModules = {
-      lazyAboutModule: AboutModule,
+      lazyResumeModule: ResumeModule,
       lazyErrorModule: ErrorPageModule
     };
 
     // Update router
     router.resetConfig([
-      { path: 'about', loadChildren: 'lazyAboutModule' },
+      { path: 'about', loadChildren: 'lazyResumeModule' },
       {
         path: 'error', loadChildren: 'lazyErrorModule',
         data: { message: 'You are not authenticated to view this page!' }

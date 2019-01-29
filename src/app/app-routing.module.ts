@@ -6,8 +6,8 @@ import { NavbarComponent } from './core/layouts/navbar/navbar.component';
 const appRoutes: Routes = [
   { path: '', component: NavbarComponent,  outlet: 'navbar' },
   { path: '', loadChildren: './pages/home/home.module#HomeModule' },
-  { path: 'about', loadChildren: './pages/about/about.module#AboutModule' },
   { path: 'process', loadChildren: './pages/process/process.module#ProcessModule' },
+  { path: 'resume', loadChildren: './pages/resume/resume.module#ResumeModule' },
   { path: 'page-not-found', loadChildren: './pages/page-not-found/page-not-found.module#PageNotFoundModule' },
   {
     path: 'error', loadChildren: './pages/error-page/error-page.module#ErrorPageModule',
