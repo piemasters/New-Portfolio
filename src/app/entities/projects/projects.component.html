@@ -1,4 +1,4 @@
-<section id="projects" class="subsection" *ngIf="projects$ | async as projects">
+<section id="projects" *ngIf="projects$ | async as projects">
   <article class="project-container" *ngFor="let project of projects.projectList | reverse |
   paginate: { itemsPerPage: itemsPerPage, currentPage: page }">
     <div class="project" [routerLink]="['/projects', project.id]">

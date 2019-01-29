@@ -48,6 +48,7 @@ h2 {
   font-size: 2.4rem;
   font-weight: 700;
   margin: 1.5rem 0;
+  padding: 1rem;
 }
 
 h3 {
@@ -104,6 +105,13 @@ h6 {
   border-bottom: 1px solid $accent;
   color: $accent;
   @include link-colors($accent, $accent-dark, $accent-light);
+}
+
+header {
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
 }
 
 .img-text-block {

@@ -16,7 +16,8 @@ body {
   font-size: 1.6rem;
   height: 100%;
   line-height: 2;
-  padding: 2rem 2rem 8rem 2rem;
+  margin: auto;
+  max-width: $xxl;
 }
 
 @media screen and (min-width: $md) {
@@ -30,6 +31,7 @@ body {
   .content {
     font-size: 1.8rem;
     line-height: 2.25;
+    padding: 2rem 2rem 8rem 2rem;
   }
 }
 
@@ -53,7 +55,7 @@ body {
 // Styleguide Layout.components.section
 section {
   background-color: $content;
-  padding: 2rem;
+  //padding: 2rem;
   margin-bottom: 1rem;
   &.subsection {
     padding: 0;
@@ -62,7 +64,7 @@ section {
 
 @media screen and (min-width: $md) {
   section {
-    padding: 2rem;
+    //padding: 2rem;
     margin-bottom: 2rem;
     &.subsection {
       padding: 1rem 2rem;
@@ -72,7 +74,7 @@ section {
 
 @media screen and (min-width: $lg) {
   section {
-    padding: 2rem 4rem;
+    padding: 1rem 2rem;
     margin-bottom: 2rem;
     &.subsection {
       padding: 1rem 2rem;

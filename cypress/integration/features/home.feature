@@ -3,4 +3,4 @@ Feature: Homepage Feature
 
   Scenario: Opening the homepage
     Given I open the "Portfolio" homepage
-    Then the page heading should be "UX/UI Developer"
+    Then the page heading should be "Senior Software Engineer"
