@@ -9,11 +9,20 @@
   </p>
 
   <h2>Technologies</h2>
-  <ul>
-    <li *ngFor="let tech of project.technologies">
-      <a href="{{ tech.link }}">{{ tech.name }}</a> - {{ tech.description }}
-    </li>
-  </ul>
+
+  <article class="tech-container" *ngFor="let tech of project.technologies">
+    <div class="technology">
+      <a href="{{ tech.link }}">
+      <img src="/assets/images/tech/{{ tech.img }}" alt="{{ tech.name }}">
+      <div class="overlay">
+        <div class="overlay-text">
+          <h3>{{ tech.name }}</h3>
+          <p>{{ tech.description }}</p>
+        </div>
+      </div>
+      </a>
+    </div>
+  </article>
 
   <h2>Project Setup</h2>
   <ol>

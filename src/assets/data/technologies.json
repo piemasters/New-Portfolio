@@ -1,74 +1,107 @@
 [
   {
-    "id": "universal",
-    "name": "Angular Universal",
-    "link": "https://angular.io/guide/universal",
-    "description": "Run Application Server-side"
+    "id": "angular",
+    "name": "Angular",
+    "img": "angular.png",
+    "link": "https://angular.io/",
+    "description": "Web application framework"
+  },
+  {
+    "id": "cli",
+    "name": "Angular Cli",
+    "img": "cli.png",
+    "link": "https://cli.angular.io/",
+    "description": "A command line interface for Angular"
   },
   {
     "id": "compodoc",
     "name": "Compodoc",
+    "img": "compodoc.png",
     "link": "https://compodoc.app/",
     "description": "Documentation generator"
   },
   {
     "id": "cucumber",
     "name": "Cucumber",
+    "img": "cucumber.png",
     "link": "https://cucumber.io/",
     "description": "Automation Testing"
   },
   {
     "id": "cypress",
     "name": "Cypress",
+    "img": "cypress.png",
     "link": "https://www.cypress.io/",
     "description": "Automation Testing"
   },
   {
     "id": "express",
     "name": "Express",
+    "img": "express.png",
     "link": "https://expressjs.com/",
     "description": "Node.js Web Framework"
   },
   {
+    "id": "karma",
+    "name": "Karma",
+    "img": "karma.png",
+    "link": "https://karma-runner.github.io",
+    "description": "Test Runner for JavaScript"
+  },
+  {
     "id": "kss",
     "name": "KSS",
+    "img": "kss.png",
     "link": "https://warpspire.com/kss/styleguides/",
     "description": "Styleguide generator"
   },
   {
     "id": "lighthouse",
     "name": "Lighthouse",
+    "img": "lighthouse.png",
     "link": "https://developers.google.com/web/tools/lighthouse/",
     "description": "Quality Auditing"
   },
   {
     "id": "material",
     "name": "Material",
+    "img": "material.png",
     "link": "https://material.angular.io/",
     "description": "Components & Styling"
   },
   {
     "id": "ngrx",
     "name": "ngrx",
+    "img": "ngrx.png",
     "link": "https://github.com/ngrx",
     "description": "Reactive Extensions for Angular"
   },
   {
     "id": "penv",
     "name": "Penv",
+    "img": "penv.png",
     "link": "https://github.com/julianduque/penv",
     "description": "Package Environment Customizer"
   },
   {
     "id": "pwa",
-    "name": "PWA (Service Workers)",
+    "name": "PWA",
+    "img": "pwa.png",
     "link": "https://angular.io/guide/service-worker-getting-started",
     "description": "Progressive Web App Support"
   },
   {
     "id": "rxjs",
     "name": "RxJS",
+    "img": "rxjs.png",
     "link": "https://rxjs-dev.firebaseapp.com/",
     "description": "Reactive Extensions for JavaScript"
+  },
+  {
+    "id": "universal",
+    "name": "Angular Universal",
+    "img": "universal.png",
+    "link": "https://angular.io/guide/universal",
+    "description": "Server-side rendering"
   }
 ]

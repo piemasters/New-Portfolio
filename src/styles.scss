@@ -15,29 +15,43 @@ body {
   clear: both;
   font-size: 1.6rem;
   height: 100%;
-  line-height: 2;
+  line-height: 1.4;
   margin: auto;
   max-width: $xxl;
-}
-
-@media screen and (min-width: $md) {
-  .content {
-    font-size: 1.6rem;
-    line-height: 2;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  @media screen and (min-width: $lg) {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
-@media screen and (min-width: $lg) {
-  .content {
-    font-size: 1.8rem;
-    line-height: 2.25;
-    padding: 2rem 2rem 8rem 2rem;
-  }
-}
 
 // Sections
 //
 // The default style for sections.
+//
+// Markup:
+// <section>
+//   <header>
+//     <h1>Page Header</h1>
+//     <h2>Section Header</h2>
+//   </header>
+//   <article>
+//     <p>Content</p>
+//   </article>
+// </section>
+//
+// Styleguide Layout.components.section
+section {
+  background-color: $content;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+}
+
+// Sections
+//
+// The default style for subsections.
 //
 // Markup:
 // <section>
@@ -52,33 +66,11 @@ body {
 //   </article>
 // </section>
 //
-// Styleguide Layout.components.section
-section {
-  background-color: $content;
-  //padding: 2rem;
-  margin-bottom: 1rem;
-  &.subsection {
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: $md) {
-  section {
-    //padding: 2rem;
-    margin-bottom: 2rem;
-    &.subsection {
-      padding: 1rem 2rem;
-    }
-  }
-}
-
-@media screen and (min-width: $lg) {
-  section {
+// Styleguide Layout.components.subsection
+.subsection {
+  padding: 0;
+  @media screen and (min-width: $md) {
     padding: 1rem 2rem;
-    margin-bottom: 2rem;
-    &.subsection {
-      padding: 1rem 2rem;
-    }
   }
 }
 
@@ -95,9 +87,9 @@ section {
 // Styleguide Layout.components.aside
 aside {
   background-color: $aside;
+  display: inline-block;
   padding: 2em;
 }
-
 
 // Pagination
 //
@@ -116,23 +108,19 @@ aside {
   .ngx-pagination {
     padding: 0;
     li a, .current {
-      padding: 0 2rem;
+      padding: 1rem 2rem;
     }
     .pagination-next, .pagination-previous {
       padding: 0;
       a {
-        padding: 0 1rem;
+        padding: 1rem 2rem;
       }
       &.disabled {
-        padding: 0 1rem;
+        padding: 1rem 2rem;
       }
     }
   }
-}
-
-@media screen and (max-width: $md) {
-  .pagination-container {
-    font-size: 1.2rem;
+  @media screen and (max-width: $md) {
+      font-size: 1.2rem;
   }
 }
-

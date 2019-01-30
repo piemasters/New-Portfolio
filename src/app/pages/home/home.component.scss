@@ -1,38 +1,35 @@
+@import '../../../styles/variables';
+
 #portfolio {
-
-  .title {
-    h1 {
-      margin: 0;
-    }
-    h2 {
-      text-align: left;
-      font-size: 1.8rem;
-      margin: 0;
-      padding: 0.5rem 3rem;
-    }
-  }
-  section.subsection {
-    float: left;
-    width: 50%;
-  }
-  aside.subsection {
-    float: right;
-    width: 50%;
-  }
-}
-
-#projects {
-  clear: both;
-}
-
-.aside-container {
   display: inline-block;
-}
-
-img {
-  width: 20%;
-}
-
-.title {
-  float: right;
+  #title-container {
+    display: inline-block;
+    .title {
+      float: left;
+      h1 {
+        margin: 0;
+      }
+      h2 {
+        text-align: left;
+        font-size: 1.8rem;
+        margin: 0;
+        padding: 0.5rem 3rem;
+      }
+    }
+    img {
+      border-radius: 50%;
+      float: left;
+      width: 20%;
+    }
+  }
+  @media screen and (min-width: $xxl)  {
+    section.subsection {
+      float: left;
+      width: 50%;
+    }
+    aside.subsection {
+      float: right;
+      width: 50%;
+    }
+  }
 }

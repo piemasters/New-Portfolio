@@ -85,18 +85,21 @@
     "img": "assets/images/forefront/forefront-cover.png",
     "introduction": "Forefront is a template Angular 7 project",
     "technologies": [
-      "universal",
+      "angular",
+      "cli",
       "compodoc",
       "cucumber",
       "cypress",
       "express",
+      "karma",
       "kss",
       "lighthouse",
       "material",
       "ngrx",
       "penv",
       "pwa",
-      "rxjs"
+      "rxjs",
+      "universal"
     ],
     "setup": [
       {

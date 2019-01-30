@@ -1,3 +1,87 @@
+@import '../../../../styles/brand';
+@import '../../../../styles/variables';
+
+$accent: #EF9A9A !default;
+$md: 768px !default;
+$xxl: 1800px !default;
+
+.tech-container {
+  display: inline-block;
+  overflow: hidden;
+  padding: 1rem;
+  width: 33.33%;
+  @media screen and (min-width: $sm) {
+    width: 25%;
+  }
+  @media screen and (min-width: $lg) {
+    width: 16.66%;
+  }
+  @media screen and (min-width: $lg) {
+    width: 12.5%;
+  }
+  .technology {
+    cursor: pointer;
+    position: relative;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: $brand;
+      .overlay-text {
+        color: white;
+        position: absolute;
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.4rem;
+          line-height: 2rem;
+        }
+        @media screen and (min-width: $lg) and (max-width: $xl) {
+          h3 {
+            font-size: 1.2rem;
+          }
+          p {
+            font-size: 1rem;
+            line-height: 1.6rem;
+          }
+        }
+        @media screen and (min-width: $xxl) {
+          h3 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+          }
+        }
+      }
+    }
+    &:hover {
+      img {
+        &:hover {
+          opacity: 0.3;
+          transform: scale(1.1);
+        }
+      }
+      .overlay {
+        opacity: 1;
+      }
+    }
+  }
+}
+
 .project-headline {
   height: 600px;
   object-fit: cover;
