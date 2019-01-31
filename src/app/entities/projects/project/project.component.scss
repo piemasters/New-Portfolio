@@ -53,6 +53,15 @@ $xxl: 1800px !default;
           font-size: 1.4rem;
           line-height: 2rem;
         }
+        @media screen and  (max-width: $xs) {
+          h3 {
+            font-size: 1.1rem;
+          }
+          p {
+            font-size: 0.8rem;
+            line-height: 1.1rem;
+          }
+        }
         @media screen and (min-width: $lg) and (max-width: $xl) {
           h3 {
             font-size: 1.2rem;
@@ -73,14 +82,13 @@ $xxl: 1800px !default;
     &:hover {
       img {
         &:hover {
-          opacity: 0.3;
+          opacity: 0;
           transform: scale(1.1);
         }
       }
       .overlay {
         opacity: 1;
         visibility: visible;
-
       }
     }
   }
