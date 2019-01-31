@@ -24,25 +24,27 @@ $xxl: 1800px !default;
     position: relative;
     img {
       display: block;
-      width: 100%;
       height: auto;
+      width: 100%;
     }
     .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      opacity: 0;
-      transition: .5s ease;
       background-color: $brand;
+      bottom: 0;
+      height: 100%;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: .5s ease;
+      visibility: hidden;
+      width: 100%;
       .overlay-text {
         color: white;
+        height: 100%;
+        padding: 1rem;
         position: absolute;
         text-align: center;
-        padding: 1rem;
         width: 100%;
         h3 {
           font-size: 2rem;
@@ -77,13 +79,15 @@ $xxl: 1800px !default;
       }
       .overlay {
         opacity: 1;
+        visibility: visible;
+
       }
     }
   }
 }
 
 .project-headline {
-  height: 600px;
+  height: 50rem;
   object-fit: cover;
-  object-position: 0% 0%;
+  object-position: 0 0;
 }

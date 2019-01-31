@@ -12,15 +12,17 @@
 
   <article class="tech-container" *ngFor="let tech of project.technologies">
     <div class="technology">
-      <a href="{{ tech.link }}">
+
       <img src="/assets/images/tech/{{ tech.img }}" alt="{{ tech.name }}">
       <div class="overlay">
+        <a href="{{ tech.link }}">
         <div class="overlay-text">
           <h3>{{ tech.name }}</h3>
           <p>{{ tech.description }}</p>
         </div>
+        </a>
       </div>
-      </a>
+
     </div>
   </article>
 
