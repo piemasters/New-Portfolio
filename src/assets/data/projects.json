@@ -2,136 +2,110 @@
   {
     "id": 1,
     "title": "IBM OMNIbus",
-    "img": "assets/images/placeholder.png",
-    "introduction": "online",
+    "img": "assets/images/projects/placeholder.png",
+    "overview": "online",
     "technologies": [],
-    "setup": []
+    "details": []
   },
   {
     "id": 2,
     "title": "Smartlock",
-    "img": "assets/images/placeholder.png",
-    "introduction": "online",
+    "img": "assets/images/projects/placeholder.png",
+    "overview": "online",
     "technologies": [],
-    "setup": []
+    "details": []
   },
   {
     "id": 3,
     "title": "Passport Smartforms",
-    "img": "assets/images/placeholder.png",
-    "introduction": "online",
+    "img": "assets/images/projects/placeholder.png",
+    "overview": "online",
     "technologies": [],
-    "setup": []
+    "details": []
   },
   {
     "id": 4,
     "title": "Dashboard",
-    "img": "assets/images/placeholder.png",
-    "introduction": "online",
+    "img": "assets/images/projects/placeholder.png",
+    "overview": "online",
     "technologies": [],
-    "setup": []
+    "details": []
   },
   {
     "id": 5,
     "title": "Electron",
-    "img": "assets/images/placeholder.png",
-    "introduction": "online",
+    "img": "assets/images/projects/placeholder.png",
+    "overview": "online",
     "technologies": [],
-    "setup": []
+    "details": []
   },
   {
     "id": 6,
     "title": "Forestry TEP",
-    "img": "assets/images/ftep/ftep-cover.png",
-    "introduction": "online",
-    "technologies": [],
-    "setup": []
+    "img": "assets/images/projects/ftep-cover.png",
+    "overview": "online",
+    "technologies": [
+      "angularjs", "bootstrap", "grunt", "hateoas", "jasmine",
+      "karma", "less", "material", "openlayers"
+    ],
+    "details": []
   },
   {
     "id": 7,
     "title": "Kanban Board",
-    "img": "assets/images/kanban/kanban-cover.png",
-    "introduction": "online",
-    "technologies": [],
-    "setup": []
+    "img": "assets/images/projects/kanban-cover.png",
+    "overview": "online",
+    "technologies": [
+      "angular", "bootstrap", "cli", "jasmine", "karma",
+      "ng-bootstrap", "protractor", "rxjs", "sass", "typescript"
+    ],
+    "details": []
   },
   {
     "id": 8,
     "title": "Crypto Dashboard",
-    "img": "assets/images/crypto/crypto-cover.png",
-    "introduction": "online",
-    "technologies": [],
-    "setup": []
+    "img": "assets/images/projects/crypto-cover.png",
+    "overview": "online",
+    "technologies": [
+      "angular", "bootstrap", "cli", "firebase", "jasmine", "karma",
+      "ng-bootstrap", "protractor", "rxjs", "sass", "typescript"
+    ],
+    "details": []
   },
   {
     "id": 9,
     "title": "Cookbook",
-    "img": "assets/images/cookbook/cookbook-cover.png",
-    "introduction": "online",
-    "technologies": [],
-    "setup": []
+    "img": "assets/images/projects/cookbook-cover.png",
+    "overview": "online",
+    "technologies": [
+      "angular", "bootstrap", "cli", "firebase", "jasmine", "karma",
+      "ng-bootstrap", "ngrx", "protractor", "rxjs", "sass", "typescript"
+    ],
+    "details": []
   },
   {
     "id": 10,
-    "title": "Forestry TEP v2",
-    "img": "assets/images/ftepv2/ftepv2-cover.png",
-    "introduction": "online",
-    "technologies": [],
-    "setup": []
+    "title": "Forestry TEP v3",
+    "img": "assets/images/projects/ftepv3-cover.png",
+    "overview": "online",
+    "technologies": [
+      "angular", "bootstrap", "cli", "jasmine", "karma", "ng-bootstrap",
+      "ngrx", "penv", "protractor", "rxjs", "sass", "travis", "typescript"
+    ],
+    "details": []
   },
   {
     "id": 11,
     "title": "Forefront",
-    "img": "assets/images/forefront/forefront-cover.png",
-    "introduction": "Forefront is a template Angular 7 project",
+    "img": "assets/images/projects/forefront-cover.png",
+    "overview": "Forefront is a template Angular 7 project",
     "technologies": [
-      "angular",
-      "cli",
-      "compodoc",
-      "cucumber",
-      "cypress",
-      "express",
-      "karma",
-      "kss",
-      "lighthouse",
-      "material",
-      "ngrx",
-      "penv",
-      "pwa",
-      "rxjs",
-      "universal"
+      "angular", "chai", "cli", "compodoc", "cucumber", "cypress",
+      "express", "jasmine", "karma", "kss", "lighthouse", "material",
+      "mocha", "ngrx", "penv", "pwa", "rxjs", "sass", "typescript", "universal"
     ],
-    "setup": [
-      {
-        "id": 1,
-        "instruction": "Install nvm",
-        "code": null
-      },
-      {
-        "id": 2,
-        "instruction": "Install NodeJS v10.12.0",
-        "code": null
-      },
-      {
-        "id": 3,
-        "instruction": "To enable NodeJS, from a terminal run",
-        "code": "nvm use 10.12.0.7"
-      },
-      {
-        "id": 4,
-        "instruction": "Install Cypress",
-        "code": null
-      },
-      {
-        "id": 5,
-        "instruction": "Install the project dependencies from a terminal by running",
-        "code": "npm install"
-      },
-      {
-        "id": 6,
-        "instruction": "Install global libraries",
-        "code": "npm install -g @angular/cli lighthouse http-server penv"
-      }
+    "details": [
+
     ]
   }
 ]

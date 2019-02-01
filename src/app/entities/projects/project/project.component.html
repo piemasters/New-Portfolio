@@ -3,7 +3,7 @@
 
   <img class="project-headline" src="{{project.img}}" alt="" width="100%">
 
-  <h2>Introduction</h2>
+  <h2>Overview</h2>
   <p>
     {{project.introduction}}
   </p>
@@ -26,11 +26,11 @@
     </div>
   </article>
 
-  <h2>Project Setup</h2>
-  <ol>
-    <li *ngFor="let step of project.setup">
-      {{ step.instruction }}
-      <pre *ngIf="step.code"><code>{{ step.code }}</code></pre>
-    </li>
-  </ol>
+  <h2>Project Details</h2>
+  <!--<ol>-->
+    <!--<li *ngFor="let section of project.details">-->
+      <!--{{ section.instruction }}-->
+      <!--<pre *ngIf="step.code"><code>{{ step.code }}</code></pre>-->
+    <!--</li>-->
+  <!--</ol>-->
 </div>

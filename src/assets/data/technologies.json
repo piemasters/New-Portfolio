@@ -4,21 +4,42 @@
     "name": "Angular",
     "img": "angular.png",
     "link": "https://angular.io/",
-    "description": "Web application framework"
+    "description": "Web Application Framework"
+  },
+  {
+    "id": "angularjs",
+    "name": "Angular JS",
+    "img": "angularjs.png",
+    "link": "https://angularjs.org/",
+    "description": "Web Application Framework"
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "img": "bootstrap.png",
+    "link": "https://getbootstrap.com/",
+    "description": "HTML, CSS, & JS Toolkit"
+  },
+  {
+    "id": "chai",
+    "name": "Chai",
+    "img": "chai.png",
+    "link": "https://www.chaijs.com/",
+    "description": "BDD / TDD Assertion Library"
   },
   {
     "id": "cli",
     "name": "Angular Cli",
     "img": "cli.png",
     "link": "https://cli.angular.io/",
-    "description": "A command line interface for Angular"
+    "description": "Command Line Interface for Angular"
   },
   {
     "id": "compodoc",
     "name": "Compodoc",
     "img": "compodoc.png",
     "link": "https://compodoc.app/",
-    "description": "Documentation generator"
+    "description": "Documentation Generator"
   },
   {
     "id": "cucumber",
@@ -42,6 +63,34 @@
     "description": "Node.js Web Framework"
   },
   {
+    "id": "firebase",
+    "name": "Firebase",
+    "img": "firebase.png",
+    "link": "https://firebase.google.com/",
+    "description": "Web Application Development Platform"
+  },
+  {
+    "id": "grunt",
+    "name": "Grunt",
+    "img": "grunt.png",
+    "link": "https://gruntjs.com/",
+    "description": "JavaScript Task Runner"
+  },
+  {
+    "id": "hateoas",
+    "name": "Traverson",
+    "img": "hateoas.png",
+    "link": "https://github.com/traverson/traverson",
+    "description": "HATEOAS Client"
+  },
+  {
+    "id": "jasmine",
+    "name": "Jasmine",
+    "img": "jasmine.png",
+    "link": "https://jasmine.github.io/",
+    "description": "Behavior-Driven JavaScript"
+  },
+  {
     "id": "karma",
     "name": "Karma",
     "img": "karma.png",
@@ -53,7 +102,14 @@
     "name": "KSS",
     "img": "kss.png",
     "link": "https://warpspire.com/kss/styleguides/",
-    "description": "Styleguide generator"
+    "description": "Styleguide Generator"
+  },
+  {
+    "id": "less",
+    "name": "Less",
+    "img": "less.png",
+    "link": "http://lesscss.org/",
+    "description": "Less Extends CSS"
   },
   {
     "id": "lighthouse",
@@ -70,6 +126,20 @@
     "description": "Components & Styling"
   },
   {
+    "id": "mocha",
+    "name": "Mocha",
+    "img": "mocha.png",
+    "link": "https://mochajs.org/",
+    "description": "JavaScript Test Framework"
+  },
+  {
+    "id": "ng-bootstrap",
+    "name": "ng-bootstrap",
+    "img": "ng-bootstrap.png",
+    "link": "https://ng-bootstrap.github.io",
+    "description": "Angular Widgets"
+  },
+  {
     "id": "ngrx",
     "name": "ngrx",
     "img": "ngrx.png",
@@ -82,6 +152,20 @@
     "img": "penv.png",
     "link": "https://github.com/julianduque/penv",
     "description": "Package Environment Customizer"
+  },
+  {
+    "id": "openlayers",
+    "name": "OpenLayers",
+    "img": "openlayers.png",
+    "link": "https://openlayers.org/",
+    "description": "Map Data Visualisation"
+  },
+  {
+    "id": "protractor",
+    "name": "Protractor",
+    "img": "protractor.png",
+    "link": "http://www.protractortest.org",
+    "description": "End-to-end Test Framework"
   },
   {
     "id": "pwa",
@@ -98,10 +182,31 @@
     "description": "Reactive Extensions for JavaScript"
   },
   {
+    "id": "sass",
+    "name": "Sass",
+    "img": "sass.png",
+    "link": "https://sass-lang.com",
+    "description": "Syntactically Awesome Style Sheets"
+  },
+  {
+    "id": "travis",
+    "name": "Travis",
+    "img": "travis.png",
+    "link": "https://travis-ci.org/",
+    "description": "Continuous Integration"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "img": "typescript.png",
+    "link": "https://www.typescriptlang.org/",
+    "description": "Strict Superset of JavaScript"
+  },
+  {
     "id": "universal",
     "name": "Angular Universal",
     "img": "universal.png",
     "link": "https://angular.io/guide/universal",
-    "description": "Server-side rendering"
+    "description": "Server-side Rendering"
   }
 ]

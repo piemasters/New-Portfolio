@@ -4,16 +4,16 @@ export class Project {
   public id: number;
   public title: string;
   public img: string;
-  public introduction: string;
+  public overview: string;
   public technologies: Technology[];
-  public setup: any[];
+  public details: any[];
 
-  constructor(id: number, title: string, img: string, introduction: string, technologies: Technology[], setup: any[]) {
+  constructor(id: number, title: string, img: string, overview: string, technologies: Technology[], details: any[]) {
     this.id = id;
     this.title = title;
     this.img = img;
-    this.introduction = introduction;
+    this.overview = overview;
     this.technologies = technologies;
-    this.setup = setup;
+    this.details = details;
   }
 }
