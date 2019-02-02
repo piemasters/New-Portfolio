@@ -1,48 +1,57 @@
 [
   {
     "id": 1,
-    "title": "IBM OMNIbus",
+    "title": "Smartlock",
     "img": "assets/images/projects/placeholder.png",
+    "url": "",
     "overview": "online",
     "technologies": [],
     "details": []
   },
   {
     "id": 2,
-    "title": "Smartlock",
+    "title": "Passport Smartforms",
     "img": "assets/images/projects/placeholder.png",
+    "url": "",
     "overview": "online",
     "technologies": [],
     "details": []
   },
   {
     "id": 3,
-    "title": "Passport Smartforms",
+    "title": "Python Blockchain",
     "img": "assets/images/projects/placeholder.png",
+    "url": "",
     "overview": "online",
     "technologies": [],
     "details": []
   },
   {
     "id": 4,
-    "title": "Dashboard",
-    "img": "assets/images/projects/placeholder.png",
+    "title": "BDT-Template",
+    "img": "assets/images/projects/bdt-cover.png",
+    "url": "",
     "overview": "online",
     "technologies": [],
     "details": []
   },
   {
     "id": 5,
-    "title": "Electron",
-    "img": "assets/images/projects/placeholder.png",
+    "title": "Electron-Angular",
+    "img": "assets/images/projects/electron.png",
+    "url": "",
     "overview": "online",
-    "technologies": [],
+    "technologies": [
+      "angular", "cli", "electron", "jasmine", "karma",
+      "protractor", "rxjs", "sass", "typescript"
+    ],
     "details": []
   },
   {
     "id": 6,
     "title": "Forestry TEP",
     "img": "assets/images/projects/ftep-cover.png",
+    "url": "https://f-tep.com/app/",
     "overview": "online",
     "technologies": [
       "angularjs", "bootstrap", "grunt", "hateoas", "jasmine",
@@ -54,6 +63,7 @@
     "id": 7,
     "title": "Kanban Board",
     "img": "assets/images/projects/kanban-cover.png",
+    "url": "https://kanban.davidnorton.app/",
     "overview": "online",
     "technologies": [
       "angular", "bootstrap", "cli", "jasmine", "karma",
@@ -65,6 +75,7 @@
     "id": 8,
     "title": "Crypto Dashboard",
     "img": "assets/images/projects/crypto-cover.png",
+    "url": "https://crypto.davidnorton.app/",
     "overview": "online",
     "technologies": [
       "angular", "bootstrap", "cli", "firebase", "jasmine", "karma",
@@ -76,6 +87,7 @@
     "id": 9,
     "title": "Cookbook",
     "img": "assets/images/projects/cookbook-cover.png",
+    "url": "https://cookbook.davidnorton.app/",
     "overview": "online",
     "technologies": [
       "angular", "bootstrap", "cli", "firebase", "jasmine", "karma",
@@ -87,6 +99,7 @@
     "id": 10,
     "title": "Forestry TEP v3",
     "img": "assets/images/projects/ftepv3-cover.png",
+    "url": "https://ftep.davidnorton.app/",
     "overview": "online",
     "technologies": [
       "angular", "bootstrap", "cli", "jasmine", "karma", "ng-bootstrap",
@@ -98,6 +111,7 @@
     "id": 11,
     "title": "Forefront",
     "img": "assets/images/projects/forefront-cover.png",
+    "url": "https://forefront.davidnorton.app/",
     "overview": "Forefront is a template Angular 7 project",
     "technologies": [
       "angular", "chai", "cli", "compodoc", "cucumber", "cypress",

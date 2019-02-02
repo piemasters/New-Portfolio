@@ -1,6 +1,7 @@
 <section id="projects" *ngIf="projects$ | async as projects">
+
   <article class="project-container" *ngFor="let project of projects.projectList | reverse |
-  paginate: { itemsPerPage: itemsPerPage, currentPage: page }">
+  paginate: { itemsPerPage: itemsPerPage, currentPage: (projects$ | async).projectsPage }">
     <div class="project" [routerLink]="['/projects', project.id]">
       <img src="{{project.img}}" alt="">
       <div class="text-block">
@@ -9,6 +10,6 @@
   </div>
   </article>
   <div class="pagination-container">
-    <pagination-controls (pageChange)="page = $event"></pagination-controls>
+    <pagination-controls (pageChange)="changePage($event)"></pagination-controls>
   </div>
 </section>

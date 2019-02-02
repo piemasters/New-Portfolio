@@ -56,6 +56,13 @@
     "description": "Automation Testing"
   },
   {
+    "id": "electron",
+    "name": "Electron",
+    "img": "electron.png",
+    "link": "https://electronjs.org/",
+    "description": "Build Cross Platform Desktop Apps"
+  },
+  {
     "id": "express",
     "name": "Express",
     "img": "express.png",

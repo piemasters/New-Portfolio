@@ -5,6 +5,8 @@ import { Technology } from '../../shared/models/technology.model';
 
 export const FETCH_PROJECTS = 'FETCH_PROJECTS';
 export const SET_PROJECTS = 'SET_PROJECTS';
+export const FETCH_PROJECTS_PAGE = 'FETCH_PROJECTS_PAGE';
+export const SET_PROJECTS_PAGE = 'SET_PROJECTS_PAGE';
 export const FETCH_SELECTED_PROJECT = 'FETCH_SELECTED_PROJECT';
 export const SET_SELECTED_PROJECT = 'SET_SELECTED_PROJECT';
 export const SET_SELECTED_PROJECT_ID = 'SET_SELECTED_PROJECT_ID';
@@ -19,6 +21,16 @@ export class SetProjects implements Action {
   readonly type = SET_PROJECTS;
 
   constructor(public payload: Project[]) {}
+}
+
+export class FetchProjectsPage implements Action {
+  readonly type = FETCH_PROJECTS_PAGE;
+}
+
+export class SetProjectsPage implements Action {
+  readonly type = SET_PROJECTS_PAGE;
+
+  constructor(public payload: number) {}
 }
 
 export class FetchTechnologies implements Action {
@@ -50,5 +62,5 @@ export class SetSelectedProject implements Action {
 }
 
 export type ProjectsActions =
-  FetchProjects | SetProjects | FetchTechnologies | SetTechnologies |
-  FetchSelectedProject |  SetSelectedProject | SetSelectedProjectId;
+  FetchProjects | SetProjects | FetchProjectsPage | SetProjectsPage | FetchTechnologies |
+  SetTechnologies | FetchSelectedProject |  SetSelectedProject | SetSelectedProjectId;
