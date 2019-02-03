@@ -2,44 +2,52 @@
   {
     "id": 1,
     "title": "Smartlock",
-    "img": "assets/images/projects/placeholder.png",
-    "url": "",
+    "img": "assets/images/projects/smartlock.png",
+    "url": "https://play.google.com/store/apps/details?id=net.davidnorton.securityapp",
     "overview": "online",
-    "technologies": [],
+    "technologies": [
+      "android", "espresso", "java", "material"
+    ],
     "details": []
   },
   {
     "id": 2,
     "title": "Passport Smartforms",
-    "img": "assets/images/projects/placeholder.png",
-    "url": "",
+    "img": "assets/images/projects/passports.png",
+    "url": "https://www.gibraltar.gov.gi/new/passports-and-nationality",
     "overview": "online",
-    "technologies": [],
+    "technologies": [
+      "javascript", "livecycle"
+    ],
     "details": []
   },
   {
     "id": 3,
     "title": "Python Blockchain",
-    "img": "assets/images/projects/placeholder.png",
-    "url": "",
+    "img": "assets/images/projects/blockchain.png",
+    "url": "https://github.com/piemasters/Python-Blockchain",
     "overview": "online",
-    "technologies": [],
+    "technologies": [
+      "bootstrap", "javascript", "python"
+    ],
     "details": []
   },
   {
     "id": 4,
     "title": "BDT-Template",
     "img": "assets/images/projects/bdt-cover.png",
-    "url": "",
+    "url": "https://github.com/piemasters/BDT-Template",
     "overview": "online",
-    "technologies": [],
+    "technologies": [
+      "behave", "cucumber", "python", "selenium"
+    ],
     "details": []
   },
   {
     "id": 5,
     "title": "Electron-Angular",
     "img": "assets/images/projects/electron.png",
-    "url": "",
+    "url": "https://github.com/piemasters/Electron-Angular",
     "overview": "online",
     "technologies": [
       "angular", "cli", "electron", "jasmine", "karma",
@@ -55,7 +63,7 @@
     "overview": "online",
     "technologies": [
       "angularjs", "bootstrap", "grunt", "hateoas", "jasmine",
-      "karma", "less", "material", "openlayers"
+      "javascript", "karma", "less", "material", "openlayers"
     ],
     "details": []
   },

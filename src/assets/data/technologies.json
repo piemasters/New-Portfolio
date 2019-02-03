@@ -1,5 +1,12 @@
 [
   {
+    "id": "android",
+    "name": "Android",
+    "img": "android.png",
+    "link": "https://www.android.com/",
+    "description": "Mobile Operating System"
+  },
+  {
     "id": "angular",
     "name": "Angular",
     "img": "angular.png",
@@ -12,6 +19,13 @@
     "img": "angularjs.png",
     "link": "https://angularjs.org/",
     "description": "Web Application Framework"
+  },
+  {
+    "id": "behave",
+    "name": "Behave",
+    "img": "behave.png",
+    "link": "https://behave.readthedocs.io",
+    "description": "Behaviour Driven Development"
   },
   {
     "id": "bootstrap",
@@ -63,6 +77,13 @@
     "description": "Build Cross Platform Desktop Apps"
   },
   {
+    "id": "espresso",
+    "name": "Espresso",
+    "img": "espresso.png",
+    "link": "https://developer.android.com/training/testing/espresso/",
+    "description": "Android UI Tests"
+  },
+  {
     "id": "express",
     "name": "Express",
     "img": "express.png",
@@ -98,6 +119,20 @@
     "description": "Behavior-Driven JavaScript"
   },
   {
+    "id": "java",
+    "name": "Java",
+    "img": "java.png",
+    "link": "https://www.java.com",
+    "description": "High-Level Programming Language"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "img": "javascript.png",
+    "link": "https://www.javascript.com/",
+    "description": "High-Level Programming Language"
+  },
+  {
     "id": "karma",
     "name": "Karma",
     "img": "karma.png",
@@ -124,6 +159,13 @@
     "img": "lighthouse.png",
     "link": "https://developers.google.com/web/tools/lighthouse/",
     "description": "Quality Auditing"
+  },
+  {
+    "id": "livecycle",
+    "name": "Livecycle",
+    "img": "livecycle.png",
+    "link": "https://www.adobe.com/uk/products/livecycle.html",
+    "description": "Adobe LiveCycle Enterprise Suite"
   },
   {
     "id": "material",
@@ -161,6 +203,13 @@
     "description": "Package Environment Customizer"
   },
   {
+    "id": "python",
+    "name": "Python",
+    "img": "python.png",
+    "link": "https://www.python.org/",
+    "description": "High-Level Programming Language"
+  },
+  {
     "id": "openlayers",
     "name": "OpenLayers",
     "img": "openlayers.png",
@@ -194,6 +243,13 @@
     "img": "sass.png",
     "link": "https://sass-lang.com",
     "description": "Syntactically Awesome Style Sheets"
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium",
+    "img": "selenium.png",
+    "link": "https://www.seleniumhq.org/",
+    "description": "Web Browser Automation"
   },
   {
     "id": "travis",
