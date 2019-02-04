@@ -8,7 +8,34 @@
     "technologies": [
       "android", "espresso", "java", "material"
     ],
-    "details": []
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/smartlock.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "Smartlock is Android Security Application"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      }
+    ]
   },
   {
     "id": 2,
@@ -19,7 +46,34 @@
     "technologies": [
       "javascript", "livecycle"
     ],
-    "details": []
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/passports.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "This project involved designing and developing a set of 4 smart passport application forms."
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      }
+    ]
   },
   {
     "id": 3,
@@ -30,7 +84,34 @@
     "technologies": [
       "bootstrap", "javascript", "python"
     ],
-    "details": []
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/blockchain.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "This project was used to learn Python"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      }
+    ]
   },
   {
     "id": 4,
@@ -41,7 +122,34 @@
     "technologies": [
       "behave", "cucumber", "python", "selenium"
     ],
-    "details": []
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/bdt-cover.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "This is a Python based project used for automation testing of other projects."
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      }
+    ]
   },
   {
     "id": 5,
@@ -53,7 +161,34 @@
       "angular", "cli", "electron", "jasmine", "karma",
       "protractor", "rxjs", "sass", "typescript"
     ],
-    "details": []
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/electron.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "This project is a template for creating an Angular Electron application"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      }
+    ]
   },
   {
     "id": 6,
@@ -65,7 +200,34 @@
       "angularjs", "bootstrap", "grunt", "hateoas", "jasmine",
       "javascript", "karma", "less", "material", "openlayers"
     ],
-    "details": []
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/ftep-cover.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "A forestry exploitation project"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      }
+    ]
   },
   {
     "id": 7,
@@ -77,7 +239,34 @@
       "angular", "bootstrap", "cli", "jasmine", "karma",
       "ng-bootstrap", "protractor", "rxjs", "sass", "typescript"
     ],
-    "details": []
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/kanban-cover.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "A simple kanban board"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      }
+    ]
   },
   {
     "id": 8,
@@ -89,7 +278,34 @@
       "angular", "bootstrap", "cli", "firebase", "jasmine", "karma",
       "ng-bootstrap", "protractor", "rxjs", "sass", "typescript"
     ],
-    "details": []
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/crypto-cover.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "A dashboard for visualising crypto currency values"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      }
+    ]
   },
   {
     "id": 9,
@@ -101,7 +317,34 @@
       "angular", "bootstrap", "cli", "firebase", "jasmine", "karma",
       "ng-bootstrap", "ngrx", "protractor", "rxjs", "sass", "typescript"
     ],
-    "details": []
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/cookbook-cover.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "A recipe application"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      }
+    ]
   },
   {
     "id": 10,
@@ -113,7 +356,34 @@
       "angular", "bootstrap", "cli", "jasmine", "karma", "ng-bootstrap",
       "ngrx", "penv", "protractor", "rxjs", "sass", "travis", "typescript"
     ],
-    "details": []
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/ftepv3-cover.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "A modern redesign of F-TEP"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      }
+    ]
   },
   {
     "id": 11,
@@ -127,7 +397,46 @@
       "mocha", "ngrx", "penv", "pwa", "rxjs", "sass", "typescript", "universal"
     ],
     "details": [
-
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/forefront-cover.png"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Oct 2018",
+          "duration": "8 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "Forefront is a template Angular 7 project"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "article",
+        "backgroundColor": "#FFFFFF",
+        "title": "Target User",
+        "images": [
+          "assets/images/projects/forefront-cover.png",
+          "assets/images/projects/electron.png"
+        ],
+        "text": [
+          "Activated charcoal consectetur sint, blue bottle et 8-bit forage green juice cold-pressed nisi literally do cornhole slow-carb. Ut tattooed pug semiotics listicle, sint keytar wolf four loko dolore.",
+          "Venmo activated charcoal freegan woke ennui enim roof party hell of. Photo booth brunch cornhole dolore enim intelligentsia in 3 wolf moon flexitarian nostrud snackwave."
+        ]
+      }
     ]
   }
 ]

@@ -18,12 +18,7 @@ body {
   line-height: 1.4;
   margin: auto;
   max-width: $xxl;
-  padding-top: 2rem;
   padding-bottom: 8rem;
-  @media screen and (min-width: $lg) {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
 }
 
 

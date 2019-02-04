@@ -1,41 +1,86 @@
 <div *ngIf="(projects$ | async).selectedProject as project">
   <h1>{{project.title}}</h1>
 
-  <img class="project-headline" src="{{project.img}}" alt="" width="100%">
+  <div *ngFor="let section of project.details">
 
-  <h2>Overview</h2>
+    <div *ngIf="section.type === 'cover'" [style.backgroundColor]="section.backgroundColor">
+      <img class="project-headline" [src]="section.img" alt="" width="100%">
+    </div>
 
-  <p>
-    {{project.overview}}
-  </p>
+    <div *ngIf="section.type === 'overview'" [style.backgroundColor]="section.backgroundColor">
+      <h2 class="overview-title">{{ section.title }}</h2>
+      <div class="project-details">
+        <p>
+          <b>{{ section.project.date }}</b> | {{ section.project.duration }}
+        </p>
+        <p>
+          <b>{{ section.project.type }}</b>
+        </p>
+        <p>
+          <a href="{{project.url}}">{{project.url}}</a>
+        </p>
+      </div>
+      <p *ngFor="let p of section.text">
+        {{p}}
+      </p>
 
-  <h2>URL</h2>
+      <div class="divider">
+        <hr>
+      </div>
+    </div>
 
-  <p><a href="{{project.url}}">{{project.url}}</a></p>
+    <div *ngIf="section.type === 'technologies'" [style.backgroundColor]="section.backgroundColor">
+      <h2 class="section-title">{{ section.title }}</h2>
+      <article class="tech-container" *ngFor="let tech of project.technologies">
+        <div class="technology">
 
-  <h2>Technologies</h2>
+          <img src="/assets/images/tech/{{ tech.img }}" alt="{{ tech.name }}">
+          <div class="overlay">
+            <a href="{{ tech.link }}">
+              <div class="overlay-text">
+                <h3>{{ tech.name }}</h3>
+                <p>{{ tech.description }}</p>
+              </div>
+            </a>
+          </div>
 
-  <article class="tech-container" *ngFor="let tech of project.technologies">
-    <div class="technology">
-
-      <img src="/assets/images/tech/{{ tech.img }}" alt="{{ tech.name }}">
-      <div class="overlay">
-        <a href="{{ tech.link }}">
-        <div class="overlay-text">
-          <h3>{{ tech.name }}</h3>
-          <p>{{ tech.description }}</p>
         </div>
-        </a>
+      </article>
+
+      <div class="divider">
+        <hr>
+      </div>
+    </div>
+
+    <div *ngIf="section.type === 'article'" [style.backgroundColor]="section.backgroundColor">
+      <h2 class="section-title">{{ section.title }}</h2>
+      <p *ngFor="let p of section.text">
+        {{p}}
+      </p>
+      <div *ngIf="section.images.length === 1">
+        <img src="/assets/images/tech/{{ tech.img }}" alt="{{ tech.name }}">
+      </div>
+
+      <ngb-carousel *ngIf="section.images.length > 1" [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+        <ng-template ngbSlide *ngFor="let image of section.images">
+          <img [src]="image" alt="Random slide">
+          <div class="carousel-caption">
+            <h3>No mouse navigation</h3>
+            <p>This carousel hides navigation arrows and indicators.</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+
+      <div class="divider">
+        <hr>
       </div>
 
     </div>
-  </article>
 
-  <h2>Project Details</h2>
-  <!--<ol>-->
-    <!--<li *ngFor="let section of project.details">-->
-      <!--{{ section.instruction }}-->
-      <!--<pre *ngIf="step.code"><code>{{ step.code }}</code></pre>-->
-    <!--</li>-->
-  <!--</ol>-->
+
+
+
+  </div>
+
 </div>
+

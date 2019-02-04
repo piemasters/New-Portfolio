@@ -10,15 +10,25 @@ $md: 768px !default;
   filter: drop-shadow(2px 2px 12px $accent);
 }
 
+#nav-container {
+  padding: 0 3rem;
+  position: absolute;
+  max-width: 1800px;
+  width: 100%;
+  z-index: 99;
+}
+
+
 #nav {
   height: 4em;
   margin-bottom: 1.5rem;
   h1 {
     float: left;
     margin: 0;
-    padding: 0 1em;
+    padding: 0 1rem;
     a {
-      color: $text;
+      //color: $text;
+      color: white;
       display: inline;
       outline: 0;
       padding: 0;
@@ -35,7 +45,8 @@ $md: 768px !default;
       li {
         display: inline-block;
         a {
-          color: $text;
+          //color: $text;
+          color: white;
           display: inline-block;
           letter-spacing: 3px;
           line-height: 5em;
@@ -48,10 +59,12 @@ $md: 768px !default;
         }
       }
       .nav-link:hover {
-        background-color: $accent;
+        //background-color: $accent;
+        background-color: $brand;
       }
       .active {
-        background-color: $accent-light;
+        //background-color: $accent-light;
+        background-color: $brand-light;
       }
       .nav-image {
         a {

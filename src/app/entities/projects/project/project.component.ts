@@ -18,6 +18,8 @@ export class ProjectComponent implements OnInit {
   project: Project;
   technologies: Technology[] = [];
   projects$: Observable<Projects[]>;
+  showNavigationArrows = true;
+  showNavigationIndicators = true;
 
   constructor(
     private route: ActivatedRoute,
