@@ -32,3 +32,15 @@
     }
   }
 }
+
+@mixin positioning ($type, $top, $right, $bottom, $left) {
+  position: $type;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin filter-accent {
+  filter: drop-shadow(2px 2px 12px $accent);
+}

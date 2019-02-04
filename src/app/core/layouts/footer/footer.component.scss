@@ -1,16 +1,42 @@
 @import '../../../../styles/brand';
 @import '../../../../styles/variables';
+@import '../../../../styles/mixins';
 
 $footer: #464F5D !default;
 $text-light: #FFFFFF !default;
 
+//#footer {
+//  background-color: $footer;
+//  bottom: 0;
+//  color: $text-light;
+//  position: absolute;
+//  width: 100%;
+//  .content {
+//    padding: 1rem 2rem;
+//  }
+//}
+
+
 #footer {
-  background-color: $footer;
-  bottom: 0;
-  color: $text-light;
-  position: absolute;
-  width: 100%;
-  .content {
-    padding: 1rem 2rem;
+  background-color: #1f1f1f;
+  color: rgba(255,255,255,.8);
+  display: block;
+  .footer-inner {
+    padding: 6rem 4rem;
+    .footer-content {
+      font-size: 2rem;
+      margin-top: 1.5em;
+      text-align: center;
+      h3 {
+        font-size: 1.6rem;
+        padding: 1rem;
+      }
+      .footer-image {
+        width: 6rem;
+        &:hover {
+          @include filter-accent;
+        }
+      }
+    }
   }
 }

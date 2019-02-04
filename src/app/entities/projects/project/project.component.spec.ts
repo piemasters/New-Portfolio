@@ -1,14 +1,16 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { StoreModule } from '@ngrx/store';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { ActivatedRoute, Data } from '@angular/router';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { CommonModule } from '@angular/common';
+import { RouterTestingModule } from '@angular/router/testing';
 
 import { ProjectComponent } from './project.component';
 import { ProjectsComponent } from '../projects.component';
-import { CommonModule } from '@angular/common';
-import { RouterTestingModule } from '@angular/router/testing';
-import { ActivatedRoute, Data } from '@angular/router';
-import { NgxPaginationModule } from 'ngx-pagination';
 import { CustomPipesModule } from '../../../shared/pipes/custom-pipes.module';
-import { StoreModule } from '@ngrx/store';
 import { reducers } from '../../../store/app.reducers';
+
 
 describe('ProjectComponent', () => {
   let component: ProjectComponent;
@@ -25,7 +27,8 @@ describe('ProjectComponent', () => {
         RouterTestingModule,
         CustomPipesModule,
         NgxPaginationModule,
-        StoreModule.forRoot(reducers)
+        StoreModule.forRoot(reducers),
+        NgbCarouselModule
       ],
       providers: [
         {

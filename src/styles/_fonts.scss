@@ -14,19 +14,19 @@
 // Styleguide Text.fonts.quicksand
 @font-face {
   font-family: 'Quicksand';
-  src: url('assets/fonts/Quicksand-Regular.otf');
+  src: url('/assets/fonts/Quicksand-Regular.otf');
 }
 
 @font-face {
   font-family: 'Quicksand-Bold';
-  src: url('assets/fonts/Quicksand-Bold.otf');
+  src: url('/assets/fonts/Quicksand-Bold.otf');
 }
 .font-bold {
   font-family: Quicksand-Bold, sans-serif;
 }
 @font-face {
   font-family: 'Quicksand-BoldItalic';
-  src: url('assets/fonts/Quicksand-BoldItalic.otf');
+  src: url('/assets/fonts/Quicksand-BoldItalic.otf');
 }
 .font-bold-italic {
   font-family: Quicksand-BoldItalic, sans-serif;
@@ -34,7 +34,7 @@
 
 @font-face {
   font-family: 'Quicksand-Dash';
-  src: url('assets/fonts/Quicksand-Dash.otf');
+  src: url('/assets/fonts/Quicksand-Dash.otf');
 }
 .font-dash {
   font-family: Quicksand-Dash, sans-serif;
@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: 'Quicksand-Italic';
-  src: url('assets/fonts/Quicksand-Italic.otf');
+  src: url('/assets/fonts/Quicksand-Italic.otf');
 }
 .font-italic {
   font-family: Quicksand-Italic, sans-serif;
@@ -50,7 +50,7 @@
 
 @font-face {
   font-family: 'Quicksand-Light';
-  src: url('assets/fonts/Quicksand-Light.otf');
+  src: url('/assets/fonts/Quicksand-Light.otf');
 }
 .font-light {
   font-family: Quicksand-Light, sans-serif;
@@ -58,7 +58,7 @@
 
 @font-face {
   font-family: 'Quicksand-LightItalic';
-  src: url('assets/fonts/Quicksand-LightItalic.otf');
+  src: url('/assets/fonts/Quicksand-LightItalic.otf');
 }
 .font-light-italic {
   font-family: Quicksand-LightItalic, sans-serif;
@@ -74,8 +74,20 @@
 // Styleguide Text.fonts.windsong
 @font-face {
   font-family: 'Windsong';
-  src: url('assets/fonts/Windsong.ttf');
+  src: url('/assets/fonts/Windsong.ttf');
 }
 .font-windsong {
   font-family: Windsong, sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url('/assets/fonts/Proxima-Nova-Alt-Regular.eot');
+  src: url('/assets/fonts/Proxima-Nova-Alt-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/Proxima Nova Alt Regular.woff') format('woff'),
+       url('/assets/fonts/Proxima Nova Alt Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
 }

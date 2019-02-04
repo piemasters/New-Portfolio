@@ -17,8 +17,13 @@ body {
   height: 100%;
   line-height: 1.4;
   margin: auto;
+  //max-width: $xxl;
+  padding-bottom: 4rem;
+}
+
+.page-container {
   max-width: $xxl;
-  padding-bottom: 8rem;
+  margin: auto;
 }
 
 
@@ -39,7 +44,7 @@ body {
 //
 // Styleguide Layout.components.section
 section {
-  background-color: $content;
+  //background-color: $content;
   margin-bottom: 1rem;
   padding: 1rem 2rem;
 }

@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 .role-container {
   line-height: 1.2;
 }
@@ -6,5 +8,40 @@
   img {
     height: 72px;
     width: 72px;
+  }
+}
+
+
+#portfolio {
+  display: inline-block;
+  #title-container {
+    display: inline-block;
+    .title {
+      float: left;
+      h1 {
+        margin: 0;
+      }
+      h2 {
+        text-align: left;
+        font-size: 1.8rem;
+        margin: 0;
+        padding: 0.5rem 3rem;
+      }
+    }
+    img {
+      border-radius: 50%;
+      float: left;
+      width: 20%;
+    }
+  }
+  @media screen and (min-width: $xxl)  {
+    section.subsection {
+      float: left;
+      width: 50%;
+    }
+    aside.subsection {
+      float: right;
+      width: 50%;
+    }
   }
 }

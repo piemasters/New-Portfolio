@@ -38,6 +38,6 @@ describe('HomeComponent', () => {
     fixture = TestBed.createComponent(HomeComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Senior Software Engineer');
+    expect(compiled.querySelector('h1').textContent).toContain('David Norton');
   }));
 });

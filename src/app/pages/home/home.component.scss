@@ -1,114 +1,50 @@
 @import '../../../styles/variables';
+@import '../../../styles/mixins';
 
-#siteWrapper {
+.page-banner {
   display: block;
+  padding: 18rem 0 16rem;
   position: relative;
-  padding: 0;
-}
-
-.banner-thumbnail-wrapper {
-  display: block;
-  line-height: 28.8px;
-  padding: 180px 0 155px;
-  position: relative;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  #thumbnail {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    -webkit-animation: feature-bg-anim .6s ease-in-out;
-    animation: feature-bg-anim .6s ease-in-out;
+  .color-overlay {
+    @include positioning(absolute, 0, 0, 0, 0);
+    background-color: rgba(33, 33, 33, .3);
+    z-index: 3;
   }
-  figure {
+  .banner-image-wrapper {
     background-color: #212121;
     display: block;
     margin: 0;
+    overflow: hidden;
+    @include positioning(absolute, 0, 0, 0, 0);
     img {
-      object-fit: cover;
-      object-position: 0 0;
-      width: 100%;
+      position: relative;
+      min-height: 100%;
+      min-width: 100%;
     }
   }
-.color-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(33,33,33,.3);
-  z-index: 3;
-}
-  .desc-wrapper {
-    animation: feature-text-anim .75s ease-in-out;
-    z-index: 100;
+  .banner-text-wrapper {
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    padding: 4rem;
     position: relative;
-    width: 100%;
-    //max-width: 956px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 32px;
     text-align: center;
-    text-rendering: optimizeLegibility;
+    width: 100%;
+    z-index: 4;
+    h1 {
+      //font-family: "proxima-nova";
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1em;
+      margin: 0;
+    }
     p {
-      font-style: normal;
-      font-size: 18px;
-      letter-spacing: 0px;
-      font-family: "adobe-garamond-pro";
-      font-size: 24px;
-      line-height: 1.5em;
-      text-transform: none;
-      letter-spacing: 1px;
-      font-weight: 400;
+      //font-family: "adobe-garamond-pro";
       font-style: italic;
-      color: #fff;
-      margin: 20px auto;
-      -webkit-transform: translatez(0);
-      strong {
-        font-family: "proxima-nova";
-        font-style: normal;
-        font-size: 68px;
-        font-weight: 700;
-        line-height: 1em;
-
-      }
+      font-size: 18px;
+      line-height: 1.5em;
     }
   }
 
 }
 
-#portfolio {
-  display: inline-block;
-  #title-container {
-    display: inline-block;
-    .title {
-      float: left;
-      h1 {
-        margin: 0;
-      }
-      h2 {
-        text-align: left;
-        font-size: 1.8rem;
-        margin: 0;
-        padding: 0.5rem 3rem;
-      }
-    }
-    img {
-      border-radius: 50%;
-      float: left;
-      width: 20%;
-    }
-  }
-  @media screen and (min-width: $xxl)  {
-    section.subsection {
-      float: left;
-      width: 50%;
-    }
-    aside.subsection {
-      float: right;
-      width: 50%;
-    }
-  }
-}
