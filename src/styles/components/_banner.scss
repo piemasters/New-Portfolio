@@ -1,0 +1,49 @@
+.page-banner {
+  display: block;
+  padding: 18rem 0 16rem;
+  position: relative;
+
+  .banner-overlay {
+    @include positioning(absolute, 0, 0, 0, 0);
+    background-color: rgba(33, 33, 33, .3);
+    z-index: 3;
+  }
+
+  .banner-image-wrapper {
+    background-color: #212121;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    @include positioning(absolute, 0, 0, 0, 0);
+
+    img {
+      position: relative;
+      min-height: 100%;
+      min-width: 100%;
+    }
+  }
+
+  .banner-text-wrapper {
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    padding: 4rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 4;
+
+    h1 {
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1em;
+      margin: 0;
+    }
+
+    p {
+      font-style: italic;
+      font-size: 18px;
+      line-height: 1.5em;
+    }
+  }
+}
