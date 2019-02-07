@@ -8,7 +8,6 @@ $xxl: 1800px !default;
 .tech-container {
   display: inline-block;
   overflow: hidden;
-  padding: 1rem;
   width: 33.33%;
   @media screen and (min-width: $sm) {
     width: 25%;
@@ -21,6 +20,7 @@ $xxl: 1800px !default;
   }
   .technology {
     cursor: pointer;
+    padding: 1rem;
     position: relative;
     img {
       display: block;

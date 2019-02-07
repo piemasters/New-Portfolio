@@ -1,90 +1,99 @@
-<div *ngIf="(projects$ | async).selectedProject as project">
+<div class="page-content">
+  <div *ngIf="(projects$ | async).selectedProject as project">
 
-  <div *ngFor="let section of project.details">
+    <div *ngFor="let section of project.details">
 
-    <header *ngIf="section.type === 'cover'" class="page-banner">
-      <div class="banner-overlay"></div>
-      <figure class="banner-image-wrapper">
-        <img alt="banner" [src]="section.img">
-      </figure>
-      <div class="banner-text-wrapper">
-        <p>&nbsp;</p>
-        <h1>{{project.title}}</h1>
-        <p><em>&nbsp;</em></p>
-      </div>
-    </header>
-
-    <div *ngIf="section.type === 'overview'" [style.backgroundColor]="section.backgroundColor">
-      <h2 class="overview-title">{{ section.title }}</h2>
-      <div class="project-details">
-        <p>
-          <b>{{ section.project.date }}</b> | {{ section.project.duration }}
-        </p>
-        <p>
-          <b>{{ section.project.type }}</b>
-        </p>
-        <p>
-          <a href="{{project.url}}">{{project.url}}</a>
-        </p>
-      </div>
-      <p *ngFor="let p of section.text">
-        {{p}}
-      </p>
-
-      <div class="divider">
-        <hr>
-      </div>
-    </div>
-
-    <div *ngIf="section.type === 'technologies'" [style.backgroundColor]="section.backgroundColor">
-      <h2 class="section-title">{{ section.title }}</h2>
-      <article class="tech-container" *ngFor="let tech of project.technologies">
-        <div class="technology">
-
-          <img src="/assets/images/tech/{{ tech.img }}" alt="{{ tech.name }}">
-          <div class="overlay">
-            <a href="{{ tech.link }}">
-              <div class="overlay-text">
-                <h3>{{ tech.name }}</h3>
-                <p>{{ tech.description }}</p>
-              </div>
-            </a>
-          </div>
-
+      <header *ngIf="section.type === 'cover'" class="page-banner">
+        <div class="banner-overlay"></div>
+        <figure class="banner-image-wrapper">
+          <img alt="banner" [src]="section.img">
+        </figure>
+        <div class="banner-text-wrapper">
+          <p>&nbsp;</p>
+          <h1>{{project.title}}</h1>
+          <p><em>&nbsp;</em></p>
         </div>
-      </article>
+      </header>
 
-      <div class="divider">
-        <hr>
-      </div>
-    </div>
+      <section *ngIf="section.type === 'overview'" [style.backgroundColor]="section.backgroundColor">
 
-    <div *ngIf="section.type === 'article'" [style.backgroundColor]="section.backgroundColor">
-      <h2 class="section-title">{{ section.title }}</h2>
-      <p *ngFor="let p of section.text">
-        {{p}}
-      </p>
+        <header>
+          <h2 class="overview-title">{{ section.title }}</h2>
+        </header>
 
-      <div *ngIf="section.images.length === 1">
-        <img src="{{ section.images[0] }}" alt="{{ section.title }}">
-      </div>
+        <article>
+          <section class="project-details subsection">
+            <p>
+              <b>{{ section.project.date }}</b> | {{ section.project.duration }}
+            </p>
+            <p>
+              <b>{{ section.project.type }}</b>
+            </p>
+            <p>
+              <a href="{{project.url}}">{{project.url}}</a>
+            </p>
+          </section>
 
-      <ngb-carousel *ngIf="section.images.length > 1" [showNavigationArrows]="showNavigationArrows"
-                    [showNavigationIndicators]="showNavigationIndicators">
-        <ng-template ngbSlide *ngFor="let image of section.images">
-          <img [src]="image" alt="Random slide">
-          <div class="carousel-caption">
-            <h3>No mouse navigation</h3>
-            <p>This carousel hides navigation arrows and indicators.</p>
-          </div>
-        </ng-template>
-      </ngb-carousel>
+          <section class="subsection">
+            <p *ngFor="let p of section.text">
+              {{p}}
+            </p>
+          </section>
+        </article>
 
-      <div class="divider">
-        <hr>
-      </div>
+      </section>
 
+      <section *ngIf="section.type === 'technologies'" [style.backgroundColor]="section.backgroundColor">
+
+        <header>
+          <h2 class="section-title">{{ section.title }}</h2>
+        </header>
+
+        <article class="tech-container" *ngFor="let tech of project.technologies">
+          <section class="technology">
+            <img src="/assets/images/tech/{{ tech.img }}" alt="{{ tech.name }}">
+            <div class="overlay">
+              <a href="{{ tech.link }}">
+                <div class="overlay-text">
+                  <h3>{{ tech.name }}</h3>
+                  <p>{{ tech.description }}</p>
+                </div>
+              </a>
+            </div>
+          </section>
+        </article>
+
+      </section>
+
+      <section *ngIf="section.type === 'article'" [style.backgroundColor]="section.backgroundColor">
+        <header>
+          <h2 class="section-title">{{ section.title }}</h2>
+        </header>
+
+        <article>
+          <section class="subsection">
+            <p *ngFor="let p of section.text">
+              {{p}}
+            </p>
+
+            <div *ngIf="section.images.length === 1">
+              <img src="{{ section.images[0] }}" alt="{{ section.title }}">
+            </div>
+
+            <ngb-carousel *ngIf="section.images.length > 1" [showNavigationArrows]="showNavigationArrows"
+                          [showNavigationIndicators]="showNavigationIndicators">
+              <ng-template ngbSlide *ngFor="let image of section.images">
+                <img [src]="image" alt="Random slide">
+                <div class="carousel-caption">
+                  <h3>No mouse navigation</h3>
+                  <p>This carousel hides navigation arrows and indicators.</p>
+                </div>
+              </ng-template>
+            </ngb-carousel>
+          </section>
+        </article>
+
+      </section>
     </div>
   </div>
 </div>
-
