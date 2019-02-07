@@ -5,7 +5,8 @@ import { ProjectComponent } from './project/project.component';
 
 const projectsRoutes: Routes = [
   { path: 'projects', component: ProjectsComponent },
-  { path: 'projects/:id', component: ProjectComponent }
+  { path: 'projects/:id', component: ProjectComponent },
+  { path: '**', redirectTo: 'page-not-found'} // Ensure this is the last path
 ];
 
 @NgModule({

@@ -57,8 +57,12 @@ export class ProjectsEffects {
     map(
       ([action, state]) => {
         const matchedProject: Project = state.projectList.filter(project => project.id === state.selectedProject.id)[0];
-        const techList = this.technologiesService.getProjectTechList(state.technologyList, matchedProject.technologies);
-        return {...matchedProject, technologies: techList};
+        if (matchedProject) {
+          const techList = this.technologiesService.getProjectTechList(state.technologyList, matchedProject.technologies);
+          return {...matchedProject, technologies: techList};
+        } else {
+          return null;
+        }
       }
     ),
     map( (projectResponse) => {

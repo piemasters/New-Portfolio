@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Smartlock",
-    "img": "assets/images/projects/smartlock.png",
+    "img": "assets/images/projects/smartlock/cover.jpg",
     "url": "https://play.google.com/store/apps/details?id=net.davidnorton.securityapp",
     "overview": "online",
     "technologies": [
@@ -13,7 +13,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/smartlock.png"
+        "img": "assets/images/projects/smartlock/banner.jpg"
       },
       {
         "id": "2",
@@ -34,13 +34,25 @@
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "article",
+        "backgroundColor": "#FFFFFF",
+        "title": "UI",
+        "images": [
+          "assets/images/projects/smartlock/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
       }
     ]
   },
   {
     "id": 2,
     "title": "Passport Smartforms",
-    "img": "assets/images/projects/passports.png",
+    "img": "assets/images/projects/passports/cover.jpg",
     "url": "https://www.gibraltar.gov.gi/new/passports-and-nationality",
     "overview": "online",
     "technologies": [
@@ -51,7 +63,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/passports.png"
+        "img": "assets/images/projects/passports/banner.jpg"
       },
       {
         "id": "2",
@@ -72,13 +84,25 @@
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "article",
+        "backgroundColor": "#FFFFFF",
+        "title": "UI",
+        "images": [
+          "assets/images/projects/passports/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
       }
     ]
   },
   {
     "id": 3,
     "title": "Python Blockchain",
-    "img": "assets/images/projects/blockchain.png",
+    "img": "assets/images/projects/blockchain/cover.png",
     "url": "https://github.com/piemasters/Python-Blockchain",
     "overview": "online",
     "technologies": [
@@ -89,7 +113,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/blockchain.png"
+        "img": "assets/images/projects/blockchain/banner.jpg"
       },
       {
         "id": "2",
@@ -116,7 +140,7 @@
   {
     "id": 4,
     "title": "BDT-Template",
-    "img": "assets/images/projects/bdt-cover.png",
+    "img": "assets/images/projects/bdt/cover.png",
     "url": "https://github.com/piemasters/BDT-Template",
     "overview": "online",
     "technologies": [
@@ -127,7 +151,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/bdt-cover.png"
+        "img": "assets/images/projects/bdt/banner.jpg"
       },
       {
         "id": "2",
@@ -154,7 +178,7 @@
   {
     "id": 5,
     "title": "Electron-Angular",
-    "img": "assets/images/projects/electron.png",
+    "img": "assets/images/projects/electron/cover.jpg",
     "url": "https://github.com/piemasters/Electron-Angular",
     "overview": "online",
     "technologies": [
@@ -166,7 +190,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/electron.png"
+        "img": "assets/images/projects/electron/banner.jpg"
       },
       {
         "id": "2",
@@ -187,13 +211,25 @@
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "article",
+        "backgroundColor": "#FFFFFF",
+        "title": "UI",
+        "images": [
+          "assets/images/projects/electron/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
       }
     ]
   },
   {
     "id": 6,
     "title": "Forestry TEP",
-    "img": "assets/images/projects/ftep-cover.png",
+    "img": "assets/images/projects/ftep/cover.jpg",
     "url": "https://f-tep.com/app/",
     "overview": "online",
     "technologies": [
@@ -205,7 +241,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/ftep-cover.png"
+        "img": "assets/images/projects/ftep/banner.jpg"
       },
       {
         "id": "2",
@@ -226,13 +262,25 @@
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "article",
+        "backgroundColor": "#FFFFFF",
+        "title": "UI",
+        "images": [
+          "assets/images/projects/ftep/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
       }
     ]
   },
   {
     "id": 7,
     "title": "Kanban Board",
-    "img": "assets/images/projects/kanban-cover.png",
+    "img": "assets/images/projects/kanban/cover.jpg",
     "url": "https://kanban.davidnorton.app/",
     "overview": "online",
     "technologies": [
@@ -244,7 +292,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/kanban-cover.png"
+        "img": "assets/images/projects/kanban/cover.jpg"
       },
       {
         "id": "2",
@@ -265,13 +313,25 @@
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "article",
+        "backgroundColor": "#FFFFFF",
+        "title": "UI",
+        "images": [
+          "assets/images/projects/kanban/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
       }
     ]
   },
   {
     "id": 8,
     "title": "Crypto Dashboard",
-    "img": "assets/images/projects/crypto-cover.png",
+    "img": "assets/images/projects/crypto/cover.jpg",
     "url": "https://crypto.davidnorton.app/",
     "overview": "online",
     "technologies": [
@@ -283,7 +343,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/crypto-cover.png"
+        "img": "assets/images/projects/crypto/banner.jpg"
       },
       {
         "id": "2",
@@ -304,13 +364,25 @@
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "article",
+        "backgroundColor": "#FFFFFF",
+        "title": "UI",
+        "images": [
+          "assets/images/projects/crypto/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
       }
     ]
   },
   {
     "id": 9,
     "title": "Cookbook",
-    "img": "assets/images/projects/cookbook-cover.png",
+    "img": "assets/images/projects/cookbook/cover.jpg",
     "url": "https://cookbook.davidnorton.app/",
     "overview": "online",
     "technologies": [
@@ -322,7 +394,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/cookbook-cover.png"
+        "img": "assets/images/projects/cookbook/banner.jpg"
       },
       {
         "id": "2",
@@ -343,13 +415,25 @@
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "article",
+        "backgroundColor": "#FFFFFF",
+        "title": "UI",
+        "images": [
+          "assets/images/projects/cookbook/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
       }
     ]
   },
   {
     "id": 10,
     "title": "Forestry TEP v3",
-    "img": "assets/images/projects/ftepv3-cover.png",
+    "img": "assets/images/projects/ftepv3/cover.jpg",
     "url": "https://ftep.davidnorton.app/",
     "overview": "online",
     "technologies": [
@@ -361,7 +445,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/ftepv3-cover.png"
+        "img": "assets/images/projects/ftepv3/banner.jpg"
       },
       {
         "id": "2",
@@ -382,13 +466,25 @@
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "article",
+        "backgroundColor": "#FFFFFF",
+        "title": "UI",
+        "images": [
+          "assets/images/projects/ftepv3/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
       }
     ]
   },
   {
     "id": 11,
     "title": "Forefront",
-    "img": "assets/images/projects/forefront-cover.png",
+    "img": "assets/images/projects/forefront/cover.jpg",
     "url": "https://forefront.davidnorton.app/",
     "overview": "Forefront is a template Angular 7 project",
     "technologies": [
@@ -401,7 +497,7 @@
         "id": "1",
         "type": "cover",
         "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/forefront-cover.png"
+        "img": "assets/images/projects/forefront/banner.jpg"
       },
       {
         "id": "2",
@@ -429,8 +525,8 @@
         "backgroundColor": "#FFFFFF",
         "title": "Target User",
         "images": [
-          "assets/images/projects/forefront-cover.png",
-          "assets/images/projects/electron.png"
+          "assets/images/projects/forefront/screenshot.png",
+          "assets/images/projects/forefront/cover.jpg"
         ],
         "text": [
           "Activated charcoal consectetur sint, blue bottle et 8-bit forage green juice cold-pressed nisi literally do cornhole slow-carb. Ut tattooed pug semiotics listicle, sint keytar wolf four loko dolore.",

@@ -64,8 +64,9 @@
       <p *ngFor="let p of section.text">
         {{p}}
       </p>
+
       <div *ngIf="section.images.length === 1">
-        <img src="/assets/images/tech/{{ tech.img }}" alt="{{ tech.name }}">
+        <img src="{{ section.images[0] }}" alt="{{ section.title }}">
       </div>
 
       <ngb-carousel *ngIf="section.images.length > 1" [showNavigationArrows]="showNavigationArrows"

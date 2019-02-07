@@ -108,6 +108,12 @@ aside {
   text-align: center;
   .ngx-pagination {
     padding: 0;
+    .current {
+      background-color: $brand;
+      &:hover {
+        background-color: $brand-light;
+      }
+    }
     li a, .current {
       padding: 1rem 2rem;
     }
