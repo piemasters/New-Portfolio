@@ -11,37 +11,116 @@
   }
 }
 
-
-#portfolio {
+#title-container {
   display: inline-block;
-  #title-container {
-    display: inline-block;
-    .title {
-      float: left;
-      h1 {
-        margin: 0;
-      }
-      h2 {
-        text-align: left;
-        font-size: 1.8rem;
-        margin: 0;
-        padding: 0.5rem 3rem;
-      }
+  height: auto;
+  width: 100%;
+}
+
+#title-header {
+
+  margin: 0 auto;
+  width: 70%;
+  .title {
+    float: left;
+    h1 {
+      margin: 0;
     }
-    img {
-      border-radius: 50%;
-      float: left;
-      width: 20%;
+    h2 {
+      text-align: left;
+      font-size: 1.8rem;
+      margin: 0;
+      padding: 0.5rem 3rem;
     }
   }
-  @media screen and (min-width: $xxl)  {
-    section.subsection {
-      float: left;
-      width: 50%;
+  img {
+    border-radius: 50%;
+    float: left;
+    width: 200px;
+    margin: 4rem;
+  }
+}
+
+.row-container {
+  display: block;
+  margin: 4rem 5rem;
+  @media screen and (min-width: $lg)  {
+    margin: 8rem 10rem;
+  }
+
+}
+.row {
+  display: flex; /* equal height of the children */
+  //height: 40rem;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.col {
+  padding: 0;
+  position: relative;
+  height: 200px;
+  line-height: 200px;
+  flex: 1; /* additionally, equal width */
+  .title {
+    display: inline-block;
+    vertical-align: middle;
+    h2 {
+      letter-spacing: normal;
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
     }
-    aside.subsection {
-      float: right;
-      width: 50%;
+    h3 {
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 1.8rem;
+      margin: 0;
+      padding: 0.5rem 3rem;
+    }
+  }
+  img {
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+  }
+}
+
+.col-text {
+  flex: 2;
+}
+
+.col-img {
+  flex: 1;
+}
+
+@media screen and (max-width: $lg)  {
+  .row {
+    display: block;
+    .col-text {
+      text-align: center;
+      h2, h3 {
+        text-align: center;
+      }
     }
   }
 }
+
+
+
+
+//@media screen and (min-width: $xxl)  {
+//  section.subsection {
+//    float: left;
+//    width: 50%;
+//  }
+//  aside.subsection {
+//    float: right;
+//    width: 50%;
+//  }
+//}

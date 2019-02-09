@@ -5,6 +5,17 @@ $accent: #EF9A9A !default;
 $md: 768px !default;
 $xxl: 1800px !default;
 
+.image-container {
+  max-width: 100%;
+  img {
+    max-width: 100%;
+  }
+}
+
+.carousel-img {
+  width: 100%;
+}
+
 .tech-container {
   display: inline-block;
   overflow: hidden;

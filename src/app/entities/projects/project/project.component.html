@@ -76,14 +76,14 @@
               {{p}}
             </p>
 
-            <div *ngIf="section.images.length === 1">
+            <div class="image-container" *ngIf="section.images.length === 1">
               <img src="{{ section.images[0] }}" alt="{{ section.title }}">
             </div>
 
-            <ngb-carousel *ngIf="section.images.length > 1" [showNavigationArrows]="showNavigationArrows"
+            <ngb-carousel class="image-container"  *ngIf="section.images.length > 1" [showNavigationArrows]="showNavigationArrows"
                           [showNavigationIndicators]="showNavigationIndicators">
               <ng-template ngbSlide *ngFor="let image of section.images">
-                <img [src]="image" alt="Random slide">
+                <img class="carousel-img" [src]="image" alt="Random slide">
                 <div class="carousel-caption">
                   <h3>No mouse navigation</h3>
                   <p>This carousel hides navigation arrows and indicators.</p>
