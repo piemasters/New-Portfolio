@@ -12,6 +12,7 @@ import * as CompaniesActions from '../../store/companies/companies.actions';
 })
 export class ResumeComponent implements OnInit {
   companies$: Observable<Company[]>;
+  selectedCompany: Company;
 
   constructor(
     private store: Store<fromCompanies.State>,
@@ -21,6 +22,10 @@ export class ResumeComponent implements OnInit {
   ngOnInit() {
     this.store.dispatch(new CompaniesActions.FetchCompanies());
     this.companies$ = this.store.pipe(select('companies'));
+  }
+
+  selectCompany(company) {
+    this.selectedCompany = company;
   }
 
 }

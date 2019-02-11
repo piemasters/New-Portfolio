@@ -3,24 +3,66 @@
     "id": 1,
     "name": "CGI",
     "img": "assets/images/companies/cgi_logo.png",
-    "from": "Dec 18, 2018",
-    "to": "Dec 18, 2018",
+    "from": "Aug 2015",
+    "to": "present",
     "roles": [
       {
         "id": 1,
         "headline": "Senior Software Engineer",
-        "description": "test",
-        "from": "Dec 18, 2018",
-        "to": "Dec 18, 2018",
-        "location": "Leatherhead"
+        "from": "Oct 2018",
+        "to": "present",
+        "location": "Leatherhead",
+        "description": "test"
       },
       {
         "id": 2,
-        "headline": "Lead UI/UX Designer & Developer",
-        "description": "test",
-        "from": "Dec 18, 2018",
-        "to": "Dec 18, 2018",
-        "location": "Leatherhead"
+        "headline": "Scrum Master",
+        "from": "Jun 2018",
+        "to": "present",
+        "location": "Leatherhead",
+        "description": "test"
+      },
+      {
+        "id": 3,
+        "headline": "UI/UX Lead",
+        "from": "Aug 2015",
+        "to": "present",
+        "location": "Leatherhead",
+        "description": "test"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "University of the West of England",
+    "img": "assets/images/companies/uwe_logo.jpg",
+    "from": "Aug 2014",
+    "to": "Aug 2015",
+    "roles": [
+      {
+        "id": 1,
+        "headline": "Peer Assisted Learning Leader",
+        "from": "Aug 2014",
+        "to": "Aug 2015",
+        "location": "Bristol",
+        "description": "test"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "IBM",
+    "img": "assets/images/companies/ibm_logo.png",
+    "from": "Jul 2013",
+    "to": "Aug 2014",
+    "roles": [
+      {
+        "id": 1,
+        "headline": "Software Engineer",
+        "from": "Jul 2013",
+        "to": "Aug 2014",
+        "location": "London",
+        "description": "test"
       }
     ]
   }

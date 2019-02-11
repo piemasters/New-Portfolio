@@ -1,4 +1,6 @@
 @import '../../../styles/variables';
+@import '../../../styles/brand';
+@import '../../../styles/mixins';
 
 .role-container {
   line-height: 1.2;
@@ -43,7 +45,7 @@
 
 .row-container {
   display: block;
-  margin: 4rem 5rem;
+  margin: 8rem 5rem;
   @media screen and (min-width: $lg)  {
     margin: 8rem 10rem;
   }
@@ -111,16 +113,30 @@
   }
 }
 
+.company {
+  text-align: center;
+}
 
 
 
-//@media screen and (min-width: $xxl)  {
-//  section.subsection {
-//    float: left;
-//    width: 50%;
-//  }
-//  aside.subsection {
-//    float: right;
-//    width: 50%;
-//  }
-//}
+
+#job-logos {
+  display: block;
+  padding: 6rem 4rem;
+  .logos-content {
+    font-size: 2rem;
+    margin-top: 1.5em;
+    text-align: center;
+    .job-image {
+      border-radius: 5rem;
+      display: inline-block;
+      margin: 2rem;
+      width: 10rem;
+      &:hover {
+        cursor: pointer;
+        @include filter-accent;
+      }
+    }
+  }
+
+}

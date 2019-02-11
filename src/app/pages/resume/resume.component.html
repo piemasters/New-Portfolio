@@ -10,7 +10,7 @@
   </div>
 </header>
 
-<div class="page-content">
+<article class="page-content">
 
   <div class="row-container">
     <div class="row">
@@ -25,26 +25,37 @@
     </div>
   </div>
 
-  <section id="jobs" class="page-container" *ngIf="companies$ | async as companies">
-    <header>
-      <h2 class="top">Employment History</h2>
-    </header>
-    <article class="company-container" *ngFor="let company of companies.companyList">
-      <div class="project">
-        <h3>{{company.name}}</h3>
-        <img src="{{company.img}}" alt="">
-        <div>{{company.from | date}} - {{company.to | date}}</div>
-        <div class="role-container" *ngFor="let role of company.roles">
-          <b>{{role.headline}}</b>
-          <div>{{role.from | date}} - {{role.to | date}}</div>
-          <div>{{role.location}}</div>
-          <p>{{role.description}}</p>
-        </div>
-      </div>
+  <section id="job-logos" class="page-container" *ngIf="companies$ | async as companies">
+    <article class="logos-content">
+
+      <img *ngFor="let company of companies.companyList" src="{{company.img}}"
+           alt="{{company.name}}" class="job-image" (click)="selectCompany(company)">
+
     </article>
   </section>
 
-</div>
+  <section id="company-desc" class="page-container" *ngIf="selectedCompany">
+
+    <div class="company">
+      <h4>{{selectedCompany.name}}</h4>
+      <h5>
+      <span>{{selectedCompany.from | date}} - </span>
+      <span *ngIf="selectedCompany.to !== 'present'">{{selectedCompany.to | date}}</span>
+      <span *ngIf="selectedCompany.to === 'present'">Present</span>
+      </h5>
+      <div class="role-container" *ngFor="let role of selectedCompany.roles">
+        <p><b>{{role.headline}}</b></p>
+        <span>{{role.from | date}} - </span>
+        <span *ngIf="role.to !== 'present'">{{role.to | date}}</span>
+        <span *ngIf="role.to === 'present'">Present</span>
+        <div>{{role.location}}</div>
+        <p>{{role.description}}</p>
+      </div>
+    </div>
+
+  </section>
+
+</article>
 
 
 <!--<section class="subsection">-->
