@@ -43,11 +43,16 @@
   }
 }
 
+.resume-hr {
+  margin: 4rem auto 2rem auto;
+  width: 50%;
+}
+
 .row-container {
   display: block;
-  margin: 8rem 5rem;
+  margin: 8rem 5rem 2rem 5rem;
   @media screen and (min-width: $lg)  {
-    margin: 8rem 10rem;
+    margin: 8rem 10rem 4rem 10rem;
   }
 
 }
@@ -56,6 +61,29 @@
   //height: 40rem;
   margin: auto;
   max-width: 1200px;
+  .para {
+    padding: 1rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  button {
+    background-color: $brand-light;
+    border: none;
+    color: $text-light;
+    cursor: pointer;
+    padding: 2rem;
+    text-transform: uppercase;
+    &:hover {
+      background-color: $brand;
+    }
+  }
 }
 
 .col {
@@ -115,17 +143,20 @@
 
 .company {
   text-align: center;
+  hr {
+    padding: 1rem;
+    width: 40%;
+  }
+  h5 {
+    padding-bottom: 2rem;
+  }
 }
-
-
-
 
 #job-logos {
   display: block;
-  padding: 6rem 4rem;
+  padding: 2rem;
   .logos-content {
     font-size: 2rem;
-    margin-top: 1.5em;
     text-align: center;
     .job-image {
       border-radius: 5rem;
@@ -134,6 +165,11 @@
       width: 10rem;
       &:hover {
         cursor: pointer;
+        @include filter-accent;
+      }
+      &.active {
+        border-radius: 10rem;
+        width: 12rem;
         @include filter-accent;
       }
     }

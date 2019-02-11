@@ -23,13 +23,32 @@
         </div>
       </div>
     </div>
+    <div class="button-container">
+      <button>View My Resume</button>
+    </div>
+    <hr class="resume-hr">
+    <div class="row">
+      <div class="para">
+        <p>
+          An experienced UX & UI developer with an ever-growing knowledge of modern front-end technologies.
+          Delivered multiple successful projects as lead front-end architect, designer & developer with CGI,
+          IBM and independently, working in both agile and waterfall environments.
+        </p>
+        <p>
+          A first-class degree in Forensic Computing and Security with a keen interest in web
+          application security. Currently acting as a front-end technical interviewer and developing
+          new client solutions.
+        </p>
+      </div>
+    </div>
   </div>
 
   <section id="job-logos" class="page-container" *ngIf="companies$ | async as companies">
     <article class="logos-content">
 
       <img *ngFor="let company of companies.companyList" src="{{company.img}}"
-           alt="{{company.name}}" class="job-image" (click)="selectCompany(company)">
+           [class.active]="clicked === company"
+           alt="{{company.name}}" class="job-image" (click)="selectCompany(company); clicked = company">
 
     </article>
   </section>
@@ -39,10 +58,11 @@
     <div class="company">
       <h4>{{selectedCompany.name}}</h4>
       <h5>
-      <span>{{selectedCompany.from | date}} - </span>
-      <span *ngIf="selectedCompany.to !== 'present'">{{selectedCompany.to | date}}</span>
-      <span *ngIf="selectedCompany.to === 'present'">Present</span>
+        <span>{{selectedCompany.from | date}} - </span>
+        <span *ngIf="selectedCompany.to !== 'present'">{{selectedCompany.to | date}}</span>
+        <span *ngIf="selectedCompany.to === 'present'">Present</span>
       </h5>
+      <hr>
       <div class="role-container" *ngFor="let role of selectedCompany.roles">
         <p><b>{{role.headline}}</b></p>
         <span>{{role.from | date}} - </span>
