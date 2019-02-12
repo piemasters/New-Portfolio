@@ -10,24 +10,33 @@
   </div>
 </header>
 
-<article class="page-content">
+<article id="resume" class="page-content">
 
-  <div class="row-container">
-    <div class="row">
+  <section  id="resume-title" class="profile-container">
+    <div class="row title-container">
       <div class="col col-img"><img src="/assets/images/me.png" alt=""></div>
       <div class="col col-text">
-        <div class="title">
+        <div class="title-text">
           <h2>Senior Software Engineer</h2>
           <h3>- Lead UX Designer & UI Developer</h3>
           <h3>- Scrum Master</h3>
         </div>
       </div>
     </div>
+
     <div class="button-container">
       <button>View My Resume</button>
     </div>
-    <hr class="resume-hr">
-    <div class="row">
+
+  </section>
+
+
+  <hr class="resume-hr">
+
+
+  <section id="resume-description" class="profile-container">
+
+    <div class="row title-container">
       <div class="para">
         <p>
           An experienced UX & UI developer with an ever-growing knowledge of modern front-end technologies.
@@ -41,7 +50,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </section>
 
   <section id="job-logos" class="page-container" *ngIf="companies$ | async as companies">
     <article class="logos-content">
@@ -56,55 +65,29 @@
   <section id="company-desc" class="page-container" *ngIf="selectedCompany">
 
     <div class="company">
-      <h4>{{selectedCompany.name}}</h4>
-      <h5>
+      <h3>{{selectedCompany.name}}</h3>
+      <h4>
         <span>{{selectedCompany.from | date}} - </span>
         <span *ngIf="selectedCompany.to !== 'present'">{{selectedCompany.to | date}}</span>
         <span *ngIf="selectedCompany.to === 'present'">Present</span>
-      </h5>
+      </h4>
       <hr>
       <div class="role-container" *ngFor="let role of selectedCompany.roles">
-        <p><b>{{role.headline}}</b></p>
-        <span>{{role.from | date}} - </span>
-        <span *ngIf="role.to !== 'present'">{{role.to | date}}</span>
-        <span *ngIf="role.to === 'present'">Present</span>
-        <div>{{role.location}}</div>
-        <p>{{role.description}}</p>
+        <h5>{{role.headline}}</h5>
+        <h6>
+          <span>{{role.from | date}} - </span>
+          <span *ngIf="role.to !== 'present'">{{role.to | date}}</span>
+          <span *ngIf="role.to === 'present'">Present</span>
+        </h6>
+        <h6><i>{{role.location}}</i></h6>
+        <div class="role-description">
+          <p *ngFor="let desc of role.description">
+            {{desc}}
+          </p>
+        </div>
       </div>
     </div>
 
   </section>
 
 </article>
-
-
-<!--<section class="subsection">-->
-<!--<header id="">-->
-<!--<img src="/assets/images/me.jpg" alt="">-->
-<!--<div class="title">-->
-<!--<h1>Senior Software Engineer</h1>-->
-<!--<h2>- Lead UX Designer & UI Developer</h2>-->
-<!--<h2>- Scrum Master</h2>-->
-<!--</div>-->
-<!--</header>-->
-
-<!--<section id="portfolio" class="aside-container">-->
-
-<!--</section>-->
-
-<!--<aside class="subsection">-->
-<!--<header>-->
-<!--<h2>About Me</h2>-->
-<!--</header>-->
-<!--<p>-->
-<!--An experienced UX & UI developer with an ever-growing knowledge of modern front-end technologies.-->
-<!--Delivered multiple successful projects as lead front-end architect,-->
-<!--designer & developer with CGI, IBM and independently, working in both agile and waterfall environments.-->
-<!--</p>-->
-<!--<p>-->
-<!--A first-class degree in Forensic Computing and Security with a keen interest in web application security.-->
-<!--Currently acting as a front-end technical interviewer and developing new client solutions.-->
-<!--</p>-->
-<!--</aside>-->
-
-<!--</section>-->

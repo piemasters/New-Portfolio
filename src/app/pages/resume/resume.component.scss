@@ -48,26 +48,37 @@
   width: 50%;
 }
 
-.row-container {
-  display: block;
-  margin: 8rem 5rem 2rem 5rem;
-  @media screen and (min-width: $lg)  {
-    margin: 8rem 10rem 4rem 10rem;
-  }
 
-}
-.row {
-  display: flex; /* equal height of the children */
-  //height: 40rem;
-  margin: auto;
-  max-width: 1200px;
-  .para {
-    padding: 1rem;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
+.profile-container {
+  display: block;
+  margin: 2em 5rem 2rem 5rem;
+  @media screen and (min-width: $lg)  {
+    margin: 4rem 10rem 4rem 10rem;
+  }
+  .title-container {
+    margin: auto;
+    max-width: 1200px;
+    .para {
+      padding: 1rem;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
   }
 }
+//.row {
+//  display: flex;
+//  margin: auto;
+//  max-width: 1200px;
+//  .para {
+//    padding: 1rem;
+//    text-align: center;
+//    max-width: 800px;
+//    margin: 0 auto;
+//  }
+//}
+
+
 
 .button-container {
   display: flex;
@@ -83,6 +94,10 @@
     &:hover {
       background-color: $brand;
     }
+    &:active, &:focus {
+      border: none;
+      outline:none;
+    }
   }
 }
 
@@ -92,7 +107,7 @@
   height: 200px;
   line-height: 200px;
   flex: 1; /* additionally, equal width */
-  .title {
+  .title-text {
     display: inline-block;
     vertical-align: middle;
     h2 {
@@ -127,6 +142,21 @@
 
 .col-img {
   flex: 1;
+}
+
+.role-description {
+  margin: auto;
+  width: 80%;
+  @media screen and (min-width: $lg)  {
+    width: 60%;
+  }
+
+  p {
+    //text-align: justify;
+    text-align-last: center;
+
+  }
+
 }
 
 @media screen and (max-width: $lg)  {
