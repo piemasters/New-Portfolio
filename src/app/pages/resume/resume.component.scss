@@ -48,7 +48,6 @@
   width: 50%;
 }
 
-
 .profile-container {
   display: block;
   margin: 2em 5rem 2rem 5rem;
@@ -66,19 +65,6 @@
     }
   }
 }
-//.row {
-//  display: flex;
-//  margin: auto;
-//  max-width: 1200px;
-//  .para {
-//    padding: 1rem;
-//    text-align: center;
-//    max-width: 800px;
-//    margin: 0 auto;
-//  }
-//}
-
-
 
 .button-container {
   display: flex;
@@ -150,13 +136,9 @@
   @media screen and (min-width: $lg)  {
     width: 60%;
   }
-
   p {
-    //text-align: justify;
     text-align-last: center;
-
   }
-
 }
 
 @media screen and (max-width: $lg)  {
