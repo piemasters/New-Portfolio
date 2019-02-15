@@ -3,7 +3,7 @@
   "short_name": "Portfolio",
   "description": "A portfolio of personal and public projects",
   "theme_color": "#3F51B5",
-  "background_color": "#fafafa",
+  "background_color": "#FAFAFA",
   "display": "standalone",
   "orientation": "portrait-primary",
   "scope": "/",
