@@ -2,74 +2,74 @@
 @import '../../../styles/brand';
 @import '../../../styles/mixins';
 
-.role-container {
-  line-height: 1.2;
-}
-
-.company-container {
-  img {
-    height: 72px;
-    width: 72px;
-  }
-}
-
-#title-container {
-  display: inline-block;
-  height: auto;
-  width: 100%;
-}
-
-#title-header {
-
-  margin: 0 auto;
-  width: 70%;
-  .title {
-    float: left;
-    h1 {
-      margin: 0;
-    }
-    h2 {
-      text-align: left;
-      font-size: 1.8rem;
-      margin: 0;
-      padding: 0.5rem 3rem;
-    }
-  }
-  img {
-    border-radius: 50%;
-    float: left;
-    width: 200px;
-    margin: 4rem;
-  }
-}
-
-.resume-hr {
-  margin: 4rem auto 2rem auto;
-  width: 50%;
-}
-
-.profile-container {
+.resume-section {
   display: block;
-  margin: 2em 5rem 2rem 5rem;
+  margin: 1em auto 1rem auto;
+  max-width: $lg;
   @media screen and (min-width: $lg)  {
-    margin: 4rem 10rem 4rem 10rem;
+    margin: 2rem auto 2rem auto;
   }
-  .title-container {
-    margin: auto;
-    max-width: 1200px;
-    .para {
-      padding: 1rem;
-      text-align: center;
-      max-width: 800px;
-      margin: 0 auto;
+}
+
+.resume-title {
+  margin: auto;
+
+  display: block;
+  .custom-col {
+    flex: 1;
+    height: 200px;
+    line-height: 200px;
+    padding: 0;
+    position: relative;
+  }
+  .col-img {
+    flex: 1;
+    img {
+      @include positioning(absolute, 0, 0, 0 ,0);
+      border-radius: 50%;
+      margin: auto;
+      width: 200px;
+    }
+  }
+  .col-text {
+    flex: 2;
+    text-align: center;
+    .title-text {
+      display: inline-block;
+      vertical-align: middle;
+      h2 {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+      }
+      h3 {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        margin: 0;
+        padding: 0.5rem 3rem;
+        text-align: center;
+      }
+    }
+  }
+  @media screen and (min-width: $lg)  {
+    display: flex;
+    flex-wrap: wrap;
+    .col-text {
+      text-align: left;
+      .title-text {
+        h2, h3 {
+          text-align: left;
+        }
+      }
     }
   }
 }
 
-.button-container {
+.resume-button {
   display: flex;
   justify-content: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   button {
     background-color: $brand-light;
     border: none;
@@ -87,84 +87,14 @@
   }
 }
 
-.col {
-  padding: 0;
-  position: relative;
-  height: 200px;
-  line-height: 200px;
-  flex: 1; /* additionally, equal width */
-  .title-text {
-    display: inline-block;
-    vertical-align: middle;
-    h2 {
-      letter-spacing: normal;
-      margin: 0;
-      padding-left: 0;
-      padding-right: 0;
-    }
-    h3 {
-      text-transform: uppercase;
-      text-align: left;
-      font-size: 1.8rem;
-      margin: 0;
-      padding: 0.5rem 3rem;
-    }
-  }
-  img {
-    border-radius: 50%;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 200px;
-  }
-}
-
-.col-text {
-  flex: 2;
-}
-
-.col-img {
-  flex: 1;
-}
-
-.role-description {
-  margin: auto;
-  width: 80%;
-  @media screen and (min-width: $lg)  {
-    width: 60%;
-  }
-  p {
-    text-align-last: center;
-  }
-}
-
-@media screen and (max-width: $lg)  {
-  .row {
-    display: block;
-    .col-text {
-      text-align: center;
-      h2, h3 {
-        text-align: center;
-      }
-    }
-  }
-}
-
-.company {
+.resume-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
   text-align: center;
-  hr {
-    padding: 1rem;
-    width: 40%;
-  }
-  h5 {
-    padding-bottom: 2rem;
-  }
 }
 
-#job-logos {
+#company-logos {
   display: block;
   padding: 2rem;
   .logos-content {
@@ -186,5 +116,33 @@
       }
     }
   }
-
 }
+
+.company {
+  hr {
+    padding: 1rem;
+    width: 40%;
+  }
+  h3, h4 {
+    text-align: center;
+
+  }
+  h5 {
+    padding-bottom: 2rem;
+  }
+}
+
+.role-description {
+  //margin: auto;
+  //width: 80%;
+  //@media screen and (min-width: $lg)  {
+  //  width: 60%;
+  //}
+  //p {
+  //  //text-align-last: center;
+  //}
+}
+
+
+
+

@@ -12,10 +12,13 @@
 
 <article id="resume" class="page-content">
 
-  <section  id="resume-title" class="profile-container">
-    <div class="row title-container">
-      <div class="col col-img"><img src="/assets/images/me.png" alt=""></div>
-      <div class="col col-text">
+  <section  id="resume-title" class="resume-section">
+
+    <div class="resume-title">
+      <div class="col-img custom-col">
+        <img src="/assets/images/me.png" alt="">
+      </div>
+      <div class="col-text custom-col">
         <div class="title-text">
           <h2>Senior Software Engineer</h2>
           <h3>- Lead UX Designer & UI Developer</h3>
@@ -23,46 +26,42 @@
         </div>
       </div>
     </div>
-
-    <div class="button-container">
+    <div class="resume-button">
       <button>View My Resume</button>
     </div>
 
   </section>
 
+  <hr width="50%">
 
-  <hr class="resume-hr">
+  <section id="resume-description" class="resume-section">
 
-
-  <section id="resume-description" class="profile-container">
-
-    <div class="row title-container">
-      <div class="para">
+      <div class="resume-intro">
         <p>
-          An experienced UX & UI developer with an ever-growing knowledge of modern front-end technologies.
-          Delivered multiple successful projects as lead front-end architect, designer & developer with CGI,
-          IBM and independently, working in both agile and waterfall environments.
+          A Senior Software Engineer with <b>5+ years experience</b> currently working across a number of
+          agile teams to ensure successful delivery of multiple projects.
+          I organise teams, manage user stories and design/develop solutions.
+          I'm always trying to improve existing processes via <b>automating deployment and testing</b>,
+          defining higher quality standards and introducing new technologies.
         </p>
         <p>
-          A first-class degree in Forensic Computing and Security with a keen interest in web
-          application security. Currently acting as a front-end technical interviewer and developing
-          new client solutions.
+          I am an UX & UI enthusiast and love to learn new technologies including <b>Angular 7, PWAs and GraphQL</b>.
+          I also have a first-class degree in <b>Forensic Computing and Security</b> and have a keen interest in web security.
         </p>
       </div>
+
+  </section>
+
+  <section id="company-logos" class="resume-section" *ngIf="companies$ | async as companies">
+
+    <div class="logos-content">
+      <img *ngFor="let company of companies.companyList" src="{{company.img}}" alt="{{company.name}}"
+           [class.active]="selectedCompany === company" class="job-image" (click)="selectCompany(company)">
     </div>
+
   </section>
 
-  <section id="job-logos" class="page-container" *ngIf="companies$ | async as companies">
-    <article class="logos-content">
-
-      <img *ngFor="let company of companies.companyList" src="{{company.img}}"
-           [class.active]="clicked === company"
-           alt="{{company.name}}" class="job-image" (click)="selectCompany(company); clicked = company">
-
-    </article>
-  </section>
-
-  <section id="company-desc" class="page-container" *ngIf="selectedCompany">
+  <section id="company-desc" class="resume-section" *ngIf="selectedCompany">
 
     <div class="company">
       <h3>{{selectedCompany.name}}</h3>
@@ -76,8 +75,8 @@
         <h5>{{role.headline}}</h5>
         <h6>
           <span>{{role.from | date}} - </span>
-          <span *ngIf="role.to !== 'present'">{{role.to | date}}</span>
-          <span *ngIf="role.to === 'present'">Present</span>
+          <span *ngIf="role.to.toString() !== 'present'">{{role.to | date}}</span>
+          <span *ngIf="role.to.toString() === 'present'">Present</span>
         </h6>
         <h6><i>{{role.location}}</i></h6>
         <div class="role-description">
