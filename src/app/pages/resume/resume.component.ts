@@ -4,6 +4,7 @@ import { Company } from '../../shared/models/company.model';
 import { select, Store } from '@ngrx/store';
 import * as fromCompanies from '../../store/companies/companies.reducers';
 import * as CompaniesActions from '../../store/companies/companies.actions';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-resume',
@@ -21,7 +22,10 @@ export class ResumeComponent implements OnInit {
 
   ngOnInit() {
     this.store.dispatch(new CompaniesActions.FetchCompanies());
-    this.companies$ = this.store.pipe(select('companies'));
+    this.companies$ = this.store.pipe(
+      select('companies'),
+      map(c => c.companyList)
+    );
   }
 
   selectCompany(company) {

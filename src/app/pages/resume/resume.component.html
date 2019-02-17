@@ -27,7 +27,9 @@
       </div>
     </div>
     <div class="resume-button">
-      <button>View My Resume</button>
+      <a href="/assets/resume.pdf" target="_blank">
+        <button>View My Resume</button>
+      </a>
     </div>
 
   </section>
@@ -55,22 +57,25 @@
   <section id="company-logos" class="resume-section" *ngIf="companies$ | async as companies">
 
     <div class="logos-content">
-      <img *ngFor="let company of companies.companyList" src="{{company.img}}" alt="{{company.name}}"
+      <img *ngFor="let company of companies" [src]="company.img" [alt]="company.name"
            [class.active]="selectedCompany === company" class="job-image" (click)="selectCompany(company)">
     </div>
 
   </section>
 
-  <section id="company-desc" class="resume-section" *ngIf="selectedCompany">
+  <section id="company-details" class="resume-section" *ngIf="selectedCompany">
 
     <div class="company">
+
       <h3>{{selectedCompany.name}}</h3>
       <h4>
         <span>{{selectedCompany.from | date}} - </span>
         <span *ngIf="selectedCompany.to !== 'present'">{{selectedCompany.to | date}}</span>
         <span *ngIf="selectedCompany.to === 'present'">Present</span>
       </h4>
-      <hr>
+
+      <hr width="50%">
+
       <div class="role-container" *ngFor="let role of selectedCompany.roles">
         <h5>{{role.headline}}</h5>
         <h6>
@@ -78,12 +83,11 @@
           <span *ngIf="role.to.toString() !== 'present'">{{role.to | date}}</span>
           <span *ngIf="role.to.toString() === 'present'">Present</span>
         </h6>
-        <h6><i>{{role.location}}</i></h6>
-        <div class="role-description">
-          <p *ngFor="let desc of role.description">
+        <ul class="role-description">
+          <li *ngFor="let desc of role.description">
             {{desc}}
-          </p>
-        </div>
+          </li>
+        </ul>
       </div>
     </div>
 

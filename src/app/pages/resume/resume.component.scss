@@ -119,30 +119,27 @@
 }
 
 .company {
-  hr {
-    padding: 1rem;
-    width: 40%;
-  }
-  h3, h4 {
+  h3 {
     text-align: center;
-
+  }
+  h4 {
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
   }
   h5 {
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  h6 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  .role-description {
+    margin: 1rem;
+    li {
+      margin-bottom: 0.6rem;
+
+    }
   }
 }
-
-.role-description {
-  //margin: auto;
-  //width: 80%;
-  //@media screen and (min-width: $lg)  {
-  //  width: 60%;
-  //}
-  //p {
-  //  //text-align-last: center;
-  //}
-}
-
-
-
-
