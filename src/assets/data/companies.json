@@ -13,8 +13,9 @@
         "to": "present",
         "location": "Leatherhead",
         "description": [
-          "Introduced Docker to the team for the first time, successfully deploying a Spring REST service across a Docker Swarm.",
-          "Developed a reusable automation testing framework using Python & NiFi.",
+          "Introduced Docker and Spring to the development team to successfully deploy a REST service used to query an Accumulo database",
+          "Developed and integrated a reusable automation testing framework with Python & NiFi used to replace manual tests and ensure quality across a number of projects",
+          "Improved code quality and consistency within the department by integrating tools such as SonarQube and EditorConfig into the development process",
           "Key Skills: Python, Docker, Spring, Cucumber, Gherkin, Behave, NiFi, Agile, Spark, Hadoop, Zookeeper, Kafka"
         ]
       },
@@ -25,22 +26,26 @@
         "to": "present",
         "location": "Leatherhead",
         "description": [
-          "Organised and facilitated planning sessions, refactoring, daily stand-ups, SCRUMs, retrospectives and demos in a department new to Agile.",
-          "Reported on project progress, team velocity and sprint/release progress to the project managers and directly to the client.",
-          "Obtained Scrum Master certification in July 2018.",
+          "Organise and facilitate all scrum events (Sprint Planning, Daily Scrum, Sprint Review and Sprint Retrospectives) in a department new to Agile",
+          "Perform daily refactoring on user stories and tickets to ensure developers are not blocked and that acceptance criteria meet client needs",
+          "Report on project progress, team velocity and sprint/release progress to the client and management on a weekly basis",
+          "Defined team way of working and definition of done to ensure a consistent workflow and quality standard for all work delivered",
+          "Obtained Scrum Master certification in July 2018",
           "Key Tools: Agile, JIRA, Confluence"
         ]
       },
       {
         "id": 3,
-        "headline": "UI/UX Lead",
+        "headline": "Lead UX Designer & UI Developer",
         "from": "Aug 2015",
         "to": "present",
         "location": "Leatherhead",
         "description": [
-          "Forest Thematic Exploitation Platform - Developed a service that offers access to pre-processed satellite and ancillary data and provides computing power and software for processing forestry data.",
-          "Smart Passport Application Forms - Produced a new set of electronic passport application forms for Gibraltar, Guernsey, Jersey & Isle of Man.",
-          "Other - Designed and developed prototypes leading to the success of multiple bids. Uplifted older internal projects to bring the quality and branding inline with more modern interfaces. Technical UI interviewer in Leatherhead for the business unit.",
+          "Forest Thematic Exploitation Platform - Developed a service that offers access to pre-processed satellite/ancillary data and provides an environment and tools for processing forestry data. This is now a widely used service accessed globally within the earth observation community",
+          "Smart Passport Application Forms - Produced a new set of electronic passport application forms for Gibraltar, Guernsey, Jersey & Isle of Man. These utilised the PDF417 standard allowing printed form data to be scanned in, saving time and eliminating mistakes made from previous manual data entry",
+          "Designed and developed prototype interfaces for a number of proposals, leading to winning work for a number of projects",
+          "Uplifted a number of internal projects to bring the quality and branding inline with more modern interfaces",
+          "Ran a number of phone and face to face interviewers for front-end developers across multiple departments, leading to successful hires",
           "Key Skills: Angular 2-7, AngularJS, JavaScript (ES6), Node.js, JQuery, HTML 5, Sass, Less, CSS3, Bootstrap, Foundation, Material, Selenium, Cypress, Protractor, REST, Karma, Jasmine, Mocha, Chai, Webpack, Gulp, Grunt"
         ]
       }
@@ -60,9 +65,9 @@
         "to": "Aug 2015",
         "location": "Bristol",
         "description": [
-          "Helped second year students with placement preparation and applications. ",
-          "Worked with tutors, employers and careers staff to improve existing student career support. ",
-          "Advised students with their career goals, CVs, covering letters and placement applications."
+          "Worked with tutors, employers and careers staff to improve existing student career support",
+          "Gave a number of presentations to help second year students with placement preparation and applications",
+          "Ran one-on-one workshops to advise students with their career goals, CVs, covering letters and placement applications"
         ]
       }
     ]
@@ -81,17 +86,12 @@
         "to": "Aug 2014",
         "location": "London",
         "description": [
-          "Developed new features that have been released.",
-          "Fixed all product accessibility defects to make it fully compliant for release.",
-          "Worked in Quality Assurance fixing all major defects before product release.",
-          "Developed a Support Assistance Data Collection tool for multiple versions of the product.",
-          "Organised initial planning of moving the product to the cloud as a SaaS offering.",
-          "Core languages used include Java, Javascript, Dojo and ANT on both Windows and Linux.",
-          "Ranked 71st of 15000+ in the IBM Cybersecurity War Games, achieving a gold certificate.",
-          "Lead web-application security events at IBM, UCL & Cambridge University.",
-          "Gave a presentation on IBM's placement and graduate schemes at UWE.",
-          "Taught programming lessons at Ashburnham Community School and Longfield Primary School. ",
-          "Lead two months of lessons at Macaulay CE School for IBM's Lego Robo Challenge 2014."
+          "Developed a number of the most highly requested features by users, lead usability sessions throughout to ensure user needs were met before release",
+          "Worked in Quality Assurance fixing all high priority defects and fixed all product accessibility defects, ensuring full system compliance",
+          "Developed a Support Assistance tool automating data collection for 2nd line support. This saved a significant amount of time for the team on a daily basis",
+          "Ranked 71st of 15000+ in the IBM Cybersecurity War Games, then lead web-application security events at IBM, UCL & Cambridge University",
+          "Taught programming lessons at Ashburnham Community School and Longfield Primary School, then lead two months of lessons at Macaulay CE School for IBM's Lego Robo Challenge 2014.",
+          "Core Skills: Java, Javascript, Dojo, ANT, Linux"
         ]
       }
     ]
