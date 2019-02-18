@@ -65,6 +65,21 @@
 
       </section>
 
+      <section *ngIf="section.type === 'progress'" [style.backgroundColor]="section.backgroundColor">
+        <header>
+          <h2 class="section-title">{{ section.title }}</h2>
+        </header>
+
+        <article>
+          <section class="subsection">
+            <p *ngFor="let p of section.text">
+              {{p}}
+            </p>
+          </section>
+        </article>
+
+      </section>
+
       <section *ngIf="section.type === 'article'" [style.backgroundColor]="section.backgroundColor">
         <header>
           <h2 class="section-title">{{ section.title }}</h2>
