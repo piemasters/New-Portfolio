@@ -2,12 +2,12 @@
 @import '../../../../styles/variables';
 @import '../../../../styles/mixins';
 
-$footer: #464F5D !default;
+$footer: #1F1F1F !default;
 $text-light: #FFFFFF !default;
 
 #footer {
-  background-color: #1f1f1f;
-  color: rgba(255,255,255,.8);
+  background-color: $footer;
+  color: $text-light;
   display: block;
   .footer-inner {
     padding: 6rem 4rem;
@@ -22,7 +22,7 @@ $text-light: #FFFFFF !default;
       .footer-image {
         width: 6rem;
         &:hover {
-          @include filter-accent;
+          @include drop-shadow($accent);
         }
       }
     }

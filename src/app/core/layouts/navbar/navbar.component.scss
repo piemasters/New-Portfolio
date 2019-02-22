@@ -4,11 +4,8 @@
 $accent: #EF9A9A !default;
 $accent-light: #FFCDD2 !default;
 $text: #222222 !default;
+$text-light: #FFFFFF !default;
 $md: 768px !default;
-
-@mixin filter-accent {
-  filter: drop-shadow(2px 2px 12px $accent);
-}
 
 #nav-container {
   padding: 0 3rem;
@@ -26,7 +23,7 @@ $md: 768px !default;
     margin: 0;
     padding: 0 1rem;
     a {
-      color: white;
+      color: $text-light;
       display: inline;
       outline: 0;
       padding: 0;
@@ -43,7 +40,7 @@ $md: 768px !default;
       li {
         display: inline-block;
         a {
-          color: white;
+          color: $text-light;
           display: inline-block;
           letter-spacing: 3px;
           line-height: 5em;
@@ -61,19 +58,9 @@ $md: 768px !default;
       .active {
         background-color: $brand-light;
       }
-      .nav-image {
-        a {
-          &:hover {
-            @include filter-accent;
-          }
-        }
-      }
     }
   }
-}
-
-@media screen and (max-width: $md) {
-  #nav {
+  @media screen and (max-width: $md) {
     height: auto;
     margin-top: 1rem;
     text-align: center;

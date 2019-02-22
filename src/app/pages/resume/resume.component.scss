@@ -106,12 +106,12 @@
       width: 10rem;
       &:hover {
         cursor: pointer;
-        @include filter-accent;
+        @include drop-shadow($accent);
       }
       &.active {
         border-radius: 10rem;
         width: 12rem;
-        @include filter-accent;
+        @include drop-shadow($accent);
       }
     }
   }

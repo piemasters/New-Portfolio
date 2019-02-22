@@ -1,3 +1,21 @@
+// Page Banner
+//
+// The banner used at the top of each page, containing a different image and text.
+//
+// Markup:
+// <header class="page-banner">
+//    <div class="banner-overlay"></div>
+//    <figure class="banner-image-wrapper">
+//        <img alt="banner" src="assets/images/pages/portfolio/banner.jpg">
+//    </figure>
+//    <div class="banner-text-wrapper">
+//        <p>Hello there, I am</p>
+//        <h1>David Norton</h1>
+//        <p><em>a Senior Software Engineer specializing in UX and Web Development.</em></p>
+//    </div>
+//</header>
+//
+// Styleguide Components.banner
 .page-banner {
   display: block;
   padding: 18rem 0 16rem;

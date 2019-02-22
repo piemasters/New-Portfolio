@@ -1,23 +1,31 @@
 @import 'brand';
 
-// Link colors mixin
-//
-// This mixin is used to apply the correct styling to hyperlinks throughout the application.
-// To use the mixin add the following to the CSS class with whatever colors desired:
-// <pre>
-// p {
-//   @include link-colors($brand-dark, $brand-light, $brand);
-// }
-// </pre>
-//
-// Markup:
-// <p>
-//   This is some plain text.
-//   <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
-//   This is some more plain text.
-// <p>
-//
-// Styleguide Mixins.text.hyperlinks
+/*
+Hyperlink Styling Mixin
+
+Applies the correct styling to hyperlinks
+
+Usage:
+
+* `@include link-colors($brand-dark, $brand-light, $brand);`
+
+Parameters:
+
+* `$visit` - Color displayed when visited
+* `$hover` = null - Color displayed on hover
+* `$active` = null - Color displayed when active
+
+
+
+Markup:
+ <p>
+   This is some plain text.
+   <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
+   This is some more plain text.
+ <p>
+
+Styleguide Mixins.text.hyperlinks
+*/
 @mixin link-colors ($visit, $hover, $active) {
   a {
     &:link, &:visited {
@@ -33,7 +41,70 @@
   }
 }
 
-@mixin positioning ($type, $top, $right, $bottom, $left) {
+/*
+Dropshadow Mixin
+
+Applies a drop-shadow of a set color, best used with states such as hover and active
+
+Usage:
+
+* `@include drop-shadow($accent);`
+
+Parameters:
+
+* `$color` - Color of the drop-shadow effect
+
+
+
+Markup:
+<img class="dropshadow-mixin-docs" src="./assets/icons/logo.png" alt="LinkedIn">
+
+Styleguide Mixins.text.drop-shadow
+*/
+@mixin drop-shadow ($color) {
+  filter: drop-shadow(2px 2px 12px $color);
+}
+
+.dropshadow-mixin-docs {
+  width: 6rem;
+  &:hover {
+    @include drop-shadow($accent);
+  }
+}
+
+
+/*
+Positioning Mixin
+
+Shorthand mixin for offset positioning.
+
+Usage:
+
+* `@include positioning(absolute, 0, 0, 0 ,0);`
+
+Layout:
+
+* 1 container with a nested object
+
+Parameters:
+
+* `$type` - Either `relative`, `absolute` or `fixed`
+* `$top` = null - Top offset
+* `$right` = null - Right offset
+* `$bottom` = null - Bottom offset
+* `$left` = null - Left offset
+
+
+
+Markup:
+<div class="container">
+    <div class="box-blue"></div>
+    <div class="box-orange"></div>
+</div>
+
+Styleguide Mixins.layout.positioning
+*/
+@mixin positioning ($type, $top: null, $right: null, $bottom: null, $left: null) {
   position: $type;
   top: $top;
   right: $right;
@@ -41,6 +112,14 @@
   left: $left;
 }
 
-@mixin filter-accent {
-  filter: drop-shadow(2px 2px 12px $accent);
+.box-orange {
+  @include positioning(absolute, 5px, null, null, 5px);
+  background: orange;
+  width: 100px;
+  height: 100px;
+}
+.box-blue {
+  background: lightskyblue;
+  height: 100px;
+  width: 100px;
 }

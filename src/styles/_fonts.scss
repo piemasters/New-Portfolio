@@ -1,4 +1,4 @@
-// Default Fonts
+// Quicksand
 //
 // The default fonts used throughout the application.
 //
@@ -63,12 +63,12 @@
   font-family: Quicksand-Dash, sans-serif;
 }
 
-// Windsong Font
+// Windsong
 //
 // This font is used for the title in the navbar
 //
 // Markup:
-// <h1 class="font-windsong">This is an example of the Windsong font.</h1>
+// <h1 class="font-windsong">This is an example of the Windsong font</h1>
 //
 // Styleguide Text.fonts.windsong
 @font-face {
@@ -79,6 +79,14 @@
   font-family: Windsong, sans-serif;
 }
 
+// Proxima-Nova
+//
+// This font is used for the title in the navbar
+//
+// Markup:
+// <h1>This is an example of the Proxima Nova font</h1>
+//
+// Styleguide Text.fonts.proxima
 @font-face {
   font-family: 'Proxima-Nova';
   src: url('/assets/fonts/Proxima-Nova-Alt-Regular.eot');

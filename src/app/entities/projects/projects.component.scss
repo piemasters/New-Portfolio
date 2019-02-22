@@ -1,5 +1,6 @@
 @import '../../../styles/brand';
 @import '../../../styles/variables';
+@import '../../../styles/mixins';
 
 $accent: #EF9A9A !default;
 $md: 768px !default;
@@ -9,9 +10,6 @@ $xxl: 1800px !default;
   display: inline-block;
   overflow: hidden;
   width: 100%;
-  //@media screen and (min-width: $sm) {
-  //  width: 50%;
-  //}
   @media screen and (min-width: $md) {
     width: 33.33%;
     h3 {
@@ -49,4 +47,9 @@ $xxl: 1800px !default;
       }
     }
   }
+}
+
+.img-text-block {
+  color: $content;
+  @include link-colors($text-light, $text-light, $text-light);
 }
