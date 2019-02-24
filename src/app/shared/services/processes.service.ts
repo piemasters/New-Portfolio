@@ -2,23 +2,23 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { filter, mergeMap } from 'rxjs/operators';
 
-import { Company } from '../models/company.model';
+import { UXMethod } from '../models/ux-method.model';
 
 @Injectable({
   providedIn: 'root',
 })
-export class CompaniesService {
+export class ProcessesService {
 
-  private filePath = './assets/data/companies.json';
+  private filePath = './assets/data/ux-methods.json';
 
   constructor(private http: HttpClient) {}
 
-  getCompanies() {
-    return this.http.get<Company[]>(this.filePath);
+  getUXMethods() {
+    return this.http.get<UXMethod[]>(this.filePath);
   }
 
-  getCompany(id: number) {
-    return this.http.get<Company[]>(this.filePath).pipe(
+  getUXMethod(id: string) {
+    return this.http.get<UXMethod[]>(this.filePath).pipe(
       mergeMap(res => res),
       filter(item => item.id === id)
     );

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "content-audit",
+    "name": "Content Audit",
+    "backgroundColor": "#FFFFFF",
+    "links": [
+      "https://uxmastery.com/how-to-conduct-a-content-audit/",
+      "https://www.youtube.com/watch?v=ALU-1M_-jbg"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": "Mobile Operating System"
+      },
+      {
+        "type": "img",
+        "content": "android.png"
+      }
+    ]
+  }
+]
