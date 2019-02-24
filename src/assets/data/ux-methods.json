@@ -2,20 +2,309 @@
   {
     "id": "content-audit",
     "name": "Content Audit",
+    "type": "learn",
     "backgroundColor": "#FFFFFF",
     "links": [
+      "https://uxknowledgebase.com/content-inventory-688431aeb05",
       "https://uxmastery.com/how-to-conduct-a-content-audit/",
-      "https://www.youtube.com/watch?v=ALU-1M_-jbg"
+      "https://www.youtube.com/watch?v=ALU-1M_-jbg",
+      "http://www.curata.com/blog/content-audit-template/",
+      "https://digitalmarketinginstitute.com/blog/03-04-2018-content-audit-checklist-templates-guidelines-for-your-next-audit",
+      "https://moz.com/blog/content-audit"
     ],
     "description": [
       {
         "type": "text",
-        "content": "Mobile Operating System"
+        "content": "..."
       },
       {
-        "type": "img",
-        "content": "android.png"
+        "type": "image",
+        "content": [
+          {
+            "url": "learn/content_audit_a.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/content_audit_b.png",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/content_audit_c.png",
+            "alt": "test",
+            "caption": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "competitive-analysis",
+    "name": "Competitive Analysis",
+    "type": "learn",
+    "backgroundColor": "#FFFFFF",
+    "links": [
+      "https://uxknowledgebase.com/competitive-analysis-part-1-a5f4409c71a8",
+      "https://uxknowledgebase.com/competitive-analysis-part-2-a31f5f3709ea",
+      "https://uxplanet.org/stop-copying-and-start-doing-competitor-ux-analysis-properly-bff8dbfc644f",
+      "https://www.toptal.com/product-managers/freelance/product-designer-guide-to-competitive-analysis"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": "..."
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "learn/competitive_analysis_a.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/competitive_analysis_b.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/competitive_analysis_c.png",
+            "alt": "test",
+            "caption": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stakeholder-interviews",
+    "name": "Stakeholder Interviews",
+    "type": "learn",
+    "backgroundColor": "#FFFFFF",
+    "links": [
+      "https://uxknowledgebase.com/stakeholder-interview-bcbbf4d3648d",
+      "https://uxplanet.org/talebook-method-001-stakeholder-interview-63eebe4ca12a"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": "..."
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "learn/stakeholder-interviews_a.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/stakeholder-interviews_b.png",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/stakeholder-interviews_c.png",
+            "alt": "test",
+            "caption": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "user-interviews",
+    "name": "User Interviews",
+    "type": "learn",
+    "backgroundColor": "#FFFFFF",
+    "links": [
+      "https://uxknowledgebase.com/user-interview-how-to-ask-good-questions-eb80f8b99627",
+      "https://mattish.com/evidence/method/customer-interviews/",
+      "https://www.userinterviews.com/ux-research-field-guide",
+      "https://uxdesign.cc/asking-the-right-questions-on-user-research-interviews-and-testing-427261742a67",
+      "https://medium.com/user-research/never-ask-what-they-want-3-better-questions-to-ask-in-user-interviews-aeddd2a2101e",
+      "https://medium.com/interactive-mind/5-steps-to-create-good-user-interview-questions-by-metacole-a-comprehensive-guide-8a591b0e2162"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": "..."
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "learn/user-interviews_a.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/user-interviews_b.png",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/user-interviews_c.png",
+            "alt": "test",
+            "caption": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "story-mapping",
+    "name": "Story Mapping",
+    "type": "learn",
+    "backgroundColor": "#FFFFFF",
+    "links": [
+      "https://uxknowledgebase.com/story-mapping-part-1-e65b0b74591",
+      "https://uxknowledgebase.com/story-mapping-part-2-3b0e9e0cf2ef",
+      "https://medium.com/@katerina_mnuk/user-story-mapping-tips-and-tricks-dea4e2ffbae4",
+      "https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog",
+      "https://www.cio.com/article/2377375/agile-development/how-story-mapping-complements-agile-development.html"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": "..."
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "learn/story_mapping_a.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/story_mapping_b.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/story_mapping_c.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/story_mapping_d.jpg",
+            "alt": "test",
+            "caption": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "red-route-analysis",
+    "name": "Red Route Analysis",
+    "type": "learn",
+    "backgroundColor": "#FFFFFF",
+    "links": [
+      "https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": "..."
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "learn/red_route_analysis_a.png",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/red_route_analysis_b.png",
+            "alt": "test",
+            "caption": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "personas",
+    "name": "Personas",
+    "type": "learn",
+    "backgroundColor": "#FFFFFF",
+    "links": [
+      "https://uxknowledgebase.com/creating-personas-part-1-cf1bef5b7eba",
+      "https://uxknowledgebase.com/creating-personas-part-2-5d46ab523e32",
+      "https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/",
+      "https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-2/",
+      "https://theblog.adobe.com/putting-personas-to-work-in-ux-design-what-they-are-and-why-theyre-important/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": "..."
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "learn/personas_a.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/personas_b.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/personas_c.png",
+            "alt": "test",
+            "caption": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-mapping",
+    "name": "Journey Mapping",
+    "type": "learn",
+    "backgroundColor": "#FFFFFF",
+    "links": [
+      "https://uxknowledgebase.com/journey-mapping-part-1-6c9ad6d3bfbc",
+      "https://uxknowledgebase.com/journey-mapping-part-2-86f3625ef4e2",
+      "https://www.nngroup.com/articles/ux-mapping-cheat-sheet/",
+      "https://www.userzoom.com/blog/what-is-a-customer-journey-map-and-why-do-you-need-one/",
+      "https://www.userzoom.com/blog/guide-to-user-experience-maps/",
+      "https://uxplanet.org/journey-mapping-is-key-to-gaining-empathy-1da5b54655e1"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": "..."
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "learn/journey_mapping_a.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/journey_mapping_b.jpeg",
+            "alt": "test",
+            "caption": "text"
+          },
+          {
+            "url": "learn/journey_mapping_c.png",
+            "alt": "test",
+            "caption": "text"
+          }
+        ]
       }
     ]
   }
-]
+
+  ]
