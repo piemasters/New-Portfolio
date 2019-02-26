@@ -4,13 +4,13 @@
     "name": "CGI",
     "img": "assets/images/companies/cgi_logo.png",
     "from": "Aug 2015",
-    "to": "present",
+    "to": "Present",
     "roles": [
       {
         "id": 1,
         "headline": "Senior Software Engineer",
         "from": "Oct 2018",
-        "to": "present",
+        "to": "Present",
         "location": "Leatherhead",
         "description": [
           "Introduced Docker and Spring to the development team to successfully deploy a REST service used to query an Accumulo database",
@@ -23,7 +23,7 @@
         "id": 2,
         "headline": "Scrum Master",
         "from": "Jun 2018",
-        "to": "present",
+        "to": "Present",
         "location": "Leatherhead",
         "description": [
           "Organise and facilitate all scrum events (Sprint Planning, Daily Scrum, Sprint Review and Sprint Retrospectives) in a department new to Agile",
@@ -38,7 +38,7 @@
         "id": 3,
         "headline": "Lead UX Designer & UI Developer",
         "from": "Aug 2015",
-        "to": "present",
+        "to": "Present",
         "location": "Leatherhead",
         "description": [
           "Forest Thematic Exploitation Platform - Developed a service that offers access to pre-processed satellite/ancillary data and provides an environment and tools for processing forestry data. This is now a widely used service accessed globally within the earth observation community",

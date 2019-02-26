@@ -67,22 +67,14 @@
 
     <div class="company">
 
-      <h3>{{selectedCompany.name}}</h3>
-      <h4>
-        <span>{{selectedCompany.from | date}} - </span>
-        <span *ngIf="selectedCompany.to !== 'present'">{{selectedCompany.to | date}}</span>
-        <span *ngIf="selectedCompany.to === 'present'">Present</span>
-      </h4>
+      <h3>{{ selectedCompany.name }}</h3>
+      <h4>{{ selectedCompany.from }} - {{ selectedCompany.to }}</h4>
 
       <hr width="50%">
 
       <div class="role-container" *ngFor="let role of selectedCompany.roles">
         <h5>{{role.headline}}</h5>
-        <h6>
-          <span>{{role.from | date}} - </span>
-          <span *ngIf="role.to.toString() !== 'present'">{{role.to | date}}</span>
-          <span *ngIf="role.to.toString() === 'present'">Present</span>
-        </h6>
+        <h6>{{ role.from }} - {{ role.to }}</h6>
         <ul class="role-description">
           <li *ngFor="let desc of role.description">
             {{desc}}
