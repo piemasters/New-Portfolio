@@ -42,26 +42,37 @@
           </div>
 
           <div *ngIf="detail.type === 'image'" class="image-container">
-
+<!--
             <img *ngIf="detail.content.length === 1"
                  src="assets/images/process/ux/{{image.url}}"
                  alt="{{ image.alt }}">
+-->
 
-            <ngb-carousel class="image-container"  *ngIf="detail.content.length > 1" [showNavigationArrows]="showNavigationArrows"
-                          [showNavigationIndicators]="showNavigationIndicators">
-              <ng-template ngbSlide *ngFor="let image of detail.content">
-                <img class="carousel-img" src="assets/images/process/ux/{{image.url}}" alt="Random slide">
-                <div class="carousel-caption">
-                  <h3>{{ image.caption }}</h3>
-                </div>
-              </ng-template>
-            </ngb-carousel>
+
+            <!--<slideshow [imageUrls]="imageSources"></slideshow>-->
+
+            <slideshow [height]="'400px'"
+                       [backgroundSize]="'contain'"
+                       [minHeight]="'525px'"
+                       [autoPlay]="false"
+                       [showArrows]="true"
+                       [imageUrls]="detail.content"
+                       [showCaptions]="true"
+                       [lazyLoad]="detail.content?.length > 1">
+            </slideshow>
+
+
+            <!--<ngb-carousel class="image-container"  *ngIf="detail.content.length > 1" [showNavigationArrows]="showNavigationArrows"-->
+                          <!--[showNavigationIndicators]="showNavigationIndicators">-->
+              <!--<ng-template ngbSlide *ngFor="let image of detail.content">-->
+                <!--<img class="carousel-img" src="assets/images/process/ux/{{image.url}}" alt="Random slide">-->
+                <!--<div class="carousel-caption">-->
+                  <!--<h3>{{ image.caption }}</h3>-->
+                <!--</div>-->
+              <!--</ng-template>-->
+            <!--</ngb-carousel>-->
 
           </div>
-
-
-
-
 
         </div>
 
@@ -71,107 +82,6 @@
             <a [href]="link">{{ link }}</a>
           </li>
         </ul>
-      </section>
-
-    </article>
-  </section>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="page-content">
-  <section>
-    <header>
-      <h2 class="section-title">Learn</h2>
-    </header>
-    <article>
-
-      Learn about the brand, the product and the stakeholders....
-
-      <section class="subsection">
-        <header>
-          <h3>Content Audit</h3>
-        </header>
-        <li>https://uxmastery.com/how-to-conduct-a-content-audit/</li>
-        <li>https://www.youtube.com/watch?v=ALU-1M_-jbg</li>
-      </section>
-
-      <section class="subsection">
-        <header>
-          <h3>Competitive Analysis</h3>
-        </header>
-        <li>https://uxplanet.org/stop-copying-and-start-doing-competitor-ux-analysis-properly-bff8dbfc644f</li>
-        <li>https://www.toptal.com/product-managers/freelance/product-designer-guide-to-competitive-analysis</li>
-      </section>
-
-      <section class="subsection">
-        <header>
-          <h3>Stakeholder Interviews</h3>
-        </header>
-        <li>https://uxplanet.org/talebook-method-001-stakeholder-interview-63eebe4ca12a</li>
-      </section>
-
-      Identify users thoughts, feelings and actions...
-
-      <section class="subsection">
-        <header>
-          <h3>User Interviews</h3>
-        </header>
-        <li>https://mattish.com/evidence/method/customer-interviews/</li>
-      </section>
-
-      <section class="subsection">
-        <header>
-          <h3>User Stories</h3>
-        </header>
-        <li>https://uxplanet.org/user-personas-scenarios-user-stories-and-storyboards-whats-the-difference-cf00315f0799</li>
-      </section>
-
-      <section class="subsection">
-        <header>
-          <h3>Red Route Analysis</h3>
-        </header>
-        <li>https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a</li>
-      </section>
-
-      Model experiences, tasks and mindsets for goals, and define and frame the problem.
-
-      <section class="subsection">
-        <header>
-          <h3>Personas</h3>
-        </header>
-        <li>https://theblog.adobe.com/putting-personas-to-work-in-ux-design-what-they-are-and-why-theyre-important/</li>
-      </section>
-
-      <section class="subsection">
-        <header>
-          <h3>Customer Experience Mapping</h3>
-        </header>
-        An experience map is when you’re aware that customers aren’t having the best experience, but not sure where the problem lies
-        <li>https://www.ngdata.com/creating-a-customer-experience-map/</li>
-      </section>
-
-      <section class="subsection">
-        <header>
-          <h3>Customer Journey Mapping (user journey)</h3>
-        </header>
-        A customer journey map is best suited when you’re focused on a specific path
-        <li>https://www.nngroup.com/articles/ux-mapping-cheat-sheet/</li>
-        <li>https://www.userzoom.com/blog/what-is-a-customer-journey-map-and-why-do-you-need-one/</li>
-        <li>https://www.userzoom.com/blog/guide-to-user-experience-maps/</li>
       </section>
 
     </article>

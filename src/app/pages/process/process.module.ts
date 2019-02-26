@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { ProcessComponent } from './process.component';
 import { ProcessRoutingModule } from './process-routing.module';
 import { CommonModule } from '@angular/common';
-import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { SlideshowModule } from 'ng-simple-slideshow';
 
 @NgModule({
   declarations: [
@@ -11,7 +11,7 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     ProcessRoutingModule,
-    NgbCarouselModule
+    SlideshowModule
   ]
 })
 export class ProcessModule {}

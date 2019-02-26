@@ -21,18 +21,18 @@
         "type": "image",
         "content": [
           {
-            "url": "learn/content_audit_a.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/content_audit_a.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/content_audit_b.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/content_audit_b.png",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/content_audit_c.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/content_audit_c.png",
+            "title": "test",
             "caption": "text"
           }
         ]
@@ -59,18 +59,18 @@
         "type": "image",
         "content": [
           {
-            "url": "learn/competitive_analysis_a.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/competitive_analysis_a.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/competitive_analysis_b.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/competitive_analysis_b.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/competitive_analysis_c.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/competitive_analysis_c.png",
+            "title": "test",
             "caption": "text"
           }
         ]
@@ -95,18 +95,18 @@
         "type": "image",
         "content": [
           {
-            "url": "learn/stakeholder-interviews_a.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/stakeholder-interviews_a.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/stakeholder-interviews_b.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/stakeholder-interviews_b.png",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/stakeholder-interviews_c.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/stakeholder-interviews_c.png",
+            "title": "test",
             "caption": "text"
           }
         ]
@@ -135,18 +135,18 @@
         "type": "image",
         "content": [
           {
-            "url": "learn/user-interviews_a.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/user-interviews_a.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/user-interviews_b.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/user-interviews_b.png",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/user-interviews_c.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/user-interviews_c.png",
+            "title": "test",
             "caption": "text"
           }
         ]
@@ -174,23 +174,23 @@
         "type": "image",
         "content": [
           {
-            "url": "learn/story_mapping_a.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/story_mapping_a.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/story_mapping_b.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/story_mapping_b.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/story_mapping_c.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/story_mapping_c.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/story_mapping_d.jpg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/story_mapping_d.jpg",
+            "title": "test",
             "caption": "text"
           }
         ]
@@ -214,13 +214,13 @@
         "type": "image",
         "content": [
           {
-            "url": "learn/red_route_analysis_a.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/red_route_analysis_a.png",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/red_route_analysis_b.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/red_route_analysis_b.png",
+            "title": "test",
             "caption": "text"
           }
         ]
@@ -248,18 +248,18 @@
         "type": "image",
         "content": [
           {
-            "url": "learn/personas_a.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/personas_a.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/personas_b.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/personas_b.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/personas_c.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/personas_c.png",
+            "title": "test",
             "caption": "text"
           }
         ]
@@ -288,18 +288,18 @@
         "type": "image",
         "content": [
           {
-            "url": "learn/journey_mapping_a.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/journey_mapping_a.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/journey_mapping_b.jpeg",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/journey_mapping_b.jpeg",
+            "title": "test",
             "caption": "text"
           },
           {
-            "url": "learn/journey_mapping_c.png",
-            "alt": "test",
+            "url": "assets/images/process/ux/learn/journey_mapping_c.png",
+            "title": "test",
             "caption": "text"
           }
         ]

@@ -8,12 +8,12 @@ $text-light: #FFFFFF !default;
 $md: 768px !default;
 
 #nav-container {
+  box-sizing: border-box;
   padding: 0 3rem;
   position: absolute;
   width: 100%;
   z-index: 99;
 }
-
 
 #nav {
   height: 4em;
@@ -27,6 +27,9 @@ $md: 768px !default;
       display: inline;
       outline: 0;
       padding: 0;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
   nav {

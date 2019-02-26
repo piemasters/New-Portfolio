@@ -13,14 +13,10 @@ import { UXMethod } from '../../shared/models/ux-method.model';
 })
 export class ProcessComponent implements OnInit {
   uxMethods$: Observable<UXMethod[]>;
-  showNavigationArrows = true;
-  showNavigationIndicators = true;
-
 
   constructor(
-    private store: Store<fromProcesses.State>,
-  ) {
-  }
+    private store: Store<fromProcesses.State>
+  ) {  }
 
   ngOnInit() {
     this.store.dispatch(new ProcessesActions.FetchUXMethods());

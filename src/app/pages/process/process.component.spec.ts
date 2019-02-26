@@ -4,7 +4,7 @@ import { ProcessComponent } from './process.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import { StoreModule } from '@ngrx/store';
 import { reducers } from '../../store/app.reducers';
-import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { SlideshowModule } from 'ng-simple-slideshow';
 
 describe('ProcessComponent', () => {
   let component: ProcessComponent;
@@ -15,7 +15,7 @@ describe('ProcessComponent', () => {
       declarations: [ ProcessComponent ],
       imports: [
         RouterTestingModule,
-        NgbCarouselModule,
+        SlideshowModule,
         StoreModule.forRoot(reducers)
       ]
     })

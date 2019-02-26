@@ -3,6 +3,7 @@
     "id": 1,
     "title": "Smartlock",
     "img": "assets/images/projects/smartlock/cover.jpg",
+    "banner": "assets/images/projects/smartlock/banner.jpg",
     "url": "https://play.google.com/store/apps/details?id=net.davidnorton.securityapp",
     "overview": "online",
     "technologies": [
@@ -11,12 +12,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/smartlock/banner.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -30,13 +25,13 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
       },
       {
-        "id": "4",
+        "id": "3",
         "type": "progress",
         "backgroundColor": "#FFFFFF",
         "title": "Progress",
@@ -45,7 +40,7 @@
         ]
       },
       {
-        "id": "5",
+        "id": "4",
         "type": "article",
         "backgroundColor": "#ECECEC",
         "title": "Screenshots",
@@ -62,6 +57,7 @@
     "id": 2,
     "title": "Passport Smartforms",
     "img": "assets/images/projects/passports/cover.jpg",
+    "banner": "assets/images/projects/passports/banner.jpg",
     "url": "https://www.gibraltar.gov.gi/new/passports-and-nationality",
     "overview": "online",
     "technologies": [
@@ -70,12 +66,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/passports/banner.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -89,13 +79,13 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
       },
       {
-        "id": "4",
+        "id": "3",
         "type": "progress",
         "backgroundColor": "#FFFFFF",
         "title": "Progress",
@@ -104,7 +94,7 @@
         ]
       },
       {
-        "id": "5",
+        "id": "4",
         "type": "article",
         "backgroundColor": "#ECECEC",
         "title": "Screenshots",
@@ -121,6 +111,7 @@
     "id": 3,
     "title": "Python Blockchain",
     "img": "assets/images/projects/blockchain/cover.png",
+    "banner": "assets/images/projects/blockchain/banner.jpg",
     "url": "https://github.com/piemasters/Python-Blockchain",
     "overview": "online",
     "technologies": [
@@ -129,12 +120,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/blockchain/banner.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -148,7 +133,7 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
@@ -168,6 +153,7 @@
     "id": 4,
     "title": "BDT-Template",
     "img": "assets/images/projects/bdt/cover.png",
+    "banner": "assets/images/projects/bdt/banner.jpg",
     "url": "https://github.com/piemasters/BDT-Template",
     "overview": "A Python Automation Testing Framework",
     "technologies": [
@@ -176,12 +162,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/bdt/banner.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -195,13 +175,13 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
       },
       {
-        "id": "4",
+        "id": "3",
         "type": "progress",
         "backgroundColor": "#FFFFFF",
         "title": "Progress",
@@ -215,6 +195,7 @@
     "id": 5,
     "title": "Electron-Angular",
     "img": "assets/images/projects/electron/cover.jpg",
+    "banner": "assets/images/projects/electron/banner.jpg",
     "url": "https://github.com/piemasters/Electron-Angular",
     "overview": "Angular Electron Template",
     "technologies": [
@@ -224,12 +205,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/electron/banner.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -244,13 +219,13 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
       },
       {
-        "id": "4",
+        "id": "3",
         "type": "progress",
         "backgroundColor": "#FFFFFF",
         "title": "Progress",
@@ -260,7 +235,7 @@
         ]
       },
       {
-        "id": "5",
+        "id": "4",
         "type": "article",
         "backgroundColor": "#ECECEC",
         "title": "Screenshots",
@@ -277,6 +252,7 @@
     "id": 6,
     "title": "Forestry TEP",
     "img": "assets/images/projects/ftep/cover.jpg",
+    "banner": "assets/images/projects/ftep/banner.jpg",
     "url": "https://f-tep.com/app/",
     "overview": "Forestry Thematic Exploitation Platform",
     "technologies": [
@@ -286,12 +262,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/ftep/banner.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -306,13 +276,13 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
       },
       {
-        "id": "5",
+        "id": "3",
         "type": "article",
         "backgroundColor": "#FFFFFF",
         "title": "Screenshots",
@@ -329,6 +299,7 @@
     "id": 7,
     "title": "Kanban Board",
     "img": "assets/images/projects/kanban/cover.jpg",
+    "banner": "assets/images/projects/kanban/cover.jpg",
     "url": "https://kanban.davidnorton.app/",
     "overview": "A simple Kanban board",
     "technologies": [
@@ -338,12 +309,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/kanban/cover.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -357,7 +322,7 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
@@ -373,7 +338,7 @@
         ]
       },
       {
-        "id": "5",
+        "id": "3",
         "type": "article",
         "backgroundColor": "#ECECEC",
         "title": "Screenshots",
@@ -390,6 +355,7 @@
     "id": 8,
     "title": "Crypto Dashboard",
     "img": "assets/images/projects/crypto/cover.jpg",
+    "banner": "assets/images/projects/crypto/banner.jpg",
     "url": "https://crypto.davidnorton.app/",
     "overview": "A crypto-currency price dashboard",
     "technologies": [
@@ -399,12 +365,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/crypto/banner.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -419,13 +379,13 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
       },
       {
-        "id": "4",
+        "id": "3",
         "type": "progress",
         "backgroundColor": "#FFFFFF",
         "title": "Progress",
@@ -435,7 +395,7 @@
         ]
       },
       {
-        "id": "5",
+        "id": "4",
         "type": "article",
         "backgroundColor": "#ECECEC",
         "title": "Screenshots",
@@ -452,6 +412,7 @@
     "id": 9,
     "title": "Cookbook",
     "img": "assets/images/projects/cookbook/cover.jpg",
+    "banner": "assets/images/projects/cookbook/banner.jpg",
     "url": "https://cookbook.davidnorton.app/",
     "overview": "A recipe application",
     "technologies": [
@@ -461,12 +422,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/cookbook/banner.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -481,13 +436,13 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
       },
       {
-        "id": "4",
+        "id": "3",
         "type": "progress",
         "backgroundColor": "#FFFFFF",
         "title": "Progress",
@@ -497,7 +452,7 @@
         ]
       },
       {
-        "id": "5",
+        "id": "4",
         "type": "article",
         "backgroundColor": "#ECECEC",
         "title": "Screenshots",
@@ -514,6 +469,7 @@
     "id": 10,
     "title": "Forestry TEP v3",
     "img": "assets/images/projects/ftepv3/cover.jpg",
+    "banner": "assets/images/projects/ftepv3/banner.jpg",
     "url": "https://ftep.davidnorton.app/",
     "overview": "A reimplementation of the F-TEP portal.",
     "technologies": [
@@ -523,12 +479,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/ftepv3/banner.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -543,7 +493,7 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
@@ -559,7 +509,7 @@
         ]
       },
       {
-        "id": "5",
+        "id": "3",
         "type": "article",
         "backgroundColor": "#ECECEC",
         "title": "Screenshots",
@@ -576,6 +526,7 @@
     "id": 11,
     "title": "Forefront",
     "img": "assets/images/projects/forefront/cover.jpg",
+    "banner": "assets/images/projects/forefront/banner.jpg",
     "url": "https://forefront.davidnorton.app/",
     "overview": "Forefront is a template Angular 7 project",
     "technologies": [
@@ -586,12 +537,6 @@
     "details": [
       {
         "id": "1",
-        "type": "cover",
-        "backgroundColor": "#FFFFFF",
-        "img": "assets/images/projects/forefront/banner.jpg"
-      },
-      {
-        "id": "2",
         "type": "overview",
         "backgroundColor": "#FFFFFF",
         "title": "Overview",
@@ -606,13 +551,13 @@
         ]
       },
       {
-        "id": "3",
+        "id": "2",
         "type": "technologies",
         "backgroundColor": "#ECECEC",
         "title": "Technologies"
       },
       {
-        "id": "4",
+        "id": "3",
         "type": "progress",
         "backgroundColor": "#FFFFFF",
         "title": "Progress",
@@ -621,7 +566,7 @@
         ]
       },
       {
-        "id": "5",
+        "id": "4",
         "type": "article",
         "backgroundColor": "#ECECEC",
         "title": "Screenshots",

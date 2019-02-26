@@ -1,6 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { StoreModule } from '@ngrx/store';
-import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { ActivatedRoute, Data } from '@angular/router';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { CommonModule } from '@angular/common';
@@ -10,6 +9,7 @@ import { ProjectComponent } from './project.component';
 import { ProjectsComponent } from '../projects.component';
 import { CustomPipesModule } from '../../../shared/pipes/custom-pipes.module';
 import { reducers } from '../../../store/app.reducers';
+import { SlideshowModule } from 'ng-simple-slideshow';
 
 
 describe('ProjectComponent', () => {
@@ -28,7 +28,7 @@ describe('ProjectComponent', () => {
         CustomPipesModule,
         NgxPaginationModule,
         StoreModule.forRoot(reducers),
-        NgbCarouselModule
+        SlideshowModule
       ],
       providers: [
         {

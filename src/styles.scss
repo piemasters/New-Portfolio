@@ -1,5 +1,4 @@
 @import 'variables';
-@import '../node_modules/bootstrap/scss/bootstrap';
 @import 'brand';
 @import 'fonts';
 @import 'mixins';
@@ -128,8 +127,20 @@ aside {
         padding: 1rem 2rem;
       }
     }
+    @media screen and (max-width: $sm) {
+      li {
+        display: none;
+      }
+      .pagination-next, .pagination-previous {
+        display: inline-block;
+      }
+    }
   }
   @media screen and (max-width: $md) {
       font-size: 1.2rem;
   }
+}
+
+.arrow {
+  border-color: black!important;
 }

@@ -1,19 +1,19 @@
-<div class="page-content">
-  <div *ngIf="(projects$ | async).selectedProject as project">
+<div *ngIf="(projects$ | async).selectedProject as project">
 
+  <header class="page-banner">
+    <div class="banner-overlay"></div>
+    <figure class="banner-image-wrapper">
+      <img alt="banner" [src]="project.banner">
+    </figure>
+    <div class="banner-text-wrapper">
+      <p>&nbsp;</p>
+      <h1>{{project.title}}</h1>
+      <p><em>&nbsp;</em></p>
+    </div>
+  </header>
+
+  <div class="page-content">
     <div *ngFor="let section of project.details">
-
-      <header *ngIf="section.type === 'cover'" class="page-banner">
-        <div class="banner-overlay"></div>
-        <figure class="banner-image-wrapper">
-          <img alt="banner" [src]="section.img">
-        </figure>
-        <div class="banner-text-wrapper">
-          <p>&nbsp;</p>
-          <h1>{{project.title}}</h1>
-          <p><em>&nbsp;</em></p>
-        </div>
-      </header>
 
       <section *ngIf="section.type === 'overview'" [style.backgroundColor]="section.backgroundColor">
 
@@ -95,20 +95,22 @@
               <img src="{{ section.images[0] }}" alt="{{ section.title }}">
             </div>
 
-            <ngb-carousel class="image-container"  *ngIf="section.images.length > 1" [showNavigationArrows]="showNavigationArrows"
-                          [showNavigationIndicators]="showNavigationIndicators">
-              <ng-template ngbSlide *ngFor="let image of section.images">
-                <img class="carousel-img" [src]="image" alt="Random slide">
-                <div class="carousel-caption">
-                  <h3>No mouse navigation</h3>
-                  <p>This carousel hides navigation arrows and indicators.</p>
-                </div>
-              </ng-template>
-            </ngb-carousel>
+            <slideshow *ngIf="section.images.length > 1"
+                       [height]="'400px'"
+                       [backgroundSize]="'contain'"
+                       [minHeight]="'525px'"
+                       [autoPlay]="false"
+                       [showArrows]="true"
+                       [imageUrls]="images"
+                       [lazyLoad]="images.length > 1">
+            </slideshow>
+
           </section>
         </article>
 
       </section>
     </div>
+
   </div>
 </div>
+

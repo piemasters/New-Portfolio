@@ -19,7 +19,11 @@ $text-light: #FFFFFF !default;
         font-size: 1.6rem;
         padding: 1rem;
       }
+      .footer-spacer {
+        padding-bottom: 1rem;
+      }
       .footer-image {
+        padding: 0 1.2rem;
         width: 6rem;
         &:hover {
           @include drop-shadow($accent);
