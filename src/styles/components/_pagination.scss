@@ -1,0 +1,47 @@
+// Pagination
+//
+// The default style for pagination.
+//
+// Markup:
+// <div class="pagination-container">
+//     <pagination-controls></pagination-controls>
+// </div>
+//
+// Styleguide Layout.components.pagination
+.pagination-container {
+  clear: both;
+  padding: 1rem 0;
+  text-align: center;
+  .ngx-pagination {
+    padding: 0;
+    .current {
+      background-color: $brand;
+      &:hover {
+        background-color: $brand-light;
+      }
+    }
+    li a, .current {
+      padding: 1rem 2rem;
+    }
+    .pagination-next, .pagination-previous {
+      padding: 0;
+      a {
+        padding: 1rem 2rem;
+      }
+      &.disabled {
+        padding: 1rem 2rem;
+      }
+    }
+    @media screen and (max-width: $sm) {
+      li {
+        display: none;
+      }
+      .pagination-next, .pagination-previous {
+        display: inline-block;
+      }
+    }
+  }
+  @media screen and (max-width: $md) {
+    font-size: 1.2rem;
+  }
+}

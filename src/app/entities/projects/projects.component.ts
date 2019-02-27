@@ -5,6 +5,7 @@ import { Observable } from 'rxjs/internal/Observable';
 import { Project } from '../../shared/models/project.model';
 import * as fromProjects from '../../store/projects/projects.reducers';
 import * as ProjectsActions from '../../store/projects/projects.actions';
+import {map} from 'rxjs/operators';
 
 @Component({
   selector: 'app-project',
@@ -13,6 +14,7 @@ import * as ProjectsActions from '../../store/projects/projects.actions';
 })
 export class ProjectsComponent implements OnInit  {
   projects$: Observable<Project[]>;
+  projectsPage$: Observable<number>;
   itemsPerPage = 3;
 
   constructor(
@@ -20,7 +22,14 @@ export class ProjectsComponent implements OnInit  {
   ) { }
 
   ngOnInit() {
-    this.projects$ = this.store.pipe(select('projects'));
+    this.projects$ = this.store.pipe(
+      select('projects'),
+      map(p => p.projectList)
+    );
+    this.projectsPage$ = this.store.pipe(
+      select('projects'),
+      map(p => p.projectsPage)
+    );
   }
 
   changePage(newPage) {

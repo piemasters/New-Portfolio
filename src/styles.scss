@@ -4,6 +4,8 @@
 @import 'mixins';
 @import 'text';
 @import 'components/banner';
+@import 'components/pagination';
+@import 'components/carousel';
 
 body {
   margin: 0;
@@ -17,130 +19,27 @@ body {
   height: 100%;
   line-height: 1.4;
   margin: auto;
-  //max-width: $xxl;
-  padding-bottom: 4rem;
+}
+
+article {
+  padding-bottom: 2rem;
 }
 
 .page-content {
-  max-width: $xxl;
+  max-width: $xl;
   margin: auto;
+  padding: 4rem;
 }
 
-
-
-
-// Sections
-//
-// The default style for sections.
-//
-// Markup:
-// <section>
-//   <header>
-//     <h1>Page Header</h1>
-//     <h2>Section Header</h2>
-//   </header>
-//   <article>
-//     <p>Content</p>
-//   </article>
-// </section>
-//
-// Styleguide Layout.components.section
-section {
-  //background-color: $content;
-  margin-bottom: 1rem;
-  padding: 1rem 2rem;
-}
-
-// Sections
-//
-// The default style for subsections.
-//
-// Markup:
-// <section>
-//   <header>
-//     <h1>Page Header</h1>
-//     <h2>Section Header</h2>
-//   </header>
-//   <article>
-//     <section class="subsection">
-//       <p>Content</p>
-//     </section>
-//   </article>
-// </section>
-//
-// Styleguide Layout.components.subsection
 .subsection {
   padding: 0;
   @media screen and (min-width: $md) {
-    padding: 1rem 2rem;
+    padding: 1rem 0;
   }
 }
 
-// Asides
-//
-// The default style for asides.
-//
-// Markup:
-// <aside>
-//   <h2>Header</h2>
-//   <p>Content</p>
-// </aside>
-//
-// Styleguide Layout.components.aside
 aside {
   background-color: $aside;
   display: inline-block;
   padding: 2em;
-}
-
-// Pagination
-//
-// The default style for pagination.
-//
-// Markup:
-// <div class="pagination-container">
-//     <pagination-controls></pagination-controls>
-// </div>
-//
-// Styleguide Layout.components.pagination
-.pagination-container {
-  clear: both;
-  padding: 1rem 0;
-  text-align: center;
-  .ngx-pagination {
-    padding: 0;
-    .current {
-      background-color: $brand;
-      &:hover {
-        background-color: $brand-light;
-      }
-    }
-    li a, .current {
-      padding: 1rem 2rem;
-    }
-    .pagination-next, .pagination-previous {
-      padding: 0;
-      a {
-        padding: 1rem 2rem;
-      }
-      &.disabled {
-        padding: 1rem 2rem;
-      }
-    }
-    @media screen and (max-width: $sm) {
-      li {
-        display: none;
-      }
-      .pagination-next, .pagination-previous {
-        display: inline-block;
-      }
-    }
-  }
-  @media screen and (max-width: $md) {
-      font-size: 1.2rem;
-  }
-}
-
-.arrow {
-  border-color: black!important;
 }

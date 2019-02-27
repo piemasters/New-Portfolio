@@ -5,13 +5,11 @@ $accent: #EF9A9A !default;
 $md: 768px !default;
 $xxl: 1800px !default;
 
-.image-container {
+.image-container img {
+  display: block;
+  margin: 0 auto;
   max-width: 100%;
-  img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-  }
+
 }
 
 .carousel-img {

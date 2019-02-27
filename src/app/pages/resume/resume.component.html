@@ -10,13 +10,13 @@
   </div>
 </header>
 
-<article id="resume" class="page-content">
+<article id="resume">
 
-  <section  id="resume-title" class="resume-section">
+  <section  id="resume-title" class="page-content resume-section">
 
     <div class="resume-title">
       <div class="col-img custom-col">
-        <img src="/assets/images/me.png" alt="">
+        <img src="/assets/images/me.png" alt="Me">
       </div>
       <div class="col-text custom-col">
         <div class="title-text">
@@ -32,13 +32,12 @@
       </a>
     </div>
 
+    <hr width="50%">
+
   </section>
 
-  <hr width="50%">
-
-  <section id="resume-description" class="resume-section">
-
-      <div class="resume-intro">
+  <section id="resume-description" class="page-content resume-section">
+      <!--<div class="resume-intro">-->
         <p>
           A Senior Software Engineer with <b>5+ years experience</b> currently working across a number of
           agile teams to ensure successful delivery of multiple projects.
@@ -50,23 +49,23 @@
           I am an UX & UI enthusiast and love to learn new technologies including <b>Angular 7, PWAs and GraphQL</b>.
           I also have a first-class degree in <b>Forensic Computing and Security</b> and have a keen interest in web security.
         </p>
-      </div>
-
+      <!--</div>-->
   </section>
 
-  <section id="company-logos" class="resume-section" *ngIf="companies$ | async as companies">
+</article>
 
+<article>
+
+  <section id="company-logos" class="page-content resume-section" *ngIf="companies$ | async as companies">
     <div class="logos-content">
       <img *ngFor="let company of companies" [src]="company.img" [alt]="company.name"
            [class.active]="selectedCompany === company" class="job-image" (click)="selectCompany(company)">
     </div>
-
   </section>
 
-  <section id="company-details" class="resume-section" *ngIf="selectedCompany">
+  <section id="company-details" class="page-content resume-section" *ngIf="selectedCompany">
 
     <div class="company">
-
       <h3>{{ selectedCompany.name }}</h3>
       <h4>{{ selectedCompany.from }} - {{ selectedCompany.to }}</h4>
 

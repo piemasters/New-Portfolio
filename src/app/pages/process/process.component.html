@@ -10,80 +10,64 @@
   </div>
 </header>
 
-<div class="page-content" *ngIf="(uxMethods$ | async) as uxMethods">
-  <section>
+<div *ngIf="(uxMethods$ | async) as uxMethods">
+  <header>
+    <h2 class="section-title">Learn</h2>
+  </header>
+
+  <article *ngFor="let method of uxMethods" [style.backgroundColor]="method.backgroundColor">
     <header>
-      <h2 class="section-title">Learn</h2>
+      <h3 class="section-title">{{ method.name }}</h3>
     </header>
-    <article>
 
-      <h3>Learn</h3>
-      <p>1-3 Learn about the brand, the product and the stakeholders....</p>
-      <p>4-6 Identify users thoughts, feelings and actions...</p>
-      <p>7-8 Model experiences, tasks and mindsets for goals, and define and frame the problem.</p>
+    <div *ngFor="let detail of method.description">
 
-      <h3>Design</h3>
-      <p>1-3 Generate concepts</p>
-      <p>4-6 Visualize the interaction</p>
-      <p>7-8 Communicate the idea</p>
-      <p>9-11 Branding</p>
-
-
-      <section *ngFor="let method of uxMethods" class="subsection" [style.backgroundColor]="method.backgroundColor">
-        <header>
-          <h3>{{ method.name }}</h3>
-        </header>
-        <div *ngFor="let detail of method.description">
-
-          <div *ngIf="detail.type === 'text'">
-            <p>
-              {{ detail.content }}
-            </p>
-          </div>
-
-          <div *ngIf="detail.type === 'image'" class="image-container">
-<!--
-            <img *ngIf="detail.content.length === 1"
-                 src="assets/images/process/ux/{{image.url}}"
-                 alt="{{ image.alt }}">
--->
-
-
-            <!--<slideshow [imageUrls]="imageSources"></slideshow>-->
-
-            <slideshow [height]="'400px'"
-                       [backgroundSize]="'contain'"
-                       [minHeight]="'525px'"
-                       [autoPlay]="false"
-                       [showArrows]="true"
-                       [imageUrls]="detail.content"
-                       [showCaptions]="true"
-                       [lazyLoad]="detail.content?.length > 1">
-            </slideshow>
-
-
-            <!--<ngb-carousel class="image-container"  *ngIf="detail.content.length > 1" [showNavigationArrows]="showNavigationArrows"-->
-                          <!--[showNavigationIndicators]="showNavigationIndicators">-->
-              <!--<ng-template ngbSlide *ngFor="let image of detail.content">-->
-                <!--<img class="carousel-img" src="assets/images/process/ux/{{image.url}}" alt="Random slide">-->
-                <!--<div class="carousel-caption">-->
-                  <!--<h3>{{ image.caption }}</h3>-->
-                <!--</div>-->
-              <!--</ng-template>-->
-            <!--</ngb-carousel>-->
-
-          </div>
-
-        </div>
-
-        <p>Links</p>
-        <ul>
-          <li *ngFor="let link of method.links">
-            <a [href]="link">{{ link }}</a>
-          </li>
-        </ul>
+      <section class="page-content" *ngIf="detail.type === 'text'">
+        <p *ngFor="let para of detail.content">
+          {{ para }}
+        </p>
       </section>
 
-    </article>
-  </section>
+      <section *ngIf="detail.type === 'image'"  class="page-content image-container">
+
+        <img *ngIf="detail.content.length === 1" [src]="detail.content[0].url" alt="{{ detail.content[0].title }}">
+
+        <slideshow *ngIf="detail.content.length > 1"
+
+                   [backgroundSize]="'contain'"
+                   [autoPlay]="false"
+                   [showArrows]="true"
+                   [imageUrls]="detail.content"
+                   [showCaptions]="true"
+                   [lazyLoad]="detail.content?.length > 1">
+        </slideshow>
+
+      </section>
+
+    </div>
+
+    <section class="page-content">
+
+      <p>Links</p>
+      <ul>
+        <li *ngFor="let link of method.links">
+          <a [href]="link">{{ link }}</a>
+        </li>
+      </ul>
+
+    </section>
+
+  </article>
+
 </div>
+
+<!--<h3>Learn</h3>-->
+<!--<p>1-3 Learn about the brand, the product and the stakeholders....</p>-->
+<!--<p>4-6 Identify users thoughts, feelings and actions...</p>-->
+<!--<p>7-8 Model experiences, tasks and mindsets for goals, and define and frame the problem.</p>-->
+
+<!--<h3>Design</h3>-->
+<!--<p>1-3 Generate concepts</p>-->
+<!--<p>4-6 Visualize the interaction</p>-->
+<!--<p>7-8 Communicate the idea</p>-->
+<!--<p>9-11 Branding</p>-->

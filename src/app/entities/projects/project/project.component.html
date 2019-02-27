@@ -12,105 +12,103 @@
     </div>
   </header>
 
-  <div class="page-content">
-    <div *ngFor="let section of project.details">
+  <div *ngFor="let section of project.details">
 
-      <section *ngIf="section.type === 'overview'" [style.backgroundColor]="section.backgroundColor">
+    <article *ngIf="section.type === 'overview'" [style.backgroundColor]="section.backgroundColor">
 
-        <header>
-          <h2 class="overview-title">{{ section.title }}</h2>
-        </header>
+      <header>
+        <h2 class="overview-title">{{ section.title }}</h2>
+      </header>
 
-        <article>
-          <section class="project-details subsection">
-            <p>
-              <b>{{ section.project.date }}</b> | {{ section.project.duration }}
-            </p>
-            <p>
-              <b>{{ section.project.type }}</b>
-            </p>
-            <p>
-              <a href="{{project.url}}">{{project.url}}</a>
-            </p>
-          </section>
+      <section class="page-content">
 
-          <section class="subsection">
-            <p *ngFor="let p of section.text">
-              {{p}}
-            </p>
-          </section>
-        </article>
+        <div class="project-details subsection">
+          <p>
+            <b>{{ section.project.date }}</b> | {{ section.project.duration }}
+          </p>
+          <p>
+            <b>{{ section.project.type }}</b>
+          </p>
+          <p>
+            <a [href]="project.url">{{ project.url }}</a>
+          </p>
+        </div>
 
+        <div class="subsection">
+          <p *ngFor="let desc of section.text">{{ desc }}</p>
+        </div>
       </section>
 
-      <section *ngIf="section.type === 'technologies'" [style.backgroundColor]="section.backgroundColor">
+    </article>
 
-        <header>
-          <h2 class="section-title">{{ section.title }}</h2>
-        </header>
+    <article *ngIf="section.type === 'technologies'" [style.backgroundColor]="section.backgroundColor">
 
-        <article class="tech-container" *ngFor="let tech of project.technologies">
-          <section class="technology">
-            <img src="/assets/images/tech/{{ tech.img }}" alt="{{ tech.name }}">
+      <header>
+        <h2 class="section-title">{{ section.title }}</h2>
+      </header>
+
+      <section class="page-content">
+
+        <div class="tech-container" *ngFor="let tech of project.technologies">
+          <div class="technology">
+            <img [src]="'/assets/images/tech/' + tech.img" alt="{{ tech.name }}">
             <div class="overlay">
-              <a href="{{ tech.link }}">
+              <a [href]="tech.link">
                 <div class="overlay-text">
                   <h3>{{ tech.name }}</h3>
                   <p>{{ tech.description }}</p>
                 </div>
               </a>
             </div>
-          </section>
-        </article>
+          </div>
+        </div>
 
       </section>
 
-      <section *ngIf="section.type === 'progress'" [style.backgroundColor]="section.backgroundColor">
-        <header>
-          <h2 class="section-title">{{ section.title }}</h2>
-        </header>
+    </article>
 
-        <article>
-          <section class="subsection">
-            <p *ngFor="let p of section.text">
-              {{p}}
-            </p>
-          </section>
-        </article>
+    <article *ngIf="section.type === 'progress'" [style.backgroundColor]="section.backgroundColor">
+      <header>
+        <h2 class="section-title">{{ section.title }}</h2>
+      </header>
+
+      <section class="page-content">
+        <p *ngFor="let desc of section.text">{{ desc }}</p>
+      </section>
+
+    </article>
+
+    <article *ngIf="section.type === 'article'" [style.backgroundColor]="section.backgroundColor">
+      <header>
+        <h2 class="section-title">{{ section.title }}</h2>
+      </header>
+
+      <section class="page-content">
+
+        <div class="subsection">
+          <p *ngFor="let desc of section.text">{{ desc }}</p>
+        </div>
+
+        <div class="subsection image-container" *ngIf="section.images.length === 1">
+          <img [src]="section.images[0]" alt="{{ section.title }}">
+        </div>
+
+        <div class="subsection carousel-container" *ngIf="section.images.length > 1">
+          <slideshow [height]="'400px'"
+                     [backgroundSize]="'contain'"
+                     [minHeight]="'525px'"
+                     [autoPlay]="false"
+                     [showArrows]="true"
+                     [imageUrls]="section.images"
+                     [lazyLoad]="section.images.length > 1">
+          </slideshow>
+        </div>
 
       </section>
 
-      <section *ngIf="section.type === 'article'" [style.backgroundColor]="section.backgroundColor">
-        <header>
-          <h2 class="section-title">{{ section.title }}</h2>
-        </header>
-
-        <article>
-          <section class="subsection">
-            <p *ngFor="let p of section.text">
-              {{p}}
-            </p>
-
-            <div class="image-container" *ngIf="section.images.length === 1">
-              <img src="{{ section.images[0] }}" alt="{{ section.title }}">
-            </div>
-
-            <slideshow *ngIf="section.images.length > 1"
-                       [height]="'400px'"
-                       [backgroundSize]="'contain'"
-                       [minHeight]="'525px'"
-                       [autoPlay]="false"
-                       [showArrows]="true"
-                       [imageUrls]="images"
-                       [lazyLoad]="images.length > 1">
-            </slideshow>
-
-          </section>
-        </article>
-
-      </section>
-    </div>
-
+    </article>
   </div>
+
 </div>
+
 

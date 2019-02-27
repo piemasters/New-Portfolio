@@ -2,44 +2,31 @@
 @import '../../../styles/brand';
 @import '../../../styles/mixins';
 
-.resume-section {
-  display: block;
-  margin: 1em auto 1rem auto;
-  max-width: $lg;
-  @media screen and (min-width: $lg)  {
-    margin: 2rem auto 2rem auto;
-  }
-}
-
 .resume-title {
   margin: 4rem auto 0 auto;
   display: block;
   .custom-col {
-    flex: 1;
     height: 200px;
     line-height: 200px;
     padding: 0;
     position: relative;
   }
   .col-img {
-    flex: 1;
+    margin: auto;
+    width: 200px;
     img {
       @include positioning(absolute, 0, 0, 0 ,0);
       border-radius: 50%;
-      margin: auto;
-      width: 200px;
+      height: 200px;
     }
   }
   .col-text {
-    flex: 2;
     text-align: center;
     .title-text {
       display: inline-block;
       vertical-align: middle;
       h2 {
         margin: 0;
-        padding-left: 0;
-        padding-right: 0;
         text-align: center;
       }
       h3 {
@@ -53,8 +40,14 @@
   }
   @media screen and (min-width: $lg)  {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    .col-img {
+      margin: 0;
+      padding: 0 1.5rem;
+    }
     .col-text {
+      padding: 0 1.5rem;
       text-align: left;
       .title-text {
         h2, h3 {
@@ -68,7 +61,7 @@
 .resume-button {
   display: flex;
   justify-content: center;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   button {
     background-color: $brand-light;
     border: none;
@@ -86,12 +79,12 @@
   }
 }
 
-.resume-intro {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem;
-  text-align: center;
-}
+//.resume-intro {
+//  //max-width: 800px;
+//  margin: 0 auto;
+//  padding: 1rem;
+//  text-align: center;
+//}
 
 #company-logos {
   display: block;

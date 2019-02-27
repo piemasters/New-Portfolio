@@ -3,7 +3,7 @@
     "id": "content-audit",
     "name": "Content Audit",
     "type": "learn",
-    "backgroundColor": "#FFFFFF",
+    "backgroundColor": "#C0C0C0",
     "links": [
       "https://uxknowledgebase.com/content-inventory-688431aeb05",
       "https://uxmastery.com/how-to-conduct-a-content-audit/",
@@ -15,7 +15,9 @@
     "description": [
       {
         "type": "text",
-        "content": "..."
+        "content": [
+          "When joining a project at any stage the first step is to complete a full project audit. "
+        ]
       },
       {
         "type": "image",
@@ -53,7 +55,9 @@
     "description": [
       {
         "type": "text",
-        "content": "..."
+        "content": [
+          "..."
+        ]
       },
       {
         "type": "image",
@@ -89,7 +93,9 @@
     "description": [
       {
         "type": "text",
-        "content": "..."
+        "content": [
+          "..."
+        ]
       },
       {
         "type": "image",
@@ -129,7 +135,9 @@
     "description": [
       {
         "type": "text",
-        "content": "..."
+        "content": [
+          "..."
+        ]
       },
       {
         "type": "image",
@@ -168,7 +176,9 @@
     "description": [
       {
         "type": "text",
-        "content": "..."
+        "content": [
+          "..."
+        ]
       },
       {
         "type": "image",
@@ -208,7 +218,9 @@
     "description": [
       {
         "type": "text",
-        "content": "..."
+        "content": [
+          "..."
+        ]
       },
       {
         "type": "image",
@@ -242,7 +254,9 @@
     "description": [
       {
         "type": "text",
-        "content": "..."
+        "content": [
+          "..."
+        ]
       },
       {
         "type": "image",
@@ -282,7 +296,9 @@
     "description": [
       {
         "type": "text",
-        "content": "..."
+        "content": [
+          "..."
+        ]
       },
       {
         "type": "image",
@@ -307,4 +323,4 @@
     ]
   }
 
-  ]
+]
