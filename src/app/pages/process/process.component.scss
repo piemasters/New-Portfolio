@@ -1,4 +1,6 @@
 @import '../../../styles/variables';
+@import '../../../styles/brand';
+@import '../../../styles/mixins';
 
 .image-container {
   height: 600px;
@@ -14,5 +16,34 @@
     height: 600px;
     margin: auto;
     max-width: 100%;
+  }
+}
+
+.logos-content {
+  display: inline-block;
+  text-align: center;
+  .method-button {
+    font-size: 1.8rem;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 10rem;
+    display: inline-flex;
+    height: 12rem;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+    width: 12rem;
+    &:hover {
+      cursor: pointer;
+      @include drop-shadow($accent);
+    }
+    &.active {
+      border-radius: 10rem;
+      width: 12rem;
+      @include drop-shadow($accent);
+    }
+    .method-button-text {
+      height: 5rem;
+    }
   }
 }

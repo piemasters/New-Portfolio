@@ -15,12 +15,20 @@
     <h2 class="section-title">Learn</h2>
   </header>
 
-  <article *ngFor="let method of uxMethods" [style.backgroundColor]="method.backgroundColor">
+  <section id="method-logos" class="page-content">
+    <div class="logos-content">
+      <div *ngFor="let method of uxMethods" [class.active]="selectedProcess === method" class="method-button" (click)="selectMethod(method)" [style.backgroundColor]="method.properties.backgroundColor">
+        <span class="method-button-text">{{ method.name }}</span>
+      </div>
+    </div>
+  </section>
+
+  <article *ngIf="selectedMethod" [style.backgroundColor]="selectedMethod.properties.backgroundColor">
     <header>
-      <h3 class="section-title">{{ method.name }}</h3>
+      <h3 class="section-title">{{ selectedMethod.name }}</h3>
     </header>
 
-    <div *ngFor="let detail of method.description">
+    <div *ngFor="let detail of selectedMethod.description">
 
       <section class="page-content" *ngIf="detail.type === 'text'">
         <p *ngFor="let para of detail.content">
@@ -33,7 +41,6 @@
         <img *ngIf="detail.content.length === 1" [src]="detail.content[0].url" alt="{{ detail.content[0].title }}">
 
         <slideshow *ngIf="detail.content.length > 1"
-
                    [backgroundSize]="'contain'"
                    [autoPlay]="false"
                    [showArrows]="true"

@@ -13,6 +13,7 @@ import { UXMethod } from '../../shared/models/ux-method.model';
 })
 export class ProcessComponent implements OnInit {
   uxMethods$: Observable<UXMethod[]>;
+  selectedMethod: UXMethod;
 
   constructor(
     private store: Store<fromProcesses.State>
@@ -24,6 +25,10 @@ export class ProcessComponent implements OnInit {
       select('processes'),
       map(m => m.uxMethodList)
     );
+  }
+
+  selectMethod(method) {
+    this.selectedMethod = method;
   }
 
 }

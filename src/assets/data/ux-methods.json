@@ -3,7 +3,10 @@
     "id": "content-audit",
     "name": "Content Audit",
     "type": "learn",
-    "backgroundColor": "#C0C0C0",
+    "properties": {
+      "backgroundColor": "#e57373",
+      "textColor": "#000000"
+    },
     "links": [
       "https://uxknowledgebase.com/content-inventory-688431aeb05",
       "https://uxmastery.com/how-to-conduct-a-content-audit/",
@@ -27,10 +30,15 @@
           {
             "url": "assets/images/process/ux/learn/content_audit_a.png",
             "title": "Audit List",
-            "caption": "An example audit list"
+            "caption": ""
           },
           {
             "url": "assets/images/process/ux/learn/content_audit_b.png",
+            "title": "Content Audit",
+            "caption": "An example audit list"
+          },
+          {
+            "url": "assets/images/process/ux/learn/content_audit_c.png",
             "title": "Priority Order",
             "caption": "With a content inventory and user/stakeholder requirements defined, work can be prioritised"
           }
@@ -42,7 +50,10 @@
     "id": "competitive-analysis",
     "name": "Competitive Analysis",
     "type": "learn",
-    "backgroundColor": "#FFFFFF",
+    "properties": {
+      "backgroundColor": "#f06292",
+      "textColor": "#000000"
+    },
     "links": [
       "https://uxknowledgebase.com/competitive-analysis-part-1-a5f4409c71a8",
       "https://uxknowledgebase.com/competitive-analysis-part-2-a31f5f3709ea",
@@ -82,7 +93,10 @@
     "id": "stakeholder-interviews",
     "name": "Stakeholder Interviews",
     "type": "learn",
-    "backgroundColor": "#FFFFFF",
+    "properties": {
+      "backgroundColor": "#ba68c8",
+      "textColor": "#000000"
+    },
     "links": [
       "https://uxknowledgebase.com/stakeholder-interview-bcbbf4d3648d",
       "https://uxplanet.org/talebook-method-001-stakeholder-interview-63eebe4ca12a"
@@ -120,7 +134,10 @@
     "id": "user-interviews",
     "name": "User Interviews",
     "type": "learn",
-    "backgroundColor": "#FFFFFF",
+    "properties": {
+      "backgroundColor": "#9575cd",
+      "textColor": "#000000"
+    },
     "links": [
       "https://uxknowledgebase.com/user-interview-how-to-ask-good-questions-eb80f8b99627",
       "https://mattish.com/evidence/method/customer-interviews/",
@@ -162,7 +179,10 @@
     "id": "story-mapping",
     "name": "Story Mapping",
     "type": "learn",
-    "backgroundColor": "#FFFFFF",
+    "properties": {
+      "backgroundColor": "#7986cb",
+      "textColor": "#000000"
+    },
     "links": [
       "https://uxknowledgebase.com/story-mapping-part-1-e65b0b74591",
       "https://uxknowledgebase.com/story-mapping-part-2-3b0e9e0cf2ef",
@@ -208,7 +228,10 @@
     "id": "red-route-analysis",
     "name": "Red Route Analysis",
     "type": "learn",
-    "backgroundColor": "#FFFFFF",
+    "properties": {
+      "backgroundColor": "#64b5f6",
+      "textColor": "#000000"
+    },
     "links": [
       "https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a"
     ],
@@ -238,9 +261,12 @@
   },
   {
     "id": "personas",
-    "name": "Personas",
+    "name": "Persona Workshop",
     "type": "learn",
-    "backgroundColor": "#FFFFFF",
+    "properties": {
+      "backgroundColor": "#4fc3f7",
+      "textColor": "#000000"
+    },
     "links": [
       "https://uxknowledgebase.com/creating-personas-part-1-cf1bef5b7eba",
       "https://uxknowledgebase.com/creating-personas-part-2-5d46ab523e32",
@@ -281,7 +307,10 @@
     "id": "journey-mapping",
     "name": "Journey Mapping",
     "type": "learn",
-    "backgroundColor": "#FFFFFF",
+    "properties": {
+      "backgroundColor": "#4dd0e1",
+      "textColor": "#000000"
+    },
     "links": [
       "https://uxknowledgebase.com/journey-mapping-part-1-6c9ad6d3bfbc",
       "https://uxknowledgebase.com/journey-mapping-part-2-86f3625ef4e2",
