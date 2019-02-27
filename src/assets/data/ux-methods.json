@@ -16,26 +16,23 @@
       {
         "type": "text",
         "content": [
-          "When joining a project at any stage the first step is to complete a full project audit. "
+          "When joining a project at any stage the best place to start is usually to complete a full content inventory and audit. This involves working through all the project assets, including the content and functionality of the application, all documents and documentation and even a review of the source code.",
+          "Each asset is documented in a spreadsheet including content type, what goal it is trying to achieve and any further details. Depending on the application further information can be documented including page metadata, last updated date, hyperlinks, SEO stats etc.",
+          "Each can then be reviewed to determine if the goal has been met and if any action is required along with any notes as to what. Having this knowledge helps provide context when talking to stakeholders and users and is a pre-requisite to completing competitive analysis. It can also be used after determining client and user needs to determine tech debt and prioritise work."
         ]
       },
       {
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/content_audit_a.jpeg",
-            "title": "test",
-            "caption": "text"
+            "url": "assets/images/process/ux/learn/content_audit_a.png",
+            "title": "Audit List",
+            "caption": "An example audit list"
           },
           {
             "url": "assets/images/process/ux/learn/content_audit_b.png",
-            "title": "test",
-            "caption": "text"
-          },
-          {
-            "url": "assets/images/process/ux/learn/content_audit_c.png",
-            "title": "test",
-            "caption": "text"
+            "title": "Priority Order",
+            "caption": "With a content inventory and user/stakeholder requirements defined, work can be prioritised"
           }
         ]
       }
