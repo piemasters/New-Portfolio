@@ -20,6 +20,47 @@
         "type": "text",
         "content": [
           {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
             "title": "First",
             "text": [
               "When joining a project at any stage the best place to start is usually to complete a full content inventory and audit. This involves working through all the project assets, including the content and functionality of the application, all documents and documentation and even a review of the source code.",
@@ -101,7 +142,7 @@
             ]
           },
           {
-            "title":"Outputs",
+            "title":"Deliverables",
             "list": [
               "An in-depth analysis of each of the identified competitors’ products",
               "Screenshots along with annotations explaining the specifics of each feature/UX flow",
@@ -151,7 +192,45 @@
         "type": "text",
         "content": [
           {
-            "text": "..."
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
           }
         ]
       },
@@ -199,7 +278,45 @@
 
         "content": [
           {
-            "text": "..."
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
           }
         ]
       },
@@ -246,7 +363,45 @@
 
         "content": [
           {
-            "text": "..."
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
           }
         ]
       },
@@ -294,7 +449,45 @@
 
         "content": [
           {
-            "text": "..."
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
           }
         ]
       },
@@ -335,7 +528,45 @@
         "type": "text",
         "content": [
           {
-            "text": "..."
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
           }
         ]
       },
@@ -382,7 +613,45 @@
         "type": "text",
         "content": [
           {
-            "text": "..."
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
           }
         ]
       },
