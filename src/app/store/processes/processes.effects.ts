@@ -16,15 +16,47 @@ export class ProcessesEffects {
   }
 
   @Effect()
-  uxMethodsFetch = this.actions$
+  learnMethodFetch = this.actions$
     .pipe(
-      ofType(ProcessesActions.FETCH_UX_METHOIDS),
+      ofType(ProcessesActions.FETCH_LEARN_METHODS),
       withLatestFrom(this.store.select('processes')),
-      switchMap(() => this.processesService.getUXMethods()),
+      switchMap(() => this.processesService.getUXMethods('process-learn.json')),
       map(
         (methodsResponse) => {
           return {
-            type: ProcessesActions.SET_UX_METHODS,
+            type: ProcessesActions.SET_LEARN_METHODS,
+            payload: methodsResponse
+          };
+        }
+      )
+    );
+
+  @Effect()
+  designMethodFetch = this.actions$
+    .pipe(
+      ofType(ProcessesActions.FETCH_DESIGN_METHODS),
+      withLatestFrom(this.store.select('processes')),
+      switchMap(() => this.processesService.getUXMethods('process-design.json')),
+      map(
+        (methodsResponse) => {
+          return {
+            type: ProcessesActions.SET_DESIGN_METHODS,
+            payload: methodsResponse
+          };
+        }
+      )
+    );
+
+  @Effect()
+  testMethodFetch = this.actions$
+    .pipe(
+      ofType(ProcessesActions.FETCH_TEST_METHODS),
+      withLatestFrom(this.store.select('processes')),
+      switchMap(() => this.processesService.getUXMethods('process-test.json')),
+      map(
+        (methodsResponse) => {
+          return {
+            type: ProcessesActions.SET_TEST_METHODS,
             payload: methodsResponse
           };
         }

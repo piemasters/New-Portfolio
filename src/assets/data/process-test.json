@@ -1,0 +1,282 @@
+[
+  {
+    "id": "a-b-testing",
+    "name": "A/B Testing",
+    "type": "testing",
+    "properties": {
+      "backgroundColor": "#9575cd",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxdesign.cc/a-b-testing-your-designs-b648e413b124"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "usability-testing",
+    "name": "Usability Testing",
+    "type": "testing",
+    "properties": {
+      "backgroundColor": "#7986cb",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxplanet.org/a-novice-designers-guide-to-usability-testing-177bcddc57b3"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quantitative-survey",
+    "name": "Quantitative Survey",
+    "type": "testing",
+    "properties": {
+      "backgroundColor": "#64b5f6",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://medium.com/@allisoncrady/designing-iterating-analyzing-user-surveys-for-product-impact-5771fc1cdd7a"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "analytics-review",
+    "name": "Analytics Review",
+    "type": "testing",
+    "properties": {
+      "backgroundColor": "#4fc3f7",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://insights.kyan.com/ux-analytics-review-and-findings-cfb2f05d0e7a"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  }
+]

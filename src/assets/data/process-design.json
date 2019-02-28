@@ -1,0 +1,775 @@
+[
+  {
+    "id": "problem-framing",
+    "name": "Problem Framing",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#4db6ac",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://www.atlassian.com/team-playbook/plays/problem-framing"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ideation-workshops",
+    "name": "Ideation Workshops",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#81c784",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://medium.com/@ascent0/the-2-hour-ideation-workshop-ed471c538adc"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "storyboards",
+    "name": "Storyboards",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#aed581",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxplanet.org/user-personas-scenarios-user-stories-and-storyboards-whats-the-difference-cf00315f0799",
+      "https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "use-cases",
+    "name": "Use Cases",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#dce775",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://usabilitygeek.com/smart-ux-use-cases/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flow-diagrams",
+    "name": "User Flow Diagrams",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#fff176",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxplanet.org/ux-glossary-task-flows-user-flows-flowcharts-and-some-new-ish-stuff-2321044d837d"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sitemap",
+    "name": "Sitemap",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#ffd54f",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://theuxreview.co.uk/sitemaps-the-beginners-guide/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rapid-prototyping",
+    "name": "Rapid Prototyping",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#ffb74d",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://www.interaction-design.org/literature/article/rapid-prototyping-faking-it-until-you-make-it-in-a-ux-driven-world",
+      "https://uxtricks.design/blogs/ux-design/wireframe-tools-and-rapid-prototyping/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wireframes",
+    "name": "Wireframes",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#ff8a65",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://www.experienceux.co.uk/faqs/what-is-wireframing/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "style-tiles",
+    "name": "Style Tiles",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#e57373",
+      "textColor": "#000000"
+    },
+    "links": [
+      "http://styletil.es/",
+      "https://www.hongkiat.com/blog/style-guides-style-tiles/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pattern-libraries",
+    "name": "Pattern Libraries",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#f06292",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://medium.com/@whatjackhasmade/pattern-libraries-abcc45c6144c"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "high-fidelity-mockups",
+    "name": "High Fidelity Mockups",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#ba68c8",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://usabilitygeek.com/smart-ux-high%C2%AD-fidelity-wireframes/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "",
+            "title": "",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  }
+]

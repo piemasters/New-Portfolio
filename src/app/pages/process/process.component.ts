@@ -14,21 +14,52 @@ import { UXMethod } from '../../shared/models/ux-method.model';
 export class ProcessComponent implements OnInit {
   uxMethods$: Observable<UXMethod[]>;
   selectedMethod: UXMethod;
+  selectedProcessType: string;
 
   constructor(
     private store: Store<fromProcesses.State>
   ) {  }
 
   ngOnInit() {
-    this.store.dispatch(new ProcessesActions.FetchUXMethods());
-    this.uxMethods$ = this.store.pipe(
-      select('processes'),
-      map(m => m.uxMethodList)
-    );
+    // this.store.dispatch(new ProcessesActions.FetchLearnMethods());
+    // this.store.dispatch(new ProcessesActions.FetchDesignMethods());
+    // this.store.dispatch(new ProcessesActions.FetchTestMethods());
+    // this.uxMethods$ = this.store.pipe(
+    //   select('processes')
+    // );
+    // this.uxMethods$ = this.store.pipe(
+    //   select('processes'),
+    //   map(m => m.uxMethodList)
+    // );
   }
 
   selectMethod(method) {
     this.selectedMethod = method;
+  }
+
+  selectProcessType(processType) {
+
+    this.selectedProcessType = processType;
+
+    if ( processType === 'learn') {
+      this.store.dispatch(new ProcessesActions.FetchLearnMethods());
+      this.uxMethods$ = this.store.pipe(
+        select('processes'),
+        map(m => m.learnList)
+      );
+    } else if ( processType === 'design') {
+      this.store.dispatch(new ProcessesActions.FetchDesignMethods());
+      this.uxMethods$ = this.store.pipe(
+        select('processes'),
+        map(m => m.designList)
+      );
+    } else if ( processType === 'test') {
+      this.store.dispatch(new ProcessesActions.FetchTestMethods());
+      this.uxMethods$ = this.store.pipe(
+        select('processes'),
+        map(m => m.testList)
+      );
+    }
   }
 
 }

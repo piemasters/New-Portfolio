@@ -9,16 +9,16 @@ import { UXMethod } from '../models/ux-method.model';
 })
 export class ProcessesService {
 
-  private filePath = './assets/data/ux-methods.json';
+  private filePath = './assets/data/';
 
   constructor(private http: HttpClient) {}
 
-  getUXMethods() {
-    return this.http.get<UXMethod[]>(this.filePath);
+  getUXMethods(filename: string) {
+    return this.http.get<UXMethod[]>(this.filePath + filename);
   }
 
-  getUXMethod(id: string) {
-    return this.http.get<UXMethod[]>(this.filePath).pipe(
+  getUXMethod(id: string, filename: string) {
+    return this.http.get<UXMethod[]>(this.filePath + filename).pipe(
       mergeMap(res => res),
       filter(item => item.id === id)
     );

@@ -10,10 +10,14 @@
   </div>
 </header>
 
+<header class="process-type-header">
+  <h2 class="section-title process-type" (click)="selectProcessType('learn')"  [class.active]="selectedProcessType === 'learn'">Learn</h2>
+  <h2 class="section-title process-type" (click)="selectProcessType('design')" [class.active]="selectedProcessType === 'design'">Design</h2>
+  <h2 class="section-title process-type" (click)="selectProcessType('test')" [class.active]="selectedProcessType === 'test'">Test</h2>
+</header>
+
 <div *ngIf="(uxMethods$ | async) as uxMethods">
-  <header>
-    <h2 class="section-title">Learn</h2>
-  </header>
+
 
   <section id="method-logos" class="page-content">
     <div class="logos-content">

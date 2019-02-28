@@ -47,3 +47,20 @@
     }
   }
 }
+
+.process-type-header {
+  display: flex;
+  justify-content: center;
+}
+.process-type {
+  display: inline-block;
+  &:hover {
+    cursor: pointer;
+    @include drop-shadow($accent);
+  }
+  &.active {
+    border-radius: 10rem;
+    width: 12rem;
+    @include drop-shadow($accent);
+  }
+}
