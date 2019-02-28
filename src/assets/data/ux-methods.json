@@ -19,9 +19,14 @@
       {
         "type": "text",
         "content": [
-          "When joining a project at any stage the best place to start is usually to complete a full content inventory and audit. This involves working through all the project assets, including the content and functionality of the application, all documents and documentation and even a review of the source code.",
-          "Each asset is documented in a spreadsheet including content type, what goal it is trying to achieve and any further details. Depending on the application further information can be documented including page metadata, last updated date, hyperlinks, SEO stats etc.",
-          "Each can then be reviewed to determine if the goal has been met and if any action is required along with any notes as to what. Having this knowledge helps provide context when talking to stakeholders and users and is a pre-requisite to completing competitive analysis. It can also be used after determining client and user needs to determine tech debt and prioritise work."
+          {
+            "title": "First",
+            "text": [
+              "When joining a project at any stage the best place to start is usually to complete a full content inventory and audit. This involves working through all the project assets, including the content and functionality of the application, all documents and documentation and even a review of the source code.",
+              "Each asset is documented in a spreadsheet including content type, what goal it is trying to achieve and any further details. Depending on the application further information can be documented including page metadata, last updated date, hyperlinks, SEO stats etc.",
+              "Each can then be reviewed to determine if the goal has been met and if any action is required along with any notes as to what. Having this knowledge helps provide context when talking to stakeholders and users and is a pre-requisite to completing competitive analysis. It can also be used after determining client and user needs to determine tech debt and prioritise work."
+            ]
+          }
         ]
       },
       {
@@ -64,7 +69,47 @@
       {
         "type": "text",
         "content": [
-          "..."
+          {
+            "title": "Goal",
+            "text": "To identify your competitors and evaluate their strategies to determine their strengths and weaknesses relative to those of your own product or service. This will help to identify compelling competitive advantages that could be introduced as well as a good market fit. Remember this solution needs to feel organic to your users’ needs, while being clear to all involved how the competitor research has informed it."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Learn what solutions others offer",
+              "Learn what others do well and not so well",
+              "Learn what mistakes others have previously made",
+              "Helps determine where your current solution fits",
+              "Helps to identify what your solution needs to offer"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Stakeholder Interviews – gives insight to unique business goals",
+              "User Interviews – gives insight to user needs"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Define the competition including direct and indirect competitors",
+              "Define the assessment criteria",
+              "Conduct the research by filling out a spreadsheet containing the competitors against the the assessment criteria",
+              "Summarise your findings",
+              "Present your findings"
+            ]
+          },
+          {
+            "title":"Outputs",
+            "list": [
+              "An in-depth analysis of each of the identified competitors’ products",
+              "Screenshots along with annotations explaining the specifics of each feature/UX flow",
+              "Feature list and/or approximate sitemap of each competitor’s platform/product",
+              "Strengths and areas of improvement for each of the analyzed products",
+              "Competitor analysis matrix — A table that contains a column for features and separate columns for if each competitor has that feature"
+            ]
+          }
         ]
       },
       {
@@ -105,7 +150,9 @@
       {
         "type": "text",
         "content": [
-          "..."
+          {
+            "text": "..."
+          }
         ]
       },
       {
@@ -149,8 +196,11 @@
     "description": [
       {
         "type": "text",
+
         "content": [
-          "..."
+          {
+            "text": "..."
+          }
         ]
       },
       {
@@ -193,8 +243,11 @@
     "description": [
       {
         "type": "text",
+
         "content": [
-          "..."
+          {
+            "text": "..."
+          }
         ]
       },
       {
@@ -238,8 +291,11 @@
     "description": [
       {
         "type": "text",
+
         "content": [
-          "..."
+          {
+            "text": "..."
+          }
         ]
       },
       {
@@ -278,7 +334,9 @@
       {
         "type": "text",
         "content": [
-          "..."
+          {
+            "text": "..."
+          }
         ]
       },
       {
@@ -323,7 +381,9 @@
       {
         "type": "text",
         "content": [
-          "..."
+          {
+            "text": "..."
+          }
         ]
       },
       {
@@ -348,5 +408,4 @@
       }
     ]
   }
-
 ]
