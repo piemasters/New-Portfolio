@@ -141,7 +141,7 @@
   },
   {
     "id": "storyboards",
-    "name": "Storyboards",
+    "name": "Storyboard Creation",
     "type": "design",
     "properties": {
       "backgroundColor": "#aed581",
@@ -212,7 +212,7 @@
   },
   {
     "id": "use-cases",
-    "name": "Use Cases",
+    "name": "Use Case Creation",
     "type": "design",
     "properties": {
       "backgroundColor": "#dce775",
@@ -352,7 +352,7 @@
   },
   {
     "id": "sitemap",
-    "name": "Sitemap",
+    "name": "Sitemap Diagram",
     "type": "design",
     "properties": {
       "backgroundColor": "#ffd54f",
@@ -493,7 +493,7 @@
   },
   {
     "id": "wireframes",
-    "name": "Wireframes",
+    "name": "Wireframe Design",
     "type": "design",
     "properties": {
       "backgroundColor": "#ff8a65",
@@ -563,7 +563,7 @@
   },
   {
     "id": "style-tiles",
-    "name": "Style Tiles",
+    "name": "Style Tile Design",
     "type": "design",
     "properties": {
       "backgroundColor": "#e57373",

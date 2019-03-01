@@ -1,7 +1,7 @@
 [
   {
     "id": "a-b-testing",
-    "name": "A/B Testing",
+    "name": "A/B 'Split' Testing",
     "type": "testing",
     "properties": {
       "backgroundColor": "#9575cd",
