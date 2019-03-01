@@ -10,16 +10,15 @@
   </div>
 </header>
 
-<header class="process-type-header">
-  <h2 class="section-title process-type" (click)="selectProcessType('learn')"  [class.active]="selectedProcessType === 'learn'">Learn</h2>
-  <h2 class="section-title process-type" (click)="selectProcessType('design')" [class.active]="selectedProcessType === 'design'">Design</h2>
-  <h2 class="section-title process-type" (click)="selectProcessType('test')" [class.active]="selectedProcessType === 'test'">Test</h2>
-</header>
+<article id="process">
 
-<div *ngIf="(uxMethods$ | async) as uxMethods">
+  <header class="process-type-header">
+    <h2 class="section-title process-type" (click)="selectProcessType('learn')"  [class.active]="selectedProcessType === 'learn'">Learn</h2>
+    <h2 class="section-title process-type" (click)="selectProcessType('design')" [class.active]="selectedProcessType === 'design'">Design</h2>
+    <h2 class="section-title process-type" (click)="selectProcessType('test')" [class.active]="selectedProcessType === 'test'">Test</h2>
+  </header>
 
-
-  <section id="method-logos" class="page-content">
+  <section id="method-logos" class="page-content" *ngIf="(uxMethods$ | async) as uxMethods">
     <div class="logos-content">
       <div *ngFor="let method of uxMethods" [class.active]="selectedProcess === method" class="method-button" (click)="selectMethod(method)" [style.backgroundColor]="method.properties.backgroundColor">
         <span class="method-button-text">{{ method.name }}</span>
@@ -27,66 +26,71 @@
     </div>
   </section>
 
-  <article *ngIf="selectedMethod" [style.backgroundColor]="selectedMethod.properties.backgroundColor">
-    <header>
-      <h3 class="section-title">{{ selectedMethod.name }}</h3>
-    </header>
+</article>
 
-    <div *ngFor="let detail of selectedMethod.description">
 
-      <section class="page-content" *ngIf="detail.type === 'text'">
-        <div *ngFor="let item of detail.content">
-          <header *ngIf="item.title">
-            <h4>{{ item.title }}</h4>
-          </header>
+<article *ngIf="selectedMethod" [style.backgroundColor]="selectedMethod.properties.backgroundColor">
+  <header>
+    <h3 class="section-title">{{ selectedMethod.name }}</h3>
+  </header>
 
-          <ul *ngIf="item.list">
-            <li *ngFor="let text of item.list">{{ text }}</li>
-          </ul>
+  <div *ngFor="let detail of selectedMethod.description">
 
-          <ol *ngIf="item.ordered">
-            <li *ngFor="let text of item.ordered">{{ text }}</li>
-          </ol>
+    <section class="page-content" *ngIf="detail.type === 'text'">
+      <div *ngFor="let item of detail.content">
+        <header *ngIf="item.title">
+          <h4>{{ item.title }}</h4>
+        </header>
 
-          <p *ngIf="item.text">{{ item.text }}</p>
+        <ul *ngIf="item.list">
+          <li *ngFor="let text of item.list">{{ text }}</li>
+        </ul>
 
-        </div>
-      </section>
+        <ol *ngIf="item.ordered">
+          <li *ngFor="let text of item.ordered">{{ text }}</li>
+        </ol>
 
-      <section *ngIf="detail.type === 'image'"  class="page-content image-container">
+        <p *ngIf="item.text">{{ item.text }}</p>
 
-        <img *ngIf="detail.content.length === 1" [src]="detail.content[0].url" alt="{{ detail.content[0].title }}">
+      </div>
+    </section>
 
-        <slideshow *ngIf="detail.content.length > 1"
-                   [backgroundSize]="'contain'"
-                   [autoPlay]="false"
-                   [showArrows]="true"
-                   [imageUrls]="detail.content"
-                   [showCaptions]="true"
-                   [captionBackground]="'rgba(0, 0, 0, .8)'"
-                   [lazyLoad]="detail.content?.length > 1">
-        </slideshow>
+    <section *ngIf="detail.type === 'image'"  class="page-content image-container">
 
-      </section>
+      <img *ngIf="detail.content.length === 1" [src]="detail.content[0].url" alt="{{ detail.content[0].title }}">
 
-    </div>
-
-    <!--
-    <section class="page-content">
-
-      <p>Links</p>
-      <ul>
-        <li *ngFor="let link of method.links">
-          <a [href]="link">{{ link }}</a>
-        </li>
-      </ul>
+      <slideshow *ngIf="detail.content.length > 1"
+                 [backgroundSize]="'contain'"
+                 [autoPlay]="false"
+                 [showArrows]="true"
+                 [imageUrls]="detail.content"
+                 [showCaptions]="true"
+                 [captionBackground]="'rgba(0, 0, 0, .8)'"
+                 [lazyLoad]="detail.content?.length > 1">
+      </slideshow>
 
     </section>
-    -->
 
-  </article>
+  </div>
 
-</div>
+  <!--
+  <section class="page-content">
+
+    <p>Links</p>
+    <ul>
+      <li *ngFor="let link of method.links">
+        <a [href]="link">{{ link }}</a>
+      </li>
+    </ul>
+
+  </section>
+  -->
+
+</article>
+
+
+
+
 
 <!--<h3>Learn</h3>-->
 <!--<p>1-3 Learn about the brand, the product and the stakeholders....</p>-->

@@ -21,16 +21,7 @@ export class ProcessComponent implements OnInit {
   ) {  }
 
   ngOnInit() {
-    // this.store.dispatch(new ProcessesActions.FetchLearnMethods());
-    // this.store.dispatch(new ProcessesActions.FetchDesignMethods());
-    // this.store.dispatch(new ProcessesActions.FetchTestMethods());
-    // this.uxMethods$ = this.store.pipe(
-    //   select('processes')
-    // );
-    // this.uxMethods$ = this.store.pipe(
-    //   select('processes'),
-    //   map(m => m.uxMethodList)
-    // );
+    this.selectProcessType('learn');
   }
 
   selectMethod(method) {
