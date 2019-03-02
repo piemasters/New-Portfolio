@@ -20,7 +20,7 @@
 
   <section id="method-logos" class="page-content" *ngIf="(uxMethods$ | async) as uxMethods">
     <div class="logos-content">
-      <div *ngFor="let method of uxMethods" [class.active]="selectedProcess === method" class="method-button" (click)="selectMethod(method)" [style.backgroundColor]="method.properties.backgroundColor">
+      <div *ngFor="let method of uxMethods" [class.active]="selectedMethod === method" class="method-button" (click)="selectMethod(method)" [style.backgroundColor]="method.properties.backgroundColor">
         <span class="method-button-text">{{ method.name }}</span>
       </div>
     </div>

@@ -2,6 +2,7 @@
   {
     "id": "a-b-testing",
     "name": "A/B 'Split' Testing",
+    "step": "",
     "type": "testing",
     "properties": {
       "backgroundColor": "#9575cd",
@@ -72,6 +73,7 @@
   {
     "id": "usability-testing",
     "name": "Usability Testing",
+    "step": "",
     "type": "testing",
     "properties": {
       "backgroundColor": "#7986cb",
@@ -142,6 +144,7 @@
   {
     "id": "quantitative-survey",
     "name": "Quantitative Survey",
+    "step": "",
     "type": "testing",
     "properties": {
       "backgroundColor": "#64b5f6",
@@ -212,6 +215,7 @@
   {
     "id": "analytics-review",
     "name": "Analytics Review",
+    "step": "",
     "type": "testing",
     "properties": {
       "backgroundColor": "#4fc3f7",

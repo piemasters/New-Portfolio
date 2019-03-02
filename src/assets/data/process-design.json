@@ -2,6 +2,7 @@
   {
     "id": "problem-framing",
     "name": "Problem Framing",
+    "step": "Generate concepts",
     "type": "design",
     "properties": {
       "backgroundColor": "#4db6ac",
@@ -16,7 +17,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Generate concepts"
+            "text": ""
           },
           {
             "title": "Benefits",
@@ -72,6 +73,7 @@
   {
     "id": "ideation-workshops",
     "name": "Ideation Workshops",
+    "step": "Generate concepts",
     "type": "design",
     "properties": {
       "backgroundColor": "#81c784",
@@ -86,7 +88,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Generate concepts"
+            "text": ""
           },
           {
             "title": "Benefits",
@@ -142,6 +144,7 @@
   {
     "id": "storyboards",
     "name": "Storyboard Creation",
+    "step": "Generate concepts",
     "type": "design",
     "properties": {
       "backgroundColor": "#aed581",
@@ -157,7 +160,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Generate concepts"
+            "text": ""
           },
           {
             "title": "Benefits",
@@ -213,6 +216,7 @@
   {
     "id": "use-cases",
     "name": "Use Case Creation",
+    "step": "Visualize the interaction",
     "type": "design",
     "properties": {
       "backgroundColor": "#dce775",
@@ -227,7 +231,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Visualize the interaction"
+            "text": ""
           },
           {
             "title": "Benefits",
@@ -283,6 +287,7 @@
   {
     "id": "flow-diagrams",
     "name": "User Flow Diagrams",
+    "step": "Visualize the interaction",
     "type": "design",
     "properties": {
       "backgroundColor": "#fff176",
@@ -297,7 +302,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Visualize the interaction"
+            "text": ""
           },
           {
             "title": "Benefits",
@@ -353,6 +358,7 @@
   {
     "id": "sitemap",
     "name": "Sitemap Diagram",
+    "step": "Visualize the interaction",
     "type": "design",
     "properties": {
       "backgroundColor": "#ffd54f",
@@ -367,7 +373,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Visualize the interaction"
+            "text": ""
           },
           {
             "title": "Benefits",
@@ -423,6 +429,7 @@
   {
     "id": "rapid-prototyping",
     "name": "Rapid Prototyping",
+    "step": "Communicate the idea",
     "type": "design",
     "properties": {
       "backgroundColor": "#ffb74d",
@@ -438,7 +445,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Communicate the idea"
+            "text": ""
           },
           {
             "title": "Benefits",
@@ -494,6 +501,7 @@
   {
     "id": "wireframes",
     "name": "Wireframe Design",
+    "step": "Communicate the idea",
     "type": "design",
     "properties": {
       "backgroundColor": "#ff8a65",
@@ -508,7 +516,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Communicate the idea"
+            "text": ""
           },
           {
             "title": "Benefits",
@@ -564,6 +572,7 @@
   {
     "id": "style-tiles",
     "name": "Style Tile Design",
+    "step": "Branding",
     "type": "design",
     "properties": {
       "backgroundColor": "#e57373",
@@ -579,7 +588,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Branding"
+            "text": ""
           },
           {
             "title": "Benefits",
@@ -635,6 +644,7 @@
   {
     "id": "pattern-libraries",
     "name": "Pattern Libraries",
+    "step": "Branding",
     "type": "design",
     "properties": {
       "backgroundColor": "#f06292",
@@ -649,7 +659,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Branding"
+            "text": ""
           },
           {
             "title": "Benefits",
@@ -705,6 +715,7 @@
   {
     "id": "high-fidelity-mockups",
     "name": "High Fidelity Mockups",
+    "step": "Branding",
     "type": "design",
     "properties": {
       "backgroundColor": "#ba68c8",
@@ -719,7 +730,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Branding"
+            "text": ""
           },
           {
             "title": "Benefits",
