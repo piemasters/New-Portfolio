@@ -26,16 +26,17 @@
 .logos-content {
   display: inline-block;
   text-align: center;
+  width: 100%;
   .method-button {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     align-items: center;
     border-radius: 10rem;
     display: inline-flex;
-    height: 12rem;
+    height: 10rem;
     justify-content: center;
     margin: 2rem;
     padding: 1rem;
-    width: 12rem;
+    width: 10rem;
     &:hover {
       cursor: pointer;
       @include drop-shadow($accent);
