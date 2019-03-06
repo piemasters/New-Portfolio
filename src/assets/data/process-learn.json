@@ -216,7 +216,7 @@
             "title":"Deliverables",
             "list": [
               "Individual user interview notes",
-              "A list of User Stories"
+              "A list of user scenarios"
             ]
           }
         ]
@@ -449,7 +449,8 @@
           {
             "title": "The Process",
             "ordered": [
-              "For each persona draw out the each task the user completes to achieve their goal",
+              "Gather previously defined user scenarios and personas into one place",
+              "For each persona draw out the each scenario/task the user completes to achieve their goal",
               "Analyse interview notes and personas for each task and write out what the user is thinking and how they are feeling",
               "Identify pain points in the flow",
               "Brainstorm potential solutions to these pain points"
@@ -537,7 +538,7 @@
               "Create narrative flows, breaking down goals into features, features into epics (user tasks) and epics into user stories",
               "Break down user stories into tasks and sub-tasks where necessary",
               "Consider additional paths and variations, including errors and edge cases",
-              "Slice user stories and tasks into releases"
+              "Slice user stories and tasks into releases using Red Route Analysis"
             ]
           },
           {
@@ -570,83 +571,11 @@
             "url": "assets/images/process/ux/learn/story_mapping_d.jpg",
             "title": "Story Map Slicing",
             "caption": "Breaking down user stories into releases"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "red-route-analysis",
-    "name": "Red Route Analysis",
-    "step": "Identify users thoughts, feelings and actions",
-    "type": "learn",
-    "properties": {
-      "backgroundColor": "#4dd0e1",
-      "textColor": "#000000"
-    },
-    "links": [
-      "https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a"
-    ],
-    "description": [
-      {
-        "type": "text",
-
-        "content": [
-          {
-            "title": "Goal",
-            "text": ""
           },
           {
-            "title": "Benefits",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "Prerequisites",
-            "list": [
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "The Process",
-            "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title":"Deliverables",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "content": [
-          {
-            "url": "assets/images/process/ux/learn/red_route_analysis_a.png",
-            "title": "test",
-            "caption": "text"
-          },
-          {
-            "url": "assets/images/process/ux/learn/red_route_analysis_b.png",
-            "title": "test",
-            "caption": "text"
+            "url": "assets/images/process/ux/learn/story_mapping_e.png",
+            "title": "Red Route Analysis",
+            "caption": "Use Red Route Analysis to help slice up user stories into releases"
           }
         ]
       }
