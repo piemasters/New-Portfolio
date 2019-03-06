@@ -379,28 +379,108 @@
         "content": [
           {
             "url": "assets/images/process/ux/learn/personas_a.png",
-            "title": "test",
-            "caption": "text"
+            "title": "Persona Demographic",
+            "caption": "Persona Demographic"
           },
           {
             "url": "assets/images/process/ux/learn/personas_b.png",
-            "title": "test",
-            "caption": "text"
+            "title": "Persona Background",
+            "caption": "Persona Background"
           },
           {
             "url": "assets/images/process/ux/learn/personas_c.png",
-            "title": "test",
-            "caption": "text"
+            "title": "Persona Goals",
+            "caption": "Persona Goals"
           },
           {
             "url": "assets/images/process/ux/learn/personas_d.png",
-            "title": "test",
-            "caption": "text"
+            "title": "Persona Motivations",
+            "caption": "Persona Motivations"
           },
           {
             "url": "assets/images/process/ux/learn/personas_e.png",
-            "title": "test",
-            "caption": "text"
+            "title": "Persona Further Info",
+            "caption": "Persona Further Info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-mapping",
+    "name": "Journey Mapping",
+    "step": "Model experiences, tasks and mindsets for goals, and define and frame the problem",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#64b5f6",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/journey-mapping-part-1-6c9ad6d3bfbc",
+      "https://uxknowledgebase.com/journey-mapping-part-2-86f3625ef4e2",
+      "https://www.nngroup.com/articles/ux-mapping-cheat-sheet/",
+      "https://www.userzoom.com/blog/what-is-a-customer-journey-map-and-why-do-you-need-one/",
+      "https://www.userzoom.com/blog/guide-to-user-experience-maps/",
+      "https://uxplanet.org/journey-mapping-is-key-to-gaining-empathy-1da5b54655e1"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "A User Journey is used to visualise a structured narrative of what a user does, thinks and feels. This can be used to review the current user experience, identify gaps, pain points and opportunities to improve things where possible."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Builds empathy with users",
+              "Helps to document full user flows for each of their goals",
+              "Identify potential points of improvement in the user experience"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "User Interviews",
+              "Personas"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "For each persona draw out the each task the user completes to achieve their goal",
+              "Analyse interview notes and personas for each task and write out what the user is thinking and how they are feeling",
+              "Identify pain points in the flow",
+              "Brainstorm potential solutions to these pain points"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A journey map for each personas summarising their workflow",
+              "A list of potential opportunities to improve different user experiences"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/journey_mapping_a.png",
+            "title": "Journey Mapping",
+            "caption": ""
+          },
+          {
+            "url": "assets/images/process/ux/learn/journey_mapping_b.png",
+            "title": "Journey Mapping Template",
+            "caption": "A template for creating a User Journey Map"
+          },
+          {
+            "url": "assets/images/process/ux/learn/journey_mapping_c.png",
+            "title": "Journey Mapping Example",
+            "caption": "An example of how a User Journey looks once complete"
           }
         ]
       }
@@ -412,7 +492,7 @@
     "step": "Identify users thoughts, feelings and actions",
     "type": "learn",
     "properties": {
-      "backgroundColor": "#64b5f6",
+      "backgroundColor": "#4fc3f7",
       "textColor": "#000000"
     },
     "links": [
@@ -444,7 +524,8 @@
             "title": "Prerequisites",
             "list": [
               "User Interviews",
-              "Persona Workshop"
+              "Persona Workshop",
+              "Journey Mapping"
             ]
           },
           {
@@ -500,7 +581,7 @@
     "step": "Identify users thoughts, feelings and actions",
     "type": "learn",
     "properties": {
-      "backgroundColor": "#4fc3f7",
+      "backgroundColor": "#4dd0e1",
       "textColor": "#000000"
     },
     "links": [
@@ -564,92 +645,6 @@
           },
           {
             "url": "assets/images/process/ux/learn/red_route_analysis_b.png",
-            "title": "test",
-            "caption": "text"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "journey-mapping",
-    "name": "Journey Mapping",
-    "step": "Model experiences, tasks and mindsets for goals, and define and frame the problem",
-    "type": "learn",
-    "properties": {
-      "backgroundColor": "#4dd0e1",
-      "textColor": "#000000"
-    },
-    "links": [
-      "https://uxknowledgebase.com/journey-mapping-part-1-6c9ad6d3bfbc",
-      "https://uxknowledgebase.com/journey-mapping-part-2-86f3625ef4e2",
-      "https://www.nngroup.com/articles/ux-mapping-cheat-sheet/",
-      "https://www.userzoom.com/blog/what-is-a-customer-journey-map-and-why-do-you-need-one/",
-      "https://www.userzoom.com/blog/guide-to-user-experience-maps/",
-      "https://uxplanet.org/journey-mapping-is-key-to-gaining-empathy-1da5b54655e1"
-    ],
-    "description": [
-      {
-        "type": "text",
-        "content": [
-          {
-            "title": "Goal",
-            "text": ""
-          },
-          {
-            "title": "Benefits",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "Prerequisites",
-            "list": [
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "The Process",
-            "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title":"Deliverables",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "content": [
-          {
-            "url": "assets/images/process/ux/learn/journey_mapping_a.jpeg",
-            "title": "test",
-            "caption": "text"
-          },
-          {
-            "url": "assets/images/process/ux/learn/journey_mapping_b.jpeg",
-            "title": "test",
-            "caption": "text"
-          },
-          {
-            "url": "assets/images/process/ux/learn/journey_mapping_c.png",
             "title": "test",
             "caption": "text"
           }
