@@ -215,8 +215,8 @@
           {
             "title":"Deliverables",
             "list": [
-              "Individual user interview notes that can be used to create stories and use cases later",
-              "Summary document providing overview of picture built from all interviews"
+              "Individual user interview notes",
+              "A list of User Stories"
             ]
           }
         ]
@@ -319,180 +319,12 @@
     ]
   },
   {
-    "id": "story-mapping",
-    "name": "Story Mapping",
-    "step": "Identify users thoughts, feelings and actions",
-    "type": "learn",
-    "properties": {
-      "backgroundColor": "#7986cb",
-      "textColor": "#000000"
-    },
-    "links": [
-      "https://uxknowledgebase.com/story-mapping-part-1-e65b0b74591",
-      "https://uxknowledgebase.com/story-mapping-part-2-3b0e9e0cf2ef",
-      "https://medium.com/@katerina_mnuk/user-story-mapping-tips-and-tricks-dea4e2ffbae4",
-      "https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog",
-      "https://www.cio.com/article/2377375/agile-development/how-story-mapping-complements-agile-development.html"
-    ],
-    "description": [
-      {
-        "type": "text",
-
-        "content": [
-          {
-            "title": "Goal",
-            "text": ""
-          },
-          {
-            "title": "Benefits",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "Prerequisites",
-            "list": [
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "The Process",
-            "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title":"Deliverables",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "content": [
-          {
-            "url": "assets/images/process/ux/learn/story_mapping_a.jpeg",
-            "title": "test",
-            "caption": "text"
-          },
-          {
-            "url": "assets/images/process/ux/learn/story_mapping_b.jpeg",
-            "title": "test",
-            "caption": "text"
-          },
-          {
-            "url": "assets/images/process/ux/learn/story_mapping_c.jpeg",
-            "title": "test",
-            "caption": "text"
-          },
-          {
-            "url": "assets/images/process/ux/learn/story_mapping_d.jpg",
-            "title": "test",
-            "caption": "text"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "red-route-analysis",
-    "name": "Red Route Analysis",
-    "step": "Identify users thoughts, feelings and actions",
-    "type": "learn",
-    "properties": {
-      "backgroundColor": "#64b5f6",
-      "textColor": "#000000"
-    },
-    "links": [
-      "https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a"
-    ],
-    "description": [
-      {
-        "type": "text",
-
-        "content": [
-          {
-            "title": "Goal",
-            "text": ""
-          },
-          {
-            "title": "Benefits",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "Prerequisites",
-            "list": [
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "The Process",
-            "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title":"Deliverables",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "content": [
-          {
-            "url": "assets/images/process/ux/learn/red_route_analysis_a.png",
-            "title": "test",
-            "caption": "text"
-          },
-          {
-            "url": "assets/images/process/ux/learn/red_route_analysis_b.png",
-            "title": "test",
-            "caption": "text"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "personas",
     "name": "Persona Workshop",
     "step": "Model experiences, tasks and mindsets for goals, and define and frame the problem",
     "type": "learn",
     "properties": {
-      "backgroundColor": "#4fc3f7",
+      "backgroundColor": "#7986cb",
       "textColor": "#000000"
     },
     "links": [
@@ -564,6 +396,171 @@
           },
           {
             "url": "assets/images/process/ux/learn/personas_c.png",
+            "title": "test",
+            "caption": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "story-mapping",
+    "name": "Story Mapping",
+    "step": "Identify users thoughts, feelings and actions",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#64b5f6",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/story-mapping-part-1-e65b0b74591",
+      "https://uxknowledgebase.com/story-mapping-part-2-3b0e9e0cf2ef",
+      "https://medium.com/@katerina_mnuk/user-story-mapping-tips-and-tricks-dea4e2ffbae4",
+      "https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog",
+      "https://www.cio.com/article/2377375/agile-development/how-story-mapping-complements-agile-development.html"
+    ],
+    "description": [
+      {
+        "type": "text",
+
+        "content": [
+          {
+            "title": "Goal",
+            "text": "A technique completed collaboratively to help visualise the project scope and create a backlog by mapping out the user stories with regards to complete user journeys. The activity should involve the designers, developers, product owner and ideally any stakeholders and SMEs in order to bridge the gap between design and development. Seeing the bigger picture helps to determine priorities and prevent focusing too much on individual stories."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Visualise how all user stories link together",
+              "Gain a unified agreement of the project scope and priority",
+              "Designers understand risks and feasibility and developers understand user goals",
+              "Focuses on helping users achieve their goals rather than on adding features"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "User Interviews",
+              "Persona Workshop"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Set up a list of participants",
+              "Identify and discuss user and business goals",
+              "Discuss User Personas and how the new product will be beneficial over existing solutions",
+              "Create narrative flows, breaking down goals into features, features into epics (user tasks) and epics into user stories",
+              "Break down user stories into tasks and sub-tasks where necessary",
+              "Consider additional paths and variations, including errors and edge cases",
+              "Slice user stories and tasks into releases"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A user story map containing stories and tasks grouped and prioritised into releases"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/story_mapping_a.jpg",
+            "title": "Story Mapping",
+            "caption": ""
+          },
+          {
+            "url": "assets/images/process/ux/learn/story_mapping_b.jpg",
+            "title": "Story Mapping layout",
+            "caption": "Example layout"
+          },
+          {
+            "url": "assets/images/process/ux/learn/story_mapping_c.jpeg",
+            "title": "Story Mapping alternative layout",
+            "caption": "An alternative layout"
+          },
+          {
+            "url": "assets/images/process/ux/learn/story_mapping_d.jpg",
+            "title": "Story Map Slicing",
+            "caption": "Breaking down user stories into releases"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "red-route-analysis",
+    "name": "Red Route Analysis",
+    "step": "Identify users thoughts, feelings and actions",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#4fc3f7",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a"
+    ],
+    "description": [
+      {
+        "type": "text",
+
+        "content": [
+          {
+            "title": "Goal",
+            "text": ""
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "",
+              ""
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/red_route_analysis_a.png",
+            "title": "test",
+            "caption": "text"
+          },
+          {
+            "url": "assets/images/process/ux/learn/red_route_analysis_b.png",
             "title": "test",
             "caption": "text"
           }
