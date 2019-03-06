@@ -340,43 +340,36 @@
         "content": [
           {
             "title": "Goal",
-            "text": ""
+            "text": "A persona is a way to model, summarise and communicate research about people in a condensed way. Each persona represents a significant number of people in the real world but is depicted as a specific person. This enables designers to focus on a manageable and memorable cast of characters, instead of focusing on thousands of individuals and helps with creating different designs for different people."
           },
           {
             "title": "Benefits",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Builds empathy with users",
+              "Develops focus by having clear user types to develop for",
+              "Helps communicate interview findings with others in a concise way",
+              "Helps to defend decisions made based on real data"
             ]
           },
           {
             "title": "Prerequisites",
             "list": [
-              "",
-              ""
+              "User Interviews"
             ]
           },
           {
             "title": "The Process",
             "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Ensure enough users have been interviewed",
+              "Find patterns in responses and actions and use those to group similar people together",
+              "Create archetypical models of those groups based on the patterns found, including demographic info, backgrounds, goals, motivations and pain points",
+              "Share those models with other team members and stakeholders"
             ]
           },
           {
             "title":"Deliverables",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "A handful of personas summarising the user base"
             ]
           }
         ]
@@ -385,17 +378,27 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/personas_a.jpeg",
+            "url": "assets/images/process/ux/learn/personas_a.png",
             "title": "test",
             "caption": "text"
           },
           {
-            "url": "assets/images/process/ux/learn/personas_b.jpeg",
+            "url": "assets/images/process/ux/learn/personas_b.png",
             "title": "test",
             "caption": "text"
           },
           {
             "url": "assets/images/process/ux/learn/personas_c.png",
+            "title": "test",
+            "caption": "text"
+          },
+          {
+            "url": "assets/images/process/ux/learn/personas_d.png",
+            "title": "test",
+            "caption": "text"
+          },
+          {
+            "url": "assets/images/process/ux/learn/personas_e.png",
             "title": "test",
             "caption": "text"
           }
