@@ -66,7 +66,7 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/content_audit_a.png",
+            "url": "assets/images/process/ux/learn/content_audit_a.jpg",
             "title": "Audit List",
             "caption": ""
           },
@@ -148,7 +148,7 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/stakeholder-interviews_a.png",
+            "url": "assets/images/process/ux/learn/stakeholder-interviews_a.jpg",
             "title": "Stakeholder Interview",
             "caption": ""
           },
@@ -379,26 +379,31 @@
         "content": [
           {
             "url": "assets/images/process/ux/learn/personas_a.png",
+            "title": "Personas",
+            "caption": ""
+          },
+          {
+            "url": "assets/images/process/ux/learn/personas_b.png",
             "title": "Persona Demographic",
             "caption": "Persona Demographic"
           },
           {
-            "url": "assets/images/process/ux/learn/personas_b.png",
+            "url": "assets/images/process/ux/learn/personas_c.png",
             "title": "Persona Background",
             "caption": "Persona Background"
           },
           {
-            "url": "assets/images/process/ux/learn/personas_c.png",
+            "url": "assets/images/process/ux/learn/personas_d.png",
             "title": "Persona Goals",
             "caption": "Persona Goals"
           },
           {
-            "url": "assets/images/process/ux/learn/personas_d.png",
+            "url": "assets/images/process/ux/learn/personas_e.png",
             "title": "Persona Motivations",
             "caption": "Persona Motivations"
           },
           {
-            "url": "assets/images/process/ux/learn/personas_e.png",
+            "url": "assets/images/process/ux/learn/personas_f.png",
             "title": "Persona Further Info",
             "caption": "Persona Further Info"
           }
@@ -469,7 +474,7 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/journey_mapping_a.png",
+            "url": "assets/images/process/ux/learn/journey_mapping_a.jpg",
             "title": "Journey Mapping",
             "caption": ""
           },
@@ -488,12 +493,110 @@
     ]
   },
   {
+    "id": "event-storming",
+    "name": "Event Storming",
+    "step": "Identify users thoughts, feelings and actions",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#4fc3f7",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://medium.com/@springdo/a-facilitators-recipe-for-event-storming-941dcb38db0d",
+      "https://www.boldare.com/blog/event-storming-guide/",
+      "https://altkomsoftware.pl/en/blog/event-storming/",
+      "https://openpracticelibrary.com/practice/event-storming/",
+      "https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "Event storming is a rapid design technique that establishes a common and shared language between Business & IT. It sets focus in terms of scope and boundaries and gives you the big picture of the solution by placing technical implementation details in context of the business process. It will also help identify key views for your user interface, which can jump start Site Mapping and Wireframing."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Share understanding about business objectives and project/product goals",
+              "Supports group learning and is a fun way to integrate development and product teams",
+              "Help the development team get to know the client’s business better",
+              "Can help to identify bottlenecks and areas of conflict"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Persona Workshop",
+              "Journey Mapping"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Invite a mixture of stakeholders representing user experience, business, architecture, development, and IT",
+              "Provide unlimited modeling space",
+              "Using previously gathered personas and journeys, explore the business domain by identifying domain events",
+              "Evaluate each event for its causes and consequences (commands)",
+              "Connect events to reactions, what happens as a result of the event",
+              "Use domain-driven design to define the structure of your system",
+              "This process can be repeated working on what had been completed in the previous session with different stakeholders"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "An event-driven system model containing UI requirements and data models",
+              "A unified view and language between all parts of the organisation"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/event_storming_a.png",
+            "title": "Event Storming",
+            "caption": ""
+          },
+          {
+            "url": "assets/images/process/ux/learn/event_storming_b.png",
+            "title": "Event Storming Domain Events",
+            "caption": "Start of be listing out domain events"
+          },
+          {
+            "url": "assets/images/process/ux/learn/event_storming_c.png",
+            "title": "Event Storming Commands",
+            "caption": "Add commands to events to list causes and consequences"
+          },
+          {
+            "url": "assets/images/process/ux/learn/event_storming_d.png",
+            "title": "Event Storming Reactions",
+            "caption": "Add reactions to events to list what happens as a result of the event"
+          },
+          {
+            "url": "assets/images/process/ux/learn/event_storming_e.png",
+            "title": "Event Storming Business Process",
+            "caption": "Define the business process by structuring the result of the previous steps"
+          },
+          {
+            "url": "assets/images/process/ux/learn/event_storming_f.jpeg",
+            "title": "Event Storming Example",
+            "caption": "An example of what Event Storming can look like"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "story-mapping",
     "name": "Story Mapping",
     "step": "Identify users thoughts, feelings and actions",
     "type": "learn",
     "properties": {
-      "backgroundColor": "#4fc3f7",
+      "backgroundColor": "#4dd0e1",
       "textColor": "#000000"
     },
     "links": [
@@ -524,9 +627,9 @@
           {
             "title": "Prerequisites",
             "list": [
-              "User Interviews",
               "Persona Workshop",
-              "Journey Mapping"
+              "Journey Mapping",
+              "Event Storming"
             ]
           },
           {
