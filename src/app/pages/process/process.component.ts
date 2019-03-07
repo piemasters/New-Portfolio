@@ -5,6 +5,7 @@ import { map } from 'rxjs/operators';
 import * as fromProcesses from '../../store/processes/processes.reducers';
 import { Observable } from 'rxjs';
 import { UXMethod } from '../../shared/models/ux-method.model';
+import { Lightbox } from 'ngx-lightbox';
 
 @Component({
   selector: 'app-process',
@@ -15,10 +16,14 @@ export class ProcessComponent implements OnInit {
   uxMethods$: Observable<UXMethod[]>;
   selectedMethod: UXMethod;
   selectedProcessType: string;
+  _albums = [];
+
 
   constructor(
-    private store: Store<fromProcesses.State>
-  ) {  }
+    private store: Store<fromProcesses.State>,
+    public _lightbox: Lightbox
+  ) {
+  }
 
   ngOnInit() {
     this.selectProcessType('learn');
@@ -51,6 +56,23 @@ export class ProcessComponent implements OnInit {
         map(m => m.testList)
       );
     }
+  }
+
+  open(images, index): void {
+    this._albums = [];
+    for (let i = 0; i <= images.length - 1; i++) {
+      this._albums.push({
+        src:  images[i].url,
+        caption: images[i].caption
+      });
+    }
+
+    this._lightbox.open(this._albums, index);
+  }
+
+  close(): void {
+    // close lightbox programmatically
+    this._lightbox.close();
   }
 
 }

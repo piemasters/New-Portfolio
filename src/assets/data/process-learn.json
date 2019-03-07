@@ -2,6 +2,7 @@
   {
     "id": "content-audit",
     "name": "Inventory & Audit",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "Learn about the brand, the product and the stakeholders",
     "type": "learn",
     "properties": {
@@ -66,11 +67,6 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/content_audit_a.jpg",
-            "title": "Audit List",
-            "caption": ""
-          },
-          {
             "url": "assets/images/process/ux/learn/content_audit_b.png",
             "title": "Content Audit",
             "caption": "An example audit list"
@@ -87,6 +83,7 @@
   {
     "id": "stakeholder-interviews",
     "name": "Stakeholder Interviews",
+    "banner": "assets/images/process/ux/learn/stakeholder-interviews_a.jpg",
     "step": "Learn about the brand, the product and the stakeholders",
     "type": "learn",
     "properties": {
@@ -148,11 +145,6 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/stakeholder-interviews_a.jpg",
-            "title": "Stakeholder Interview",
-            "caption": ""
-          },
-          {
             "url": "assets/images/process/ux/learn/stakeholder-interviews_b.png",
             "title": "Stakeholder Interview Questions",
             "caption": "Create a questions library to produce personalised interviews from"
@@ -164,6 +156,7 @@
   {
     "id": "user-interviews",
     "name": "User Interviews",
+    "banner": "assets/images/process/ux/learn/user-interviews_a.png",
     "type": "learn",
     "step": "Identify users thoughts, feelings and actions",
     "properties": {
@@ -225,11 +218,6 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/user-interviews_a.png",
-            "title": "User Interviews",
-            "caption": ""
-          },
-          {
             "url": "assets/images/process/ux/learn/user-interviews_b.png",
             "title": "User Interview Summary",
             "caption": "Summary of a user interview"
@@ -241,6 +229,7 @@
   {
     "id": "competitive-analysis",
     "name": "Competitive Analysis",
+    "banner": "assets/images/process/ux/learn/competitive_analysis_a.jpeg",
     "step": "Learn about the brand, the product and the stakeholders",
     "type": "learn",
     "properties": {
@@ -305,11 +294,6 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/competitive_analysis_a.jpeg",
-            "title": "Competitive Analysis",
-            "caption": ""
-          },
-          {
             "url": "assets/images/process/ux/learn/competitive_analysis_b.png",
             "title": "Competitor Analysis Matrix",
             "caption": "Competitor Analysis Matrix"
@@ -321,6 +305,7 @@
   {
     "id": "personas",
     "name": "Persona Workshop",
+    "banner": "assets/images/process/ux/learn/personas_a.png",
     "step": "Model experiences, tasks and mindsets for goals, and define and frame the problem",
     "type": "learn",
     "properties": {
@@ -378,11 +363,6 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/personas_a.png",
-            "title": "Personas",
-            "caption": ""
-          },
-          {
             "url": "assets/images/process/ux/learn/personas_b.png",
             "title": "Persona Demographic",
             "caption": "Persona Demographic"
@@ -414,6 +394,7 @@
   {
     "id": "journey-mapping",
     "name": "Journey Mapping",
+    "banner": "assets/images/process/ux/learn/journey_mapping_a.jpg",
     "step": "Model experiences, tasks and mindsets for goals, and define and frame the problem",
     "type": "learn",
     "properties": {
@@ -474,11 +455,6 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/journey_mapping_a.jpg",
-            "title": "Journey Mapping",
-            "caption": ""
-          },
-          {
             "url": "assets/images/process/ux/learn/journey_mapping_b.png",
             "title": "Journey Mapping Template",
             "caption": "A template for creating a User Journey Map"
@@ -495,6 +471,7 @@
   {
     "id": "event-storming",
     "name": "Event Storming",
+    "banner": "assets/images/process/ux/learn/event_storming_a.png",
     "step": "Identify users thoughts, feelings and actions",
     "type": "learn",
     "properties": {
@@ -557,11 +534,6 @@
         "type": "image",
         "content": [
           {
-            "url": "assets/images/process/ux/learn/event_storming_a.png",
-            "title": "Event Storming",
-            "caption": ""
-          },
-          {
             "url": "assets/images/process/ux/learn/event_storming_b.png",
             "title": "Event Storming Domain Events",
             "caption": "Start of be listing out domain events"
@@ -593,6 +565,7 @@
   {
     "id": "story-mapping",
     "name": "Story Mapping",
+    "banner": "assets/images/process/ux/learn/story_mapping_a.jpg",
     "step": "Identify users thoughts, feelings and actions",
     "type": "learn",
     "properties": {
@@ -655,11 +628,6 @@
       {
         "type": "image",
         "content": [
-          {
-            "url": "assets/images/process/ux/learn/story_mapping_a.jpg",
-            "title": "Story Mapping",
-            "caption": ""
-          },
           {
             "url": "assets/images/process/ux/learn/story_mapping_b.jpg",
             "title": "Story Mapping layout",

@@ -2,6 +2,7 @@
   {
     "id": "a-b-testing",
     "name": "A/B 'Split' Testing",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "",
     "type": "testing",
     "properties": {
@@ -73,6 +74,7 @@
   {
     "id": "usability-testing",
     "name": "Usability Testing",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "",
     "type": "testing",
     "properties": {
@@ -144,6 +146,7 @@
   {
     "id": "quantitative-survey",
     "name": "Quantitative Survey",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "",
     "type": "testing",
     "properties": {
@@ -215,6 +218,7 @@
   {
     "id": "analytics-review",
     "name": "Analytics Review",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "",
     "type": "testing",
     "properties": {

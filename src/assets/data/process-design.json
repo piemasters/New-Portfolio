@@ -2,6 +2,7 @@
   {
     "id": "flow-diagrams",
     "name": "User Flow Diagrams",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "Visualize the interaction",
     "type": "design",
     "properties": {
@@ -73,6 +74,7 @@
   {
     "id": "sitemap",
     "name": "Sitemap Diagram",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "Visualize the interaction",
     "type": "design",
     "properties": {
@@ -144,6 +146,7 @@
   {
     "id": "rapid-prototyping",
     "name": "Rapid Prototyping",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "Communicate the idea",
     "type": "design",
     "properties": {
@@ -216,6 +219,7 @@
   {
     "id": "wireframes",
     "name": "Wireframe Design",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "Communicate the idea",
     "type": "design",
     "properties": {
@@ -287,6 +291,7 @@
   {
     "id": "style-tiles",
     "name": "Style Tile Design",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "Branding",
     "type": "design",
     "properties": {
@@ -359,6 +364,7 @@
   {
     "id": "pattern-libraries",
     "name": "Pattern Libraries",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "Branding",
     "type": "design",
     "properties": {
@@ -430,6 +436,7 @@
   {
     "id": "high-fidelity-mockups",
     "name": "High Fidelity Mockups",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
     "step": "Branding",
     "type": "design",
     "properties": {

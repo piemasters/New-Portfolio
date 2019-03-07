@@ -30,9 +30,17 @@
 
 
 <article *ngIf="selectedMethod" [style.backgroundColor]="selectedMethod.properties.backgroundColor">
-  <header>
-    <h3 class="section-title">{{ selectedMethod.name }}</h3>
+
+  <header class="page-banner process-header">
+    <div class="banner-overlay"></div>
+    <figure class="banner-image-wrapper">
+      <img alt="banner" [src]="selectedMethod.banner">
+    </figure>
+    <div class="banner-text-wrapper">
+      <h1>{{ selectedMethod.name }}</h1>
+    </div>
   </header>
+
 
   <div *ngFor="let detail of selectedMethod.description">
 
@@ -57,19 +65,11 @@
 
     <section *ngIf="detail.type === 'image'"  class="page-content image-container">
 
-      <img *ngIf="detail.content.length === 1" [src]="detail.content[0].url" alt="{{ detail.content[0].title }}">
-
-      <slideshow *ngIf="detail.content.length > 1"
-                 [backgroundSize]="'contain'"
-                 [autoPlay]="false"
-                 [showArrows]="true"
-                 [imageUrls]="detail.content"
-                 [showCaptions]="true"
-                 [captionBackground]="'rgba(0, 0, 0, .8)'"
-                 [lazyLoad]="detail.content?.length > 1">
-      </slideshow>
+      <img class="method-image" *ngFor="let image of detail.content; let i=index" [src]="image.url" (click)="open(detail.content, i)"/>
 
     </section>
+
+
 
   </div>
 
