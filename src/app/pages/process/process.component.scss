@@ -53,24 +53,31 @@
   }
 }
 
-.method-image {
-  cursor: pointer;
-  padding: 4rem;
-  height: 14rem;
-  width: 14rem;
-  object-fit: cover;
-  transition: transform .6s;
-  &:hover {
-    transform: scale(1.5);
-  }
-}
-
-.image-container {
-  align-items: center;
-  display: inline-block;
-  justify-content: center;
-}
-
 .process-header {
   margin-bottom: 4rem;
 }
+
+
+
+.image-container {
+  text-align: center;
+  display: inline-block;
+  .method-image {
+    cursor: pointer;
+    height: 14rem;
+    padding: 1rem;
+    width: 14rem;
+    object-fit: cover;
+    transition: transform .6s;
+    @media screen and (min-width: $md) {
+      height: 20rem;
+      padding: 4rem;
+      width: 20rem;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+

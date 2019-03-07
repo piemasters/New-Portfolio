@@ -63,10 +63,11 @@
       </div>
     </section>
 
-    <section *ngIf="detail.type === 'image'"  class="page-content image-container">
+    <section *ngIf="detail.type === 'image'"  class="page-content">
+      <div class="image-container">
 
       <img class="method-image" *ngFor="let image of detail.content; let i=index" [src]="image.url" (click)="open(detail.content, i)"/>
-
+      </div>
     </section>
 
 
