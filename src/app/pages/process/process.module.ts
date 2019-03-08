@@ -7,7 +7,7 @@ import { LightboxModule } from 'ngx-lightbox';
 
 @NgModule({
   declarations: [
-    ProcessComponent,
+    ProcessComponent
   ],
   imports: [
     CommonModule,

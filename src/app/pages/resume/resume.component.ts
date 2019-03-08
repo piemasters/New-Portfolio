@@ -28,8 +28,11 @@ export class ResumeComponent implements OnInit {
     );
   }
 
-  selectCompany(company) {
+  selectCompany(company, el) {
     this.selectedCompany = company;
+    setTimeout(() => {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    }, 100);
   }
 
 }

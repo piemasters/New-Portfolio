@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './core/layouts/navbar/navbar.component';
 import { FooterComponent } from './core/layouts/footer/footer.component';
 import { metaReducers, reducers } from './store/app.reducers';
+import { ScrollTopComponent } from './core/layouts/scroll-top/scroll-top.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -14,7 +15,8 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent,
         NavbarComponent,
-        FooterComponent
+        FooterComponent,
+        ScrollTopComponent
       ],
       imports: [
         RouterTestingModule,

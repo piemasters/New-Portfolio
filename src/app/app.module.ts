@@ -19,12 +19,15 @@ import { metaReducers, reducers } from './store/app.reducers';
 import { ProjectsEffects } from './store/projects/projects.effects';
 import { CompaniesEffects } from './store/companies/companies.effects';
 import { ProcessesEffects } from './store/processes/processes.effects';
+import { ScrollTopComponent } from './core/layouts/scroll-top/scroll-top.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ScrollTopComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'portfolio'}),

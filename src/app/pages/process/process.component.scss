@@ -67,7 +67,7 @@
 }
 
 #process {
-  height: 380px;
+  min-height: 380px;
   @media screen and (min-width: $md) {
     height: 540px;
   }

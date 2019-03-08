@@ -56,10 +56,10 @@
 
 <article>
 
-  <section id="company-logos" class="page-content resume-section" *ngIf="companies$ | async as companies">
+  <section id="company-logos" class="page-content resume-section" *ngIf="companies$ | async as companies" #scrollToCompany>
     <div class="logos-content">
       <img *ngFor="let company of companies" [src]="company.img" [alt]="company.name"
-           [class.active]="selectedCompany === company" class="job-image" (click)="selectCompany(company)">
+           [class.active]="selectedCompany === company" class="job-image" (click)="selectCompany(company, scrollToCompany)">
     </div>
   </section>
 
