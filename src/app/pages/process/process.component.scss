@@ -3,19 +3,22 @@
 @import '../../../styles/mixins';
 
 .logos-content {
-  display: inline-block;
+  padding: 1rem;
   text-align: center;
-  width: 100%;
+  max-width: $xl;
   .method-button {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     align-items: center;
     border-radius: 10rem;
     display: inline-flex;
-    height: 12rem;
+    height: 8rem;
     justify-content: center;
-    margin: 2rem;
+    margin: 1rem;
     padding: 1rem;
-    width: 12rem;
+    width: 8rem;
+    .method-button-text {
+      height: 3rem;
+    }
     &:hover {
       cursor: pointer;
       @include drop-shadow($accent);
@@ -25,8 +28,14 @@
       border-radius: 10rem;
       @include drop-shadow($accent);
     }
-    .method-button-text {
-      height: 5rem;
+    @media screen and (min-width: $md) {
+      font-size: 1.8rem;
+      height: 12rem;
+      margin: 2rem;
+      width: 12rem;
+      .method-button-text {
+        height: 5rem;
+      }
     }
   }
 }
@@ -57,7 +66,12 @@
   margin-bottom: 4rem;
 }
 
-
+#process {
+  height: 380px;
+  @media screen and (min-width: $md) {
+    height: 540px;
+  }
+}
 
 .image-container {
   text-align: center;
@@ -79,5 +93,3 @@
     }
   }
 }
-
-

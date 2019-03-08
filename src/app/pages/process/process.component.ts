@@ -16,12 +16,10 @@ export class ProcessComponent implements OnInit {
   uxMethods$: Observable<UXMethod[]>;
   selectedMethod: UXMethod;
   selectedProcessType: string;
-  _albums = [];
-
 
   constructor(
     private store: Store<fromProcesses.State>,
-    public _lightbox: Lightbox
+    private  _lightbox: Lightbox
   ) {
   }
 
@@ -29,8 +27,12 @@ export class ProcessComponent implements OnInit {
     this.selectProcessType('learn');
   }
 
-  selectMethod(method) {
+  selectMethod(method, el) {
     this.selectedMethod = method;
+    setTimeout(() => {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    }, 100);
+
   }
 
   selectProcessType(processType) {
@@ -59,19 +61,18 @@ export class ProcessComponent implements OnInit {
   }
 
   open(images, index): void {
-    this._albums = [];
+    const gallery = [];
     for (let i = 0; i <= images.length - 1; i++) {
-      this._albums.push({
+      gallery.push({
         src:  images[i].url,
         caption: images[i].caption
       });
     }
 
-    this._lightbox.open(this._albums, index);
+    this._lightbox.open(gallery, index);
   }
 
   close(): void {
-    // close lightbox programmatically
     this._lightbox.close();
   }
 
