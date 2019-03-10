@@ -2,7 +2,7 @@
   {
     "id": "flow-diagrams",
     "name": "User Flow Diagrams",
-    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
+    "banner": "assets/images/process/ux/design/user_flow_a.jpg",
     "step": "Visualize the interaction",
     "type": "design",
     "properties": {
@@ -10,7 +10,11 @@
       "textColor": "#000000"
     },
     "links": [
-      "https://uxplanet.org/ux-glossary-task-flows-user-flows-flowcharts-and-some-new-ish-stuff-2321044d837d"
+      "https://uxknowledgebase.com/user-flow-496e3187842",
+      "https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows",
+      "https://uxplanet.org/ux-glossary-task-flows-user-flows-flowcharts-and-some-new-ish-stuff-2321044d837d",
+      "https://uxdesign.cc/the-biggest-wtf-in-design-right-now-87139f367d66",
+      "https://uxdesign.cc/when-to-use-user-flows-guide-8b26ca9aa36a"
     ],
     "description": [
       {
@@ -18,43 +22,40 @@
         "content": [
           {
             "title": "Goal",
-            "text": ""
+            "text": "A User Flow is a sequence of steps the user needs to take in order to accomplish a task inside the application. Visualising these sequences helps to improve and simplify an existing process, or design an optimised flow and determine what information is required. ?It also helps to eliminate guesswork and ambiguity for the developer."
           },
           {
             "title": "Benefits",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Helps to determine if the current process is complete or if steps are missing",
+              "Discover if the design can be simplified and whether the number of steps reduced",
+              "Determine if each next step is obvious enough, or if further information is required",
+              "Provides documentation for all user interactions"
             ]
           },
           {
             "title": "Prerequisites",
             "list": [
-              "",
-              ""
+              "Persona Workshop",
+              "Journey Mapping",
+              "Event Storming"
             ]
           },
           {
             "title": "The Process",
             "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "First list out all entry points into the application and possible landing pages",
+              "For each persona create user flows using only text",
+              "Each step should state what the user sees and what they do to progress to the next step",
+              "Start with happy paths, then move onto edge cases and error paths",
+              "From these flows draw sketches representing the UI so that each step can be more easily visualised",
+              "Once confirmed these sketches can be digitised"
             ]
           },
           {
             "title":"Deliverables",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "A set of diagrams documenting all user interactions with the application"
             ]
           }
         ]
@@ -63,9 +64,136 @@
         "type": "image",
         "content": [
           {
-            "url": "",
-            "title": "",
-            "caption": ""
+            "url": "assets/images/process/ux/design/user_flow_b.png",
+            "title": "User Flow initial steps",
+            "caption": "Initial text only user flow steps"
+          },
+          {
+            "url": "assets/images/process/ux/design/user_flow_c.png",
+            "title": "User Flow Direction",
+            "caption": "User flows should only go in one direction and show possible outcomes"
+          },
+          {
+            "url": "assets/images/process/ux/design/user_flow_d.png",
+            "title": "User Flow Breakdown",
+            "caption": "Flows should be broken down to show how individual goals are met"
+          },
+          {
+            "url": "assets/images/process/ux/design/user_flow_e.png",
+            "title": "Example User Flow",
+            "caption": "An example User Flow diagram"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wireframes",
+    "name": "Wireframes & IX Flows",
+    "banner": "assets/images/process/ux/design/wireframes_a.png",
+    "step": "Communicate the idea",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#ffd54f",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://www.experienceux.co.uk/faqs/what-is-wireframing/",
+      "https://www.francoisfalcucci.fr/glossaire-ux-site-flow-flow-chart-user-flow-task-flow-wireflow-ix-flow/",
+      "https://uxtricks.design/blogs/ux-design/wireframe-tools-and-rapid-prototyping/",
+      "https://uxplanet.org/an-introduction-to-interaction-flows-a4f783402529",
+      "https://dribbble.com/shots/861429-Wireflow"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "Wireframing is a way to design an application interface at the structural level. A wireframe is commonly used to lay out content and functionality on a page based on the previously defined User Flows. Wireframes help establish the basic structure of a page before visual design and content is added. Wireflows are used to show the relationship or flow between pages, while Interaction (IX) Flows define each interactive element’s trigger, feedback, rules, and loops/modes."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Conveys the overall direction and description of the user interface",
+              "A quick way to review and amend the structure of key pages based on user and business needs",
+              "Great way of getting feedback from users and stakeholders",
+              "IX Flows centralise the flow, visual design, and interactions in one document",
+              "Reduces guesswork and ambiguity on the developer’s part"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Event Storming",
+              "User Flows"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Based on the previously defined User Flows, mock up a wireframes for every page containing the key elements required by users to complete those flows",
+              "Consider usability conventions, spacing and information hierarchy while designing wireframes",
+              "Once wireframes have been completed Wireflows can be created by connecting each wireframe together with arrows to display user interactions and how their workflow causes them to navigate between pages",
+              "Once all Wireflows have been completed a single Interaction flow can be produced",
+              "Create a reference panel that defines the types of gestures and their representative symbols, definitions for terms used when describing interactions and a legend that defines the flow lines and other symbols",
+              "Insert your wireframes with enough space for arrows and containers to fit around them",
+              "For each wireframe interactive element add a reference box listing: the name and trigger with the matching icon, what feedback the user receives, what rules there are for what can and cannot be done and any different modes the element supports",
+              "Connect wireframes with lines for connections between screens"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A series of individual wireframes for each core page of the application",
+              "A series of Wireflows documenting the interactions between wireframes",
+              "A single Interaction Flow documenting each interactive element’s trigger, feedback, rules, and loops/modes"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/design/wireframes_b.png",
+            "title": "Wireframe Example",
+            "caption": "A wireframe example"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_c.jpg",
+            "title": "Another Wireframe Example",
+            "caption": "Another wireframe example"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_d.jpg",
+            "title": "Wireflow",
+            "caption": "An example of a Wireflow"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_e.png",
+            "title": "Another Wireflow",
+            "caption": "Another example of a Wireflow"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_f.png",
+            "title": "IX Flow Reference Panel",
+            "caption": "An example of an Interaction Flow reference panel"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_g.png",
+            "title": "IX Flow Wireframe",
+            "caption": "An example of how a wireframe fits into an Interaction Flow"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_h.png",
+            "title": "IX Flow Reference Box",
+            "caption": "An example of an Interaction Flow reference box"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_i.png",
+            "title": "IX Flow Complete",
+            "caption": "An complete example of an Interaction Flow"
           }
         ]
       }
@@ -74,11 +202,11 @@
   {
     "id": "sitemap",
     "name": "Sitemap Diagram",
-    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
+    "banner": "assets/images/process/ux/design/sitemap_a.jpg",
     "step": "Visualize the interaction",
     "type": "design",
     "properties": {
-      "backgroundColor": "#ffd54f",
+      "backgroundColor": "#ffb74d",
       "textColor": "#000000"
     },
     "links": [
@@ -135,154 +263,14 @@
         "type": "image",
         "content": [
           {
-            "url": "",
-            "title": "",
-            "caption": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "rapid-prototyping",
-    "name": "Rapid Prototyping",
-    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
-    "step": "Communicate the idea",
-    "type": "design",
-    "properties": {
-      "backgroundColor": "#ffb74d",
-      "textColor": "#000000"
-    },
-    "links": [
-      "https://www.interaction-design.org/literature/article/rapid-prototyping-faking-it-until-you-make-it-in-a-ux-driven-world",
-      "https://uxtricks.design/blogs/ux-design/wireframe-tools-and-rapid-prototyping/"
-    ],
-    "description": [
-      {
-        "type": "text",
-        "content": [
-          {
-            "title": "Goal",
-            "text": ""
+            "url": "assets/images/process/ux/design/sitemap_b.png",
+            "title": "Sitemap Example",
+            "caption": "An example Sitemap"
           },
           {
-            "title": "Benefits",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "Prerequisites",
-            "list": [
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "The Process",
-            "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title":"Deliverables",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "content": [
-          {
-            "url": "",
-            "title": "",
-            "caption": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "wireframes",
-    "name": "Wireframe Design",
-    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
-    "step": "Communicate the idea",
-    "type": "design",
-    "properties": {
-      "backgroundColor": "#ff8a65",
-      "textColor": "#000000"
-    },
-    "links": [
-      "https://www.experienceux.co.uk/faqs/what-is-wireframing/"
-    ],
-    "description": [
-      {
-        "type": "text",
-        "content": [
-          {
-            "title": "Goal",
-            "text": ""
-          },
-          {
-            "title": "Benefits",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "Prerequisites",
-            "list": [
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "The Process",
-            "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title":"Deliverables",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "content": [
-          {
-            "url": "",
-            "title": "",
-            "caption": ""
+            "url": "assets/images/process/ux/design/sitemap_c.png",
+            "title": "Site Flow Example",
+            "caption": "An example Site Flow"
           }
         ]
       }
@@ -295,7 +283,7 @@
     "step": "Branding",
     "type": "design",
     "properties": {
-      "backgroundColor": "#e57373",
+      "backgroundColor": "#ff8a65",
       "textColor": "#000000"
     },
     "links": [
@@ -368,7 +356,7 @@
     "step": "Branding",
     "type": "design",
     "properties": {
-      "backgroundColor": "#f06292",
+      "backgroundColor": "#e57373",
       "textColor": "#000000"
     },
     "links": [
@@ -440,7 +428,7 @@
     "step": "Branding",
     "type": "design",
     "properties": {
-      "backgroundColor": "#ba68c8",
+      "backgroundColor": "#f06292",
       "textColor": "#000000"
     },
     "links": [
