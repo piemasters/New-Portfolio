@@ -467,7 +467,7 @@
   {
     "id": "high-fidelity-mockups",
     "name": "High Fidelity Mockups",
-    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
+    "banner": "assets/images/process/ux/design/high_fidelity_mockups_a.jpg",
     "step": "Branding",
     "type": "design",
     "properties": {
@@ -483,43 +483,36 @@
         "content": [
           {
             "title": "Goal",
-            "text": ""
+            "text": "High Fidelity Mockups are more complete representations of the application interface than Wireframes. The previously created Design System can be used to drag in elements and quickly produce an interface the very closely resembles the finished product. These mockups can even be made clickable and respond to the user’s actions, mimicking authentic interface interaction."
           },
           {
             "title": "Benefits",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Provides a clear idea as to how the interface will look and work",
+              "Perfect for testing and gaining accurate feedback from the client",
+              "Less likely to have errors when testing than a coded prototype"
             ]
           },
           {
             "title": "Prerequisites",
             "list": [
-              "",
-              ""
+              "Wireframes & IX Flows",
+              "Design Systems"
             ]
           },
           {
             "title": "The Process",
             "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Gather previously designed wireframes and have the Design System at hand",
+              "For each wireframe update the content following the Style Guide and using the components documented in the Design System",
+              "Decide on software that mimics user interaction and connect the new High Fidelity Mockups using the defined IX Flows"
             ]
           },
           {
             "title":"Deliverables",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "A set of High Fidelity Mockups for each previously produced Wireframe using the Design System",
+              "A interactive demo with simulated clickable links between pages"
             ]
           }
         ]
@@ -528,9 +521,14 @@
         "type": "image",
         "content": [
           {
-            "url": "",
-            "title": "",
-            "caption": ""
+            "url": "assets/images/process/ux/design/high_fidelity_mockups_b.png",
+            "title": "High Fidelity Mockup Example",
+            "caption": "A High Fidelity Mockup example"
+          },
+          {
+            "url": "assets/images/process/ux/design/high_fidelity_mockups_c.png",
+            "title": "Another High Fidelity Mockup Example",
+            "caption": "Another High Fidelity Mockup example"
           }
         ]
       }
