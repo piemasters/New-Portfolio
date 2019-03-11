@@ -370,9 +370,11 @@
     },
     "links": [
       "https://medium.com/@whatjackhasmade/pattern-libraries-abcc45c6144c",
-      "https://webdevstudios.com/2016/04/07/what-is-difference-between-style-guide-and-pattern-library/",
+      "https://webdevstudios.com/2016/04/07/what-is-difference-between-style-guide-and-pattern-library",
       "https://www.hongkiat.com/blog/style-guides-style-tiles/",
-      "https://www.toptal.com/designers/ui/ui-styleguide-better-ux"
+      "https://www.toptal.com/designers/ui/ui-styleguide-better-ux",
+      "https://www.uxpin.com/create-design-system-guide",
+      "http://styleguides.io/examples"
     ],
     "description": [
       {
@@ -380,16 +382,15 @@
         "content": [
           {
             "title": "Goal",
-            "text": "Design Systems encompass Style Guides (that define abstract styles) and Pattern Libraries (that define usable blocks) and also focus on defining rules and connections of an application. "
+            "text": "Design Systems encompass Style Guides (that define abstract styles) and Pattern Libraries (that define usable blocks) and also focus on defining rules and connections of an application. The goal is to create an asset that will stand the test of time, is open for additions and is accessible for anyone new to dive right into the guide with ease. In some cases a full Design System is required, in other cases a basic Style Guide will do."
           },
           {
             "title": "Benefits",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Record all design elements and interactions that occur within the application",
+              "List crucial UI components such as buttons, typography, color and navigation menus",
+              "Document important UX components like hover states, dropdown fills and animations",
+              "Contain live elements and code snippets for developers to reference and use"
             ]
           },
           {
@@ -401,11 +402,14 @@
           {
             "title": "The Process",
             "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Create an existing UI inventory, including patterns, colors, typography, icons and spacing layouts",
+              "Review the state of the existing inventory to discover inconsistencies, UX problems or issues negatively affecting the software development process",
+              "Discuss with stakeholders the need for either a Style Guide, Pattern Library or Design System to eliminate raised issues",
+              "Determine the technologies being used for the application and agree the best tools to use going forward",
+              "If creating a Style Guide define the color palette, typography, icons and page structuring",
+              "If creating a Pattern Library define reusable components, such as buttons, notifications, tables and forms",
+              "If creating a Design System define the application rules and connections including motion, accessibility and taxonomies",
+              "All these documents should be living and are not expected to cover all possibilities going forward. If new features are required later in development the Design System can be updated"
             ]
           },
           {
@@ -422,9 +426,39 @@
         "type": "image",
         "content": [
           {
-            "url": "",
-            "title": "",
-            "caption": ""
+            "url": "assets/images/process/ux/design/design_systems_b.png",
+            "title": "Design System Overview",
+            "caption": "How Style Guides, Pattern Library and Design System relate to each other"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_c.png",
+            "title": "Style Guide",
+            "caption": "An example Style Guide"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_d.png",
+            "title": "Another Style Guide",
+            "caption": "Another Style Guide example"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_e.jpg",
+            "title": "Pattern Library",
+            "caption": "An example Pattern Library"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_f.png",
+            "title": "Design System",
+            "caption": "An example Design System"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_g.png",
+            "title": "Another Design System",
+            "caption": "Another example of a Design System"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_h.gif",
+            "title": "Yet Another Design System",
+            "caption": "Yet another example of a Design System"
           }
         ]
       }
