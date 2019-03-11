@@ -1,12 +1,89 @@
 [
   {
+    "id": "sitemap",
+    "name": "Sitemap Diagram",
+    "banner": "assets/images/process/ux/design/sitemap_a.jpg",
+    "step": "Visualize the interaction",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#fff176",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://theuxreview.co.uk/sitemaps-the-beginners-guide/",
+      "https://speckyboy.com/collection-inspiring-sitemaps-user-flow-maps/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "A Sitemap is a hierarchical diagram showing the structure of an application. They ensure content is in a logical place that users would expect to find it and can be used as a reference point for wireframes and user flows."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Show how the navigation should be structured",
+              "Help identify where content fits and what needs to be produced",
+              "Clearly display the relationship between different pages"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Personas",
+              "Journey Mapping",
+              "Event Storming",
+              "Story Mapping"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Gather data from previous mapping activities. Ideally a lot of the work will already be done!",
+              "If details are missing run a card sort session, writing down all page names on cards and sort them into categories",
+              "From all gathered information create an initial mindmap with a hierarchical view of all pages",
+              "Review this diagram against documented User Journeys to ensure the taxonomy support them",
+              "Review whether all personas understand the labelling you have come up with",
+              "Review if there are any categories that are too large or small and break them up where necessary",
+              "Pages can then be ordered in terms of user interaction order to produce a Site Flow diagram if not too complex"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A Sitemap diagram that demonstrates the navigation layout and organisation of content",
+              "A Site Flow diagram, showing roughly the order of user interaction for each page in a category"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/design/sitemap_b.png",
+            "title": "Sitemap Example",
+            "caption": "An example Sitemap"
+          },
+          {
+            "url": "assets/images/process/ux/design/sitemap_c.png",
+            "title": "Site Flow Example",
+            "caption": "An example Site Flow"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "flow-diagrams",
     "name": "User Flow Diagrams",
     "banner": "assets/images/process/ux/design/user_flow_a.jpg",
     "step": "Visualize the interaction",
     "type": "design",
     "properties": {
-      "backgroundColor": "#fff176",
+      "backgroundColor": "#ffd54f",
       "textColor": "#000000"
     },
     "links": [
@@ -38,7 +115,8 @@
             "list": [
               "Persona Workshop",
               "Journey Mapping",
-              "Event Storming"
+              "Event Storming",
+              "Sitemap Diagram"
             ]
           },
           {
@@ -94,7 +172,7 @@
     "step": "Communicate the idea",
     "type": "design",
     "properties": {
-      "backgroundColor": "#ffd54f",
+      "backgroundColor": "#ffb74d",
       "textColor": "#000000"
     },
     "links": [
@@ -126,7 +204,8 @@
             "title": "Prerequisites",
             "list": [
               "Event Storming",
-              "User Flows"
+              "User Flows",
+              "Sitemap Diagram"
             ]
           },
           {
@@ -200,86 +279,9 @@
     ]
   },
   {
-    "id": "sitemap",
-    "name": "Sitemap Diagram",
-    "banner": "assets/images/process/ux/design/sitemap_a.jpg",
-    "step": "Visualize the interaction",
-    "type": "design",
-    "properties": {
-      "backgroundColor": "#ffb74d",
-      "textColor": "#000000"
-    },
-    "links": [
-      "https://theuxreview.co.uk/sitemaps-the-beginners-guide/"
-    ],
-    "description": [
-      {
-        "type": "text",
-        "content": [
-          {
-            "title": "Goal",
-            "text": ""
-          },
-          {
-            "title": "Benefits",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "Prerequisites",
-            "list": [
-              "",
-              ""
-            ]
-          },
-          {
-            "title": "The Process",
-            "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "title":"Deliverables",
-            "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "content": [
-          {
-            "url": "assets/images/process/ux/design/sitemap_b.png",
-            "title": "Sitemap Example",
-            "caption": "An example Sitemap"
-          },
-          {
-            "url": "assets/images/process/ux/design/sitemap_c.png",
-            "title": "Site Flow Example",
-            "caption": "An example Site Flow"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "style-tiles",
+    "id": "style-tile",
     "name": "Style Tile Design",
-    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
+    "banner": "assets/images/process/ux/design/style_tile_a.jpg",
     "step": "Branding",
     "type": "design",
     "properties": {
@@ -296,43 +298,40 @@
         "content": [
           {
             "title": "Goal",
-            "text": ""
+            "text": "Style Tiles consist of fonts, colors and interface elements that communicate the essence of a visual brand. They help form a common visual language between the designers and the stakeholders and provide a catalyst for discussions around the preferences and goals of the client."
           },
           {
             "title": "Benefits",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Help to nail down a specific aesthetic",
+              "Establish a direct connection with actual interface elements without defining layout",
+              "Help translate established brands smoothly to an interface",
+              "Quick to produce without the need to create an entire style guide"
             ]
           },
           {
             "title": "Prerequisites",
             "list": [
-              "",
-              ""
+              "Stakeholder Interviews",
+              "Event Storming"
             ]
           },
           {
             "title": "The Process",
             "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Research any existing company branding",
+              "Have a design kickoff meeting involving stakeholders to get design ideas",
+              "Interpret how the adjectives and themes discovered translate into design principles, such as balance and emphasis",
+              "Determine themes from the aggregated adjectives and begin to match them up with styles",
+              "Present multiple tiles and gather feedback for production of a new set of times",
+              "Continue creating refined style tiles until an accepted core design language is agreed upon"
             ]
           },
           {
             "title":"Deliverables",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "A set of potential style tiles",
+              "An agreed style tile that defines the core design language going forwards"
             ]
           }
         ]
@@ -341,18 +340,28 @@
         "type": "image",
         "content": [
           {
-            "url": "",
-            "title": "",
-            "caption": ""
+            "url": "assets/images/process/ux/design/style_tile_b.png",
+            "title": "Style Tile Example",
+            "caption": "A Style Tile example"
+          },
+          {
+            "url": "assets/images/process/ux/design/style_tile_c.jpg",
+            "title": "Another Style Tile Example",
+            "caption": "Another Style Tile example"
+          },
+          {
+            "url": "assets/images/process/ux/design/style_tile_d.jpg",
+            "title": "A Further Style Tile Example",
+            "caption": "Yet another Style Tile example"
           }
         ]
       }
     ]
   },
   {
-    "id": "pattern-libraries",
-    "name": "Pattern Libraries",
-    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
+    "id": "design-systems",
+    "name": "Design Systems",
+    "banner": "assets/images/process/ux/design/design_systems_a.png",
     "step": "Branding",
     "type": "design",
     "properties": {
@@ -360,7 +369,10 @@
       "textColor": "#000000"
     },
     "links": [
-      "https://medium.com/@whatjackhasmade/pattern-libraries-abcc45c6144c"
+      "https://medium.com/@whatjackhasmade/pattern-libraries-abcc45c6144c",
+      "https://webdevstudios.com/2016/04/07/what-is-difference-between-style-guide-and-pattern-library/",
+      "https://www.hongkiat.com/blog/style-guides-style-tiles/",
+      "https://www.toptal.com/designers/ui/ui-styleguide-better-ux"
     ],
     "description": [
       {
@@ -368,7 +380,7 @@
         "content": [
           {
             "title": "Goal",
-            "text": ""
+            "text": "Design Systems encompass Style Guides (that define abstract styles) and Pattern Libraries (that define usable blocks) and also focus on defining rules and connections of an application. "
           },
           {
             "title": "Benefits",
@@ -383,8 +395,7 @@
           {
             "title": "Prerequisites",
             "list": [
-              "",
-              ""
+              "Style Tile Design"
             ]
           },
           {
@@ -400,11 +411,9 @@
           {
             "title":"Deliverables",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "A defined Style Guide defining abstract styles",
+              "A defined Pattern Library defining usable blocks",
+              "A defined Design System defining rules and connections"
             ]
           }
         ]

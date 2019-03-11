@@ -8,6 +8,7 @@ import * as fromProjects from '../../../store/projects/projects.reducers';
 import * as ProjectsActions from '../../../store/projects/projects.actions';
 import { Observable } from 'rxjs/internal/Observable';
 import { Projects } from '@angular/cli/lib/config/schema';
+import { Lightbox } from 'ngx-lightbox';
 
 @Component({
   selector: 'app-project',
@@ -21,7 +22,8 @@ export class ProjectComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private store: Store<fromProjects.State>) {
+    private store: Store<fromProjects.State>,
+    private  _lightbox: Lightbox) {
   }
 
   ngOnInit() {
@@ -31,6 +33,22 @@ export class ProjectComponent implements OnInit {
         this.projects$ = this.store.pipe(select('projects'));
       }
     );
+  }
+
+  open(images, index): void {
+    const gallery = [];
+    for (let i = 0; i <= images.length - 1; i++) {
+      gallery.push({
+        src:  images[i].url,
+        caption: images[i].caption
+      });
+    }
+
+    this._lightbox.open(gallery, index);
+  }
+
+  close(): void {
+    this._lightbox.close();
   }
 
 }

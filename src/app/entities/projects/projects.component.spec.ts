@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterTestingModule } from '@angular/router/testing';
 import { StoreModule } from '@ngrx/store';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { LightboxModule } from 'ngx-lightbox';
 
 import { ProjectsComponent } from './projects.component';
 import { ProjectComponent } from './project/project.component';
 import { CustomPipesModule } from '../../shared/pipes/custom-pipes.module';
 import { reducers } from '../../store/app.reducers';
-import { SlideshowModule } from 'ng-simple-slideshow';
+
 
 describe('ProjectsComponent', () => {
   let component: ProjectsComponent;
@@ -25,8 +26,8 @@ describe('ProjectsComponent', () => {
         CommonModule,
         CustomPipesModule,
         NgxPaginationModule,
-        StoreModule.forRoot(reducers),
-        SlideshowModule
+        LightboxModule,
+        StoreModule.forRoot(reducers)
       ]
     })
     .compileComponents();

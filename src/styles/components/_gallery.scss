@@ -1,0 +1,20 @@
+.gallery-container {
+  text-align: center;
+  display: inline-block;
+  .gallery-image {
+    cursor: pointer;
+    height: 14rem;
+    padding: 1rem;
+    width: 14rem;
+    object-fit: cover;
+    transition: transform .6s;
+    @media screen and (min-width: $md) {
+      height: 20rem;
+      padding: 4rem;
+      width: 20rem;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

@@ -4,7 +4,6 @@ import { ProcessComponent } from './process.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import { StoreModule } from '@ngrx/store';
 import { reducers } from '../../store/app.reducers';
-import { SlideshowModule } from 'ng-simple-slideshow';
 import { LightboxModule } from 'ngx-lightbox';
 
 describe('ProcessComponent', () => {
@@ -16,7 +15,6 @@ describe('ProcessComponent', () => {
       declarations: [ ProcessComponent ],
       imports: [
         RouterTestingModule,
-        SlideshowModule,
         LightboxModule,
         StoreModule.forRoot(reducers)
       ]

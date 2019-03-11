@@ -4,12 +4,12 @@ import { ActivatedRoute, Data } from '@angular/router';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { CommonModule } from '@angular/common';
 import { RouterTestingModule } from '@angular/router/testing';
+import { LightboxModule } from 'ngx-lightbox';
 
 import { ProjectComponent } from './project.component';
 import { ProjectsComponent } from '../projects.component';
 import { CustomPipesModule } from '../../../shared/pipes/custom-pipes.module';
 import { reducers } from '../../../store/app.reducers';
-import { SlideshowModule } from 'ng-simple-slideshow';
 
 
 describe('ProjectComponent', () => {
@@ -27,8 +27,8 @@ describe('ProjectComponent', () => {
         RouterTestingModule,
         CustomPipesModule,
         NgxPaginationModule,
-        StoreModule.forRoot(reducers),
-        SlideshowModule
+        LightboxModule,
+        StoreModule.forRoot(reducers)
       ],
       providers: [
         {

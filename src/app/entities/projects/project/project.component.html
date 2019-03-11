@@ -89,19 +89,10 @@
           <p *ngFor="let desc of section.text">{{ desc }}</p>
         </div>
 
-        <div class="subsection image-container" *ngIf="section.images.length === 1">
-          <img [src]="section.images[0]" alt="{{ section.title }}">
-        </div>
-
-        <div class="subsection carousel-container" *ngIf="section.images.length > 1">
-          <slideshow [height]="'400px'"
-                     [backgroundSize]="'contain'"
-                     [minHeight]="'525px'"
-                     [autoPlay]="false"
-                     [showArrows]="true"
-                     [imageUrls]="section.images"
-                     [lazyLoad]="section.images.length > 1">
-          </slideshow>
+        <div *ngIf="section.images"  class="subsection">
+          <div class="gallery-container">
+            <img class="gallery-image" *ngFor="let image of section.images; let i=index" [src]="image.url" (click)="open(section.images, i)" [alt]="image.title"/>
+          </div>
         </div>
 
       </section>

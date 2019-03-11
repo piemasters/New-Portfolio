@@ -65,9 +65,8 @@
     </section>
 
     <section *ngIf="detail.type === 'image'"  class="page-content">
-      <div class="image-container">
-
-      <img class="method-image" *ngFor="let image of detail.content; let i=index" [src]="image.url" (click)="open(detail.content, i)"/>
+      <div class="gallery-container">
+        <img class="gallery-image" *ngFor="let image of detail.content; let i=index" [src]="image.url" (click)="open(detail.content, i)" [alt]="image.title"/>
       </div>
     </section>
 
