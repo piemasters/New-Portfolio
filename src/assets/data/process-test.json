@@ -2,7 +2,7 @@
   {
     "id": "a-b-testing",
     "name": "A/B 'Split' Testing",
-    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
+    "banner": "assets/images/process/ux/test/ab_testing_a.jpg",
     "step": "",
     "type": "testing",
     "properties": {
@@ -10,7 +10,12 @@
       "textColor": "#000000"
     },
     "links": [
-      "https://uxdesign.cc/a-b-testing-your-designs-b648e413b124"
+      "https://uxdesign.cc/a-b-testing-your-designs-b648e413b124",
+      "https://www.optimizely.com/optimization-glossary/ab-testing/",
+      "https://uxknowledgebase.com/a-b-testing-part-2-c6c8c8bf5f8c",
+      "https://uxknowledgebase.com/a-b-testing-part-1-6992fccccfec",
+      "https://uxdesign.cc/how-netflix-does-a-b-testing-87df9f9bf57c",
+      "https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/"
     ],
     "description": [
       {
@@ -18,43 +23,42 @@
         "content": [
           {
             "title": "Goal",
-            "text": ""
+            "text": "A/B Testing, or Split Testing, is the method of comparing two versions of an application against each other to determine which one performs better. A/B testing is an experiment where two or more variants of a page are shown to users at random and statistical analysis is used to determine which variation performs better for a given goal."
           },
           {
             "title": "Benefits",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Enables changes to the user experience to be made while collecting data on the results",
+              "Helps to understand why certain elements of the experiences impact user behavior",
+              "Opinion about the best experience for a given goal can be proven wrong",
+              "Takes the guesswork out of website optimization",
+              "Can be used consistently to continually improve a given experience, improving a single goal conversion rate over time"
             ]
           },
           {
             "title": "Prerequisites",
             "list": [
-              "",
-              ""
+              "User Flow Diagrams",
+              "Wireframes & IX Flows or High Fidelity Mockups",
+              "https://uxdesign.cc/7-steps-of-a-b-testing-what-how-cf3b209467fd"
             ]
           },
           {
             "title": "The Process",
             "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Formulate a hypothesis based on web analytics and analysis of visitors’ actions, i.e. 'users rarely click on the “Buy” button'",
+              "Identify targets to test this hypothesis on",
+              "Select a test item that you can create variations of for testing, such as the button itself, headings etc",
+              "Create one or more variations of that item, such as increased size, color, location",
+              "If running on a live application determine the duration of the experiment as results may not be immediate",
+              "Proceed to the main test comparing variations against the control and analyse the results"
             ]
           },
           {
             "title":"Deliverables",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "A report detailing hypothesis accuracy",
+              "Successful and unsuccessful page variants"
             ]
           }
         ]
@@ -63,9 +67,19 @@
         "type": "image",
         "content": [
           {
-            "url": "",
-            "title": "",
-            "caption": ""
+            "url": "assets/images/process/ux/test/ab_testing_b.png",
+            "title": "AB Testing Stages",
+            "caption": "The stages of A/B Testing"
+          },
+          {
+            "url": "assets/images/process/ux/test/ab_testing_c.png",
+            "title": "AB Testing Variation",
+            "caption": "An example of how small changes can boost user interaction"
+          },
+          {
+            "url": "assets/images/process/ux/test/ab_testing_d.gif",
+            "title": "AB Testing Layout",
+            "caption": "How layout changes can improve user goal success rate"
           }
         ]
       }

@@ -28,6 +28,7 @@
     "poststyleguide": "cp -r src/assets/ kss/dist-style/styles.css  kss/kss-styles.css kss/index.php styleguide/ && rimraf kss/dist-style",
     "lighthouse": "lighthouse http://localhost:4200 --view --output-path ./reports/lighthouse-report.html",
     "lighthouse:open": "start-server-and-test serve http-get://localhost:4200 lighthouse ",
+    "stats": "webpack-bundle-analyzer dist/portfolio-browser/stats.json",
     "postinstall": "ng build --aot --prod",
     "start": "node server.js"
   },
@@ -97,12 +98,14 @@
     "protractor": "5.4.2",
     "protractor-cucumber-framework": "6.1.1",
     "puppeteer": "1.12.2",
+    "source-map-explorer": "^1.7.0",
     "start-server-and-test": "1.7.11",
     "ts-loader": "5.3.3",
     "ts-node": "8.0.2",
     "tsify": "4.0.1",
     "tslint": "5.13.0",
     "typescript": "3.2.4",
+    "webpack-bundle-analyzer": "^3.1.0",
     "webpack-cli": "3.2.3"
   },
   "env": {
