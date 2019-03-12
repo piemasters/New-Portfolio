@@ -15,7 +15,8 @@
       "https://uxknowledgebase.com/a-b-testing-part-2-c6c8c8bf5f8c",
       "https://uxknowledgebase.com/a-b-testing-part-1-6992fccccfec",
       "https://uxdesign.cc/how-netflix-does-a-b-testing-87df9f9bf57c",
-      "https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/"
+      "https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/",
+      "https://uxdesign.cc/7-steps-of-a-b-testing-what-how-cf3b209467fd"
     ],
     "description": [
       {
@@ -39,8 +40,7 @@
             "title": "Prerequisites",
             "list": [
               "User Flow Diagrams",
-              "Wireframes & IX Flows or High Fidelity Mockups",
-              "https://uxdesign.cc/7-steps-of-a-b-testing-what-how-cf3b209467fd"
+              "Wireframes & IX Flows or High Fidelity Mockups"
             ]
           },
           {
@@ -96,6 +96,8 @@
       "textColor": "#000000"
     },
     "links": [
+      "https://uxknowledgebase.com/usability-testing-part-1-e00a94974c79",
+      "https://uxknowledgebase.com/usability-testing-part-2-4f27e8a6521e",
       "https://uxplanet.org/a-novice-designers-guide-to-usability-testing-177bcddc57b3"
     ],
     "description": [
@@ -104,43 +106,40 @@
         "content": [
           {
             "title": "Goal",
-            "text": ""
+            "text": "Usability Testing is where you observe someone from your target audience perform tasks using either a digital or prototype version of the application. The user will be prompted with tasks and questions, then they should voice their thoughts and experience allowed. Based on completion time, errors made, satisfactions and ease of use, a measure of how successful the interface is can be determined."
           },
           {
             "title": "Benefits",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Gain qualitative metrics includes time taken on the task, number of clicks, success rate etc.",
+              "Gain qualitative metrics includes user satisfaction and behavioral response",
+              "Can resolve internal debates on design alternatives",
+              "Minimises the risk of the product failing due to poor user experience"
             ]
           },
           {
             "title": "Prerequisites",
             "list": [
-              "",
-              ""
+              "User Flow Diagrams",
+              "Wireframes & IX Flows or High Fidelity Mockups"
             ]
           },
           {
             "title": "The Process",
             "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Determine the scope and purpose of the test, which assumptions you want to check and what you are trying to measure",
+              "Decide how many sessions should be completed and who to invite for each testing session",
+              "For each test give the participant an introduction to the process, what the goal is and run through a warm-up task",
+              "For each task, ask the participant to think allowed and document their experience and thoughts as they try to complete the goal",
+              "Analyse the results and create a test report prioritising the findings (good and bad)",
+              "The report can then be used to negotiate the design changes required to improve user experience"
             ]
           },
           {
             "title":"Deliverables",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Quantitative data on how users interact with the application",
+              "A report listing points of failure and potential improvements"
             ]
           }
         ]
@@ -149,9 +148,19 @@
         "type": "image",
         "content": [
           {
-            "url": "",
-            "title": "",
-            "caption": ""
+            "url": "assets/images/process/ux/test/usability_testing_b.png",
+            "title": "Usability Testing Stages",
+            "caption": "The key stages of Usability Testing"
+          },
+          {
+            "url": "assets/images/process/ux/test/usability_testing_c.png",
+            "title": "Usability Testing Plan",
+            "caption": "A simple Usability Testing session plan"
+          },
+          {
+            "url": "assets/images/process/ux/test/usability_testing_d.png",
+            "title": "Usability Testing Report",
+            "caption": "A sample test report based on the results of the usability tests"
           }
         ]
       }
