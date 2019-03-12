@@ -3,7 +3,7 @@
     "id": "a-b-testing",
     "name": "A/B 'Split' Testing",
     "banner": "assets/images/process/ux/test/ab_testing_a.jpg",
-    "step": "",
+    "step": "Understand user expectations and preferences",
     "type": "testing",
     "properties": {
       "backgroundColor": "#9575cd",
@@ -89,7 +89,7 @@
     "id": "usability-testing",
     "name": "Usability Testing",
     "banner": "assets/images/process/ux/test/usability_testing_a.jpg",
-    "step": "",
+    "step": "Understand user expectations and preferences",
     "type": "testing",
     "properties": {
       "backgroundColor": "#7986cb",
@@ -170,7 +170,7 @@
     "id": "quantitative-survey",
     "name": "Quantitative Survey",
     "banner": "assets/images/process/ux/test/quantitative_survey_a.jpg",
-    "step": "",
+    "step": "Visualise user experience results at a larger scale",
     "type": "testing",
     "properties": {
       "backgroundColor": "#64b5f6",
@@ -257,7 +257,7 @@
     "id": "analytics-review",
     "name": "Analytics Review",
     "banner": "assets/images/process/ux/test/analytics_review_a.jpg",
-    "step": "",
+    "step": "Visualise user experience results at a larger scale",
     "type": "testing",
     "properties": {
       "backgroundColor": "#4fc3f7",
@@ -272,43 +272,40 @@
         "content": [
           {
             "title": "Goal",
-            "text": ""
+            "text": "There’s no substitute for getting in a room with users and observing them with the application, but in recent years a number of services have tried to fill the gap that analytics tools that only provide page-views and bounce rates can't fill. The ability to see how users are actually interacting with your website gives priceless feedback."
           },
           {
             "title": "Benefits",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Gain results usually collected as part of usability tests, but without the need for travel",
+              "Gain more data faster and cheaper than you could from usability testing",
+              "Gain new kinds of data such as visual heat-maps not otherwise available from any other kinds of tests"
             ]
           },
           {
             "title": "Prerequisites",
             "list": [
-              "",
-              ""
+              "User Flow Diagrams",
+              "Wireframes & IX Flows or High Fidelity Mockups"
             ]
           },
           {
             "title": "The Process",
             "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Decide on the scope and purpose of the tests and what you want to observe and measure",
+              "Define what tasks you want users to complete",
+              "Setup the tasks using tools such as Hotjar and Crazy Egg that support heat-maps and session recording amongst other features",
+              "Test the setup with pilot users and colleagues to get feedback before going live",
+              "Determine the target audience and send the created tasks to them",
+              "Analyse the results and create a test report prioritising the findings",
+              "The report can then be used to negotiate the design changes required to improve user experience"
             ]
           },
           {
             "title":"Deliverables",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Quantitative data on how users interact with the application",
+              "A report listing points of failure and potential improvements"
             ]
           }
         ]
@@ -317,9 +314,34 @@
         "type": "image",
         "content": [
           {
-            "url": "",
-            "title": "",
-            "caption": ""
+            "url": "assets/images/process/ux/test/analytics_review_b.png",
+            "title": "Analytics Heatmap",
+            "caption": "Tools like Hotjar allow you to view user heatmaps"
+          },
+          {
+            "url": "assets/images/process/ux/test/analytics_review_c.png",
+            "title": "Analytics Recordings",
+            "caption": "They also capture screen recordings so user interactions can be analysed"
+          },
+          {
+            "url": "assets/images/process/ux/test/analytics_review_d.png",
+            "title": "Analytics Funnels",
+            "caption": "Funnels can be used to view user drop-off and conversion rates as they move through the application"
+          },
+          {
+            "url": "assets/images/process/ux/test/analytics_review_e.png",
+            "title": "Analytics Feedback",
+            "caption": "Users can provide feedback on certain elements giving their opinion"
+          },
+          {
+            "url": "assets/images/process/ux/test/analytics_review_f.png",
+            "title": "Analytics Polls",
+            "caption": "Feedback polls can also be used to gain a rating on key questions"
+          },
+          {
+            "url": "assets/images/process/ux/test/analytics_review_g.png",
+            "title": "Analytics Surveys",
+            "caption": "Surveys can also be integrated and their results easily visualised"
           }
         ]
       }
