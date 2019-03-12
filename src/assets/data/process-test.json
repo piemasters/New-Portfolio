@@ -177,7 +177,10 @@
       "textColor": "#000000"
     },
     "links": [
-      "https://medium.com/@allisoncrady/designing-iterating-analyzing-user-surveys-for-product-impact-5771fc1cdd7a"
+      "https://uxknowledgebase.com/online-survey-7b01de40e678",
+      "https://medium.com/@allisoncrady/designing-iterating-analyzing-user-surveys-for-product-impact-5771fc1cdd7a",
+      "https://medium.muz.li/3-valuable-metrics-for-ux-product-designers-and-how-to-measure-them-9def7f46e48e",
+      "http://www.uxforthemasses.com/improve-ux-online-surveys/"
     ],
     "description": [
       {
@@ -185,43 +188,40 @@
         "content": [
           {
             "title": "Goal",
-            "text": ""
+            "text": "Surveys can be used to validate qualitative findings found from other forms of testing such as A/B Tests or Usability Tests. They can also be used to gather information about your users, their attitudes and their behaviors. When using established questionnaires results can be compared to industry or competitor scores."
           },
           {
             "title": "Benefits",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Put a number on the usability of the application",
+              "Confirm findings from other methods of testing",
+              "Cheap and quick for the number of responses received"
             ]
           },
           {
             "title": "Prerequisites",
             "list": [
-              "",
-              ""
+              "Personas",
+              "A/B Testing",
+              "Usability Testing"
             ]
           },
           {
             "title": "The Process",
             "ordered": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Determine research objectives and understand the end goal",
+              "Write the first survey draft",
+              "Test the survey with pilot users and colleagues to get feedback on the survey",
+              "Iterate the survey, then test it and iterate again until you're happy with it",
+              "Make sure to target the right participants that match your defined Personas and roll out the final survey",
+              "Evaluate survey results and create a report detailing the findings and how they match with previously conducted tests"
             ]
           },
           {
             "title":"Deliverables",
             "list": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "A series of user survey results",
+              "A report detailing the key results of the surveys and how they line up with previously conducted tests"
             ]
           }
         ]
@@ -230,9 +230,24 @@
         "type": "image",
         "content": [
           {
-            "url": "",
-            "title": "",
-            "caption": ""
+            "url": "assets/images/process/ux/test/quantitative_survey_b.png",
+            "title": "System Usability Scale",
+            "caption": "The System Usability Scale questionnaire is a quick tool for measuring usability"
+          },
+          {
+            "url": "assets/images/process/ux/test/quantitative_survey_c.png",
+            "title": "System Usability Scale Result",
+            "caption": "The results from the SUS results can be used determine score"
+          },
+          {
+            "url": "assets/images/process/ux/test/quantitative_survey_d.png",
+            "title": "Net Promoter Score",
+            "caption": "Net Promoter Score (NPS) is a metric for assessing customer loyalty for a brand or application"
+          },
+          {
+            "url": "assets/images/process/ux/test/quantitative_survey_e.png",
+            "title": "Completion Rates",
+            "caption": "A binary measure of pass and fail provides a simple metric of success"
           }
         ]
       }
