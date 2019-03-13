@@ -12,8 +12,6 @@
 
 <article id="process">
 
-  {{processType$ | async | json}}
-
   <header class="process-type-header">
     <h2 class="section-title process-type" (click)="selectProcessType('learn')"
         [class.active]="selectedProcessType === 'learn'">Learn</h2>

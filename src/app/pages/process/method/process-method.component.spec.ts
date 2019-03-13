@@ -1,27 +1,29 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProcessComponent } from './process.component';
+import { ProcessMethodComponent } from './process-method.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import { StoreModule } from '@ngrx/store';
-import { reducers } from '../../store/app.reducers';
+import { reducers } from '../../../store/app.reducers';
+import { LightboxModule } from 'ngx-lightbox';
 
 describe('ProcessComponent', () => {
-  let component: ProcessComponent;
-  let fixture: ComponentFixture<ProcessComponent>;
+  let component: ProcessMethodComponent;
+  let fixture: ComponentFixture<ProcessMethodComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ProcessComponent ],
+      declarations: [ ProcessMethodComponent ],
       imports: [
         RouterTestingModule,
+        LightboxModule,
         StoreModule.forRoot(reducers)
       ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ProcessComponent);
+    fixture = TestBed.createComponent(ProcessMethodComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
