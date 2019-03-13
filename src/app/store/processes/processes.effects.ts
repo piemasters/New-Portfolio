@@ -16,15 +16,15 @@ export class ProcessesEffects {
   }
 
   @Effect()
-  learnMethodFetch = this.actions$
+  methodsFetch = this.actions$
     .pipe(
-      ofType(ProcessesActions.FETCH_LEARN_METHODS),
+      ofType(ProcessesActions.FETCH_METHODS),
       withLatestFrom(this.store.select('processes')),
-      switchMap(() => this.processesService.getUXMethods('process-learn.json')),
+      switchMap(() => this.processesService.getUXMethods('processes.json')),
       map(
         (methodsResponse) => {
           return {
-            type: ProcessesActions.SET_LEARN_METHODS,
+            type: ProcessesActions.SET_METHODS,
             payload: methodsResponse
           };
         }
@@ -32,34 +32,17 @@ export class ProcessesEffects {
     );
 
   @Effect()
-  designMethodFetch = this.actions$
-    .pipe(
-      ofType(ProcessesActions.FETCH_DESIGN_METHODS),
-      withLatestFrom(this.store.select('processes')),
-      switchMap(() => this.processesService.getUXMethods('process-design.json')),
-      map(
-        (methodsResponse) => {
-          return {
-            type: ProcessesActions.SET_DESIGN_METHODS,
-            payload: methodsResponse
-          };
-        }
-      )
-    );
-
-  @Effect()
-  testMethodFetch = this.actions$
-    .pipe(
-      ofType(ProcessesActions.FETCH_TEST_METHODS),
-      withLatestFrom(this.store.select('processes')),
-      switchMap(() => this.processesService.getUXMethods('process-test.json')),
-      map(
-        (methodsResponse) => {
-          return {
-            type: ProcessesActions.SET_TEST_METHODS,
-            payload: methodsResponse
-          };
-        }
-      )
-    );
+  methodFetch = this.actions$.pipe(
+    ofType(ProcessesActions.FETCH_SELECTED_METHOD),
+    withLatestFrom(this.store.select('processes')),
+    switchMap(([action, state]) => this.processesService.getUXMethod(state.selectedMethodID, 'processes.json')),
+    map(
+      (methodsResponse) => {
+        return {
+          type: ProcessesActions.SET_SELECTED_METHOD,
+          payload: methodsResponse
+        };
+      }
+    )
+  );
 }

@@ -2,33 +2,33 @@ import * as ProcessesActions from './processes.actions';
 import { UXMethod } from '../../shared/models/ux-method.model';
 
 export interface State {
-  learnList: UXMethod[];
-  designList: UXMethod[];
-  testList: UXMethod[];
+  methodsList: UXMethod[];
+  selectedMethod: UXMethod;
+  selectedMethodID: string;
 }
 
 const initialState: State = {
-  learnList: [],
-  designList: [],
-  testList: []
+  methodsList: [],
+  selectedMethod: null,
+  selectedMethodID: null
 };
 
 export function processesReducer(state = initialState, action: ProcessesActions.ProcessesActions) {
   switch (action.type) {
-    case ProcessesActions.SET_LEARN_METHODS:
+    case ProcessesActions.SET_METHODS:
       return {
         ...state,
-        learnList: action.payload
+        methodsList: action.payload
       };
-    case ProcessesActions.SET_DESIGN_METHODS:
+    case ProcessesActions.SET_SELECTED_METHOD_ID:
       return {
         ...state,
-        designList: action.payload
+        selectedMethodID: action.payload
       };
-    case ProcessesActions.SET_TEST_METHODS:
+    case ProcessesActions.SET_SELECTED_METHOD:
       return {
         ...state,
-        testList: action.payload
+        selectedMethod: action.payload
       };
   }
   return state;

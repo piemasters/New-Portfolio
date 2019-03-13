@@ -13,63 +13,22 @@
 <article id="process">
 
   <header class="process-type-header">
-    <h2 class="section-title process-type" (click)="selectProcessType('learn')"  [class.active]="selectedProcessType === 'learn'">Learn</h2>
-    <h2 class="section-title process-type" (click)="selectProcessType('design')" [class.active]="selectedProcessType === 'design'">Design</h2>
-    <h2 class="section-title process-type" (click)="selectProcessType('test')" [class.active]="selectedProcessType === 'test'">Test</h2>
+    <h2 class="section-title process-type" (click)="selectProcessType('learn')"
+        [class.active]="selectedProcessType === 'learn'">Learn</h2>
+    <h2 class="section-title process-type" (click)="selectProcessType('design')"
+        [class.active]="selectedProcessType === 'design'">Design</h2>
+    <h2 class="section-title process-type" (click)="selectProcessType('test')"
+        [class.active]="selectedProcessType === 'test'">Test</h2>
   </header>
 
   <section id="method-logos" class="page-content logos-content" *ngIf="(uxMethods$ | async) as uxMethods">
-
-      <div *ngFor="let method of uxMethods" [class.active]="selectedMethod === method" class="method-button" (click)="selectMethod(method, scrollToMethod)" [style.backgroundColor]="method.properties.backgroundColor">
+    <div *ngFor="let method of uxMethods" class="method-button-container">
+      <div *ngIf="method.type === selectedProcessType" class="method-button" [style.backgroundColor]="method.properties.backgroundColor" [routerLink]="['/process', method.id]">
         <span class="method-button-text">{{ method.name }}</span>
       </div>
+    </div>
 
   </section>
 
 </article>
 
-<div id="scrollToMethod" #scrollToMethod></div>
-
-<article *ngIf="selectedMethod" [style.backgroundColor]="selectedMethod.properties.backgroundColor">
-
-  <header class="page-banner process-header">
-    <div class="banner-overlay"></div>
-    <figure class="banner-image-wrapper">
-      <img alt="banner" [src]="selectedMethod.banner">
-    </figure>
-    <div class="banner-text-wrapper">
-      <h1>{{ selectedMethod.name }}</h1>
-    </div>
-  </header>
-
-
-  <div *ngFor="let detail of selectedMethod.description">
-
-    <section class="page-content" *ngIf="detail.type === 'text'">
-      <div *ngFor="let item of detail.content">
-        <header *ngIf="item.title">
-          <h4>{{ item.title }}</h4>
-        </header>
-
-        <ul *ngIf="item.list">
-          <li *ngFor="let text of item.list">{{ text }}</li>
-        </ul>
-
-        <ol *ngIf="item.ordered">
-          <li *ngFor="let text of item.ordered">{{ text }}</li>
-        </ol>
-
-        <p *ngIf="item.text">{{ item.text }}</p>
-
-      </div>
-    </section>
-
-    <section *ngIf="detail.type === 'image'"  class="page-content">
-      <div class="gallery-container">
-        <img class="gallery-image" *ngFor="let image of detail.content; let i=index" [src]="image.url" (click)="open(detail.content, i)" [alt]="image.title"/>
-      </div>
-    </section>
-
-  </div>
-
-</article>

@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "content-audit",
+    "name": "Inventory & Audit",
+    "banner": "assets/images/process/ux/learn/content_audit_a.jpg",
+    "step": "Learn about the brand, the product and the stakeholders",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#e57373",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/content-inventory-688431aeb05",
+      "https://uxmastery.com/how-to-conduct-a-content-audit/",
+      "https://www.youtube.com/watch?v=ALU-1M_-jbg",
+      "http://www.curata.com/blog/content-audit-template/",
+      "https://digitalmarketinginstitute.com/blog/03-04-2018-content-audit-checklist-templates-guidelines-for-your-next-audit",
+      "https://moz.com/blog/content-audit"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "A content inventory is a list of all the content attached to the project, including the application, documentation, images and any other assets. A content audit is an evaluation of that inventory to determine what needs improving, removing or left as is. Once both steps are complete you should have a good understanding of the current state of the project and potential ways to move forward."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Understand existing content better, improving future maintenance",
+              "Helps to understand the scope of the project and find assets you didn't know existed",
+              "Useful for creating a strategy going forwards",
+              "Web analytics give a better idea of content effectiveness",
+              "Helps with ensure content aligns with both business goals and user needs"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "None!"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "List all project assets, including files, pages, images",
+              "Document data associated with those files, including content type, goal, metadata, analytics",
+              "Document who owns the content if content is shared",
+              "Document page links when looking to improve navigation",
+              "Review each asset against for quality, consistency, performance, if it meets its goal, duplication etc",
+              "Review the status of each asset, does it need updating, deleting or is it ok as it is?",
+              "Prioritise actions based on user wants and client requests"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A full project inventory",
+              "A project inventory audit evaluating what needs improving or removing",
+              "A report "
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/content_audit_b.png",
+            "title": "Content Audit",
+            "caption": "An example audit list"
+          },
+          {
+            "url": "assets/images/process/ux/learn/content_audit_c.png",
+            "title": "Priority Order",
+            "caption": "With a content inventory and user/stakeholder requirements defined, work can be prioritised"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stakeholder-interviews",
+    "name": "Stakeholder Interviews",
+    "banner": "assets/images/process/ux/learn/stakeholder-interviews_a.jpg",
+    "step": "Learn about the brand, the product and the stakeholders",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#f06292",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/stakeholder-interview-bcbbf4d3648d",
+      "https://uxplanet.org/talebook-method-001-stakeholder-interview-63eebe4ca12a",
+      "http://boxesandarrows.com/a-stakeholder-interview-checklist/",
+      "https://www.uxmatters.com/mt/archives/2007/09/conducting-successful-interviews-with-project-stakeholders.php"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "Interviews with project stakeholders offer useful insights into the collective mind of an organization. They can help you uncover areas of misalignment between a company’s documented strategy and the attitudes and day-to-day decision-making of stakeholders. They can also highlight issues that deserve special consideration due to their strategic importance to a business."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Determine the business goals",
+              "Find out what is already known about the users",
+              "Learn the stakeholder’s background and story",
+              "Discover the currently known competitors",
+              "Find out about an technological or any other limitations"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Content Inventory & Audit - gives insight into existing product"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Determine a list of stakeholders to interview, including senior, SMEs, marketing, sales and engineering",
+              "Create a list of questions for each stakeholder, limited to four major topics",
+              "Let interviewees know in advance what you’ll ask them, or at least the topics you plan to discuss",
+              "Prepare any useful documents found in the content inventory, including annual reports, strategy document, advertisements etc",
+              "Set aside at least 45 minutes for each interview",
+              "Discuss the culture, challenges and goals, not the features",
+              "Document the outcomes of each interview"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "Individual stakeholder interview notes",
+              "Summary document providing overview of picture built from all interviews"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/stakeholder-interviews_b.png",
+            "title": "Stakeholder Interview Questions",
+            "caption": "Create a questions library to produce personalised interviews from"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "user-interviews",
+    "name": "User Interviews",
+    "banner": "assets/images/process/ux/learn/user-interviews_a.png",
+    "type": "learn",
+    "step": "Identify users thoughts, feelings and actions",
+    "properties": {
+      "backgroundColor": "#ba68c8",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/user-interview-how-to-ask-good-questions-eb80f8b99627",
+      "https://mattish.com/evidence/method/customer-interviews/",
+      "https://www.userinterviews.com/ux-research-field-guide",
+      "https://uxdesign.cc/asking-the-right-questions-on-user-research-interviews-and-testing-427261742a67",
+      "https://medium.com/user-research/never-ask-what-they-want-3-better-questions-to-ask-in-user-interviews-aeddd2a2101e",
+      "https://medium.com/interactive-mind/5-steps-to-create-good-user-interview-questions-by-metacole-a-comprehensive-guide-8a591b0e2162"
+    ],
+    "description": [
+      {
+        "type": "text",
+
+        "content": [
+          {
+            "title": "Goal",
+            "text": "User interviews allow you to speak directly to users and get responses to specific questions that you have. If done well, it could also uncover nuances or directions that were previously unknown or unthought of. Very often it is the most powerful way to find a truth about their behaviour (backed up with stories) that you otherwise may not consider."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Get answers to outstanding questions",
+              "Discover directions not previously considered",
+              "Get a perspective outside the companies internal views",
+              "Gather knowledge required to generate user stories, personas and use cases"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Stakeholder Interviews - to determine how user needs align with stakeholder goals"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Know what you want answered",
+              "Reframe the problem statements",
+              "Build a list of non-leading, open-ended questions",
+              "Give the list of questions a structure (intro, warm-up, main-body and wrap-up)",
+              "Document the outcomes of each interview"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "Individual user interview notes",
+              "A list of user scenarios"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/user-interviews_b.png",
+            "title": "User Interview Summary",
+            "caption": "Summary of a user interview"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "competitive-analysis",
+    "name": "Competitive Analysis",
+    "banner": "assets/images/process/ux/learn/competitive_analysis_a.jpeg",
+    "step": "Learn about the brand, the product and the stakeholders",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#9575cd",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/competitive-analysis-part-1-a5f4409c71a8",
+      "https://uxknowledgebase.com/competitive-analysis-part-2-a31f5f3709ea",
+      "https://uxplanet.org/stop-copying-and-start-doing-competitor-ux-analysis-properly-bff8dbfc644f",
+      "https://www.toptal.com/product-managers/freelance/product-designer-guide-to-competitive-analysis"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "To identify your competitors and evaluate their strategies to determine their strengths and weaknesses relative to those of your own product or service. This will help to identify compelling competitive advantages that could be introduced as well as a good market fit. Remember this solution needs to feel organic to your users’ needs, while being clear to all involved how the competitor research has informed it."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Learn what solutions others offer",
+              "Learn what others do well and not so well",
+              "Learn what mistakes others have previously made",
+              "Helps determine where your current solution fits",
+              "Helps to identify what your solution needs to offer"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Content Inventory & Audit - gives insight into existing product",
+              "Stakeholder Interviews – gives insight to unique business goals",
+              "User Interviews – gives insight to user needs"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Define the competition including direct and indirect competitors",
+              "Define the assessment criteria",
+              "Conduct the research by filling out a spreadsheet containing the competitors against the the assessment criteria",
+              "Summarise your findings",
+              "Present your findings"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "An in-depth analysis of each of the identified competitors’ products",
+              "Screenshots along with annotations explaining the specifics of each feature/UX flow",
+              "Feature list and/or approximate sitemap of each competitor’s platform/product",
+              "Strengths and areas of improvement for each of the analyzed products",
+              "Competitor analysis matrix — A table that contains a column for features and separate columns for if each competitor has that feature"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/competitive_analysis_b.png",
+            "title": "Competitor Analysis Matrix",
+            "caption": "Competitor Analysis Matrix"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "personas",
+    "name": "Persona Workshop",
+    "banner": "assets/images/process/ux/learn/personas_a.png",
+    "step": "Model experiences, tasks and mindsets for goals, and define and frame the problem",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#7986cb",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/creating-personas-part-1-cf1bef5b7eba",
+      "https://uxknowledgebase.com/creating-personas-part-2-5d46ab523e32",
+      "https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/",
+      "https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-2/",
+      "https://theblog.adobe.com/putting-personas-to-work-in-ux-design-what-they-are-and-why-theyre-important/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "A persona is a way to model, summarise and communicate research about people in a condensed way. Each persona represents a significant number of people in the real world but is depicted as a specific person. This enables designers to focus on a manageable and memorable cast of characters, instead of focusing on thousands of individuals and helps with creating different designs for different people."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Builds empathy with users",
+              "Develops focus by having clear user types to develop for",
+              "Helps communicate interview findings with others in a concise way",
+              "Helps to defend decisions made based on real data"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "User Interviews"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Ensure enough users have been interviewed",
+              "Find patterns in responses and actions and use those to group similar people together",
+              "Create archetypical models of those groups based on the patterns found, including demographic info, backgrounds, goals, motivations and pain points",
+              "Share those models with other team members and stakeholders"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A handful of personas summarising the user base"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/personas_b.png",
+            "title": "Persona Demographic",
+            "caption": "Persona Demographic"
+          },
+          {
+            "url": "assets/images/process/ux/learn/personas_c.png",
+            "title": "Persona Background",
+            "caption": "Persona Background"
+          },
+          {
+            "url": "assets/images/process/ux/learn/personas_d.png",
+            "title": "Persona Goals",
+            "caption": "Persona Goals"
+          },
+          {
+            "url": "assets/images/process/ux/learn/personas_e.png",
+            "title": "Persona Motivations",
+            "caption": "Persona Motivations"
+          },
+          {
+            "url": "assets/images/process/ux/learn/personas_f.png",
+            "title": "Persona Further Info",
+            "caption": "Persona Further Info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-mapping",
+    "name": "Journey Mapping",
+    "banner": "assets/images/process/ux/learn/journey_mapping_a.jpg",
+    "step": "Model experiences, tasks and mindsets for goals, and define and frame the problem",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#64b5f6",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/journey-mapping-part-1-6c9ad6d3bfbc",
+      "https://uxknowledgebase.com/journey-mapping-part-2-86f3625ef4e2",
+      "https://www.nngroup.com/articles/ux-mapping-cheat-sheet/",
+      "https://www.userzoom.com/blog/what-is-a-customer-journey-map-and-why-do-you-need-one/",
+      "https://www.userzoom.com/blog/guide-to-user-experience-maps/",
+      "https://uxplanet.org/journey-mapping-is-key-to-gaining-empathy-1da5b54655e1"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "A User Journey is used to visualise a structured narrative of what a user does, thinks and feels. This can be used to review the current user experience, identify gaps, pain points and opportunities to improve things where possible."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Builds empathy with users",
+              "Helps to document full user flows for each of their goals",
+              "Identify potential points of improvement in the user experience"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "User Interviews",
+              "Personas"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Gather previously defined user scenarios and personas into one place",
+              "For each persona draw out the each scenario/task the user completes to achieve their goal",
+              "Analyse interview notes and personas for each task and write out what the user is thinking and how they are feeling",
+              "Identify pain points in the flow",
+              "Brainstorm potential solutions to these pain points"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A journey map for each personas summarising their workflow",
+              "A list of potential opportunities to improve different user experiences"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/journey_mapping_b.png",
+            "title": "Journey Mapping Template",
+            "caption": "A template for creating a User Journey Map"
+          },
+          {
+            "url": "assets/images/process/ux/learn/journey_mapping_c.png",
+            "title": "Journey Mapping Example",
+            "caption": "An example of how a User Journey looks once complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "event-storming",
+    "name": "Event Storming",
+    "banner": "assets/images/process/ux/learn/event_storming_a.png",
+    "step": "Identify users thoughts, feelings and actions",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#4fc3f7",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://medium.com/@springdo/a-facilitators-recipe-for-event-storming-941dcb38db0d",
+      "https://www.boldare.com/blog/event-storming-guide/",
+      "https://altkomsoftware.pl/en/blog/event-storming/",
+      "https://openpracticelibrary.com/practice/event-storming/",
+      "https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "Event storming is a rapid design technique that establishes a common and shared language between Business & IT. It sets focus in terms of scope and boundaries and gives you the big picture of the solution by placing technical implementation details in context of the business process. It will also help identify key views for your user interface, which can jump start Site Mapping and Wireframing."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Share understanding about business objectives and project/product goals",
+              "Supports group learning and is a fun way to integrate development and product teams",
+              "Help the development team get to know the client’s business better",
+              "Can help to identify bottlenecks and areas of conflict"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Persona Workshop",
+              "Journey Mapping"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Invite a mixture of stakeholders representing user experience, business, architecture, development, and IT",
+              "Provide unlimited modeling space",
+              "Using previously gathered personas and journeys, explore the business domain by identifying domain events",
+              "Evaluate each event for its causes and consequences (commands)",
+              "Connect events to reactions, what happens as a result of the event",
+              "Use domain-driven design to define the structure of your system",
+              "This process can be repeated working on what had been completed in the previous session with different stakeholders"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "An event-driven system model containing UI requirements and data models",
+              "A unified view and language between all parts of the organisation"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/event_storming_b.png",
+            "title": "Event Storming Domain Events",
+            "caption": "Start of be listing out domain events"
+          },
+          {
+            "url": "assets/images/process/ux/learn/event_storming_c.png",
+            "title": "Event Storming Commands",
+            "caption": "Add commands to events to list causes and consequences"
+          },
+          {
+            "url": "assets/images/process/ux/learn/event_storming_d.png",
+            "title": "Event Storming Reactions",
+            "caption": "Add reactions to events to list what happens as a result of the event"
+          },
+          {
+            "url": "assets/images/process/ux/learn/event_storming_e.png",
+            "title": "Event Storming Business Process",
+            "caption": "Define the business process by structuring the result of the previous steps"
+          },
+          {
+            "url": "assets/images/process/ux/learn/event_storming_f.jpeg",
+            "title": "Event Storming Example",
+            "caption": "An example of what Event Storming can look like"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "story-mapping",
+    "name": "Story Mapping",
+    "banner": "assets/images/process/ux/learn/story_mapping_a.jpg",
+    "step": "Identify users thoughts, feelings and actions",
+    "type": "learn",
+    "properties": {
+      "backgroundColor": "#4dd0e1",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/story-mapping-part-1-e65b0b74591",
+      "https://uxknowledgebase.com/story-mapping-part-2-3b0e9e0cf2ef",
+      "https://medium.com/@katerina_mnuk/user-story-mapping-tips-and-tricks-dea4e2ffbae4",
+      "https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog",
+      "https://www.cio.com/article/2377375/agile-development/how-story-mapping-complements-agile-development.html"
+    ],
+    "description": [
+      {
+        "type": "text",
+
+        "content": [
+          {
+            "title": "Goal",
+            "text": "A technique completed collaboratively to help visualise the project scope and create a backlog by mapping out the user stories with regards to complete user journeys. The activity should involve the designers, developers, product owner and ideally any stakeholders and SMEs in order to bridge the gap between design and development. Seeing the bigger picture helps to determine priorities and prevent focusing too much on individual stories."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Visualise how all user stories link together",
+              "Gain a unified agreement of the project scope and priority",
+              "Designers understand risks and feasibility and developers understand user goals",
+              "Focuses on helping users achieve their goals rather than on adding features"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Persona Workshop",
+              "Journey Mapping",
+              "Event Storming"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Set up a list of participants",
+              "Identify and discuss user and business goals",
+              "Discuss User Personas and how the new product will be beneficial over existing solutions",
+              "Create narrative flows, breaking down goals into features, features into epics (user tasks) and epics into user stories",
+              "Break down user stories into tasks and sub-tasks where necessary",
+              "Consider additional paths and variations, including errors and edge cases",
+              "Slice user stories and tasks into releases using Red Route Analysis"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A user story map containing stories and tasks grouped and prioritised into releases"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/learn/story_mapping_b.jpg",
+            "title": "Story Mapping layout",
+            "caption": "Example layout"
+          },
+          {
+            "url": "assets/images/process/ux/learn/story_mapping_c.jpeg",
+            "title": "Story Mapping alternative layout",
+            "caption": "An alternative layout"
+          },
+          {
+            "url": "assets/images/process/ux/learn/story_mapping_d.jpg",
+            "title": "Story Map Slicing",
+            "caption": "Breaking down user stories into releases"
+          },
+          {
+            "url": "assets/images/process/ux/learn/story_mapping_e.png",
+            "title": "Red Route Analysis",
+            "caption": "Use Red Route Analysis to help slice up user stories into releases"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sitemap",
+    "name": "Sitemap Diagram",
+    "banner": "assets/images/process/ux/design/sitemap_a.jpg",
+    "step": "Visualize the interaction",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#fff176",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://theuxreview.co.uk/sitemaps-the-beginners-guide/",
+      "https://speckyboy.com/collection-inspiring-sitemaps-user-flow-maps/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "A Sitemap is a hierarchical diagram showing the structure of an application. They ensure content is in a logical place that users would expect to find it and can be used as a reference point for wireframes and user flows."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Show how the navigation should be structured",
+              "Help identify where content fits and what needs to be produced",
+              "Clearly display the relationship between different pages"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Personas",
+              "Journey Mapping",
+              "Event Storming",
+              "Story Mapping"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Gather data from previous mapping activities. Ideally a lot of the work will already be done!",
+              "If details are missing run a card sort session, writing down all page names on cards and sort them into categories",
+              "From all gathered information create an initial mindmap with a hierarchical view of all pages",
+              "Review this diagram against documented User Journeys to ensure the taxonomy support them",
+              "Review whether all personas understand the labelling you have come up with",
+              "Review if there are any categories that are too large or small and break them up where necessary",
+              "Pages can then be ordered in terms of user interaction order to produce a Site Flow diagram if not too complex"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A Sitemap diagram that demonstrates the navigation layout and organisation of content",
+              "A Site Flow diagram, showing roughly the order of user interaction for each page in a category"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/design/sitemap_b.png",
+            "title": "Sitemap Example",
+            "caption": "An example Sitemap"
+          },
+          {
+            "url": "assets/images/process/ux/design/sitemap_c.png",
+            "title": "Site Flow Example",
+            "caption": "An example Site Flow"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flow-diagrams",
+    "name": "User Flow Diagrams",
+    "banner": "assets/images/process/ux/design/user_flow_a.jpg",
+    "step": "Visualize the interaction",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#ffd54f",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/user-flow-496e3187842",
+      "https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows",
+      "https://uxplanet.org/ux-glossary-task-flows-user-flows-flowcharts-and-some-new-ish-stuff-2321044d837d",
+      "https://uxdesign.cc/the-biggest-wtf-in-design-right-now-87139f367d66",
+      "https://uxdesign.cc/when-to-use-user-flows-guide-8b26ca9aa36a"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "A User Flow is a sequence of steps the user needs to take in order to accomplish a task inside the application. Visualising these sequences helps to improve and simplify an existing process, or design an optimised flow and determine what information is required. ?It also helps to eliminate guesswork and ambiguity for the developer."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Helps to determine if the current process is complete or if steps are missing",
+              "Discover if the design can be simplified and whether the number of steps reduced",
+              "Determine if each next step is obvious enough, or if further information is required",
+              "Provides documentation for all user interactions"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Persona Workshop",
+              "Journey Mapping",
+              "Event Storming",
+              "Sitemap Diagram"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "First list out all entry points into the application and possible landing pages",
+              "For each persona create user flows using only text",
+              "Each step should state what the user sees and what they do to progress to the next step",
+              "Start with happy paths, then move onto edge cases and error paths",
+              "From these flows draw sketches representing the UI so that each step can be more easily visualised",
+              "Once confirmed these sketches can be digitised"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A set of diagrams documenting all user interactions with the application"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/design/user_flow_b.png",
+            "title": "User Flow initial steps",
+            "caption": "Initial text only user flow steps"
+          },
+          {
+            "url": "assets/images/process/ux/design/user_flow_c.png",
+            "title": "User Flow Direction",
+            "caption": "User flows should only go in one direction and show possible outcomes"
+          },
+          {
+            "url": "assets/images/process/ux/design/user_flow_d.png",
+            "title": "User Flow Breakdown",
+            "caption": "Flows should be broken down to show how individual goals are met"
+          },
+          {
+            "url": "assets/images/process/ux/design/user_flow_e.png",
+            "title": "Example User Flow",
+            "caption": "An example User Flow diagram"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wireframes",
+    "name": "Wireframes & IX Flows",
+    "banner": "assets/images/process/ux/design/wireframes_a.png",
+    "step": "Communicate the idea",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#ffb74d",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://www.experienceux.co.uk/faqs/what-is-wireframing/",
+      "https://www.francoisfalcucci.fr/glossaire-ux-site-flow-flow-chart-user-flow-task-flow-wireflow-ix-flow/",
+      "https://uxtricks.design/blogs/ux-design/wireframe-tools-and-rapid-prototyping/",
+      "https://uxplanet.org/an-introduction-to-interaction-flows-a4f783402529",
+      "https://dribbble.com/shots/861429-Wireflow"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "Wireframing is a way to design an application interface at the structural level. A wireframe is commonly used to lay out content and functionality on a page based on the previously defined User Flows. Wireframes help establish the basic structure of a page before visual design and content is added. Wireflows are used to show the relationship or flow between pages, while Interaction (IX) Flows define each interactive element’s trigger, feedback, rules, and loops/modes."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Conveys the overall direction and description of the user interface",
+              "A quick way to review and amend the structure of key pages based on user and business needs",
+              "Great way of getting feedback from users and stakeholders",
+              "IX Flows centralise the flow, visual design, and interactions in one document",
+              "Reduces guesswork and ambiguity on the developer’s part"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Event Storming",
+              "User Flows",
+              "Sitemap Diagram"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Based on the previously defined User Flows, mock up a wireframes for every page containing the key elements required by users to complete those flows",
+              "Consider usability conventions, spacing and information hierarchy while designing wireframes",
+              "Once wireframes have been completed Wireflows can be created by connecting each wireframe together with arrows to display user interactions and how their workflow causes them to navigate between pages",
+              "Once all Wireflows have been completed a single Interaction flow can be produced",
+              "Create a reference panel that defines the types of gestures and their representative symbols, definitions for terms used when describing interactions and a legend that defines the flow lines and other symbols",
+              "Insert your wireframes with enough space for arrows and containers to fit around them",
+              "For each wireframe interactive element add a reference box listing: the name and trigger with the matching icon, what feedback the user receives, what rules there are for what can and cannot be done and any different modes the element supports",
+              "Connect wireframes with lines for connections between screens"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A series of individual wireframes for each core page of the application",
+              "A series of Wireflows documenting the interactions between wireframes",
+              "A single Interaction Flow documenting each interactive element’s trigger, feedback, rules, and loops/modes"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/design/wireframes_b.png",
+            "title": "Wireframe Example",
+            "caption": "A wireframe example"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_c.jpg",
+            "title": "Another Wireframe Example",
+            "caption": "Another wireframe example"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_d.jpg",
+            "title": "Wireflow",
+            "caption": "An example of a Wireflow"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_e.png",
+            "title": "Another Wireflow",
+            "caption": "Another example of a Wireflow"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_f.png",
+            "title": "IX Flow Reference Panel",
+            "caption": "An example of an Interaction Flow reference panel"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_g.png",
+            "title": "IX Flow Wireframe",
+            "caption": "An example of how a wireframe fits into an Interaction Flow"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_h.png",
+            "title": "IX Flow Reference Box",
+            "caption": "An example of an Interaction Flow reference box"
+          },
+          {
+            "url": "assets/images/process/ux/design/wireframes_i.png",
+            "title": "IX Flow Complete",
+            "caption": "An complete example of an Interaction Flow"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "style-tile",
+    "name": "Style Tile Design",
+    "banner": "assets/images/process/ux/design/style_tile_a.jpg",
+    "step": "Branding",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#ff8a65",
+      "textColor": "#000000"
+    },
+    "links": [
+      "http://styletil.es/",
+      "https://www.hongkiat.com/blog/style-guides-style-tiles/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "Style Tiles consist of fonts, colors and interface elements that communicate the essence of a visual brand. They help form a common visual language between the designers and the stakeholders and provide a catalyst for discussions around the preferences and goals of the client."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Help to nail down a specific aesthetic",
+              "Establish a direct connection with actual interface elements without defining layout",
+              "Help translate established brands smoothly to an interface",
+              "Quick to produce without the need to create an entire style guide"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Stakeholder Interviews",
+              "Event Storming"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Research any existing company branding",
+              "Have a design kickoff meeting involving stakeholders to get design ideas",
+              "Interpret how the adjectives and themes discovered translate into design principles, such as balance and emphasis",
+              "Determine themes from the aggregated adjectives and begin to match them up with styles",
+              "Present multiple tiles and gather feedback for production of a new set of times",
+              "Continue creating refined style tiles until an accepted core design language is agreed upon"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A set of potential style tiles",
+              "An agreed style tile that defines the core design language going forwards"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/design/style_tile_b.png",
+            "title": "Style Tile Example",
+            "caption": "A Style Tile example"
+          },
+          {
+            "url": "assets/images/process/ux/design/style_tile_c.jpg",
+            "title": "Another Style Tile Example",
+            "caption": "Another Style Tile example"
+          },
+          {
+            "url": "assets/images/process/ux/design/style_tile_d.jpg",
+            "title": "A Further Style Tile Example",
+            "caption": "Yet another Style Tile example"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "design-systems",
+    "name": "Design Systems",
+    "banner": "assets/images/process/ux/design/design_systems_a.png",
+    "step": "Branding",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#e57373",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://medium.com/@whatjackhasmade/pattern-libraries-abcc45c6144c",
+      "https://webdevstudios.com/2016/04/07/what-is-difference-between-style-guide-and-pattern-library",
+      "https://www.hongkiat.com/blog/style-guides-style-tiles/",
+      "https://www.toptal.com/designers/ui/ui-styleguide-better-ux",
+      "https://www.uxpin.com/create-design-system-guide",
+      "http://styleguides.io/examples"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "Design Systems encompass Style Guides (that define abstract styles) and Pattern Libraries (that define usable blocks) and also focus on defining rules and connections of an application. The goal is to create an asset that will stand the test of time, is open for additions and is accessible for anyone new to dive right into the guide with ease. In some cases a full Design System is required, in other cases a basic Style Guide will do."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Record all design elements and interactions that occur within the application",
+              "List crucial UI components such as buttons, typography, color and navigation menus",
+              "Document important UX components like hover states, dropdown fills and animations",
+              "Contain live elements and code snippets for developers to reference and use"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Style Tile Design"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Create an existing UI inventory, including patterns, colors, typography, icons and spacing layouts",
+              "Review the state of the existing inventory to discover inconsistencies, UX problems or issues negatively affecting the software development process",
+              "Discuss with stakeholders the need for either a Style Guide, Pattern Library or Design System to eliminate raised issues",
+              "Determine the technologies being used for the application and agree the best tools to use going forward",
+              "If creating a Style Guide define the color palette, typography, icons and page structuring",
+              "If creating a Pattern Library define reusable components, such as buttons, notifications, tables and forms",
+              "If creating a Design System define the application rules and connections including motion, accessibility and taxonomies",
+              "All these documents should be living and are not expected to cover all possibilities going forward. If new features are required later in development the Design System can be updated"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A defined Style Guide defining abstract styles",
+              "A defined Pattern Library defining usable blocks",
+              "A defined Design System defining rules and connections"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/design/design_systems_b.png",
+            "title": "Design System Overview",
+            "caption": "How Style Guides, Pattern Library and Design System relate to each other"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_c.png",
+            "title": "Style Guide",
+            "caption": "An example Style Guide"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_d.png",
+            "title": "Another Style Guide",
+            "caption": "Another Style Guide example"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_e.jpg",
+            "title": "Pattern Library",
+            "caption": "An example Pattern Library"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_f.png",
+            "title": "Design System",
+            "caption": "An example Design System"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_g.png",
+            "title": "Another Design System",
+            "caption": "Another example of a Design System"
+          },
+          {
+            "url": "assets/images/process/ux/design/design_systems_h.gif",
+            "title": "Yet Another Design System",
+            "caption": "Yet another example of a Design System"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "high-fidelity-mockups",
+    "name": "High Fidelity Mockups",
+    "banner": "assets/images/process/ux/design/high_fidelity_mockups_a.jpg",
+    "step": "Branding",
+    "type": "design",
+    "properties": {
+      "backgroundColor": "#f06292",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://usabilitygeek.com/smart-ux-high%C2%AD-fidelity-wireframes/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "High Fidelity Mockups are more complete representations of the application interface than Wireframes. The previously created Design System can be used to drag in elements and quickly produce an interface the very closely resembles the finished product. These mockups can even be made clickable and respond to the user’s actions, mimicking authentic interface interaction."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Provides a clear idea as to how the interface will look and work",
+              "Perfect for testing and gaining accurate feedback from the client",
+              "Less likely to have errors when testing than a coded prototype"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Wireframes & IX Flows",
+              "Design Systems"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Gather previously designed wireframes and have the Design System at hand",
+              "For each wireframe update the content following the Style Guide and using the components documented in the Design System",
+              "Decide on software that mimics user interaction and connect the new High Fidelity Mockups using the defined IX Flows"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A set of High Fidelity Mockups for each previously produced Wireframe using the Design System",
+              "A interactive demo with simulated clickable links between pages"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/design/high_fidelity_mockups_b.png",
+            "title": "High Fidelity Mockup Example",
+            "caption": "A High Fidelity Mockup example"
+          },
+          {
+            "url": "assets/images/process/ux/design/high_fidelity_mockups_c.png",
+            "title": "Another High Fidelity Mockup Example",
+            "caption": "Another High Fidelity Mockup example"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-b-testing",
+    "name": "A/B 'Split' Testing",
+    "banner": "assets/images/process/ux/test/ab_testing_a.jpg",
+    "step": "Understand user expectations and preferences",
+    "type": "test",
+    "properties": {
+      "backgroundColor": "#9575cd",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxdesign.cc/a-b-testing-your-designs-b648e413b124",
+      "https://www.optimizely.com/optimization-glossary/ab-testing/",
+      "https://uxknowledgebase.com/a-b-testing-part-2-c6c8c8bf5f8c",
+      "https://uxknowledgebase.com/a-b-testing-part-1-6992fccccfec",
+      "https://uxdesign.cc/how-netflix-does-a-b-testing-87df9f9bf57c",
+      "https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/",
+      "https://uxdesign.cc/7-steps-of-a-b-testing-what-how-cf3b209467fd"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "A/B Testing, or Split Testing, is the method of comparing two versions of an application against each other to determine which one performs better. A/B testing is an experiment where two or more variants of a page are shown to users at random and statistical analysis is used to determine which variation performs better for a given goal."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Enables changes to the user experience to be made while collecting data on the results",
+              "Helps to understand why certain elements of the experiences impact user behavior",
+              "Opinion about the best experience for a given goal can be proven wrong",
+              "Takes the guesswork out of website optimization",
+              "Can be used consistently to continually improve a given experience, improving a single goal conversion rate over time"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "User Flow Diagrams",
+              "Wireframes & IX Flows or High Fidelity Mockups"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Formulate a hypothesis based on web analytics and analysis of visitors’ actions, i.e. 'users rarely click on the “Buy” button'",
+              "Identify targets to test this hypothesis on",
+              "Select a test item that you can create variations of for testing, such as the button itself, headings etc",
+              "Create one or more variations of that item, such as increased size, color, location",
+              "If running on a live application determine the duration of the experiment as results may not be immediate",
+              "Proceed to the main test comparing variations against the control and analyse the results"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A report detailing hypothesis accuracy",
+              "Successful and unsuccessful page variants"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/test/ab_testing_b.png",
+            "title": "AB Testing Stages",
+            "caption": "The stages of A/B Testing"
+          },
+          {
+            "url": "assets/images/process/ux/test/ab_testing_c.png",
+            "title": "AB Testing Variation",
+            "caption": "An example of how small changes can boost user interaction"
+          },
+          {
+            "url": "assets/images/process/ux/test/ab_testing_d.gif",
+            "title": "AB Testing Layout",
+            "caption": "How layout changes can improve user goal success rate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "usability-testing",
+    "name": "Usability Testing",
+    "banner": "assets/images/process/ux/test/usability_testing_a.jpg",
+    "step": "Understand user expectations and preferences",
+    "type": "test",
+    "properties": {
+      "backgroundColor": "#7986cb",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/usability-testing-part-1-e00a94974c79",
+      "https://uxknowledgebase.com/usability-testing-part-2-4f27e8a6521e",
+      "https://uxplanet.org/a-novice-designers-guide-to-usability-testing-177bcddc57b3"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "Usability Testing is where you observe someone from your target audience perform tasks using either a digital or prototype version of the application. The user will be prompted with tasks and questions, then they should voice their thoughts and experience allowed. Based on completion time, errors made, satisfactions and ease of use, a measure of how successful the interface is can be determined."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Gain qualitative metrics includes time taken on the task, number of clicks, success rate etc.",
+              "Gain qualitative metrics includes user satisfaction and behavioral response",
+              "Can resolve internal debates on design alternatives",
+              "Minimises the risk of the product failing due to poor user experience"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "User Flow Diagrams",
+              "Wireframes & IX Flows or High Fidelity Mockups"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Determine the scope and purpose of the test, which assumptions you want to check and what you are trying to measure",
+              "Decide how many sessions should be completed and who to invite for each testing session",
+              "For each test give the participant an introduction to the process, what the goal is and run through a warm-up task",
+              "For each task, ask the participant to think allowed and document their experience and thoughts as they try to complete the goal",
+              "Analyse the results and create a test report prioritising the findings (good and bad)",
+              "The report can then be used to negotiate the design changes required to improve user experience"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "Quantitative data on how users interact with the application",
+              "A report listing points of failure and potential improvements"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/test/usability_testing_b.png",
+            "title": "Usability Testing Stages",
+            "caption": "The key stages of Usability Testing"
+          },
+          {
+            "url": "assets/images/process/ux/test/usability_testing_c.png",
+            "title": "Usability Testing Plan",
+            "caption": "A simple Usability Testing session plan"
+          },
+          {
+            "url": "assets/images/process/ux/test/usability_testing_d.png",
+            "title": "Usability Testing Report",
+            "caption": "A sample test report based on the results of the usability tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quantitative-survey",
+    "name": "Quantitative Survey",
+    "banner": "assets/images/process/ux/test/quantitative_survey_a.jpg",
+    "step": "Visualise user experience results at a larger scale",
+    "type": "test",
+    "properties": {
+      "backgroundColor": "#64b5f6",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://uxknowledgebase.com/online-survey-7b01de40e678",
+      "https://medium.com/@allisoncrady/designing-iterating-analyzing-user-surveys-for-product-impact-5771fc1cdd7a",
+      "https://medium.muz.li/3-valuable-metrics-for-ux-product-designers-and-how-to-measure-them-9def7f46e48e",
+      "http://www.uxforthemasses.com/improve-ux-online-surveys/"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "Surveys can be used to validate qualitative findings found from other forms of testing such as A/B Tests or Usability Tests. They can also be used to gather information about your users, their attitudes and their behaviors. When using established questionnaires results can be compared to industry or competitor scores."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Put a number on the usability of the application",
+              "Confirm findings from other methods of testing",
+              "Cheap and quick for the number of responses received"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "Personas",
+              "A/B Testing",
+              "Usability Testing"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Determine research objectives and understand the end goal",
+              "Write the first survey draft",
+              "Test the survey with pilot users and colleagues to get feedback on the survey",
+              "Iterate the survey, then test it and iterate again until you're happy with it",
+              "Make sure to target the right participants that match your defined Personas and roll out the final survey",
+              "Evaluate survey results and create a report detailing the findings and how they match with previously conducted tests"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "A series of user survey results",
+              "A report detailing the key results of the surveys and how they line up with previously conducted tests"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/test/quantitative_survey_b.png",
+            "title": "System Usability Scale",
+            "caption": "The System Usability Scale questionnaire is a quick tool for measuring usability"
+          },
+          {
+            "url": "assets/images/process/ux/test/quantitative_survey_c.png",
+            "title": "System Usability Scale Result",
+            "caption": "The results from the SUS results can be used determine score"
+          },
+          {
+            "url": "assets/images/process/ux/test/quantitative_survey_d.png",
+            "title": "Net Promoter Score",
+            "caption": "Net Promoter Score (NPS) is a metric for assessing customer loyalty for a brand or application"
+          },
+          {
+            "url": "assets/images/process/ux/test/quantitative_survey_e.png",
+            "title": "Completion Rates",
+            "caption": "A binary measure of pass and fail provides a simple metric of success"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "analytics-review",
+    "name": "Analytics Review",
+    "banner": "assets/images/process/ux/test/analytics_review_a.jpg",
+    "step": "Visualise user experience results at a larger scale",
+    "type": "test",
+    "properties": {
+      "backgroundColor": "#4fc3f7",
+      "textColor": "#000000"
+    },
+    "links": [
+      "https://insights.kyan.com/ux-analytics-review-and-findings-cfb2f05d0e7a"
+    ],
+    "description": [
+      {
+        "type": "text",
+        "content": [
+          {
+            "title": "Goal",
+            "text": "There’s no substitute for getting in a room with users and observing them with the application, but in recent years a number of services have tried to fill the gap that analytics tools that only provide page-views and bounce rates can't fill. The ability to see how users are actually interacting with your website gives priceless feedback."
+          },
+          {
+            "title": "Benefits",
+            "list": [
+              "Gain results usually collected as part of usability tests, but without the need for travel",
+              "Gain more data faster and cheaper than you could from usability testing",
+              "Gain new kinds of data such as visual heat-maps not otherwise available from any other kinds of tests"
+            ]
+          },
+          {
+            "title": "Prerequisites",
+            "list": [
+              "User Flow Diagrams",
+              "Wireframes & IX Flows or High Fidelity Mockups"
+            ]
+          },
+          {
+            "title": "The Process",
+            "ordered": [
+              "Decide on the scope and purpose of the tests and what you want to observe and measure",
+              "Define what tasks you want users to complete",
+              "Setup the tasks using tools such as Hotjar and Crazy Egg that support heat-maps and session recording amongst other features",
+              "Test the setup with pilot users and colleagues to get feedback before going live",
+              "Determine the target audience and send the created tasks to them",
+              "Analyse the results and create a test report prioritising the findings",
+              "The report can then be used to negotiate the design changes required to improve user experience"
+            ]
+          },
+          {
+            "title":"Deliverables",
+            "list": [
+              "Quantitative data on how users interact with the application",
+              "A report listing points of failure and potential improvements"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "content": [
+          {
+            "url": "assets/images/process/ux/test/analytics_review_b.png",
+            "title": "Analytics Heatmap",
+            "caption": "Tools like Hotjar allow you to view user heatmaps"
+          },
+          {
+            "url": "assets/images/process/ux/test/analytics_review_c.png",
+            "title": "Analytics Recordings",
+            "caption": "They also capture screen recordings so user interactions can be analysed"
+          },
+          {
+            "url": "assets/images/process/ux/test/analytics_review_d.png",
+            "title": "Analytics Funnels",
+            "caption": "Funnels can be used to view user drop-off and conversion rates as they move through the application"
+          },
+          {
+            "url": "assets/images/process/ux/test/analytics_review_e.png",
+            "title": "Analytics Feedback",
+            "caption": "Users can provide feedback on certain elements giving their opinion"
+          },
+          {
+            "url": "assets/images/process/ux/test/analytics_review_f.png",
+            "title": "Analytics Polls",
+            "caption": "Feedback polls can also be used to gain a rating on key questions"
+          },
+          {
+            "url": "assets/images/process/ux/test/analytics_review_g.png",
+            "title": "Analytics Surveys",
+            "caption": "Surveys can also be integrated and their results easily visualised"
+          }
+        ]
+      }
+    ]
+  }
+]

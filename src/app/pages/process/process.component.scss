@@ -6,6 +6,9 @@
   padding: 1rem;
   text-align: center;
   max-width: $xl;
+  .method-button-container {
+    display: inline-flex;
+  }
   .method-button {
     font-size: 1.2rem;
     align-items: center;
@@ -44,6 +47,7 @@
   display: flex;
   justify-content: center;
 }
+
 .process-type {
   color: $text-secondary;
   padding: 2rem;
@@ -69,6 +73,6 @@
 #process {
   min-height: 380px;
   @media screen and (min-width: $md) {
-    height: 540px;
+    min-height: 540px;
   }
 }

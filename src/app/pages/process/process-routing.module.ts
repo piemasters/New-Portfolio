@@ -1,6 +1,7 @@
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { ProcessComponent } from './process.component';
+import { ProcessMethodComponent } from './method/process-method.component';
 
 const routes: Routes = [
   {
@@ -8,6 +9,10 @@ const routes: Routes = [
     component: ProcessComponent,
     children: [
     ]
+  },
+  {
+    path: ':id',
+    component: ProcessMethodComponent
   }
 ];
 
