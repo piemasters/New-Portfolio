@@ -14,7 +14,7 @@ import { Router } from '@angular/router';
 })
 export class ProcessComponent implements OnInit {
   uxMethods$: Observable<UXMethod[]>;
-  selectedProcessType = 'learn';
+  selectedProcessType = null;
 
   constructor(
     private store: Store<fromProcesses.State>,
@@ -28,10 +28,17 @@ export class ProcessComponent implements OnInit {
       select('processes'),
       map(m => m.methodsList)
     );
+    this.store.pipe(
+      select('processes'),
+      map(m => m.processType)
+    ).subscribe((p) =>  {
+      this.selectedProcessType = p;
+    });
   }
 
   selectProcessType(processType) {
-    this.selectedProcessType = processType;
+    this.store.dispatch(new ProcessesActions.SetProcessType(processType));
   }
 
 }
+

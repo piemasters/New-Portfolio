@@ -5,12 +5,14 @@ export interface State {
   methodsList: UXMethod[];
   selectedMethod: UXMethod;
   selectedMethodID: string;
+  processType: string;
 }
 
 const initialState: State = {
   methodsList: [],
   selectedMethod: null,
-  selectedMethodID: null
+  selectedMethodID: null,
+  processType: 'learn'
 };
 
 export function processesReducer(state = initialState, action: ProcessesActions.ProcessesActions) {
@@ -29,6 +31,11 @@ export function processesReducer(state = initialState, action: ProcessesActions.
       return {
         ...state,
         selectedMethod: action.payload
+      };
+    case ProcessesActions.SET_PROCESS_TYPE:
+      return {
+        ...state,
+        processType: action.payload
       };
   }
   return state;
